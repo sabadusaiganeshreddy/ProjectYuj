@@ -28,3 +28,75 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Enhanced collapsible sidebar styles */
+.theme-doc-sidebar-container {
+  transition: width 0.3s ease-in-out;
+}
+
+/* Make blog sidebar hideable */
+.theme-blog-sidebar-container {
+  position: relative;
+}
+
+/* Add collapse button styling */
+.theme-doc-sidebar-container button[title="Collapse sidebar"],
+.theme-doc-sidebar-container button[title="Expand sidebar"] {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.theme-doc-sidebar-container button[title="Collapse sidebar"]:hover,
+.theme-doc-sidebar-container button[title="Expand sidebar"]:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: scale(1.1);
+}
+
+/* Wider content area when sidebar is collapsed */
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Main-styles-module {
+  max-width: 100% !important;
+}
+
+/* Smooth transitions for content */
+article {
+  transition: max-width 0.3s ease-in-out;
+}
+
+/* TOC sidebar improvements */
+.table-of-contents {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+  max-height: calc(100vh - var(--ifm-navbar-height) - 2rem);
+  overflow-y: auto;
+}
+
+/* Blog list sidebar collapsible */
+aside.theme-blog-sidebar-container {
+  transition: margin-right 0.3s ease;
+}
+
+/* Improve blog content readability */
+.theme-blog-list-page-container article {
+  max-width: 100%;
+}
+
+/* Blog post content width when sidebars are visible/hidden */
+.blog-wrapper .container {
+  max-width: 100% !important;
+}
+
+.blog-wrapper .row {
+  justify-content: space-between;
+}
+
+/* Responsive improvements */
+@media (max-width: 996px) {
+  .theme-doc-sidebar-container,
+  .theme-blog-sidebar-container {
+    position: fixed;
+    z-index: 100;
+  }
+}

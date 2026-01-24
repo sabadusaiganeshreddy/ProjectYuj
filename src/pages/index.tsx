@@ -26,7 +26,7 @@ function HomepageHeader() {
 function HomepageFeatures() {
   const features = [
     {
-      title: 'DSA Patterns',
+      title: 'DSA',
       description: 'Master Data Structures & Algorithms with pattern-based problem solving approaches',
       link: '/dsa',
       emoji: '🧩',

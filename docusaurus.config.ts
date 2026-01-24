@@ -108,12 +108,19 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     navbar: {
       title: 'SaiGaneshReddy',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
       },
+      hideOnScroll: true,
       items: [
         {to: '/dsa', label: 'DSA', position: 'left'},
         {to: '/ml', label: 'ML', position: 'left'},
