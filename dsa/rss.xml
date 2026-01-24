@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SaiGaneshReddy Blog</title>
+        <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</link>
+        <description>SaiGaneshReddy Blog</description>
+        <lastBuildDate>Sat, 24 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Master Dynamic Programming - Complete Pattern Guide]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns</guid>
+            <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey everyone! Many of us struggle with Dynamic Programming and often skip it during interview preparation. This might be because DP seems vast and overwhelming, and people tend to memorize solutions instead of understanding patterns. However, if you break down DP into clear patterns and master each one, it becomes much more manageable. So I've compiled a comprehensive list of patterns you should know for your interview preparation!]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone! Many of us struggle with Dynamic Programming and often skip it during interview preparation. This might be because DP seems vast and overwhelming, and people tend to memorize solutions instead of understanding patterns. However, if you break down DP into clear patterns and master each one, it becomes much more manageable. So I've compiled a comprehensive list of patterns you should know for your interview preparation!</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dp-vs-greedy-when-to-use-which">DP vs Greedy: When to Use Which?<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#dp-vs-greedy-when-to-use-which" class="hash-link" aria-label="Direct link to DP vs Greedy: When to Use Which?" title="Direct link to DP vs Greedy: When to Use Which?" translate="no">​</a></h2>
+<p>Before diving into patterns, let's understand the fundamental difference between DP and Greedy:</p>
+<p><strong>Problem:</strong> You're a robber with two streets to rob. Each house has some money. You can rob houses from both streets, but you <strong>cannot rob two adjacent houses from the same street</strong> (alarms will trigger). What's the maximum money you can steal?</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Street A: [2, 7, 9, 3, 1]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Street B: [3, 2, 6, 8, 2]</span><br></span></code></pre></div></div>
+<p><strong>Greedy Robber:</strong> "I'll always rob the house with most money available!"</p>
+<ul>
+<li class="">Rob B[0] = 3 (greedy)</li>
+<li class="">Rob A[1] = 7</li>
+<li class="">Rob B[2] = 6</li>
+<li class="">Rob A[3] = 3</li>
+<li class="">Rob B[4] = 2</li>
+<li class=""><strong>Total: 21</strong></li>
+</ul>
+<p><strong>DP Robber:</strong> "Let me consider all valid combinations!"</p>
+<ul>
+<li class="">Option 1: A[0]=2, B[1]=2, A[2]=9, B[3]=8, A[4]=1 → Total = 22</li>
+<li class="">Option 2: B[0]=3, A[1]=7, B[2]=6, A[3]=3, B[4]=2 → Total = 21</li>
+<li class=""><strong>Best: 22</strong></li>
+</ul>
+<p><strong>Why Greedy Failed:</strong> By greedily picking B[0] first, it blocked access to the optimal combination that includes both 9 and 8 from different streets!</p>
+<hr>
+<p><strong>When Greedy Works:</strong> Problems with the "greedy choice property" where local optimal leads to global optimal (e.g., Activity Selection, Huffman Coding)
+<strong>When DP is Needed:</strong> Problems requiring exploring multiple choices where greedy fails (e.g., most optimization problems, counting problems)</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-1-linear-dp-1d">Pattern 1: Linear DP (1D)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-1-linear-dp-1d" class="hash-link" aria-label="Direct link to Pattern 1: Linear DP (1D)" title="Direct link to Pattern 1: Linear DP (1D)" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+This is the foundation of DP. If you can't solve Linear DP, you'll struggle with everything else. These problems teach you the core concept of breaking problems into subproblems and building solutions incrementally.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer" class="">House Robber</a></li>
+<li class=""><a href="https://leetcode.com/problems/min-cost-climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Min Cost Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer" class="">Word Break</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways/" target="_blank" rel="noopener noreferrer" class="">Decode Ways</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber-ii/" target="_blank" rel="noopener noreferrer" class="">House Robber II</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-2-longest-increasing-subsequence-lis">Pattern 2: Longest Increasing Subsequence (LIS)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-2-longest-increasing-subsequence-lis" class="hash-link" aria-label="Direct link to Pattern 2: Longest Increasing Subsequence (LIS)" title="Direct link to Pattern 2: Longest Increasing Subsequence (LIS)" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+LIS is one of the most important DP patterns with applications in version control systems, patience sorting, box stacking problems, and more. The O(n log n) solution using binary search is a must-know optimization technique.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Number of Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/russian-doll-envelopes/" target="_blank" rel="noopener noreferrer" class="">Russian Doll Envelopes</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-length-of-pair-chain/" target="_blank" rel="noopener noreferrer" class="">Maximum Length of Pair Chain</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/" target="_blank" rel="noopener noreferrer" class="">Find the Longest Valid Obstacle Course at Each Position</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-3-knapsack-01-unbounded-bounded">Pattern 3: Knapsack (0/1, Unbounded, Bounded)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-3-knapsack-01-unbounded-bounded" class="hash-link" aria-label="Direct link to Pattern 3: Knapsack (0/1, Unbounded, Bounded)" title="Direct link to Pattern 3: Knapsack (0/1, Unbounded, Bounded)" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+One of the most versatile DP patterns. Appears in resource allocation, optimization problems, and many interview questions. Understanding the difference between 0/1 and unbounded variants is crucial.</p>
+<p><strong>0/1 Knapsack (Each item used once):</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener noreferrer" class="">Partition Equal Subset Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer" class="">Target Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/last-stone-weight-ii/" target="_blank" rel="noopener noreferrer" class="">Last Stone Weight II</a></li>
+<li class=""><a href="https://leetcode.com/problems/ones-and-zeroes/" target="_blank" rel="noopener noreferrer" class="">Ones and Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/" target="_blank" rel="noopener noreferrer" class="">Partition Array Into Two Arrays to Minimize Sum Difference</a></li>
+</ol>
+<p><strong>Unbounded Knapsack (Items can be used multiple times):</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer" class="">Coin Change</a></li>
+<li class=""><a href="https://leetcode.com/problems/coin-change-2/" target="_blank" rel="noopener noreferrer" class="">Coin Change 2</a></li>
+<li class=""><a href="https://leetcode.com/problems/combination-sum-iv/" target="_blank" rel="noopener noreferrer" class="">Combination Sum IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/perfect-squares/" target="_blank" rel="noopener noreferrer" class="">Perfect Squares</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-for-tickets/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost For Tickets</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-4-grid-dp">Pattern 4: Grid DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-4-grid-dp" class="hash-link" aria-label="Direct link to Pattern 4: Grid DP" title="Direct link to Pattern 4: Grid DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Extremely common in interviews, especially at FAANG. Tests your ability to think in 2D state space and handle multiple transition directions.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/unique-paths/" target="_blank" rel="noopener noreferrer" class="">Unique Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-paths-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Paths II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximal-square/" target="_blank" rel="noopener noreferrer" class="">Maximal Square</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximal-rectangle/" target="_blank" rel="noopener noreferrer" class="">Maximal Rectangle</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-falling-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Falling Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-square-submatrices-with-all-ones/" target="_blank" rel="noopener noreferrer" class="">Count Square Submatrices with All Ones</a></li>
+<li class=""><a href="https://leetcode.com/problems/triangle/" target="_blank" rel="noopener noreferrer" class="">Triangle</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-5-string-dp">Pattern 5: String DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-5-string-dp" class="hash-link" aria-label="Direct link to Pattern 5: String DP" title="Direct link to Pattern 5: String DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Text processing and string manipulation problems are ubiquitous. This pattern appears in bioinformatics, text editors, version control systems, and natural language processing.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Common Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Delete Operation for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Minimum ASCII Delete Sum for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-common-supersequence/" target="_blank" rel="noopener noreferrer" class="">Shortest Common Supersequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer" class="">Palindromic Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/regular-expression-matching/" target="_blank" rel="noopener noreferrer" class="">Regular Expression Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/wildcard-matching/" target="_blank" rel="noopener noreferrer" class="">Wildcard Matching</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-6-interval-dp">Pattern 6: Interval DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-6-interval-dp" class="hash-link" aria-label="Direct link to Pattern 6: Interval DP" title="Direct link to Pattern 6: Interval DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Tests ability to think about problems in ranges/intervals. Common in scheduling, matrix chain multiplication type problems, and game theory.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/burst-balloons/" target="_blank" rel="noopener noreferrer" class="">Burst Balloons</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-score-triangulation-of-polygon/" target="_blank" rel="noopener noreferrer" class="">Minimum Score Triangulation of Polygon</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost Tree From Leaf Values</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-merge-stones/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Merge Stones</a></li>
+<li class=""><a href="https://leetcode.com/problems/guess-number-higher-or-lower-ii/" target="_blank" rel="noopener noreferrer" class="">Guess Number Higher or Lower II</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-7-state-machine-dp">Pattern 7: State Machine DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-7-state-machine-dp" class="hash-link" aria-label="Direct link to Pattern 7: State Machine DP" title="Direct link to Pattern 7: State Machine DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Models problems where you transition between different states with specific rules. Critical for stock trading problems and any scenario with state transitions.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock II</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock III</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Cooldown</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Transaction Fee</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-8-tree-dp">Pattern 8: Tree DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-8-tree-dp" class="hash-link" aria-label="Direct link to Pattern 8: Tree DP" title="Direct link to Pattern 8: Tree DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Combines tree traversal with DP. Important for system design (like designing file systems) and optimization problems on hierarchical structures.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/house-robber-iii/" target="_blank" rel="noopener noreferrer" class="">House Robber III</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Maximum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/diameter-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Diameter of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-cameras/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Cameras</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Sum BST in Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/" target="_blank" rel="noopener noreferrer" class="">Difference Between Maximum and Minimum Price Sum</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-9-digit-dp">Pattern 9: Digit DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-9-digit-dp" class="hash-link" aria-label="Direct link to Pattern 9: Digit DP" title="Direct link to Pattern 9: Digit DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Specialized pattern for counting numbers with certain properties. Appears in competitive programming and some advanced interviews.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/number-of-digit-one/" target="_blank" rel="noopener noreferrer" class="">Number of Digit One</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-numbers-with-unique-digits/" target="_blank" rel="noopener noreferrer" class="">Count Numbers with Unique Digits</a></li>
+<li class=""><a href="https://leetcode.com/problems/numbers-at-most-n-given-digit-set/" target="_blank" rel="noopener noreferrer" class="">Numbers At Most N Given Digit Set</a></li>
+<li class=""><a href="https://leetcode.com/problems/numbers-with-repeated-digits/" target="_blank" rel="noopener noreferrer" class="">Numbers With Repeated Digits</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-special-integers/" target="_blank" rel="noopener noreferrer" class="">Count Special Integers</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-10-game-theory-dp-minimax">Pattern 10: Game Theory DP (Minimax)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-10-game-theory-dp-minimax" class="hash-link" aria-label="Direct link to Pattern 10: Game Theory DP (Minimax)" title="Direct link to Pattern 10: Game Theory DP (Minimax)" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Models two-player games where both play optimally. Important for AI, game development, and adversarial scenarios.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/predict-the-winner/" target="_blank" rel="noopener noreferrer" class="">Predict the Winner</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game/" target="_blank" rel="noopener noreferrer" class="">Stone Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-ii/" target="_blank" rel="noopener noreferrer" class="">Stone Game II</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-iii/" target="_blank" rel="noopener noreferrer" class="">Stone Game III</a></li>
+<li class=""><a href="https://leetcode.com/problems/can-i-win/" target="_blank" rel="noopener noreferrer" class="">Can I Win</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-iv/" target="_blank" rel="noopener noreferrer" class="">Stone Game IV</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-11-bitmask-dp">Pattern 11: Bitmask DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-11-bitmask-dp" class="hash-link" aria-label="Direct link to Pattern 11: Bitmask DP" title="Direct link to Pattern 11: Bitmask DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Powerful technique for problems with small sets (≤20 elements) where you need to track subsets. Essential for Traveling Salesman Problem variants and NP-hard problem approximations.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer" class="">Partition to K Equal Sum Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer" class="">Shortest Path Visiting All Nodes</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-shortest-superstring/" target="_blank" rel="noopener noreferrer" class="">Find the Shortest Superstring</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-sufficient-team/" target="_blank" rel="noopener noreferrer" class="">Smallest Sufficient Team</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Wear Different Hats to Each Other</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/" target="_blank" rel="noopener noreferrer" class="">Minimum Number of Work Sessions to Finish the Tasks</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-12-dp-on-subsequences">Pattern 12: DP on Subsequences<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-12-dp-on-subsequences" class="hash-link" aria-label="Direct link to Pattern 12: DP on Subsequences" title="Direct link to Pattern 12: DP on Subsequences" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Critical for array partitioning and subset generation problems. Teaches how to handle exponential search spaces efficiently.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences-ii/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences II</a></li>
+<li class=""><a href="https://leetcode.com/problems/arithmetic-slices-ii-subsequence/" target="_blank" rel="noopener noreferrer" class="">Arithmetic Slices II - Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-unique-good-subsequences/" target="_blank" rel="noopener noreferrer" class="">Number of Unique Good Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/constrained-subsequence-sum/" target="_blank" rel="noopener noreferrer" class="">Constrained Subsequence Sum</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pattern-13-probability-dp">Pattern 13: Probability DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#pattern-13-probability-dp" class="hash-link" aria-label="Direct link to Pattern 13: Probability DP" title="Direct link to Pattern 13: Probability DP" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Models uncertain outcomes. Important for risk analysis, game development, and any scenario involving randomness or probability.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/knight-probability-in-chessboard/" target="_blank" rel="noopener noreferrer" class="">Knight Probability in Chessboard</a></li>
+<li class=""><a href="https://leetcode.com/problems/soup-servings/" target="_blank" rel="noopener noreferrer" class="">Soup Servings</a></li>
+<li class=""><a href="https://leetcode.com/problems/new-21-game/" target="_blank" rel="noopener noreferrer" class="">New 21 Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/toss-strange-coins/" target="_blank" rel="noopener noreferrer" class="">Toss Strange Coins</a></li>
+<li class=""><a href="https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/" target="_blank" rel="noopener noreferrer" class="">Probability of a Two Boxes Having The Same Number of Distinct Balls</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-resources-to-master-dp">Best Resources to Master DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#best-resources-to-master-dp" class="hash-link" aria-label="Direct link to Best Resources to Master DP" title="Direct link to Best Resources to Master DP" translate="no">​</a></h2>
+<ol>
+<li class=""><strong>AtCoder DP Contest</strong>- 26 curated problems  with perfect difficulty progression</li>
+<li class=""><strong>Striver's DP Series</strong>- 50+ videos covering memoization, tabulation, and space optimization.</li>
+<li class=""><strong>Aditya Verma's DP Playlist</strong>- Exceptional for Knapsack variants with shorter, focused videos (15-20 min).</li>
+<li class=""><strong>CSES Problem Set</strong>- Intermediate to advanced practice. These problems test core concepts and build solving speed.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>DP is about <strong>recognizing patterns</strong>, not memorizing solutions. Once you see the pattern, the solution becomes mechanical. Spend time understanding <strong>why</strong> each pattern works, not just <strong>how</strong> to code it.</p>
+<p><strong>Feel free to add some best problems in the comments</strong></p>
+<p><strong>Good luck, and happy coding! 🚀</strong></p>
+<p><em>If this guide helped you, please upvote and share with others!</em></p>]]></content:encoded>
+            <category>dsa</category>
+            <category>dynamic-programming</category>
+            <category>leetcode</category>
+            <category>interview-prep</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to LeetCode Guide]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/welcome-leetcode</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/welcome-leetcode</guid>
+            <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the LeetCode pattern guide. Here we will discuss various patterns to solve problems.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the LeetCode pattern guide. Here we will discuss various patterns to solve problems.</p>]]></content:encoded>
+            <category>leetcode</category>
+            <category>algorithm</category>
+        </item>
+    </channel>
+</rss>

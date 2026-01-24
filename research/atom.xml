@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/research</id>
+    <title>SaiGaneshReddy Blog</title>
+    <updated>2026-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/research"/>
+    <subtitle>SaiGaneshReddy Blog</subtitle>
+    <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Research Papers]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/research/welcome-research</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/research/welcome-research"/>
+        <updated>2026-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Research Paper explanations.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to Research Paper explanations.</p>]]></content>
+        <category label="research" term="research"/>
+        <category label="paper-review" term="paper-review"/>
+    </entry>
+</feed>

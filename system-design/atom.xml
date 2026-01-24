@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/system-design</id>
+    <title>SaiGaneshReddy Blog</title>
+    <updated>2026-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/system-design"/>
+    <subtitle>SaiGaneshReddy Blog</subtitle>
+    <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to System Design]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/system-design/welcome-system-design</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/system-design/welcome-system-design"/>
+        <updated>2026-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to System Design concepts.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to System Design concepts.</p>]]></content>
+        <category label="system-design" term="system-design"/>
+        <category label="architecture" term="architecture"/>
+    </entry>
+</feed>

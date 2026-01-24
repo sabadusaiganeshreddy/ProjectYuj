@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[3948],{9220(e){e.exports=JSON.parse('{"blogBasePath":"/ProjectYuj/ml","blogTitle":"Machine Learning","authorsListPath":"/ProjectYuj/ml/authors"}')}}]);

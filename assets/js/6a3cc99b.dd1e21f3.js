@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[4331],{6476(l){l.exports=JSON.parse('{"tags":[{"label":"ml","permalink":"/ProjectYuj/ml/tags/ml","count":1},{"label":"ai","permalink":"/ProjectYuj/ml/tags/ai","count":1}]}')}}]);

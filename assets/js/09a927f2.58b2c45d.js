@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[3717],{3954(s){s.exports=JSON.parse('{"blogBasePath":"/ProjectYuj/system-design","blogTitle":"System Design","authorsListPath":"/ProjectYuj/system-design/authors"}')}}]);
