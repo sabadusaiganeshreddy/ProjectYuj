@@ -176,6 +176,179 @@
         <category label="faang" term="faang"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[20 Binary Search Problems To Revise Before Interviews]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems"/>
+        <updated>2026-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've curated 20 binary search problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for spotting binary search problems.]]></summary>
+        <content type="html"><![CDATA[<p>I've curated <strong>20 binary search problems that teach you all major patterns.</strong> These aren't random problems, they're specifically chosen to build your intuition for spotting binary search problems.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-the-20-essential-problems">🎯 The 20 Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-the-20-essential-problems" class="hash-link" aria-label="Direct link to 🎯 The 20 Essential Problems" title="Direct link to 🎯 The 20 Essential Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-1-classic-binary-search">Pattern 1: Classic Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-1-classic-binary-search" class="hash-link" aria-label="Direct link to Pattern 1: Classic Binary Search" title="Direct link to Pattern 1: Classic Binary Search" translate="no">​</a></h3>
+<p><strong>1. Binary Search</strong> - <a href="https://leetcode.com/problems/binary-search/" target="_blank" rel="noopener noreferrer" class="">LeetCode 704</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Basic binary search template</li>
+<li class=""><strong>Why:</strong> Foundation - must be able to code this in sleep</li>
+<li class=""><strong>Companies:</strong> Everyone asks this as warmup</li>
+</ul>
+<p><strong>2. Search in Rotated Sorted Array</strong> - <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 33</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search with modified condition</li>
+<li class=""><strong>Why:</strong> Tests ability to adapt binary search logic</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta, Apple, Google</li>
+</ul>
+<p><strong>3. Find Minimum in Rotated Sorted Array</strong> - <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 153</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Finding pivot point</li>
+<li class=""><strong>Why:</strong> Variation where you're not searching for target</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Bloomberg</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-2-binary-search-on-answer-space">Pattern 2: Binary Search on Answer Space<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-2-binary-search-on-answer-space" class="hash-link" aria-label="Direct link to Pattern 2: Binary Search on Answer Space" title="Direct link to Pattern 2: Binary Search on Answer Space" translate="no">​</a></h3>
+<p><strong>4. Koko Eating Bananas</strong> - <a href="https://leetcode.com/problems/koko-eating-bananas/" target="_blank" rel="noopener noreferrer" class="">LeetCode 875</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on answer space</li>
+<li class=""><strong>Why:</strong> Classic example of searching for minimum feasible value</li>
+<li class=""><strong>Companies:</strong> Google, Meta, Amazon</li>
+</ul>
+<p><strong>5. Minimum Number of Days to Make m Bouquets</strong> - <a href="https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1482</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on days/time</li>
+<li class=""><strong>Why:</strong> Teaches feasibility checking pattern</li>
+<li class=""><strong>Companies:</strong> Amazon, Google</li>
+</ul>
+<p><strong>6. Capacity To Ship Packages Within D Days</strong> - <a href="https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1011</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on capacity/size</li>
+<li class=""><strong>Why:</strong> Shows binary search on continuous resource constraints</li>
+<li class=""><strong>Companies:</strong> Amazon, Google, Meta</li>
+</ul>
+<p><strong>7. Split Array Largest Sum</strong> - <a href="https://leetcode.com/problems/split-array-largest-sum/" target="_blank" rel="noopener noreferrer" class="">LeetCode 410</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Minimize maximum value</li>
+<li class=""><strong>Why:</strong> Hard problem that becomes easy with binary search mindset</li>
+<li class=""><strong>Companies:</strong> Google, Meta, ByteDance</li>
+</ul>
+<p><strong>8. Minimum Limit of Balls in a Bag</strong> - <a href="https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1760</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Minimize penalty with operations</li>
+<li class=""><strong>Why:</strong> Non-obvious binary search application</li>
+<li class=""><strong>Companies:</strong> Amazon, Google</li>
+</ul>
+<p><strong>9. Magnetic Force Between Two Balls</strong> - <a href="https://leetcode.com/problems/magnetic-force-between-two-balls/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1552</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Maximize minimum distance</li>
+<li class=""><strong>Why:</strong> Teaches binary search on distance/spacing</li>
+<li class=""><strong>Companies:</strong> Google, Amazon</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-3-binary-search-on-value-range">Pattern 3: Binary Search on Value Range<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-3-binary-search-on-value-range" class="hash-link" aria-label="Direct link to Pattern 3: Binary Search on Value Range" title="Direct link to Pattern 3: Binary Search on Value Range" translate="no">​</a></h3>
+<p><strong>10. Kth Smallest Element in a Sorted Matrix</strong> - <a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/" target="_blank" rel="noopener noreferrer" class="">LeetCode 378</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on value range</li>
+<li class=""><strong>Why:</strong> Shows counting elements ≤ mid approach</li>
+<li class=""><strong>Companies:</strong> Google, Amazon, Meta</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-4-binary-search-with-two-pointers">Pattern 4: Binary Search with Two Pointers<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-4-binary-search-with-two-pointers" class="hash-link" aria-label="Direct link to Pattern 4: Binary Search with Two Pointers" title="Direct link to Pattern 4: Binary Search with Two Pointers" translate="no">​</a></h3>
+<p><strong>11. Find K Closest Elements</strong> - <a href="https://leetcode.com/problems/find-k-closest-elements/" target="_blank" rel="noopener noreferrer" class="">LeetCode 658</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search for starting position</li>
+<li class=""><strong>Why:</strong> Combination of binary search and sliding window</li>
+<li class=""><strong>Companies:</strong> Meta, Amazon, Google</li>
+</ul>
+<p><strong>12. 3Sum Closest</strong> - <a href="https://leetcode.com/problems/3sum-closest/" target="_blank" rel="noopener noreferrer" class="">LeetCode 16</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Sort + fix one element + binary search/two pointers</li>
+<li class=""><strong>Why:</strong> Shows when to combine patterns</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Bloomberg</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-5-finding-boundaries">Pattern 5: Finding Boundaries<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-5-finding-boundaries" class="hash-link" aria-label="Direct link to Pattern 5: Finding Boundaries" title="Direct link to Pattern 5: Finding Boundaries" translate="no">​</a></h3>
+<p><strong>13. Find First and Last Position of Element in Sorted Array</strong> - <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 34</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Finding boundaries with binary search</li>
+<li class=""><strong>Why:</strong> Must know how to find leftmost and rightmost occurrence</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Microsoft, Apple</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-6-2d-binary-search">Pattern 6: 2D Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-6-2d-binary-search" class="hash-link" aria-label="Direct link to Pattern 6: 2D Binary Search" title="Direct link to Pattern 6: 2D Binary Search" translate="no">​</a></h3>
+<p><strong>14. Search a 2D Matrix II</strong> - <a href="https://leetcode.com/problems/search-a-2d-matrix-ii/" target="_blank" rel="noopener noreferrer" class="">LeetCode 240</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search in 2D space</li>
+<li class=""><strong>Why:</strong> Shows search space reduction technique</li>
+<li class=""><strong>Companies:</strong> Amazon, Google, Meta, Apple</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-7-binary-search-on-unsorted-arrays">Pattern 7: Binary Search on Unsorted Arrays<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-7-binary-search-on-unsorted-arrays" class="hash-link" aria-label="Direct link to Pattern 7: Binary Search on Unsorted Arrays" title="Direct link to Pattern 7: Binary Search on Unsorted Arrays" translate="no">​</a></h3>
+<p><strong>15. Find Peak Element</strong> - <a href="https://leetcode.com/problems/find-peak-element/" target="_blank" rel="noopener noreferrer" class="">LeetCode 162</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search without full sorting</li>
+<li class=""><strong>Why:</strong> Shows binary search works even in unsorted arrays with properties</li>
+<li class=""><strong>Companies:</strong> Meta, Google, Microsoft, Bloomberg</li>
+</ul>
+<p><strong>16. Single Element in a Sorted Array</strong> - <a href="https://leetcode.com/problems/single-element-in-a-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 540</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search with parity checking</li>
+<li class=""><strong>Why:</strong> Clever application of binary search on paired elements</li>
+<li class=""><strong>Companies:</strong> Amazon, Google</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-8-advanced-binary-search">Pattern 8: Advanced Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-8-advanced-binary-search" class="hash-link" aria-label="Direct link to Pattern 8: Advanced Binary Search" title="Direct link to Pattern 8: Advanced Binary Search" translate="no">​</a></h3>
+<p><strong>17. Median of Two Sorted Arrays</strong> - <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank" rel="noopener noreferrer" class="">LeetCode 4</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search for partition point</li>
+<li class=""><strong>Why:</strong> One of the hardest binary search problems, ultimate test</li>
+<li class=""><strong>Companies:</strong> Google, Amazon, Meta, Apple, Microsoft</li>
+</ul>
+<p><strong>18. Find the Duplicate Number</strong> - <a href="https://leetcode.com/problems/find-the-duplicate-number/" target="_blank" rel="noopener noreferrer" class="">LeetCode 287</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on value with counting</li>
+<li class=""><strong>Why:</strong> Non-obvious binary search application</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-9-mathematical-binary-search">Pattern 9: Mathematical Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-9-mathematical-binary-search" class="hash-link" aria-label="Direct link to Pattern 9: Mathematical Binary Search" title="Direct link to Pattern 9: Mathematical Binary Search" translate="no">​</a></h3>
+<p><strong>19. Sqrt(x)</strong> - <a href="https://leetcode.com/problems/sqrtx/" target="_blank" rel="noopener noreferrer" class="">LeetCode 69</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search on result space</li>
+<li class=""><strong>Why:</strong> Simple but teaches searching for mathematical answer</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Bloomberg</li>
+</ul>
+<p><strong>20. Valid Perfect Square</strong> - <a href="https://leetcode.com/problems/valid-perfect-square/" target="_blank" rel="noopener noreferrer" class="">LeetCode 367</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Binary search for exact match</li>
+<li class=""><strong>Why:</strong> Variation of sqrt problem</li>
+<li class=""><strong>Companies:</strong> Amazon, LinkedIn</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-key-insights">💡 Key Insights<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-key-insights" class="hash-link" aria-label="Direct link to 💡 Key Insights" title="Direct link to 💡 Key Insights" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="when-to-use-binary-search">When to Use Binary Search:<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#when-to-use-binary-search" class="hash-link" aria-label="Direct link to When to Use Binary Search:" title="Direct link to When to Use Binary Search:" translate="no">​</a></h3>
+<ol>
+<li class=""><strong>Sorted array</strong> - Classic binary search</li>
+<li class=""><strong>Search space is monotonic</strong> - Answer gets better/worse in one direction</li>
+<li class=""><strong>"Minimum/Maximum" + "feasible/possible"</strong> - Binary search on answer</li>
+<li class=""><strong>Finding boundaries</strong> - First/last occurrence</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="common-templates">Common Templates:<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#common-templates" class="hash-link" aria-label="Direct link to Common Templates:" title="Direct link to Common Templates:" translate="no">​</a></h3>
+<p><strong>Template 1: Finding Exact Value</strong></p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">left</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token builtin">len</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">arr</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">-</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> left </span><span class="token operator" style="color:#393A34">&lt;=</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    mid </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">left </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">//</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> arr</span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">mid</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">==</span><span class="token plain"> target</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token keyword" style="color:#00009f">return</span><span class="token plain"> mid</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">elif</span><span class="token plain"> arr</span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">mid</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> target</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        left </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">else</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid </span><span class="token operator" style="color:#393A34">-</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><br></span></code></pre></div></div>
+<p><strong>Template 2: Finding Boundary</strong></p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">left</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token builtin">len</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">arr</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> left </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    mid </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">left </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">//</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> condition</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">mid</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">else</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        left </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><br></span></code></pre></div></div>
+<p><strong>Template 3: Binary Search on Answer</strong></p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">left</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> min_answer</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> max_answer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> left </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    mid </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">left </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">//</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> is_feasible</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">mid</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">else</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        left </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-study-plan">📚 Study Plan<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-study-plan" class="hash-link" aria-label="Direct link to 📚 Study Plan" title="Direct link to 📚 Study Plan" translate="no">​</a></h2>
+<p><strong>Day 1-3:</strong> Master classic binary search (Problems 1-3)
+<strong>Day 4-7:</strong> Binary search on answer space (Problems 4-9)
+<strong>Day 8-10:</strong> Advanced patterns (Problems 10-16)
+<strong>Day 11-14:</strong> Hard problems and edge cases (Problems 17-20)</p>
+<p>Remember: The key to binary search is identifying when a problem has a <strong>monotonic property</strong> that can be exploited!</p>]]></content>
+        <category label="binary-search" term="binary-search"/>
+        <category label="interview-prep" term="interview-prep"/>
+        <category label="leetcode" term="leetcode"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Master Binary Trees - Complete Pattern Guide for Interviews]]></title>
         <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide</id>
         <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide"/>
@@ -355,6 +528,341 @@ These are the problems that show up in actual FAANG interviews most frequently, 
         <category label="binary-trees" term="binary-trees"/>
         <category label="leetcode" term="leetcode"/>
         <category label="interview-prep" term="interview-prep"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 Recursion and Backtracking Patterns for Interview Preparation]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns"/>
+        <updated>2026-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recursion and backtracking are fundamental techniques that unlock solutions to some of the most elegant algorithmic problems. While they can seem daunting at first, mastering these patterns through deliberate practice will transform you into a more versatile problem solver. This guide organizes essential LeetCode problems by pattern, helping you build intuition progressively.]]></summary>
+        <content type="html"><![CDATA[<p>Recursion and backtracking are fundamental techniques that unlock solutions to some of the most elegant algorithmic problems. While they can seem daunting at first, mastering these patterns through deliberate practice will transform you into a more versatile problem solver. This guide organizes essential LeetCode problems by pattern, helping you build intuition progressively.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-understanding-the-foundation">🎯 Understanding the Foundation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#-understanding-the-foundation" class="hash-link" aria-label="Direct link to 🎯 Understanding the Foundation" title="Direct link to 🎯 Understanding the Foundation" translate="no">​</a></h2>
+<p>Before diving into problems, let's clarify the concepts. <strong>Recursion</strong> is about breaking problems into smaller subproblems of the same type, while <strong>backtracking</strong> is a specific recursive technique where you explore all possible solutions by building candidates incrementally and abandoning them ("backtracking") when they fail to satisfy constraints.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-1-basic-recursion">Pattern 1: Basic Recursion<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-1-basic-recursion" class="hash-link" aria-label="Direct link to Pattern 1: Basic Recursion" title="Direct link to Pattern 1: Basic Recursion" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Start here to develop your recursive thinking. These problems help you understand the call stack, base cases, and recursive cases. If you can't visualize how recursion works on these simple problems, you'll struggle with complex backtracking scenarios.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/fibonacci-number/" target="_blank" rel="noopener noreferrer" class="">Fibonacci Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank" rel="noopener noreferrer" class="">Reverse Linked List</a></li>
+<li class=""><a href="https://leetcode.com/problems/powx-n/" target="_blank" rel="noopener noreferrer" class="">Pow(x, n)</a></li>
+<li class=""><a href="https://leetcode.com/problems/k-th-symbol-in-grammar/" target="_blank" rel="noopener noreferrer" class="">K-th Symbol in Grammar</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-an-array/" target="_blank" rel="noopener noreferrer" class="">Sort an Array (Merge Sort)</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-2-combination-generation">Pattern 2: Combination Generation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-2-combination-generation" class="hash-link" aria-label="Direct link to Pattern 2: Combination Generation" title="Direct link to Pattern 2: Combination Generation" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems teach you to generate all possible combinations of elements, a fundamental backtracking pattern. Understanding the "include/exclude" decision tree is crucial for all advanced backtracking problems.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/subsets/" target="_blank" rel="noopener noreferrer" class="">Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/subsets-ii/" target="_blank" rel="noopener noreferrer" class="">Subsets II</a></li>
+<li class=""><a href="https://leetcode.com/problems/combinations/" target="_blank" rel="noopener noreferrer" class="">Combinations</a></li>
+<li class=""><a href="https://leetcode.com/problems/combination-sum/" target="_blank" rel="noopener noreferrer" class="">Combination Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/combination-sum-ii/" target="_blank" rel="noopener noreferrer" class="">Combination Sum II</a></li>
+<li class=""><a href="https://leetcode.com/problems/combination-sum-iii/" target="_blank" rel="noopener noreferrer" class="">Combination Sum III</a></li>
+<li class=""><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" target="_blank" rel="noopener noreferrer" class="">Letter Combinations of a Phone Number</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-3-permutation-generation">Pattern 3: Permutation Generation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-3-permutation-generation" class="hash-link" aria-label="Direct link to Pattern 3: Permutation Generation" title="Direct link to Pattern 3: Permutation Generation" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Permutation problems focus on arrangement order, requiring different backtracking strategies than combinations. You'll learn critical techniques like swap-based backtracking and using visited arrays.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/permutations/" target="_blank" rel="noopener noreferrer" class="">Permutations</a></li>
+<li class=""><a href="https://leetcode.com/problems/permutations-ii/" target="_blank" rel="noopener noreferrer" class="">Permutations II</a></li>
+<li class=""><a href="https://leetcode.com/problems/letter-case-permutation/" target="_blank" rel="noopener noreferrer" class="">Letter Case Permutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/next-permutation/" target="_blank" rel="noopener noreferrer" class="">Next Permutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/permutation-sequence/" target="_blank" rel="noopener noreferrer" class="">Permutation Sequence</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-4-string-backtracking--partitioning">Pattern 4: String Backtracking &amp; Partitioning<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-4-string-backtracking--partitioning" class="hash-link" aria-label="Direct link to Pattern 4: String Backtracking &amp; Partitioning" title="Direct link to Pattern 4: String Backtracking &amp; Partitioning" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+String problems often involve partitioning, pattern matching, or generation with constraints. These teach you how to use constraints to prune invalid branches early, making your solutions efficient.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/generate-parentheses/" target="_blank" rel="noopener noreferrer" class="">Generate Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-partitioning/" target="_blank" rel="noopener noreferrer" class="">Palindrome Partitioning</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer" class="">Word Search</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer" class="">Word Search II</a></li>
+<li class=""><a href="https://leetcode.com/problems/restore-ip-addresses/" target="_blank" rel="noopener noreferrer" class="">Restore IP Addresses</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-invalid-parentheses/" target="_blank" rel="noopener noreferrer" class="">Remove Invalid Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/expression-add-operators/" target="_blank" rel="noopener noreferrer" class="">Expression Add Operators</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-5-sudoku--constraint-satisfaction">Pattern 5: Sudoku &amp; Constraint Satisfaction<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-5-sudoku--constraint-satisfaction" class="hash-link" aria-label="Direct link to Pattern 5: Sudoku &amp; Constraint Satisfaction" title="Direct link to Pattern 5: Sudoku &amp; Constraint Satisfaction" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+The important backtracking problems. These combine multiple constraints and require sophisticated pruning strategies. Master these, and you'll be able to handle any backtracking problem.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/n-queens/" target="_blank" rel="noopener noreferrer" class="">N-Queens</a></li>
+<li class=""><a href="https://leetcode.com/problems/n-queens-ii/" target="_blank" rel="noopener noreferrer" class="">N-Queens II</a></li>
+<li class=""><a href="https://leetcode.com/problems/sudoku-solver/" target="_blank" rel="noopener noreferrer" class="">Sudoku Solver</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-sudoku/" target="_blank" rel="noopener noreferrer" class="">Valid Sudoku</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-6-tree--graph-recursion">Pattern 6: Tree &amp; Graph Recursion<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-6-tree--graph-recursion" class="hash-link" aria-label="Direct link to Pattern 6: Tree &amp; Graph Recursion" title="Direct link to Pattern 6: Tree &amp; Graph Recursion" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Combines tree/graph traversal with recursive thinking. Essential for understanding how to pass state through recursive calls and combine results from subtrees or subgraphs.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Depth of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-sum/" target="_blank" rel="noopener noreferrer" class="">Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-sum-ii/" target="_blank" rel="noopener noreferrer" class="">Path Sum II</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-sum-iii/" target="_blank" rel="noopener noreferrer" class="">Path Sum III</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-paths/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/sum-root-to-leaf-numbers/" target="_blank" rel="noopener noreferrer" class="">Sum Root to Leaf Numbers</a></li>
+<li class=""><a href="https://leetcode.com/problems/all-paths-from-source-to-target/" target="_blank" rel="noopener noreferrer" class="">All Paths From Source to Target</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-7-divide-and-conquer-recursion">Pattern 7: Divide and Conquer Recursion<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-7-divide-and-conquer-recursion" class="hash-link" aria-label="Direct link to Pattern 7: Divide and Conquer Recursion" title="Direct link to Pattern 7: Divide and Conquer Recursion" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems split input into independent subproblems, solve recursively, and combine results. Critical for understanding merge sort, quick sort, and many tree problems.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/different-ways-to-add-parentheses/" target="_blank" rel="noopener noreferrer" class="">Different Ways to Add Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees II</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Construct Binary Tree from Preorder and Inorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Construct Binary Tree from Inorder and Postorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Convert Sorted Array to Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank" rel="noopener noreferrer" class="">Merge k Sorted Lists</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-8-matrix-backtracking">Pattern 8: Matrix Backtracking<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-8-matrix-backtracking" class="hash-link" aria-label="Direct link to Pattern 8: Matrix Backtracking" title="Direct link to Pattern 8: Matrix Backtracking" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+2D grid problems with backtracking are extremely common in interviews. You'll learn to track visited cells, explore multiple directions, and backtrack properly in 2D space.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer" class="">Word Search</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer" class="">Word Search II</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-paths-iii/" target="_blank" rel="noopener noreferrer" class="">Unique Paths III</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-islands/" target="_blank" rel="noopener noreferrer" class="">Number of Islands</a></li>
+<li class=""><a href="https://leetcode.com/problems/surrounded-regions/" target="_blank" rel="noopener noreferrer" class="">Surrounded Regions</a></li>
+<li class=""><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank" rel="noopener noreferrer" class="">Pacific Atlantic Water Flow</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-9-game-theory--minimax">Pattern 9: Game Theory &amp; Minimax<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-9-game-theory--minimax" class="hash-link" aria-label="Direct link to Pattern 9: Game Theory &amp; Minimax" title="Direct link to Pattern 9: Game Theory &amp; Minimax" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Models problems where you make optimal decisions considering an opponent's moves. Teaches you to think recursively about adversarial scenarios.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/nim-game/" target="_blank" rel="noopener noreferrer" class="">Nim Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/flip-game-ii/" target="_blank" rel="noopener noreferrer" class="">Flip Game II</a></li>
+<li class=""><a href="https://leetcode.com/problems/predict-the-winner/" target="_blank" rel="noopener noreferrer" class="">Predict the Winner</a></li>
+<li class=""><a href="https://leetcode.com/problems/can-i-win/" target="_blank" rel="noopener noreferrer" class="">Can I Win</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-10-subset-sum--partition-problems">Pattern 10: Subset Sum &amp; Partition Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-10-subset-sum--partition-problems" class="hash-link" aria-label="Direct link to Pattern 10: Subset Sum &amp; Partition Problems" title="Direct link to Pattern 10: Subset Sum &amp; Partition Problems" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Bridges recursion with dynamic programming. Understanding the recursive solution first makes the DP optimization natural. These problems appear frequently in interviews.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener noreferrer" class="">Partition Equal Subset Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer" class="">Partition to K Equal Sum Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer" class="">Target Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/matchsticks-to-square/" target="_blank" rel="noopener noreferrer" class="">Matchsticks to Square</a></li>
+<li class=""><a href="https://leetcode.com/problems/fair-distribution-of-cookies/" target="_blank" rel="noopener noreferrer" class="">Fair Distribution of Cookies</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-11-advanced-backtracking">Pattern 11: Advanced Backtracking<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-11-advanced-backtracking" class="hash-link" aria-label="Direct link to Pattern 11: Advanced Backtracking" title="Direct link to Pattern 11: Advanced Backtracking" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These are the most challenging backtracking problems, combining multiple patterns and requiring sophisticated optimization. Master these, and you'll be in the top tier of problem solvers.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/optimal-account-balancing/" target="_blank" rel="noopener noreferrer" class="">Optimal Account Balancing</a></li>
+<li class=""><a href="https://leetcode.com/problems/beautiful-arrangement/" target="_blank" rel="noopener noreferrer" class="">Beautiful Arrangement</a></li>
+<li class=""><a href="https://leetcode.com/problems/verbal-arithmetic-puzzle/" target="_blank" rel="noopener noreferrer" class="">Verbal Arithmetic Puzzle</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/" target="_blank" rel="noopener noreferrer" class="">Maximum Number of Achievable Transfer Requests</a></li>
+<li class=""><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank" rel="noopener noreferrer" class="">Reconstruct Itinerary</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-final-thoughts">📚 Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#-final-thoughts" class="hash-link" aria-label="Direct link to 📚 Final Thoughts" title="Direct link to 📚 Final Thoughts" translate="no">​</a></h2>
+<p>Recursion and backtracking require practice to develop intuition. Start with basic recursion, move to combinations and permutations, then tackle the advanced patterns. Remember: every backtracking problem follows the same framework - make a choice, explore it recursively, and backtrack if it doesn't work.</p>]]></content>
+        <category label="recursion" term="recursion"/>
+        <category label="backtracking" term="backtracking"/>
+        <category label="interview-prep" term="interview-prep"/>
+        <category label="leetcode" term="leetcode"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25 Stack, Queue, LinkedList Problems To Revise Before Interviews]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems"/>
+        <updated>2026-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I've curated 25 Stack, Queue, LinkedList problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for technical interviews.]]></summary>
+        <content type="html"><![CDATA[<p>I've curated 25 <strong>Stack</strong>, <strong>Queue</strong>, <strong>LinkedList</strong> problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for technical interviews.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-the-essential-problems">🎯 The Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#-the-essential-problems" class="hash-link" aria-label="Direct link to 🎯 The Essential Problems" title="Direct link to 🎯 The Essential Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="stack-problems">Stack Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#stack-problems" class="hash-link" aria-label="Direct link to Stack Problems" title="Direct link to Stack Problems" translate="no">​</a></h3>
+<p><strong>1. Valid Parentheses</strong> - <a href="https://leetcode.com/problems/valid-parentheses/" target="_blank" rel="noopener noreferrer" class="">LeetCode 20</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Basic stack for matching</li>
+<li class=""><strong>Why:</strong> Foundation for all parsing problems</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta, Bloomberg, Apple</li>
+</ul>
+<p><strong>2. Min Stack</strong> - <a href="https://leetcode.com/problems/min-stack/" target="_blank" rel="noopener noreferrer" class="">LeetCode 155</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Auxiliary stack for O(1) operations</li>
+<li class=""><strong>Why:</strong> Tests understanding of trade-offs (space vs time)</li>
+<li class=""><strong>Companies:</strong> Amazon, Bloomberg, Microsoft</li>
+</ul>
+<p><strong>3. Implement Queue using Stacks</strong> - <a href="https://leetcode.com/problems/implement-queue-using-stacks/" target="_blank" rel="noopener noreferrer" class="">LeetCode 232</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Two stacks technique</li>
+<li class=""><strong>Why:</strong> Tests understanding of both data structures</li>
+<li class=""><strong>Companies:</strong> Microsoft, Bloomberg, Amazon</li>
+</ul>
+<p><strong>4. Daily Temperatures</strong> - <a href="https://leetcode.com/problems/daily-temperatures/" target="_blank" rel="noopener noreferrer" class="">LeetCode 739</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Monotonic stack</li>
+<li class=""><strong>Why:</strong> Most important stack pattern for interviews</li>
+<li class=""><strong>Companies:</strong> Amazon, Google, Meta, Bloomberg</li>
+</ul>
+<p><strong>5. Largest Rectangle in Histogram</strong> - <a href="https://leetcode.com/problems/largest-rectangle-in-histogram/" target="_blank" rel="noopener noreferrer" class="">LeetCode 84</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Monotonic stack for area calculation</li>
+<li class=""><strong>Why:</strong> Hard problem that becomes medium with stack</li>
+<li class=""><strong>Companies:</strong> Amazon, Google, Meta, Microsoft</li>
+</ul>
+<p><strong>6. Basic Calculator II</strong> - <a href="https://leetcode.com/problems/basic-calculator-ii/" target="_blank" rel="noopener noreferrer" class="">LeetCode 227</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Stack for expression evaluation</li>
+<li class=""><strong>Why:</strong> Shows real-world stack application</li>
+<li class=""><strong>Companies:</strong> Meta, Amazon, Google</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="queue-problems">Queue Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#queue-problems" class="hash-link" aria-label="Direct link to Queue Problems" title="Direct link to Queue Problems" translate="no">​</a></h3>
+<p><strong>7. Implement Stack using Queues</strong> - <a href="https://leetcode.com/problems/implement-stack-using-queues/" target="_blank" rel="noopener noreferrer" class="">LeetCode 225</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Queue rotation technique</li>
+<li class=""><strong>Why:</strong> Tests queue manipulation understanding</li>
+<li class=""><strong>Companies:</strong> Bloomberg, Microsoft</li>
+</ul>
+<p><strong>8. Design Circular Queue</strong> - <a href="https://leetcode.com/problems/design-circular-queue/" target="_blank" rel="noopener noreferrer" class="">LeetCode 622</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Array-based queue with wraparound</li>
+<li class=""><strong>Why:</strong> Tests boundary handling and modular arithmetic</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta</li>
+</ul>
+<p><strong>9. Moving Average from Data Stream</strong> - <a href="https://leetcode.com/problems/moving-average-from-data-stream/" target="_blank" rel="noopener noreferrer" class="">LeetCode 346</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Queue for sliding window</li>
+<li class=""><strong>Why:</strong> Shows queue in streaming context</li>
+<li class=""><strong>Companies:</strong> Amazon, Google, Meta</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="linked-list-problems">Linked List Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#linked-list-problems" class="hash-link" aria-label="Direct link to Linked List Problems" title="Direct link to Linked List Problems" translate="no">​</a></h3>
+<p><strong>10. Reverse Linked List</strong> - <a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 206</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Iterative and recursive reversal</li>
+<li class=""><strong>Why:</strong> Most important linked list operation</li>
+<li class=""><strong>Companies:</strong> Everyone</li>
+</ul>
+<p><strong>11. Merge Two Sorted Lists</strong> - <a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank" rel="noopener noreferrer" class="">LeetCode 21</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Two pointer merge</li>
+<li class=""><strong>Why:</strong> Foundation for merge sort, merge operations</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta, Apple</li>
+</ul>
+<p><strong>12. Remove Nth Node From End of List</strong> - <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 19</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Two pointer (fast/slow)</li>
+<li class=""><strong>Why:</strong> Classic two-pointer technique</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Bloomberg</li>
+</ul>
+<p><strong>13. Linked List Cycle</strong> - <a href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer" class="">LeetCode 141</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Floyd's cycle detection (fast/slow pointers)</li>
+<li class=""><strong>Why:</strong> Fundamental algorithm, shows up in many forms</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta, Apple</li>
+</ul>
+<p><strong>14. Linked List Cycle II</strong> - <a href="https://leetcode.com/problems/linked-list-cycle-ii/" target="_blank" rel="noopener noreferrer" class="">LeetCode 142</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Finding cycle start with math</li>
+<li class=""><strong>Why:</strong> Advanced pointer manipulation</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta</li>
+</ul>
+<p><strong>15. Intersection of Two Linked Lists</strong> - <a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank" rel="noopener noreferrer" class="">LeetCode 160</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Length difference or two-pointer technique</li>
+<li class=""><strong>Why:</strong> Tests pointer manipulation cleverness</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Bloomberg</li>
+</ul>
+<p><strong>16. Palindrome Linked List</strong> - <a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 234</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Find middle + reverse + compare</li>
+<li class=""><strong>Why:</strong> Combines multiple linked list patterns</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Microsoft</li>
+</ul>
+<p><strong>17. Remove Duplicates from Sorted List</strong> - <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 83</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Single pass deletion</li>
+<li class=""><strong>Why:</strong> Basic pointer manipulation</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="advanced-problems">Advanced Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#advanced-problems" class="hash-link" aria-label="Direct link to Advanced Problems" title="Direct link to Advanced Problems" translate="no">​</a></h3>
+<p><strong>18. LRU Cache</strong> - <a href="https://leetcode.com/problems/lru-cache/" target="_blank" rel="noopener noreferrer" class="">LeetCode 146</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Hash map + doubly linked list</li>
+<li class=""><strong>Why:</strong> System design favorite, tests multiple skills</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Microsoft, Google, Apple</li>
+</ul>
+<p><strong>19. Add Two Numbers</strong> - <a href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer" class="">LeetCode 2</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Linked list arithmetic with carry</li>
+<li class=""><strong>Why:</strong> Tests edge case handling</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta, Bloomberg</li>
+</ul>
+<p><strong>20. Reverse Nodes in k-Group</strong> - <a href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank" rel="noopener noreferrer" class="">LeetCode 25</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Segmented reversal</li>
+<li class=""><strong>Why:</strong> Hard problem, builds on reverse linked list</li>
+<li class=""><strong>Companies:</strong> Meta, Amazon, Microsoft</li>
+</ul>
+<p><strong>21. Copy List with Random Pointer</strong> - <a href="https://leetcode.com/problems/copy-list-with-random-pointer/" target="_blank" rel="noopener noreferrer" class="">LeetCode 138</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> HashMap or interweaving technique</li>
+<li class=""><strong>Why:</strong> Tests deep copy understanding</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft, Meta</li>
+</ul>
+<p><strong>22. Sort List</strong> - <a href="https://leetcode.com/problems/sort-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 148</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Merge sort on linked list</li>
+<li class=""><strong>Why:</strong> Combines sorting with linked list operations</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Microsoft</li>
+</ul>
+<p><strong>23. Reorder List</strong> - <a href="https://leetcode.com/problems/reorder-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 143</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Find middle + reverse + merge</li>
+<li class=""><strong>Why:</strong> Combines three core operations</li>
+<li class=""><strong>Companies:</strong> Amazon, Meta, Microsoft</li>
+</ul>
+<p><strong>24. Flatten a Multilevel Doubly Linked List</strong> - <a href="https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/" target="_blank" rel="noopener noreferrer" class="">LeetCode 430</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Stack or recursion for nested structures</li>
+<li class=""><strong>Why:</strong> Tests handling of complex pointer structures</li>
+<li class=""><strong>Companies:</strong> Amazon, Microsoft</li>
+</ul>
+<p><strong>25. Design Browser History</strong> - <a href="https://leetcode.com/problems/design-browser-history/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1472</a></p>
+<ul>
+<li class=""><strong>Pattern:</strong> Doubly linked list or array</li>
+<li class=""><strong>Why:</strong> Real-world application of linked list</li>
+<li class=""><strong>Companies:</strong> Amazon, Google</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-study-strategy">📚 Study Strategy<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#-study-strategy" class="hash-link" aria-label="Direct link to 📚 Study Strategy" title="Direct link to 📚 Study Strategy" translate="no">​</a></h2>
+<p><strong>Week 1-2:</strong> Master basic operations (problems 1-9, 10-12)
+<strong>Week 3-4:</strong> Two-pointer techniques and cycle detection (problems 13-17)
+<strong>Week 5-6:</strong> Advanced patterns and combinations (problems 18-25)</p>
+<p>Practice these problems multiple times until you can code them without looking at solutions. Understanding the patterns is more important than memorizing solutions.</p>]]></content>
+        <category label="stack" term="stack"/>
+        <category label="queue" term="queue"/>
+        <category label="linked-list" term="linked-list"/>
+        <category label="interview-prep" term="interview-prep"/>
+        <category label="leetcode" term="leetcode"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Master Dynamic Programming - Complete Pattern Guide]]></title>
