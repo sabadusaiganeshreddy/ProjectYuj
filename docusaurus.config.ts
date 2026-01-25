@@ -98,6 +98,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-N82K9N829E', // Replace with your Google Analytics tracking ID
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
