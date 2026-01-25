@@ -120,21 +120,12 @@ const config: Config = {
     },
     navbar: {
       title: 'SaiGaneshReddy',
-      logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',
-      },
       hideOnScroll: true,
       items: [
         {to: '/dsa', label: 'DSA', position: 'left'},
         {to: '/ml', label: 'ML', position: 'left'},
         {to: '/system-design', label: 'System Design', position: 'left'},
         {to: '/research', label: 'Research', position: 'left'},
-        {
-          href: 'https://github.com/sabadusaiganeshreddy',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -167,10 +158,6 @@ const config: Config = {
             {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/saiganeshreddysabadu/',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/sabadusaiganeshreddy',
             },
             {
               label: 'LeetCode',
