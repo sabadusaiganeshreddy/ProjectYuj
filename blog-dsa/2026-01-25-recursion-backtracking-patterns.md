@@ -1,7 +1,7 @@
 ---
 slug: recursion-backtracking-patterns
 title: 11 Recursion and Backtracking Patterns for Interview Preparation
-authors: [saiganesh]
+authors: []
 tags: [recursion, backtracking, interview-prep, leetcode]
 ---
 

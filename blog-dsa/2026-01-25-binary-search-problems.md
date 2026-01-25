@@ -1,7 +1,7 @@
 ---
 slug: binary-search-problems
 title: 20 Binary Search Problems To Revise Before Interviews
-authors: [saiganesh]
+authors: []
 tags: [binary-search, interview-prep, leetcode]
 ---
 

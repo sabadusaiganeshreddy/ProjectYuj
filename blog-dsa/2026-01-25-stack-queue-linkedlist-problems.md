@@ -1,7 +1,7 @@
 ---
 slug: stack-queue-linkedlist-problems
 title: 25 Stack, Queue, LinkedList Problems To Revise Before Interviews
-authors: [saiganesh]
+authors: []
 tags: [stack, queue, linked-list, interview-prep, leetcode]
 ---
 
