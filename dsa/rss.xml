@@ -4,10 +4,359 @@
         <title>SaiGaneshReddy Blog</title>
         <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</link>
         <description>SaiGaneshReddy Blog</description>
-        <lastBuildDate>Sat, 24 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[25 Array Problems To Revise Before Interviews]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/25-array-problems-interview-prep</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/25-array-problems-interview-prep</guid>
+            <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[After posting graph and tree patterns, today I've curated 25 carefully selected Array problems covering every major pattern for interviews. Arrays are the most frequently asked topic in coding interviews.]]></description>
+            <content:encoded><![CDATA[<p>After posting graph and tree patterns, today I've curated 25 carefully selected Array problems covering every major pattern for interviews. Arrays are the most frequently asked topic in coding interviews.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="the-25-essential-problems">The 25 Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/25-array-problems-interview-prep#the-25-essential-problems" class="hash-link" aria-label="Direct link to The 25 Essential Problems" title="Direct link to The 25 Essential Problems" translate="no">​</a></h2>
+<p><strong>1. Two Sum</strong> - <a href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1</a></p>
+<ul>
+<li class="">Pattern: Hash map for complements</li>
+<li class="">Why: Most asked problem ever, foundation for pair problems</li>
+<li class="">Companies: Amazon, Google, Meta, Microsoft, Apple</li>
+</ul>
+<p><strong>2. Container With Most Water</strong> - <a href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer" class="">LeetCode 11</a></p>
+<ul>
+<li class="">Pattern: Two pointers optimization</li>
+<li class="">Why: Classic greedy two-pointer approach</li>
+<li class="">Companies: Amazon, Meta, Bloomberg, Google</li>
+</ul>
+<p><strong>3. 3Sum</strong> - <a href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer" class="">LeetCode 15</a></p>
+<ul>
+<li class="">Pattern: Sorted array + two pointers</li>
+<li class="">Why: Foundation for k-sum problems</li>
+<li class="">Companies: Meta, Amazon, Microsoft, Adobe</li>
+</ul>
+<p><strong>4. Trapping Rain Water</strong> - <a href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer" class="">LeetCode 42</a></p>
+<ul>
+<li class="">Pattern: Two pointers with max tracking</li>
+<li class="">Why: Tests understanding of optimal space solutions</li>
+<li class="">Companies: Amazon, Google, Meta, Microsoft</li>
+</ul>
+<p><strong>5. Longest Substring Without Repeating Characters</strong> - <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer" class="">LeetCode 3</a></p>
+<ul>
+<li class="">Pattern: Sliding window with hash set</li>
+<li class="">Why: Classic sliding window introduction</li>
+<li class="">Companies: Amazon, Meta, Google, Adobe</li>
+</ul>
+<p><strong>6. Minimum Window Substring</strong> - <a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer" class="">LeetCode 76</a></p>
+<ul>
+<li class="">Pattern: Sliding window with frequency map</li>
+<li class="">Why: Hard sliding window, highly asked</li>
+<li class="">Companies: Meta, Amazon, Google, Uber</li>
+</ul>
+<p><strong>7. Maximum Subarray (Kadane's Algorithm)</strong> - <a href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer" class="">LeetCode 53</a></p>
+<ul>
+<li class="">Pattern: Kadane's algorithm</li>
+<li class="">Why: Foundation for subarray optimization</li>
+<li class="">Companies: Amazon, Microsoft, LinkedIn, Bloomberg</li>
+</ul>
+<p><strong>8. Maximum Product Subarray</strong> - <a href="https://leetcode.com/problems/maximum-product-subarray/" target="_blank" rel="noopener noreferrer" class="">LeetCode 152</a></p>
+<ul>
+<li class="">Pattern: Modified Kadane's with min/max tracking</li>
+<li class="">Why: Handles negative numbers elegantly</li>
+<li class="">Companies: Amazon, Microsoft, Meta, Google</li>
+</ul>
+<p><strong>9. Subarray Sum Equals K</strong> - <a href="https://leetcode.com/problems/subarray-sum-equals-k/" target="_blank" rel="noopener noreferrer" class="">LeetCode 560</a></p>
+<ul>
+<li class="">Pattern: Prefix sum + hash map</li>
+<li class="">Why: Classic prefix sum application</li>
+<li class="">Companies: Meta, Amazon, Google, Microsoft</li>
+</ul>
+<p><strong>10. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</strong> - <a href="https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/" target="_blank" rel="noopener noreferrer" class="">LeetCode 1438</a></p>
+<ul>
+<li class="">Pattern: Sliding window with monotonic deque</li>
+<li class="">Why: Advanced sliding window technique</li>
+<li class="">Companies: Google, Amazon, Meta</li>
+</ul>
+<p><strong>11. Search in Rotated Sorted Array</strong> - <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 33</a></p>
+<ul>
+<li class="">Pattern: Modified binary search</li>
+<li class="">Why: Tests binary search understanding</li>
+<li class="">Companies: Amazon, Meta, Microsoft, LinkedIn</li>
+</ul>
+<p><strong>12. Find First and Last Position of Element in Sorted Array</strong> - <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 34</a></p>
+<ul>
+<li class="">Pattern: Binary search for boundaries</li>
+<li class="">Why: Double binary search technique</li>
+<li class="">Companies: Meta, Amazon, Google, Microsoft</li>
+</ul>
+<p><strong>13. Merge Intervals</strong> - <a href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer" class="">LeetCode 56</a></p>
+<ul>
+<li class="">Pattern: Sorting + greedy merging</li>
+<li class="">Why: Core pattern for interval problems</li>
+<li class="">Companies: Meta, Amazon, Google, Microsoft, Bloomberg</li>
+</ul>
+<p><strong>14. Insert Interval</strong> - <a href="https://leetcode.com/problems/insert-interval/" target="_blank" rel="noopener noreferrer" class="">LeetCode 57</a></p>
+<ul>
+<li class="">Pattern: Interval manipulation</li>
+<li class="">Why: Tests edge case handling</li>
+<li class="">Companies: Google, Meta, Amazon, LinkedIn</li>
+</ul>
+<p><strong>15. Kth Largest Element in an Array</strong> - <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 215</a></p>
+<ul>
+<li class="">Pattern: Quickselect / Heap</li>
+<li class="">Why: Foundation for selection problems</li>
+<li class="">Companies: Meta, Amazon, Microsoft, Adobe</li>
+</ul>
+<p><strong>16. Product of Array Except Self</strong> - <a href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank" rel="noopener noreferrer" class="">LeetCode 238</a></p>
+<ul>
+<li class="">Pattern: Prefix/suffix products</li>
+<li class="">Why: No-division constraint teaches optimization</li>
+<li class="">Companies: Amazon, Meta, Microsoft, Apple</li>
+</ul>
+<p><strong>17. Rotate Array</strong> - <a href="https://leetcode.com/problems/rotate-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 189</a></p>
+<ul>
+<li class="">Pattern: Reversal algorithm</li>
+<li class="">Why: Tests in-place manipulation</li>
+<li class="">Companies: Microsoft, Amazon, Meta</li>
+</ul>
+<p><strong>18. Next Permutation</strong> - <a href="https://leetcode.com/problems/next-permutation/" target="_blank" rel="noopener noreferrer" class="">LeetCode 31</a></p>
+<ul>
+<li class="">Pattern: Two-pass with swapping</li>
+<li class="">Why: Complex manipulation with clear logic</li>
+<li class="">Companies: Google, Amazon, Meta, Bloomberg</li>
+</ul>
+<p><strong>19. Find All Duplicates in an Array</strong> - <a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/" target="_blank" rel="noopener noreferrer" class="">LeetCode 442</a></p>
+<ul>
+<li class="">Pattern: Index marking technique</li>
+<li class="">Why: O(1) space without modifying (marking negatives)</li>
+<li class="">Companies: Amazon, Microsoft, Meta</li>
+</ul>
+<p><strong>20. Set Matrix Zeroes</strong> - <a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank" rel="noopener noreferrer" class="">LeetCode 73</a></p>
+<ul>
+<li class="">Pattern: In-place marking using first row/column</li>
+<li class="">Why: Classic space optimization problem</li>
+<li class="">Companies: Amazon, Microsoft, Meta, Apple</li>
+</ul>
+<p><strong>21. Longest Consecutive Sequence</strong> - <a href="https://leetcode.com/problems/longest-consecutive-sequence/" target="_blank" rel="noopener noreferrer" class="">LeetCode 128</a></p>
+<ul>
+<li class="">Pattern: Hash set for O(n) solution</li>
+<li class="">Why: Tests ability to optimize beyond sorting</li>
+<li class="">Companies: Google, Amazon, Meta, Uber</li>
+</ul>
+<p><strong>22. Best Time to Buy and Sell Stock</strong> - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer" class="">LeetCode 121</a></p>
+<ul>
+<li class="">Pattern: Single-pass min tracking</li>
+<li class="">Why: Foundation for all stock problems</li>
+<li class="">Companies: Amazon, Microsoft, Meta, Bloomberg</li>
+</ul>
+<p><strong>23. Best Time to Buy and Sell Stock III</strong> - <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer" class="">LeetCode 123</a></p>
+<ul>
+<li class="">Pattern: State machine DP</li>
+<li class="">Why: Advanced optimization with constraints</li>
+<li class="">Companies: Google, Amazon, Meta</li>
+</ul>
+<p><strong>24. Spiral Matrix</strong> - <a href="https://leetcode.com/problems/spiral-matrix/" target="_blank" rel="noopener noreferrer" class="">LeetCode 54</a></p>
+<ul>
+<li class="">Pattern: Layer-by-layer traversal</li>
+<li class="">Why: Tests boundary handling and simulation</li>
+<li class="">Companies: Amazon, Microsoft, Meta, Apple</li>
+</ul>
+<p><strong>25. Jump Game II</strong> - <a href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer" class="">LeetCode 45</a></p>
+<ul>
+<li class="">Pattern: Greedy with range tracking</li>
+<li class="">Why: Advanced greedy technique</li>
+<li class="">Companies: Amazon, Google, Meta, Bloomberg</li>
+</ul>
+<hr>
+<p>These 25 problems are your foundation for Arrays. Master them, and you'll handle the majority of array questions thrown at you in interviews.</p>
+<p><strong>Good luck with your preparation! 🚀</strong></p>]]></content:encoded>
+            <category>dsa</category>
+            <category>arrays</category>
+            <category>leetcode</category>
+            <category>interview-prep</category>
+            <category>faang</category>
+        </item>
+        <item>
+            <title><![CDATA[Master Binary Trees - Complete Pattern Guide for Interviews]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide</guid>
+            <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Trees show up in almost every technical interview. Not because interviewers are obsessed with them, but because tree problems reveal how you think recursively, manage state, and break down complex problems into simpler ones.]]></description>
+            <content:encoded><![CDATA[<p>Trees show up in almost every technical interview. Not because interviewers are obsessed with them, but because tree problems reveal how you think recursively, manage state, and break down complex problems into simpler ones.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-1-tree-traversal-basics">Pattern 1: Tree Traversal Basics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-1-tree-traversal-basics" class="hash-link" aria-label="Direct link to Pattern 1: Tree Traversal Basics" title="Direct link to Pattern 1: Tree Traversal Basics" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+If you can't traverse a tree confidently, everything else falls apart. These are the building blocks. You should be able to write these in your sleep literally.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Inorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-preorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Preorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-postorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Postorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Level Order Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Zigzag Level Order Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-vertical-order-traversal/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Vertical Order Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-right-side-view/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Right Side View</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-2-tree-properties--measurements">Pattern 2: Tree Properties &amp; Measurements<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-2-tree-properties--measurements" class="hash-link" aria-label="Direct link to Pattern 2: Tree Properties &amp; Measurements" title="Direct link to Pattern 2: Tree Properties &amp; Measurements" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems teach you to think about what information flows up from child nodes to parent nodes. This bottom-up thinking is crucial for harder problems.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Depth of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Minimum Depth of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/diameter-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Diameter of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/balanced-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Balanced Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/symmetric-tree/" target="_blank" rel="noopener noreferrer" class="">Symmetric Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/same-tree/" target="_blank" rel="noopener noreferrer" class="">Same Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/subtree-of-another-tree/" target="_blank" rel="noopener noreferrer" class="">Subtree of Another Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-complete-tree-nodes/" target="_blank" rel="noopener noreferrer" class="">Count Complete Tree Nodes</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-3-path-problems">Pattern 3: Path Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-3-path-problems" class="hash-link" aria-label="Direct link to Pattern 3: Path Problems" title="Direct link to Pattern 3: Path Problems" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Path problems are EVERYWHERE in interviews. They test your ability to track state as you traverse and backtrack properly. This is where most candidates struggle.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/path-sum/" target="_blank" rel="noopener noreferrer" class="">Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-sum-ii/" target="_blank" rel="noopener noreferrer" class="">Path Sum II</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-sum-iii/" target="_blank" rel="noopener noreferrer" class="">Path Sum III</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Maximum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/sum-root-to-leaf-numbers/" target="_blank" rel="noopener noreferrer" class="">Sum Root to Leaf Numbers</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-paths/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-string-starting-from-leaf/" target="_blank" rel="noopener noreferrer" class="">Smallest String Starting From Leaf</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-univalue-path/" target="_blank" rel="noopener noreferrer" class="">Longest Univalue Path</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-4-tree-construction--modification">Pattern 4: Tree Construction &amp; Modification<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-4-tree-construction--modification" class="hash-link" aria-label="Direct link to Pattern 4: Tree Construction &amp; Modification" title="Direct link to Pattern 4: Tree Construction &amp; Modification" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems test your understanding of tree structure at a deeper level. Can you build a tree from traversals? Can you modify tree structure correctly?</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/invert-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Invert Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Construct Binary Tree from Preorder and Inorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Construct Binary Tree from Inorder and Postorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/" target="_blank" rel="noopener noreferrer" class="">Flatten Binary Tree to Linked List</a></li>
+<li class=""><a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Convert Sorted Array to Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Convert Sorted List to Binary Search Tree</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-5-binary-search-tree-bst-specific">Pattern 5: Binary Search Tree (BST) Specific<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-5-binary-search-tree-bst-specific" class="hash-link" aria-label="Direct link to Pattern 5: Binary Search Tree (BST) Specific" title="Direct link to Pattern 5: Binary Search Tree (BST) Specific" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+BSTs have special properties (left &lt; root &lt; right) that enable efficient operations. These problems test if you can exploit this property.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/validate-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Validate Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" target="_blank" rel="noopener noreferrer" class="">Kth Smallest Element in a BST</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/convert-bst-to-greater-tree/" target="_blank" rel="noopener noreferrer" class="">Convert BST to Greater Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-node-in-a-bst/" target="_blank" rel="noopener noreferrer" class="">Delete Node in a BST</a></li>
+<li class=""><a href="https://leetcode.com/problems/insert-into-a-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Insert into a Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/recover-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Recover Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees II</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-6-lowest-common-ancestor-lca">Pattern 6: Lowest Common Ancestor (LCA)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-6-lowest-common-ancestor-lca" class="hash-link" aria-label="Direct link to Pattern 6: Lowest Common Ancestor (LCA)" title="Direct link to Pattern 6: Lowest Common Ancestor (LCA)" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+LCA problems are a favorite interview topic because they test your ability to think about tree structure and information flow. The pattern appears in many disguised forms.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of Deepest Leaves</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Tree II</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Tree III</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Tree IV</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-7-views--boundaries">Pattern 7: Views &amp; Boundaries<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-7-views--boundaries" class="hash-link" aria-label="Direct link to Pattern 7: Views &amp; Boundaries" title="Direct link to Pattern 7: Views &amp; Boundaries" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems test your spatial reasoning with trees. Can you think about what's visible from different perspectives?</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-right-side-view/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Right Side View</a></li>
+<li class=""><a href="https://leetcode.com/problems/boundary-of-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Boundary of Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Vertical Order Traversal of a Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-top-view/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Top View</a> <em>(Premium)</em></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-bottom-view/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Bottom View</a> <em>(Premium)</em></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-8-serialization--deserialization">Pattern 8: Serialization &amp; Deserialization<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-8-serialization--deserialization" class="hash-link" aria-label="Direct link to Pattern 8: Serialization &amp; Deserialization" title="Direct link to Pattern 8: Serialization &amp; Deserialization" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These problems test your understanding of tree structure and encoding schemes. Common in system design discussions too (how to store trees in databases).</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Serialize and Deserialize Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/serialize-and-deserialize-bst/" target="_blank" rel="noopener noreferrer" class="">Serialize and Deserialize BST</a></li>
+<li class=""><a href="https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Encode N-ary Tree to Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Verify Preorder Serialization of a Binary Tree</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-9-tree-dp--optimization">Pattern 9: Tree DP &amp; Optimization<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-9-tree-dp--optimization" class="hash-link" aria-label="Direct link to Pattern 9: Tree DP &amp; Optimization" title="Direct link to Pattern 9: Tree DP &amp; Optimization" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These are the hardest tree problems. They combine tree traversal with dynamic programming thinking. Master these, and you're in the top tier.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/house-robber-iii/" target="_blank" rel="noopener noreferrer" class="">House Robber III</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-cameras/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Cameras</a></li>
+<li class=""><a href="https://leetcode.com/problems/distribute-coins-in-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Distribute Coins in Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Sum BST in Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-product-of-splitted-tree/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Maximum Product of Splitted Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/all-possible-full-binary-trees/" target="_blank" rel="noopener noreferrer" class="">All Possible Full Binary Trees</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-10-n-ary-trees--tries">Pattern 10: N-ary Trees &amp; Tries<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-10-n-ary-trees--tries" class="hash-link" aria-label="Direct link to Pattern 10: N-ary Trees &amp; Tries" title="Direct link to Pattern 10: N-ary Trees &amp; Tries" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Not all trees are binary. These problems test if you can generalize your tree thinking beyond the binary tree structure.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/maximum-depth-of-n-ary-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Depth of N-ary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/n-ary-tree-level-order-traversal/" target="_blank" rel="noopener noreferrer" class="">N-ary Tree Level Order Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/n-ary-tree-preorder-traversal/" target="_blank" rel="noopener noreferrer" class="">N-ary Tree Preorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/n-ary-tree-postorder-traversal/" target="_blank" rel="noopener noreferrer" class="">N-ary Tree Postorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/implement-trie-prefix-tree/" target="_blank" rel="noopener noreferrer" class="">Implement Trie (Prefix Tree)</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer" class="">Word Search II</a></li>
+<li class=""><a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/" target="_blank" rel="noopener noreferrer" class="">Design Add and Search Words Data Structure</a></li>
+<li class=""><a href="https://leetcode.com/problems/replace-words/" target="_blank" rel="noopener noreferrer" class="">Replace Words</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-11-ancestor--parent-pointer-problems">Pattern 11: Ancestor &amp; Parent Pointer Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-11-ancestor--parent-pointer-problems" class="hash-link" aria-label="Direct link to Pattern 11: Ancestor &amp; Parent Pointer Problems" title="Direct link to Pattern 11: Ancestor &amp; Parent Pointer Problems" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+Some tree problems give you parent pointers or ask you to track ancestors. These require different traversal strategies than standard tree recursion.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/delete-nodes-and-return-forest/" target="_blank" rel="noopener noreferrer" class="">Delete Nodes And Return Forest</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-distance-in-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Find Distance in Binary Tree</a> <em>(Premium)</em></li>
+<li class=""><a href="https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/" target="_blank" rel="noopener noreferrer" class="">Step-By-Step Directions From a Binary Tree Node to Another</a></li>
+<li class=""><a href="https://leetcode.com/problems/closest-leaf-in-a-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Closest Leaf in a Binary Tree</a> <em>(Premium)</em></li>
+<li class=""><a href="https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/" target="_blank" rel="noopener noreferrer" class="">All Nodes Distance K in Binary Tree</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-12-hard-interview-favorites">Pattern 12: Hard Interview Favorites<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-tree-patterns-guide#pattern-12-hard-interview-favorites" class="hash-link" aria-label="Direct link to Pattern 12: Hard Interview Favorites" title="Direct link to Pattern 12: Hard Interview Favorites" translate="no">​</a></h2>
+<p><strong>Why This Pattern Matters:</strong>
+These are the problems that show up in actual FAANG interviews most frequently, according to interview reports. Master these, and you're golden.</p>
+<p><strong>Practice Problems:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Maximum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Serialize and Deserialize Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Lowest Common Ancestor of a Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/validate-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Validate Binary Search Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank" rel="noopener noreferrer" class="">Construct Binary Tree from Preorder and Inorder Traversal</a></li>
+<li class=""><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" target="_blank" rel="noopener noreferrer" class="">Kth Smallest Element in a BST</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-complete-tree-nodes/" target="_blank" rel="noopener noreferrer" class="">Count Complete Tree Nodes</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-cameras/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Cameras</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer" class="">Word Search II</a></li>
+<li class=""><a href="https://leetcode.com/problems/recover-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Recover Binary Search Tree</a></li>
+</ol>
+<hr>
+<p><strong>Happy coding! 🚀</strong></p>]]></content:encoded>
+            <category>dsa</category>
+            <category>binary-trees</category>
+            <category>leetcode</category>
+            <category>interview-prep</category>
+        </item>
         <item>
             <title><![CDATA[Master Dynamic Programming - Complete Pattern Guide]]></title>
             <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns</link>
