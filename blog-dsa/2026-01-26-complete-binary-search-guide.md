@@ -13,7 +13,7 @@ The key insight that changed everything for me: Binary Search isn't just about f
 
 ---
 
-## 🎯 Understanding Binary Search
+##  Understanding Binary Search
 
 **What makes Binary Search tricky?** The basic algorithm is simple, but recognizing when to apply it and implementing it bug-free (especially edge cases) is challenging. The real power comes from "binary search on answer", a technique that turns many optimization problems into search problems.
 
@@ -23,7 +23,7 @@ The key insight that changed everything for me: Binary Search isn't just about f
 
 ---
 
-## 📚 Best Learning Resources
+##  Best Learning Resources
 
 ### Video Resources for Interview Prep
 
@@ -68,7 +68,7 @@ The key insight that changed everything for me: Binary Search isn't just about f
 
 ---
 
-## 💻 Interview Problems (60 Total)
+##  Interview Problems (60 Total)
 
 ### Phase 1: Classic Binary Search 
 Master the fundamental template. If you can't implement these bug-free, everything else will be difficult.
@@ -157,7 +157,7 @@ Combining binary search with greedy, DP, or other algorithms.
 
 ---
 
-## 🏆 Competitive Programming Problems
+##  Competitive Programming Problems
 
 ### AtCoder Binary Search Problems 
 1. [ABC 077 C - Snuke Festival](https://atcoder.jp/contests/abc077/tasks/arc084_a)
@@ -264,7 +264,7 @@ Combining binary search with greedy, DP, or other algorithms.
 
 ---
 
-## 📅 Learning Timeline
+##  Learning Timeline
 
 ### For Interview Preparation (4-5 weeks)
 
@@ -299,65 +299,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 
 ---
 
-## 🎓 Study Approach
-
-### For Interviews
-
-The key to mastering binary search for interviews is understanding the invariant and avoiding off-by-one errors.
-
-**The Three Templates:**
-
-1. **Template 1**: Classic binary search (finding exact value)
-2. **Template 2**: Finding first/last occurrence (boundary search)
-3. **Template 3**: Binary search on answer
-
-**When you see a problem, ask yourself:**
-- Is the search space monotonic? (if X works, does X+1 also work or fail?)
-- Can I define a "check" function that returns true/false?
-- What are my search boundaries?
-- What should I return if not found?
-
-**Practice approach:**
-1. Write the check function first
-2. Determine search boundaries
-3. Choose the right template
-4. Handle edge cases carefully
-5. Test with small examples
-
-**Don't just solve problems - after solving, think about:**
-- Why this search space is monotonic
-- Could you use a different template?
-- What's the time complexity of your check function?
-- How would you explain this to an interviewer?
-
-### For Competitive Programming
-
-For CP, you need speed and the ability to recognize non-obvious binary search opportunities.
-
-**Key skills to develop:**
-- Fast pattern recognition from problem statements
-- Ability to formulate check functions for novel problems
-- Quick implementation with your preferred template
-- Understanding when to use floating point binary search
-- Recognizing parallel binary search opportunities
-
-**Keywords that hint at binary search:**
-- "Minimize the maximum" or "Maximize the minimum"
-- "At least K" or "At most K"
-- "Smallest value such that" or "Largest value such that"
-- Problems with monotonic properties
-- Optimization problems with feasibility checks
-
-**Advanced CP tips:**
-- Master parallel binary search for multiple queries
-- Learn to combine binary search with segment trees
-- Understand ternary search for unimodal functions
-- Practice fractional/floating point binary search
-- Build a template library for different variants
-
----
-
-## 🔍 Common Binary Search Patterns
+##  Common Binary Search Patterns
 
 **1. Classic Binary Search** - Finding element in sorted array. Basic template.
 
@@ -381,7 +323,7 @@ For CP, you need speed and the ability to recognize non-obvious binary search op
 
 ---
 
-## 💡 Identifying Binary Search Problems
+##  Identifying Binary Search Problems
 
 A problem likely uses binary search if:
 - The array/list is sorted (or can be sorted)
@@ -401,7 +343,7 @@ A problem likely uses binary search if:
 
 ---
 
-## 🎯 Final Thoughts
+##  Final Thoughts
 
 Binary Search appears simple but mastering it requires understanding multiple patterns and handling edge cases flawlessly. The progression from basic search to binary search on answer is crucial.
 
