@@ -17,12 +17,12 @@
             <content:encoded><![CDATA[<p>Hey everyone! Binary Search is one of the most elegant and powerful techniques in DSA, yet it's often underestimated. I've spent considerable time mastering binary search for both tech interviews and competitive programming, and I wanted to share a complete guide that covers everything you need.</p>
 <p>The key insight that changed everything for me: Binary Search isn't just about finding elements in sorted arrays. It's a problem-solving paradigm that applies whenever you can define a monotonic property (if something works for x, it works for all values greater/smaller than x). Once you understand this, you'll see binary search opportunities everywhere.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-understanding-binary-search">🎯 Understanding Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-understanding-binary-search" class="hash-link" aria-label="Direct link to 🎯 Understanding Binary Search" title="Direct link to 🎯 Understanding Binary Search" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-binary-search">Understanding Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#understanding-binary-search" class="hash-link" aria-label="Direct link to Understanding Binary Search" title="Direct link to Understanding Binary Search" translate="no">​</a></h2>
 <p><strong>What makes Binary Search tricky?</strong> The basic algorithm is simple, but recognizing when to apply it and implementing it bug-free (especially edge cases) is challenging. The real power comes from "binary search on answer", a technique that turns many optimization problems into search problems.</p>
 <p><strong>For Tech Interviews:</strong> You need to master the classic binary search template, handle edge cases flawlessly, and recognize binary search on answer patterns. About 50-60 well-understood problems is sufficient. Most interview problems are medium difficulty.</p>
 <p><strong>For Competitive Programming:</strong> You need deep understanding of searching on answer spaces, optimization techniques, binary search on floating point, and combining binary search with other algorithms. This requires 100-150+ problems.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-best-learning-resources">📚 Best Learning Resources<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-best-learning-resources" class="hash-link" aria-label="Direct link to 📚 Best Learning Resources" title="Direct link to 📚 Best Learning Resources" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources">Best Learning Resources<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#best-learning-resources" class="hash-link" aria-label="Direct link to Best Learning Resources" title="Direct link to Best Learning Resources" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep">Video Resources for Interview Prep<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to Video Resources for Interview Prep" title="Direct link to Video Resources for Interview Prep" translate="no">​</a></h3>
 <p><strong><a href="https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO" target="_blank" rel="noopener noreferrer" class="">NeetCode - Binary Search Playlist</a></strong> - The absolute best for learning interview binary search patterns. Clear explanations with Python implementations. Covers classic search, search on answer, and all important variations.</p>
 <p><strong><a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF" target="_blank" rel="noopener noreferrer" class="">take U forward (Striver) - Binary Search Series</a></strong> - Comprehensive coverage with detailed explanations. Extremely thorough with C++/Java code. Around 30+ hours of content covering basics to advanced.</p>
@@ -52,7 +52,7 @@
 <p><strong>Introduction to Algorithms (CLRS)</strong> - Rigorous treatment of binary search with mathematical analysis.</p>
 <p><strong>Elements of Programming Interviews</strong> - Excellent binary search problems with detailed solutions.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-interview-problems-60-total">💻 Interview Problems (60 Total)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-interview-problems-60-total" class="hash-link" aria-label="Direct link to 💻 Interview Problems (60 Total)" title="Direct link to 💻 Interview Problems (60 Total)" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-60-total">Interview Problems (60 Total)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#interview-problems-60-total" class="hash-link" aria-label="Direct link to Interview Problems (60 Total)" title="Direct link to Interview Problems (60 Total)" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-classic-binary-search">Phase 1: Classic Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#phase-1-classic-binary-search" class="hash-link" aria-label="Direct link to Phase 1: Classic Binary Search" title="Direct link to Phase 1: Classic Binary Search" translate="no">​</a></h3>
 <p>Master the fundamental template. If you can't implement these bug-free, everything else will be difficult.</p>
 <ol>
@@ -138,7 +138,7 @@
 <li class=""><a href="https://leetcode.com/problems/maximum-candies-allocated-to-k-children/" target="_blank" rel="noopener noreferrer" class="">Maximum Candies Allocated to K Children</a></li>
 </ol>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-competitive-programming-problems">🏆 Competitive Programming Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-competitive-programming-problems" class="hash-link" aria-label="Direct link to 🏆 Competitive Programming Problems" title="Direct link to 🏆 Competitive Programming Problems" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems">Competitive Programming Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#competitive-programming-problems" class="hash-link" aria-label="Direct link to Competitive Programming Problems" title="Direct link to Competitive Programming Problems" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-binary-search-problems">AtCoder Binary Search Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#atcoder-binary-search-problems" class="hash-link" aria-label="Direct link to AtCoder Binary Search Problems" title="Direct link to AtCoder Binary Search Problems" translate="no">​</a></h3>
 <ol>
 <li class=""><a href="https://atcoder.jp/contests/abc077/tasks/arc084_a" target="_blank" rel="noopener noreferrer" class="">ABC 077 C - Snuke Festival</a></li>
@@ -243,7 +243,7 @@
 <li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_n" target="_blank" rel="noopener noreferrer" class="">AtCoder - Slimes</a></li>
 </ol>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-learning-timeline">📅 Learning Timeline<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-learning-timeline" class="hash-link" aria-label="Direct link to 📅 Learning Timeline" title="Direct link to 📅 Learning Timeline" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline">Learning Timeline<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#learning-timeline" class="hash-link" aria-label="Direct link to Learning Timeline" title="Direct link to Learning Timeline" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-4-5-weeks">For Interview Preparation (4-5 weeks)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#for-interview-preparation-4-5-weeks" class="hash-link" aria-label="Direct link to For Interview Preparation (4-5 weeks)" title="Direct link to For Interview Preparation (4-5 weeks)" translate="no">​</a></h3>
 <p><strong>Week 1: Classic Binary Search Foundation</strong>
 Solve all 10 problems from Phase 1. Master the basic template and understand how to avoid off-by-one errors. Practice both iterative and recursive implementations. By the end of this week, you should be able to implement binary search bug-free every time.</p>
@@ -265,65 +265,7 @@ Master parallel binary search. Learn binary search with segment trees. Practice 
 <p><strong>Month 4: Mastery and Speed</strong>
 Combine binary search with DP and other advanced techniques. Practice on 1900+ rated problems. Participate in virtual contests. Focus on recognizing binary search opportunities quickly. Target 25-30 problems.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-study-approach">🎓 Study Approach<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-study-approach" class="hash-link" aria-label="Direct link to 🎓 Study Approach" title="Direct link to 🎓 Study Approach" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interviews">For Interviews<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#for-interviews" class="hash-link" aria-label="Direct link to For Interviews" title="Direct link to For Interviews" translate="no">​</a></h3>
-<p>The key to mastering binary search for interviews is understanding the invariant and avoiding off-by-one errors.</p>
-<p><strong>The Three Templates:</strong></p>
-<ol>
-<li class=""><strong>Template 1</strong>: Classic binary search (finding exact value)</li>
-<li class=""><strong>Template 2</strong>: Finding first/last occurrence (boundary search)</li>
-<li class=""><strong>Template 3</strong>: Binary search on answer</li>
-</ol>
-<p><strong>When you see a problem, ask yourself:</strong></p>
-<ul>
-<li class="">Is the search space monotonic? (if X works, does X+1 also work or fail?)</li>
-<li class="">Can I define a "check" function that returns true/false?</li>
-<li class="">What are my search boundaries?</li>
-<li class="">What should I return if not found?</li>
-</ul>
-<p><strong>Practice approach:</strong></p>
-<ol>
-<li class="">Write the check function first</li>
-<li class="">Determine search boundaries</li>
-<li class="">Choose the right template</li>
-<li class="">Handle edge cases carefully</li>
-<li class="">Test with small examples</li>
-</ol>
-<p><strong>Don't just solve problems - after solving, think about:</strong></p>
-<ul>
-<li class="">Why this search space is monotonic</li>
-<li class="">Could you use a different template?</li>
-<li class="">What's the time complexity of your check function?</li>
-<li class="">How would you explain this to an interviewer?</li>
-</ul>
-<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming">For Competitive Programming<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#for-competitive-programming" class="hash-link" aria-label="Direct link to For Competitive Programming" title="Direct link to For Competitive Programming" translate="no">​</a></h3>
-<p>For CP, you need speed and the ability to recognize non-obvious binary search opportunities.</p>
-<p><strong>Key skills to develop:</strong></p>
-<ul>
-<li class="">Fast pattern recognition from problem statements</li>
-<li class="">Ability to formulate check functions for novel problems</li>
-<li class="">Quick implementation with your preferred template</li>
-<li class="">Understanding when to use floating point binary search</li>
-<li class="">Recognizing parallel binary search opportunities</li>
-</ul>
-<p><strong>Keywords that hint at binary search:</strong></p>
-<ul>
-<li class="">"Minimize the maximum" or "Maximize the minimum"</li>
-<li class="">"At least K" or "At most K"</li>
-<li class="">"Smallest value such that" or "Largest value such that"</li>
-<li class="">Problems with monotonic properties</li>
-<li class="">Optimization problems with feasibility checks</li>
-</ul>
-<p><strong>Advanced CP tips:</strong></p>
-<ul>
-<li class="">Master parallel binary search for multiple queries</li>
-<li class="">Learn to combine binary search with segment trees</li>
-<li class="">Understand ternary search for unimodal functions</li>
-<li class="">Practice fractional/floating point binary search</li>
-<li class="">Build a template library for different variants</li>
-</ul>
-<hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-common-binary-search-patterns">🔍 Common Binary Search Patterns<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-common-binary-search-patterns" class="hash-link" aria-label="Direct link to 🔍 Common Binary Search Patterns" title="Direct link to 🔍 Common Binary Search Patterns" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="common-binary-search-patterns">Common Binary Search Patterns<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#common-binary-search-patterns" class="hash-link" aria-label="Direct link to Common Binary Search Patterns" title="Direct link to Common Binary Search Patterns" translate="no">​</a></h2>
 <p><strong>1. Classic Binary Search</strong> - Finding element in sorted array. Basic template.</p>
 <p><strong>2. Finding Boundaries</strong> - First/last occurrence, lower_bound/upper_bound. Use left/right bias.</p>
 <p><strong>3. Binary Search on Answer</strong> - Minimize maximum or maximize minimum. Define check function.</p>
@@ -335,7 +277,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 <p><strong>9. Binary Search + DP</strong> - Optimize DP with binary search. Convex hull trick applications.</p>
 <p><strong>10. Implicit Binary Search</strong> - Search space not explicitly given. Derive from constraints.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-identifying-binary-search-problems">💡 Identifying Binary Search Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-identifying-binary-search-problems" class="hash-link" aria-label="Direct link to 💡 Identifying Binary Search Problems" title="Direct link to 💡 Identifying Binary Search Problems" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="identifying-binary-search-problems">Identifying Binary Search Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#identifying-binary-search-problems" class="hash-link" aria-label="Direct link to Identifying Binary Search Problems" title="Direct link to Identifying Binary Search Problems" translate="no">​</a></h2>
 <p>A problem likely uses binary search if:</p>
 <ul>
 <li class="">The array/list is sorted (or can be sorted)</li>
@@ -354,7 +296,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 </ul>
 <p><strong>Not every sorted array problem needs binary search</strong> - sometimes two pointers or sliding window is better.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-final-thoughts">🎯 Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#-final-thoughts" class="hash-link" aria-label="Direct link to 🎯 Final Thoughts" title="Direct link to 🎯 Final Thoughts" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-binary-search-guide#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
 <p>Binary Search appears simple but mastering it requires understanding multiple patterns and handling edge cases flawlessly. The progression from basic search to binary search on answer is crucial.</p>
 <p><strong>For interviews</strong>, focus on the three main templates and practice recognizing when to apply each one. Solve 50-60 problems across all patterns and you'll be well-prepared. The key is being able to implement bug-free and explain your approach clearly.</p>
 <p><strong>For competitive programming</strong>, you need to recognize binary search opportunities in problems that don't explicitly mention it. Practice formulating check functions for novel problems. Master parallel binary search and combining binary search with other techniques.</p>
