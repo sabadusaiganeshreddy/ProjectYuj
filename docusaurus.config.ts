@@ -126,6 +126,11 @@ const config: Config = {
         {to: '/ml', label: 'ML', position: 'left'},
         {to: '/system-design', label: 'System Design', position: 'left'},
         {to: '/research', label: 'Research', position: 'left'},
+        {
+          href: 'https://www.linkedin.com/in/saiganeshreddysabadu/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
       ],
     },
     footer: {
