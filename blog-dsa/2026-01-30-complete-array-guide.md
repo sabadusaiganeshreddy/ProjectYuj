@@ -13,7 +13,7 @@ The key insight: Arrays aren't just about storing data sequentially. They're the
 
 ---
 
-## 🎯 Understanding Arrays
+##  Understanding Arrays
 
 **What makes Arrays fundamental?** Arrays are the most basic data structure, but the techniques built on top of them (two pointers, sliding window, prefix sums, Kadane's algorithm) are powerful problem-solving paradigms used everywhere in software engineering and competitive programming.
 
@@ -23,7 +23,7 @@ The key insight: Arrays aren't just about storing data sequentially. They're the
 
 ---
 
-## 📚 Best Learning Resources
+##  Best Learning Resources
 
 ### Video Resources for Interview Prep
 
@@ -76,7 +76,7 @@ The key insight: Arrays aren't just about storing data sequentially. They're the
 
 ---
 
-## 💻 Interview Problems (100 Total)
+##  Interview Problems (100 Total)
 
 ### Phase 1: Array Basics & Traversal (15 problems)
 
@@ -220,7 +220,7 @@ Array problems requiring sorting or custom search patterns.
 
 ---
 
-## 🏆 Competitive Programming Problems
+##  Competitive Programming Problems
 
 ### AtCoder Array Problems (20 problems)
 
@@ -354,7 +354,7 @@ Array problems requiring sorting or custom search patterns.
 
 ---
 
-## 📅 Learning Timeline
+##  Learning Timeline
 
 ### For Interview Preparation (5-6 weeks)
 
@@ -395,7 +395,7 @@ Participate in virtual contests. Practice recognizing patterns quickly. Focus on
 
 ---
 
-## 🎯 Final Thoughts
+##  Final Thoughts
 
 Arrays are the foundation of algorithmic problem solving. Mastering array techniques is essential for both interviews and competitive programming.
 
