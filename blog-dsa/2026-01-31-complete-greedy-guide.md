@@ -7,7 +7,7 @@ tags: [greedy, algorithms, interview-prep, competitive-programming, leetcode]
 
 Hey everyone! Greedy algorithms are one of the most elegant and intuitive problem-solving paradigms in computer science. I've spent years mastering greedy techniques for both interviews and competitive programming, and I want to share a complete guide that will transform how you approach optimization problems.
 
-The key insight: Greedy algorithms are about making locally optimal choices that lead to globally optimal solutions. The challenge isn't implementation—it's recognizing when greedy works and proving correctness. Once you develop this intuition, you'll solve complex problems with surprisingly simple code.
+The key insight: Greedy algorithms are about making locally optimal choices that lead to globally optimal solutions. The challenge isn't implementation, it's recognizing when greedy works and proving correctness. Once you develop this intuition, you'll solve complex problems with surprisingly simple code.
 
 <!--truncate-->
 
