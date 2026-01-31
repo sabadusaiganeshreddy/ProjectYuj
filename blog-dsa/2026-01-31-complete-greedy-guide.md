@@ -13,7 +13,7 @@ The key insight: Greedy algorithms are about making locally optimal choices that
 
 ---
 
-## 🎯 Understanding Greedy Algorithms
+##  Understanding Greedy Algorithms
 
 **What makes Greedy challenging?** The algorithm itself is usually simple, but recognizing greedy opportunities and proving correctness requires deep problem understanding. Not all problems that seem greedy actually have greedy solutions, and distinguishing these cases is crucial.
 
@@ -23,7 +23,7 @@ The key insight: Greedy algorithms are about making locally optimal choices that
 
 ---
 
-## 📚 Best Learning Resources
+##  Best Learning Resources
 
 ### Video Resources for Interview Prep
 
@@ -76,7 +76,7 @@ The key insight: Greedy algorithms are about making locally optimal choices that
 
 ---
 
-## 💻 Interview Problems (90 Total)
+##  Interview Problems (90 Total)
 
 ### Phase 1: Basic Greedy - Sorting First (15 problems)
 
@@ -210,7 +210,7 @@ Complex problems requiring creative greedy insights.
 
 ---
 
-## 🏆 Competitive Programming Problems
+##  Competitive Programming Problems
 
 ### AtCoder Greedy Problems (25 problems)
 
@@ -347,7 +347,7 @@ Complex problems requiring creative greedy insights.
 
 ---
 
-## 📅 Learning Timeline
+##  Learning Timeline
 
 ### For Interview Preparation (5-6 weeks)
 
@@ -388,7 +388,7 @@ Participate in virtual contests. Focus on recognizing greedy opportunities insta
 
 ---
 
-## 🎯 Final Thoughts
+##  Final Thoughts
 
 Greedy algorithms are beautiful because they're simple yet powerful. The challenge isn't implementation—it's recognizing when greedy works and proving correctness.
 
