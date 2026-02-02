@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[2298],{9811(e){e.exports=JSON.parse('{"tags":[{"label":"system-design","permalink":"/ProjectYuj/system-design/tags/system-design","count":1},{"label":"architecture","permalink":"/ProjectYuj/system-design/tags/architecture","count":1}]}')}}]);

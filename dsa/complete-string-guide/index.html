@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-dsa" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Complete String Problems &amp; Resources Guide | SaiGaneshReddy</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Complete String Problems &amp; Resources Guide | SaiGaneshReddy"><meta data-rh="true" name="description" content="Hey everyone! Strings are arguably the most frequently tested topic in technical interviews and competitive programming. I&#x27;ve spent years mastering string algorithms, and I want to share a complete roadmap that covers everything from basic manipulation to advanced pattern matching algorithms."><meta data-rh="true" property="og:description" content="Hey everyone! Strings are arguably the most frequently tested topic in technical interviews and competitive programming. I&#x27;ve spent years mastering string algorithms, and I want to share a complete roadmap that covers everything from basic manipulation to advanced pattern matching algorithms."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2026-01-31T00:00:00.000Z"><meta data-rh="true" property="article:tag" content="strings,two-pointers,sliding-window,pattern-matching,kmp,tries,interview-prep,competitive-programming"><link data-rh="true" rel="icon" href="/ProjectYuj/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide" hreflang="en"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide","mainEntityOfPage":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide","url":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-string-guide","headline":"Complete String Problems & Resources Guide","name":"Complete String Problems & Resources Guide","description":"Hey everyone! Strings are arguably the most frequently tested topic in technical interviews and competitive programming. I've spent years mastering string algorithms, and I want to share a complete roadmap that covers everything from basic manipulation to advanced pattern matching algorithms.","datePublished":"2026-01-31T00:00:00.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa","name":"DSA Guide"}}</script><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N82K9N829E"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-N82K9N829E",{anonymize_ip:!0})</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/dsa/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/dsa/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/ml/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/ml/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/system-design/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/system-design/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/research/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/research/atom.xml" title="SaiGaneshReddy Atom Feed"><link rel="stylesheet" href="/ProjectYuj/assets/css/styles.d4ef6603.css">
+<script src="/ProjectYuj/assets/js/runtime~main.80a8120f.js" defer="defer"></script>
+<script src="/ProjectYuj/assets/js/main.77ece225.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ProjectYuj/"><b class="navbar__title text--truncate">SaiGaneshReddy</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ProjectYuj/dsa">DSA</a><a class="navbar__item navbar__link" href="/ProjectYuj/ml">ML</a><a class="navbar__item navbar__link" href="/ProjectYuj/system-design">System Design</a><a class="navbar__item navbar__link" href="/ProjectYuj/research">Research</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Blogs</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-dynamic-programming-guide">Complete Dynamic Programming Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-graph-guide">Complete Graph Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-greedy-guide">Complete Greedy Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/ProjectYuj/dsa/complete-string-guide">Complete String Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-array-guide">Complete Array Problems &amp; Resources Guide</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">Complete String Problems &amp; Resources Guide</h1><div class="container_mt6G margin-vert--md"><time datetime="2026-01-31T00:00:00.000Z">January 31, 2026</time> · <!-- -->19 min read</div></header><div id="__blog-post-container" class="markdown"><p>Hey everyone! Strings are arguably the most frequently tested topic in technical interviews and competitive programming. I&#x27;ve spent years mastering string algorithms, and I want to share a complete roadmap that covers everything from basic manipulation to advanced pattern matching algorithms.</p>
+<p>String problems aren&#x27;t just about manipulating characters. They require understanding hashing, pattern matching, dynamic programming, sliding windows, two pointers, and even advanced algorithms like KMP, Z-algorithm, and suffix arrays. Master strings, and you&#x27;ll have a massive advantage in any coding challenge.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-strings">Understanding Strings<a href="#understanding-strings" class="hash-link" aria-label="Direct link to Understanding Strings" title="Direct link to Understanding Strings" translate="no">​</a></h2>
+<p><strong>What makes Strings challenging?</strong> Strings combine multiple algorithmic paradigms. A single problem might require two pointers, hash maps, DP, and greedy thinking simultaneously. The variety of techniques needed makes strings both challenging and rewarding to master.</p>
+<p><strong>For Tech Interviews:</strong> You need to master core patterns: two pointers, sliding window, string hashing, palindromes, anagrams, and basic string DP. About 90-110 well-understood problems is ideal. Most interview problems are medium difficulty with focus on optimization and edge case handling.</p>
+<p><strong>For Competitive Programming:</strong> You need deep understanding of advanced algorithms: KMP, Z-algorithm, suffix arrays, Aho-Corasick, Manacher&#x27;s algorithm, and combining strings with other data structures. This requires 180-220+ problems and strong pattern recognition skills.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources">Best Learning Resources<a href="#best-learning-resources" class="hash-link" aria-label="Direct link to Best Learning Resources" title="Direct link to Best Learning Resources" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep">Video Resources for Interview Prep<a href="#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to Video Resources for Interview Prep" title="Direct link to Video Resources for Interview Prep" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO" target="_blank" rel="noopener noreferrer" class="">NeetCode - Strings</a></strong> - Outstanding for learning interview string patterns. Clear explanations with Python implementations. Covers all essential techniques systematically.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF" target="_blank" rel="noopener noreferrer" class="">take U forward (Striver) - Strings Series</a></strong> - Extremely comprehensive coverage with detailed explanations. 35+ hours covering basics through advanced string algorithms. Excellent for deep understanding.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLiQ766zSC5jM9OKVr8sooOuGgZkvnOCTI" target="_blank" rel="noopener noreferrer" class="">Back To Back SWE - String Problems</a></strong> - Great breakdown of thought process and optimization. Excellent for understanding problem-solving approach.</p>
+<p><strong><a href="https://www.youtube.com/watch?v=V5-7GzOfADQ" target="_blank" rel="noopener noreferrer" class="">Abdul Bari - String Matching Algorithms</a></strong> - Best for understanding KMP, Rabin-Karp, and pattern matching theory with crystal clear explanations.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLDV1Zeh2NRsCQ_Educ7GCNs3mvzpXhHW5" target="_blank" rel="noopener noreferrer" class="">William Fiset - String Algorithms</a></strong> - Comprehensive coverage of advanced string algorithms with excellent visualizations.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-competitive-programming">Video Resources for Competitive Programming<a href="#video-resources-for-competitive-programming" class="hash-link" aria-label="Direct link to Video Resources for Competitive Programming" title="Direct link to Video Resources for Competitive Programming" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/c/Errichto" target="_blank" rel="noopener noreferrer" class="">Errichto - String Algorithms</a></strong> - Advanced string techniques for CP. Covers hashing, Z-algorithm, suffix structures, and contest problem walkthroughs.</p>
+<p><strong><a href="https://www.youtube.com/c/SecondThread" target="_blank" rel="noopener noreferrer" class="">SecondThread - String Techniques</a></strong> - Shows how to combine string algorithms with other techniques. Great for advanced optimization.</p>
+<p><strong><a href="https://www.youtube.com/c/CodeNCode" target="_blank" rel="noopener noreferrer" class="">CodeNCode - Advanced Strings</a></strong> - Covers suffix arrays, Aho-Corasick, and advanced pattern matching with competitive programming focus.</p>
+<p><strong><a href="https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w" target="_blank" rel="noopener noreferrer" class="">Algorithms Live! - String Algorithms</a></strong> - Deep dives into advanced algorithms with mathematical rigor.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="written-resources">Written Resources<a href="#written-resources" class="hash-link" aria-label="Direct link to Written Resources" title="Direct link to Written Resources" translate="no">​</a></h3>
+<p><strong>For Interviews:</strong></p>
+<ul>
+<li class=""><a href="https://leetcode.com/explore/learn/card/array-and-string/" target="_blank" rel="noopener noreferrer" class="">LeetCode String Explore Card</a></li>
+<li class=""><a href="https://www.techinterviewhandbook.org/algorithms/string/" target="_blank" rel="noopener noreferrer" class="">Tech Interview Handbook - Strings</a></li>
+<li class=""><a href="https://www.geeksforgeeks.org/string-data-structure/" target="_blank" rel="noopener noreferrer" class="">GeeksforGeeks String Algorithms</a></li>
+<li class=""><a href="https://www.interviewbit.com/courses/programming/topics/strings/" target="_blank" rel="noopener noreferrer" class="">InterviewBit - Strings</a></li>
+</ul>
+<p><strong>For Competitive Programming:</strong></p>
+<ul>
+<li class=""><a href="https://cp-algorithms.com/string/string-hashing.html" target="_blank" rel="noopener noreferrer" class="">CP-Algorithms - String Processing</a></li>
+<li class=""><a href="https://codeforces.com/blog/entry/13861" target="_blank" rel="noopener noreferrer" class="">Codeforces String Algorithms Catalog</a></li>
+<li class=""><a href="https://usaco.guide/gold/string-search" target="_blank" rel="noopener noreferrer" class="">USACO Guide - Strings</a></li>
+<li class=""><a href="https://www.topcoder.com/thrive/articles/Introduction%20to%20String%20Searching%20Algorithms" target="_blank" rel="noopener noreferrer" class="">TopCoder String Algorithms Tutorial</a></li>
+<li class=""><a href="http://e-maxx.ru/algo/" target="_blank" rel="noopener noreferrer" class="">E-Maxx String Algorithms</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="books-worth-reading">Books Worth Reading<a href="#books-worth-reading" class="hash-link" aria-label="Direct link to Books Worth Reading" title="Direct link to Books Worth Reading" translate="no">​</a></h3>
+<p><strong>Cracking the Coding Interview</strong> - Excellent string problems with focus on interview patterns.</p>
+<p><strong>Elements of Programming Interviews</strong> - Great string problems with detailed optimization discussions.</p>
+<p><strong>Competitive Programming 4</strong> - Comprehensive coverage of string algorithms for CP.</p>
+<p><strong>Introduction to Algorithms (CLRS)</strong> - Rigorous treatment of string matching algorithms (KMP, Rabin-Karp).</p>
+<p><strong>Algorithms on Strings, Trees, and Sequences</strong> by Dan Gusfield - The bible for advanced string algorithms.</p>
+<p><strong>String Processing and Information Retrieval</strong> - Advanced topics including suffix trees and arrays.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-110-total">Interview Problems (110 Total)<a href="#interview-problems-110-total" class="hash-link" aria-label="Direct link to Interview Problems (110 Total)" title="Direct link to Interview Problems (110 Total)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-string-basics--manipulation-15-problems">Phase 1: String Basics &amp; Manipulation (15 problems)<a href="#phase-1-string-basics--manipulation-15-problems" class="hash-link" aria-label="Direct link to Phase 1: String Basics &amp; Manipulation (15 problems)" title="Direct link to Phase 1: String Basics &amp; Manipulation (15 problems)" translate="no">​</a></h3>
+<p>Master fundamental operations. Essential foundation for everything else.</p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/valid-anagram/" target="_blank" rel="noopener noreferrer" class="">Valid Anagram</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-string/" target="_blank" rel="noopener noreferrer" class="">Reverse String</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-words-in-a-string/" target="_blank" rel="noopener noreferrer" class="">Reverse Words in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/first-unique-character-in-a-string/" target="_blank" rel="noopener noreferrer" class="">First Unique Character in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/implement-strstr/" target="_blank" rel="noopener noreferrer" class="">Implement strStr()</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-common-prefix/" target="_blank" rel="noopener noreferrer" class="">Longest Common Prefix</a></li>
+<li class=""><a href="https://leetcode.com/problems/add-strings/" target="_blank" rel="noopener noreferrer" class="">Add Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/add-binary/" target="_blank" rel="noopener noreferrer" class="">Add Binary</a></li>
+<li class=""><a href="https://leetcode.com/problems/length-of-last-word/" target="_blank" rel="noopener noreferrer" class="">Length of Last Word</a></li>
+<li class=""><a href="https://leetcode.com/problems/excel-sheet-column-title/" target="_blank" rel="noopener noreferrer" class="">Excel Sheet Column Title</a></li>
+<li class=""><a href="https://leetcode.com/problems/excel-sheet-column-number/" target="_blank" rel="noopener noreferrer" class="">Excel Sheet Column Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/roman-to-integer/" target="_blank" rel="noopener noreferrer" class="">Roman to Integer</a></li>
+<li class=""><a href="https://leetcode.com/problems/integer-to-roman/" target="_blank" rel="noopener noreferrer" class="">Integer to Roman</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-and-say/" target="_blank" rel="noopener noreferrer" class="">Count and Say</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-2-two-pointers--string-processing-15-problems">Phase 2: Two Pointers &amp; String Processing (15 problems)<a href="#phase-2-two-pointers--string-processing-15-problems" class="hash-link" aria-label="Direct link to Phase 2: Two Pointers &amp; String Processing (15 problems)" title="Direct link to Phase 2: Two Pointers &amp; String Processing (15 problems)" translate="no">​</a></h3>
+<p>Essential pattern for optimization. Learn to reduce O(n²) to O(n).</p>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome-ii/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome II</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-vowels-of-a-string/" target="_blank" rel="noopener noreferrer" class="">Reverse Vowels of a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/is-subsequence/" target="_blank" rel="noopener noreferrer" class="">Is Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/long-pressed-name/" target="_blank" rel="noopener noreferrer" class="">Long Pressed Name</a></li>
+<li class=""><a href="https://leetcode.com/problems/backspace-string-compare/" target="_blank" rel="noopener noreferrer" class="">Backspace String Compare</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/" target="_blank" rel="noopener noreferrer" class="">Remove All Adjacent Duplicates In String</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/" target="_blank" rel="noopener noreferrer" class="">Remove All Adjacent Duplicates in String II</a></li>
+<li class=""><a href="https://leetcode.com/problems/string-compression/" target="_blank" rel="noopener noreferrer" class="">String Compression</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome-iii/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome III</a></li>
+<li class=""><a href="https://leetcode.com/problems/compare-version-numbers/" target="_blank" rel="noopener noreferrer" class="">Compare Version Numbers</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-characters-by-frequency/" target="_blank" rel="noopener noreferrer" class="">Sort Characters By Frequency</a></li>
+<li class=""><a href="https://leetcode.com/problems/reorganize-string/" target="_blank" rel="noopener noreferrer" class="">Reorganize String</a></li>
+<li class=""><a href="https://leetcode.com/problems/custom-sort-string/" target="_blank" rel="noopener noreferrer" class="">Custom Sort String</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-window-subsequence/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/" target="_blank" rel="noopener noreferrer" class="">Longest Word in Dictionary through Deleting</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-3-sliding-window-for-strings-15-problems">Phase 3: Sliding Window for Strings (15 problems)<a href="#phase-3-sliding-window-for-strings-15-problems" class="hash-link" aria-label="Direct link to Phase 3: Sliding Window for Strings (15 problems)" title="Direct link to Phase 3: Sliding Window for Strings (15 problems)" translate="no">​</a></h3>
+<p>THE most important pattern for substring problems. Absolutely critical.</p>
+<ol start="31">
+<li class=""><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring Without Repeating Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank" rel="noopener noreferrer" class="">Longest Repeating Character Replacement</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/permutation-in-string/" target="_blank" rel="noopener noreferrer" class="">Permutation in String</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener noreferrer" class="">Find All Anagrams in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/" target="_blank" rel="noopener noreferrer" class="">Substring with Concatenation of All Words</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Size Subarray Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/fruit-into-baskets/" target="_blank" rel="noopener noreferrer" class="">Fruit Into Baskets</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring with At Most K Distinct Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring with At Most Two Distinct Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/subarrays-with-k-different-integers/" target="_blank" rel="noopener noreferrer" class="">Subarrays with K Different Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/get-equal-substrings-within-budget/" target="_blank" rel="noopener noreferrer" class="">Get Equal Substrings Within Budget</a></li>
+<li class=""><a href="https://leetcode.com/problems/max-consecutive-ones-iii/" target="_blank" rel="noopener noreferrer" class="">Max Consecutive Ones III</a></li>
+<li class=""><a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/" target="_blank" rel="noopener noreferrer" class="">Frequency of the Most Frequent Element</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-nice-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Nice Substring</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-4-hash-maps--anagrams-15-problems">Phase 4: Hash Maps &amp; Anagrams (15 problems)<a href="#phase-4-hash-maps--anagrams-15-problems" class="hash-link" aria-label="Direct link to Phase 4: Hash Maps &amp; Anagrams (15 problems)" title="Direct link to Phase 4: Hash Maps &amp; Anagrams (15 problems)" translate="no">​</a></h3>
+<p>Powerful technique for frequency counting and pattern matching.</p>
+<ol start="46">
+<li class=""><a href="https://leetcode.com/problems/group-anagrams/" target="_blank" rel="noopener noreferrer" class="">Group Anagrams</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener noreferrer" class="">Find All Anagrams in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/isomorphic-strings/" target="_blank" rel="noopener noreferrer" class="">Isomorphic Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-pattern/" target="_blank" rel="noopener noreferrer" class="">Word Pattern</a></li>
+<li class=""><a href="https://leetcode.com/problems/ransom-note/" target="_blank" rel="noopener noreferrer" class="">Ransom Note</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-difference/" target="_blank" rel="noopener noreferrer" class="">Find the Difference</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindrome/" target="_blank" rel="noopener noreferrer" class="">Longest Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/subdomain-visit-count/" target="_blank" rel="noopener noreferrer" class="">Subdomain Visit Count</a></li>
+<li class=""><a href="https://leetcode.com/problems/most-common-word/" target="_blank" rel="noopener noreferrer" class="">Most Common Word</a></li>
+<li class=""><a href="https://leetcode.com/problems/uncommon-words-from-two-sentences/" target="_blank" rel="noopener noreferrer" class="">Uncommon Words from Two Sentences</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-email-addresses/" target="_blank" rel="noopener noreferrer" class="">Unique Email Addresses</a></li>
+<li class=""><a href="https://leetcode.com/problems/verifying-an-alien-dictionary/" target="_blank" rel="noopener noreferrer" class="">Verifying an Alien Dictionary</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-word-in-dictionary/" target="_blank" rel="noopener noreferrer" class="">Longest Word in Dictionary</a></li>
+<li class=""><a href="https://leetcode.com/problems/buddy-strings/" target="_blank" rel="noopener noreferrer" class="">Buddy Strings</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-5-palindromes-10-problems">Phase 5: Palindromes (10 problems)<a href="#phase-5-palindromes-10-problems" class="hash-link" aria-label="Direct link to Phase 5: Palindromes (10 problems)" title="Direct link to Phase 5: Palindromes (10 problems)" translate="no">​</a></h3>
+<p>Classic pattern appearing constantly. Master all variations.</p>
+<ol start="61">
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer" class="">Palindromic Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome-iii/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome III</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-palindrome/" target="_blank" rel="noopener noreferrer" class="">Shortest Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-partitioning/" target="_blank" rel="noopener noreferrer" class="">Palindrome Partitioning</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-partitioning-ii/" target="_blank" rel="noopener noreferrer" class="">Palindrome Partitioning II</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-pairs/" target="_blank" rel="noopener noreferrer" class="">Palindrome Pairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-k-palindrome-strings/" target="_blank" rel="noopener noreferrer" class="">Construct K Palindrome Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/break-a-palindrome/" target="_blank" rel="noopener noreferrer" class="">Break a Palindrome</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-6-string-dynamic-programming-15-problems">Phase 6: String Dynamic Programming (15 problems)<a href="#phase-6-string-dynamic-programming-15-problems" class="hash-link" aria-label="Direct link to Phase 6: String Dynamic Programming (15 problems)" title="Direct link to Phase 6: String Dynamic Programming (15 problems)" translate="no">​</a></h3>
+<p>Complex DP patterns on strings. Critical for advanced problems.</p>
+<ol start="71">
+<li class=""><a href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Common Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Delete Operation for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Minimum ASCII Delete Sum for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/interleaving-string/" target="_blank" rel="noopener noreferrer" class="">Interleaving String</a></li>
+<li class=""><a href="https://leetcode.com/problems/scramble-string/" target="_blank" rel="noopener noreferrer" class="">Scramble String</a></li>
+<li class=""><a href="https://leetcode.com/problems/regular-expression-matching/" target="_blank" rel="noopener noreferrer" class="">Regular Expression Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/wildcard-matching/" target="_blank" rel="noopener noreferrer" class="">Wildcard Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-valid-parentheses/" target="_blank" rel="noopener noreferrer" class="">Longest Valid Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways/" target="_blank" rel="noopener noreferrer" class="">Decode Ways</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways-ii/" target="_blank" rel="noopener noreferrer" class="">Decode Ways II</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-different-palindromic-subsequences/" target="_blank" rel="noopener noreferrer" class="">Count Different Palindromic Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/" target="_blank" rel="noopener noreferrer" class="">Minimum Insertion Steps to Make a String Palindrome</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-7-pattern-matching--tries-10-problems">Phase 7: Pattern Matching &amp; Tries (10 problems)<a href="#phase-7-pattern-matching--tries-10-problems" class="hash-link" aria-label="Direct link to Phase 7: Pattern Matching &amp; Tries (10 problems)" title="Direct link to Phase 7: Pattern Matching &amp; Tries (10 problems)" translate="no">​</a></h3>
+<p>Advanced pattern matching with efficient data structures.</p>
+<ol start="86">
+<li class=""><a href="https://leetcode.com/problems/implement-trie-prefix-tree/" target="_blank" rel="noopener noreferrer" class="">Implement Trie (Prefix Tree)</a></li>
+<li class=""><a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/" target="_blank" rel="noopener noreferrer" class="">Add and Search Word - Data structure design</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer" class="">Word Search II</a></li>
+<li class=""><a href="https://leetcode.com/problems/replace-words/" target="_blank" rel="noopener noreferrer" class="">Replace Words</a></li>
+<li class=""><a href="https://leetcode.com/problems/prefix-and-suffix-search/" target="_blank" rel="noopener noreferrer" class="">Prefix and Suffix Search</a></li>
+<li class=""><a href="https://leetcode.com/problems/concatenated-words/" target="_blank" rel="noopener noreferrer" class="">Concatenated Words</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Maximum XOR of Two Numbers in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer" class="">Word Break</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-break-ii/" target="_blank" rel="noopener noreferrer" class="">Word Break II</a></li>
+<li class=""><a href="https://leetcode.com/problems/stream-of-characters/" target="_blank" rel="noopener noreferrer" class="">Stream of Characters</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-8-advanced-string-techniques-15-problems">Phase 8: Advanced String Techniques (15 problems)<a href="#phase-8-advanced-string-techniques-15-problems" class="hash-link" aria-label="Direct link to Phase 8: Advanced String Techniques (15 problems)" title="Direct link to Phase 8: Advanced String Techniques (15 problems)" translate="no">​</a></h3>
+<p>Combining multiple patterns and advanced optimization.</p>
+<ol start="96">
+<li class=""><a href="https://leetcode.com/problems/text-justification/" target="_blank" rel="noopener noreferrer" class="">Text Justification</a></li>
+<li class=""><a href="https://leetcode.com/problems/multiply-strings/" target="_blank" rel="noopener noreferrer" class="">Multiply Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/basic-calculator/" target="_blank" rel="noopener noreferrer" class="">Basic Calculator</a></li>
+<li class=""><a href="https://leetcode.com/problems/basic-calculator-ii/" target="_blank" rel="noopener noreferrer" class="">Basic Calculator II</a></li>
+<li class=""><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/" target="_blank" rel="noopener noreferrer" class="">Evaluate Reverse Polish Notation</a></li>
+<li class=""><a href="https://leetcode.com/problems/simplify-path/" target="_blank" rel="noopener noreferrer" class="">Simplify Path</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-number/" target="_blank" rel="noopener noreferrer" class="">Valid Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-string/" target="_blank" rel="noopener noreferrer" class="">Decode String</a></li>
+<li class=""><a href="https://leetcode.com/problems/encode-and-decode-strings/" target="_blank" rel="noopener noreferrer" class="">Encode and Decode Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/one-edit-distance/" target="_blank" rel="noopener noreferrer" class="">One Edit Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-absolute-file-path/" target="_blank" rel="noopener noreferrer" class="">Longest Absolute File Path</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-invalid-parentheses/" target="_blank" rel="noopener noreferrer" class="">Remove Invalid Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/different-ways-to-add-parentheses/" target="_blank" rel="noopener noreferrer" class="">Different Ways to Add Parentheses</a></li>
+<li class=""><a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" target="_blank" rel="noopener noreferrer" class="">Serialize and Deserialize Binary Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/design-compressed-string-iterator/" target="_blank" rel="noopener noreferrer" class="">Encoded String Iterator</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems">Competitive Programming Problems<a href="#competitive-programming-problems" class="hash-link" aria-label="Direct link to Competitive Programming Problems" title="Direct link to Competitive Programming Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-string-problems-25-problems">AtCoder String Problems (25 problems)<a href="#atcoder-string-problems-25-problems" class="hash-link" aria-label="Direct link to AtCoder String Problems (25 problems)" title="Direct link to AtCoder String Problems (25 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/abc076/tasks/abc076_c" target="_blank" rel="noopener noreferrer" class="">ABC 076 C - Dubious Document</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc091/tasks/arc092_a" target="_blank" rel="noopener noreferrer" class="">ABC 091 C - 2D Plane 2N Points</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc104/tasks/abc104_c" target="_blank" rel="noopener noreferrer" class="">ABC 104 C - All Green</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc110/tasks/abc110_c" target="_blank" rel="noopener noreferrer" class="">ABC 110 C - String Transformation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc137/tasks/abc137_d" target="_blank" rel="noopener noreferrer" class="">ABC 137 D - Summer Vacation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc141/tasks/abc141_e" target="_blank" rel="noopener noreferrer" class="">ABC 141 E - Who Says a Pun?</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc152/tasks/abc152_e" target="_blank" rel="noopener noreferrer" class="">ABC 152 E - Flatten</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc158/tasks/abc158_d" target="_blank" rel="noopener noreferrer" class="">ABC 158 D - String Formation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc171/tasks/abc171_d" target="_blank" rel="noopener noreferrer" class="">ABC 171 D - Replacing</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc177/tasks/abc177_e" target="_blank" rel="noopener noreferrer" class="">ABC 177 E - Coprime</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc191/tasks/abc191_d" target="_blank" rel="noopener noreferrer" class="">ABC 191 D - Circle Lattice Points</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc206/tasks/abc206_d" target="_blank" rel="noopener noreferrer" class="">ABC 206 D - KAIBUNsyo</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc213/tasks/abc213_d" target="_blank" rel="noopener noreferrer" class="">ABC 213 D - Takahashi Tour</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc227/tasks/abc227_d" target="_blank" rel="noopener noreferrer" class="">ABC 227 D - Project Planning</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc236/tasks/abc236_d" target="_blank" rel="noopener noreferrer" class="">ABC 236 D - Dance</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc243/tasks/abc243_e" target="_blank" rel="noopener noreferrer" class="">ABC 243 E - Edge Deletion</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc259/tasks/abc259_d" target="_blank" rel="noopener noreferrer" class="">ABC 259 D - Circumferences</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc268/tasks/abc268_e" target="_blank" rel="noopener noreferrer" class="">ABC 268 E - Chinese Restaurant (Guest)</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc272/tasks/abc272_d" target="_blank" rel="noopener noreferrer" class="">ABC 272 D - Root M Leaper</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc284/tasks/abc284_e" target="_blank" rel="noopener noreferrer" class="">ABC 284 E - Count Simple Paths</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc061/tasks/arc061_b" target="_blank" rel="noopener noreferrer" class="">ARC 061 D - Snuke&#x27;s Coloring</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc081/tasks/arc081_b" target="_blank" rel="noopener noreferrer" class="">ARC 081 D - Flip and Rectangles</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc298/tasks/abc298_e" target="_blank" rel="noopener noreferrer" class="">ABC 298 E - Unfair Sugoroku</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc310/tasks/abc310_d" target="_blank" rel="noopener noreferrer" class="">ABC 310 D - Peaceful Teams</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc318/tasks/abc318_e" target="_blank" rel="noopener noreferrer" class="">ABC 318 E - Sandwiches</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="cses-string-problems-15-problems">CSES String Problems (15 problems)<a href="#cses-string-problems-15-problems" class="hash-link" aria-label="Direct link to CSES String Problems (15 problems)" title="Direct link to CSES String Problems (15 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1731" target="_blank" rel="noopener noreferrer" class="">Word Combinations</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1753" target="_blank" rel="noopener noreferrer" class="">String Matching</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1732" target="_blank" rel="noopener noreferrer" class="">Finding Borders</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1733" target="_blank" rel="noopener noreferrer" class="">Finding Periods</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1110" target="_blank" rel="noopener noreferrer" class="">Minimal Rotation</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1111" target="_blank" rel="noopener noreferrer" class="">Longest Palindrome</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1112" target="_blank" rel="noopener noreferrer" class="">Required Substring</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2420" target="_blank" rel="noopener noreferrer" class="">Palindrome Queries</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2102" target="_blank" rel="noopener noreferrer" class="">Finding Patterns</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2103" target="_blank" rel="noopener noreferrer" class="">Counting Patterns</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2104" target="_blank" rel="noopener noreferrer" class="">Pattern Positions</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2105" target="_blank" rel="noopener noreferrer" class="">Distinct Substrings</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2106" target="_blank" rel="noopener noreferrer" class="">Repeating Substring</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2107" target="_blank" rel="noopener noreferrer" class="">String Functions</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2108" target="_blank" rel="noopener noreferrer" class="">Substring Order I</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="codeforces-string-problems-by-rating">Codeforces String Problems by Rating<a href="#codeforces-string-problems-by-rating" class="hash-link" aria-label="Direct link to Codeforces String Problems by Rating" title="Direct link to Codeforces String Problems by Rating" translate="no">​</a></h3>
+<p><strong>Rating 800-1000 (Beginner):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/B" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - B - Trace</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/B" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - B - Substrings Sort</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1108/B" target="_blank" rel="noopener noreferrer" class="">Round 535 Div3 - B - Diverse Strings</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1399/B" target="_blank" rel="noopener noreferrer" class="">Round 661 Div3 - B - Gifts Fixing</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1472/B" target="_blank" rel="noopener noreferrer" class="">Round 693 Div3 - B - Fair Division</a></li>
+</ol>
+<p><strong>Rating 1000-1200 (Easy):</strong></p>
+<ol start="6">
+<li class=""><a href="https://codeforces.com/problemset/problem/631/B" target="_blank" rel="noopener noreferrer" class="">Round 344 Div2 - B - Print Check</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/699/B" target="_blank" rel="noopener noreferrer" class="">Round 363 Div2 - B - One Bomb</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/738/B" target="_blank" rel="noopener noreferrer" class="">Round 380 Div2 - B - Spotlights</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/C" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - C - Equal Sums</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1108/C" target="_blank" rel="noopener noreferrer" class="">Round 535 Div3 - C - Edgy Trees</a></li>
+</ol>
+<p><strong>Rating 1200-1400 (Medium):</strong></p>
+<ol start="11">
+<li class=""><a href="https://codeforces.com/problemset/problem/448/B" target="_blank" rel="noopener noreferrer" class="">Round 256 Div2 - B - Suffix Structures</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/496/B" target="_blank" rel="noopener noreferrer" class="">Round 283 Div2 - B - Bakery</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/510/B" target="_blank" rel="noopener noreferrer" class="">Round 290 Div2 - B - Fox And Two Dots</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/586/B" target="_blank" rel="noopener noreferrer" class="">Round 325 Div2 - B - Laurenty and Shop</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/641/B" target="_blank" rel="noopener noreferrer" class="">Round 348 Div2 - B - Little Robber Girl&#x27;s Zoo</a></li>
+</ol>
+<p><strong>Rating 1400-1600 (Advanced):</strong></p>
+<ol start="16">
+<li class=""><a href="https://codeforces.com/problemset/problem/425/C" target="_blank" rel="noopener noreferrer" class="">Round 243 Div2 - C - Sereja and Swaps</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/468/C" target="_blank" rel="noopener noreferrer" class="">Round 268 Div2 - C - The Sports Festival</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/501/B" target="_blank" rel="noopener noreferrer" class="">Round 285 Div2 - B - Misha and Changing Handles</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/B" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - B - Kefa and Company</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/617/C" target="_blank" rel="noopener noreferrer" class="">Round 340 Div2 - C - Watering Flowers</a></li>
+</ol>
+<p><strong>Rating 1600-1800 (Expert):</strong></p>
+<ol start="21">
+<li class=""><a href="https://codeforces.com/problemset/problem/399/D" target="_blank" rel="noopener noreferrer" class="">Round 233 Div2 - D - Sereja and Squares</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/448/C" target="_blank" rel="noopener noreferrer" class="">Round 256 Div2 - C - Painting Fence</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/510/D" target="_blank" rel="noopener noreferrer" class="">Round 290 Div2 - D - Fox And Jumping</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/587/D" target="_blank" rel="noopener noreferrer" class="">Round 325 Div2 - D - River Locks</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/698/D" target="_blank" rel="noopener noreferrer" class="">Round 363 Div2 - D - Fix a Tree</a></li>
+</ol>
+<p><strong>Rating 1800-2000 (Candidate Master):</strong></p>
+<ol start="26">
+<li class=""><a href="https://codeforces.com/problemset/problem/363/D" target="_blank" rel="noopener noreferrer" class="">Round 211 Div2 - D - Sereja and Cinema</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/425/D" target="_blank" rel="noopener noreferrer" class="">Round 243 Div2 - D - Sereja and Squares</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/468/D" target="_blank" rel="noopener noreferrer" class="">Round 268 Div2 - D - Two Sets</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/501/D" target="_blank" rel="noopener noreferrer" class="">Round 285 Div2 - D - Misha and Permutations Summation</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/D" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - D - Kefa and Dishes</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="advanced-cp-topics">Advanced CP Topics<a href="#advanced-cp-topics" class="hash-link" aria-label="Direct link to Advanced CP Topics" title="Direct link to Advanced CP Topics" translate="no">​</a></h3>
+<p><strong>String Hashing:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/271/D" target="_blank" rel="noopener noreferrer" class="">CF - Good Substrings</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/432/D" target="_blank" rel="noopener noreferrer" class="">CF - Prefixes and Suffixes</a></li>
+<li class=""><a href="https://www.spoj.com/problems/NHAY/" target="_blank" rel="noopener noreferrer" class="">SPOJ - NHAY</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/126/B" target="_blank" rel="noopener noreferrer" class="">CF - Password</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc141/tasks/abc141_e" target="_blank" rel="noopener noreferrer" class="">AtCoder - Similar String</a></li>
+</ol>
+<p><strong>KMP Algorithm:</strong></p>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/NAJPF/" target="_blank" rel="noopener noreferrer" class="">SPOJ - PATTERN FIND</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/808/G" target="_blank" rel="noopener noreferrer" class="">CF - Anthem of Berland</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1732" target="_blank" rel="noopener noreferrer" class="">CSES - Finding Borders</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/126/B" target="_blank" rel="noopener noreferrer" class="">CF - Password</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc284/tasks/abc284_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Many Replacement</a></li>
+</ol>
+<p><strong>Z-Algorithm:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/432/D" target="_blank" rel="noopener noreferrer" class="">CF - Prefixes and Suffixes</a></li>
+<li class=""><a href="https://www.spoj.com/problems/PERIOD/" target="_blank" rel="noopener noreferrer" class="">SPOJ - PERIOD</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1733" target="_blank" rel="noopener noreferrer" class="">CSES - Finding Periods</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1628/D2" target="_blank" rel="noopener noreferrer" class="">CF - Second Largest Query</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc284/tasks/abc284_e" target="_blank" rel="noopener noreferrer" class="">AtCoder - String Cards</a></li>
+</ol>
+<p><strong>Suffix Arrays &amp; LCP:</strong></p>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/SUBST1/" target="_blank" rel="noopener noreferrer" class="">SPOJ - SUBST1</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/956/D" target="_blank" rel="noopener noreferrer" class="">CF - Cyclic String</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2105" target="_blank" rel="noopener noreferrer" class="">CSES - Distinct Substrings</a></li>
+<li class=""><a href="https://www.spoj.com/problems/LCS/" target="_blank" rel="noopener noreferrer" class="">SPOJ - LCS</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/873/F" target="_blank" rel="noopener noreferrer" class="">CF - Forbidden Indices</a></li>
+</ol>
+<p><strong>Aho-Corasick:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/710/F" target="_blank" rel="noopener noreferrer" class="">CF - DNA Alignment</a></li>
+<li class=""><a href="https://www.spoj.com/problems/WPUZZLES/" target="_blank" rel="noopener noreferrer" class="">SPOJ - WPUZZLES</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1080/E" target="_blank" rel="noopener noreferrer" class="">CF - Sonya and Matrix Beauty</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc268/tasks/abc268_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Many Moves</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2102" target="_blank" rel="noopener noreferrer" class="">CSES - Finding Patterns</a></li>
+</ol>
+<p><strong>Manacher&#x27;s Algorithm (Palindromes):</strong></p>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/MSUBSTR/" target="_blank" rel="noopener noreferrer" class="">SPOJ - MSUBSTR</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/932/F" target="_blank" rel="noopener noreferrer" class="">CF - Palindrome Partition</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1111" target="_blank" rel="noopener noreferrer" class="">CSES - Longest Palindrome</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1326/D2" target="_blank" rel="noopener noreferrer" class="">CF - Prefix-Suffix Palindrome</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc251/tasks/abc251_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Palindromic Path</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline">Learning Timeline<a href="#learning-timeline" class="hash-link" aria-label="Direct link to Learning Timeline" title="Direct link to Learning Timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-6-7-weeks">For Interview Preparation (6-7 weeks)<a href="#for-interview-preparation-6-7-weeks" class="hash-link" aria-label="Direct link to For Interview Preparation (6-7 weeks)" title="Direct link to For Interview Preparation (6-7 weeks)" translate="no">​</a></h3>
+<p><strong>Week 1: String Fundamentals</strong>
+Solve all 15 problems from Phase 1. Master basic string operations: traversal, manipulation, conversion, validation. Understand immutability in different languages. Practice explaining your approach clearly.</p>
+<p><strong>Week 2: Two Pointers &amp; String Processing</strong>
+Complete all 15 problems from Phase 2. Learn to use two pointers for string problems. Understand when to use two pointers vs other techniques. This pattern appears constantly in interviews.</p>
+<p><strong>Week 3: Sliding Window Mastery</strong>
+Solve all 15 problems from Phase 3. THE most critical pattern for substring problems. Master both fixed-size and variable-size windows. Understand the expand/shrink mechanism with frequency maps.</p>
+<p><strong>Week 4: Hash Maps &amp; Anagrams</strong>
+Complete Phase 4 (15 problems). Master frequency counting and anagram detection. Learn to use hash maps effectively for optimization. Understand the pattern of tracking character frequencies.</p>
+<p><strong>Week 5: Palindromes &amp; String DP</strong>
+Solve Phase 5 (10 problems) and start Phase 6 (15 problems). Master palindrome detection and expansion. Begin learning string DP patterns. These are classic interview topics.</p>
+<p><strong>Week 6: Advanced Patterns</strong>
+Complete Phase 6 and start Phase 7. Master string DP completely. Learn Trie data structure and pattern matching. Understand when to use each technique.</p>
+<p><strong>Week 7: Final Polish &amp; Review</strong>
+Complete Phase 7 and Phase 8. Practice mixed problems. Do mock interviews focusing on string problems. Review weak areas. Practice explaining your thought process clearly.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming-5-6-months">For Competitive Programming (5-6 months)<a href="#for-competitive-programming-5-6-months" class="hash-link" aria-label="Direct link to For Competitive Programming (5-6 months)" title="Direct link to For Competitive Programming (5-6 months)" translate="no">​</a></h3>
+<p><strong>Month 1: Strong Foundation</strong>
+Complete all CSES string problems 1-10. Solve AtCoder problems 1-15. Practice Codeforces 800-1200 rated problems. Master basic string manipulation and sliding window. Target 60-70 problems.</p>
+<p><strong>Month 2: Hashing &amp; Pattern Matching</strong>
+Learn polynomial string hashing deeply. Implement KMP algorithm. Solve 1200-1500 rated problems focused on pattern matching. Complete remaining CSES problems. Target 50-60 problems.</p>
+<p><strong>Month 3: Advanced Algorithms</strong>
+Master Z-algorithm. Learn suffix arrays and LCP arrays. Start with Aho-Corasick for multiple pattern matching. Solve 1500-1700 rated problems. Target 40-50 problems.</p>
+<p><strong>Month 4: Palindromes &amp; Optimization</strong>
+Implement Manacher&#x27;s algorithm. Master palindrome-related problems. Learn advanced hashing techniques. Solve 1600-1800 rated problems. Target 35-45 problems.</p>
+<p><strong>Month 5: Advanced Structures</strong>
+Deep dive into suffix trees and suffix automata. Learn advanced string DP. Combine strings with other data structures. Solve 1700-1900 rated problems. Target 30-40 problems.</p>
+<p><strong>Month 6: Mastery &amp; Speed</strong>
+Participate in virtual contests. Focus on recognizing patterns quickly. Practice implementation speed. Solve 1900+ rated problems. Combine multiple string algorithms. Target 25-30 problems.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Strings are the most versatile topic in programming interviews and competitive programming. They combine multiple algorithmic paradigms and require both pattern recognition and implementation skills.</p>
+<p><strong>For interviews</strong>, focus on the six main patterns: two pointers, sliding window, hash maps, palindromes, string DP, and Tries. Solve 90-110 problems across all patterns and you&#x27;ll be extremely well-prepared. The key is recognizing which pattern applies and implementing it cleanly.</p>
+<p><strong>For competitive programming</strong>, you need to master advanced algorithms: KMP, Z-algorithm, suffix arrays, Aho-Corasick, and Manacher&#x27;s. Practice combining these with other techniques and building efficient implementations.</p>
+<p>Remember: Strings test your ability to think about problems from multiple angles. Master the fundamentals first, then progressively tackle more complex problems. With consistent practice, you&#x27;ll develop the pattern recognition skills needed to excel in any string problem.</p>
+<p>Happy coding! 🚀</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/strings">strings</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/two-pointers">two-pointers</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/sliding-window">sliding-window</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/pattern-matching">pattern-matching</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/kmp">kmp</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/tries">tries</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/interview-prep">interview-prep</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/competitive-programming">competitive-programming</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/ProjectYuj/dsa/complete-greedy-guide"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Complete Greedy Problems &amp; Resources Guide</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ProjectYuj/dsa/complete-array-guide"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Complete Array Problems &amp; Resources Guide</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#understanding-strings" class="table-of-contents__link toc-highlight">Understanding Strings</a></li><li><a href="#best-learning-resources" class="table-of-contents__link toc-highlight">Best Learning Resources</a><ul><li><a href="#video-resources-for-interview-prep" class="table-of-contents__link toc-highlight">Video Resources for Interview Prep</a></li><li><a href="#video-resources-for-competitive-programming" class="table-of-contents__link toc-highlight">Video Resources for Competitive Programming</a></li><li><a href="#written-resources" class="table-of-contents__link toc-highlight">Written Resources</a></li><li><a href="#books-worth-reading" class="table-of-contents__link toc-highlight">Books Worth Reading</a></li></ul></li><li><a href="#interview-problems-110-total" class="table-of-contents__link toc-highlight">Interview Problems (110 Total)</a><ul><li><a href="#phase-1-string-basics--manipulation-15-problems" class="table-of-contents__link toc-highlight">Phase 1: String Basics &amp; Manipulation (15 problems)</a></li><li><a href="#phase-2-two-pointers--string-processing-15-problems" class="table-of-contents__link toc-highlight">Phase 2: Two Pointers &amp; String Processing (15 problems)</a></li><li><a href="#phase-3-sliding-window-for-strings-15-problems" class="table-of-contents__link toc-highlight">Phase 3: Sliding Window for Strings (15 problems)</a></li><li><a href="#phase-4-hash-maps--anagrams-15-problems" class="table-of-contents__link toc-highlight">Phase 4: Hash Maps &amp; Anagrams (15 problems)</a></li><li><a href="#phase-5-palindromes-10-problems" class="table-of-contents__link toc-highlight">Phase 5: Palindromes (10 problems)</a></li><li><a href="#phase-6-string-dynamic-programming-15-problems" class="table-of-contents__link toc-highlight">Phase 6: String Dynamic Programming (15 problems)</a></li><li><a href="#phase-7-pattern-matching--tries-10-problems" class="table-of-contents__link toc-highlight">Phase 7: Pattern Matching &amp; Tries (10 problems)</a></li><li><a href="#phase-8-advanced-string-techniques-15-problems" class="table-of-contents__link toc-highlight">Phase 8: Advanced String Techniques (15 problems)</a></li></ul></li><li><a href="#competitive-programming-problems" class="table-of-contents__link toc-highlight">Competitive Programming Problems</a><ul><li><a href="#atcoder-string-problems-25-problems" class="table-of-contents__link toc-highlight">AtCoder String Problems (25 problems)</a></li><li><a href="#cses-string-problems-15-problems" class="table-of-contents__link toc-highlight">CSES String Problems (15 problems)</a></li><li><a href="#codeforces-string-problems-by-rating" class="table-of-contents__link toc-highlight">Codeforces String Problems by Rating</a></li><li><a href="#advanced-cp-topics" class="table-of-contents__link toc-highlight">Advanced CP Topics</a></li></ul></li><li><a href="#learning-timeline" class="table-of-contents__link toc-highlight">Learning Timeline</a><ul><li><a href="#for-interview-preparation-6-7-weeks" class="table-of-contents__link toc-highlight">For Interview Preparation (6-7 weeks)</a></li><li><a href="#for-competitive-programming-5-6-months" class="table-of-contents__link toc-highlight">For Competitive Programming (5-6 months)</a></li></ul></li><li><a href="#final-thoughts" class="table-of-contents__link toc-highlight">Final Thoughts</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Blog Sections</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/dsa">DSA</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/ml">Machine Learning</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/system-design">System Design</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/research">Research Papers</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Connect</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://leetcode.com/u/saiganesh_reddy/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LeetCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:sabadu.sai.reddy@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 SaiGaneshReddy. All rights reserved.</div></div></div></footer></div>
+</body>
+</html>

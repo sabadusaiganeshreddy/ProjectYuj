@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[4898],{1662(s){s.exports=JSON.parse('{"blogBasePath":"/ProjectYuj/dsa","blogTitle":"DSA Guide","authorsListPath":"/ProjectYuj/dsa/authors"}')}}]);

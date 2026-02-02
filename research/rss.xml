@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SaiGaneshReddy Blog</title>
+        <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/research</link>
+        <description>SaiGaneshReddy Blog</description>
+        <lastBuildDate>Sat, 24 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to Research Papers]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/research/welcome-research</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/research/welcome-research</guid>
+            <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to Research Paper explanations.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to Research Paper explanations.</p>]]></content:encoded>
+            <category>research</category>
+            <category>paper-review</category>
+        </item>
+    </channel>
+</rss>

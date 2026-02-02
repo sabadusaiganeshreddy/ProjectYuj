@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-dsa" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Complete Graph Problems &amp; Resources Guide | SaiGaneshReddy</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Complete Graph Problems &amp; Resources Guide | SaiGaneshReddy"><meta data-rh="true" name="description" content="Hey everyone! I&#x27;ve been working on graph problems for both tech interviews and competitive programming, and I wanted to share a comprehensive guide that covers both aspects. Many resources focus on just one side, but mastering graphs requires understanding both the interview patterns and the deeper algorithmic concepts used in CP."><meta data-rh="true" property="og:description" content="Hey everyone! I&#x27;ve been working on graph problems for both tech interviews and competitive programming, and I wanted to share a comprehensive guide that covers both aspects. Many resources focus on just one side, but mastering graphs requires understanding both the interview patterns and the deeper algorithmic concepts used in CP."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2026-02-02T00:00:00.000Z"><meta data-rh="true" property="article:tag" content="dsa,graphs,bfs,dfs,dijkstra,competitive-programming,interview-prep,algorithms"><link data-rh="true" rel="icon" href="/ProjectYuj/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide" hreflang="en"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide","mainEntityOfPage":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide","url":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-graph-guide","headline":"Complete Graph Problems & Resources Guide","name":"Complete Graph Problems & Resources Guide","description":"Hey everyone! I've been working on graph problems for both tech interviews and competitive programming, and I wanted to share a comprehensive guide that covers both aspects. Many resources focus on just one side, but mastering graphs requires understanding both the interview patterns and the deeper algorithmic concepts used in CP.","datePublished":"2026-02-02T00:00:00.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa","name":"DSA Guide"}}</script><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N82K9N829E"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-N82K9N829E",{anonymize_ip:!0})</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/dsa/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/dsa/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/ml/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/ml/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/system-design/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/system-design/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/research/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/research/atom.xml" title="SaiGaneshReddy Atom Feed"><link rel="stylesheet" href="/ProjectYuj/assets/css/styles.d4ef6603.css">
+<script src="/ProjectYuj/assets/js/runtime~main.80a8120f.js" defer="defer"></script>
+<script src="/ProjectYuj/assets/js/main.77ece225.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ProjectYuj/"><b class="navbar__title text--truncate">SaiGaneshReddy</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ProjectYuj/dsa">DSA</a><a class="navbar__item navbar__link" href="/ProjectYuj/ml">ML</a><a class="navbar__item navbar__link" href="/ProjectYuj/system-design">System Design</a><a class="navbar__item navbar__link" href="/ProjectYuj/research">Research</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Blogs</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-dynamic-programming-guide">Complete Dynamic Programming Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/ProjectYuj/dsa/complete-graph-guide">Complete Graph Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-greedy-guide">Complete Greedy Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-string-guide">Complete String Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-array-guide">Complete Array Problems &amp; Resources Guide</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">Complete Graph Problems &amp; Resources Guide</h1><div class="container_mt6G margin-vert--md"><time datetime="2026-02-02T00:00:00.000Z">February 2, 2026</time> · <!-- -->14 min read</div></header><div id="__blog-post-container" class="markdown"><p>Hey everyone! I&#x27;ve been working on graph problems for both tech interviews and competitive programming, and I wanted to share a comprehensive guide that covers both aspects. Many resources focus on just one side, but mastering graphs requires understanding both the interview patterns and the deeper algorithmic concepts used in CP.</p>
+<p>This guide includes curated problem lists, the best learning resources I&#x27;ve found, and a clear roadmap for both paths.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-the-two-approaches"><strong>Understanding the Two Approaches</strong><a href="#understanding-the-two-approaches" class="hash-link" aria-label="Direct link to understanding-the-two-approaches" title="Direct link to understanding-the-two-approaches" translate="no">​</a></h2>
+<p><strong>For Tech Interviews:</strong> You need pattern recognition across 10-12 core patterns, clean code, and the ability to explain your approach clearly. About 80-100 well-understood problems is enough to crack most interviews. Focus on BFS, DFS, Topological Sort, Dijkstra, and Union-Find.</p>
+<p><strong>For Competitive Programming:</strong> You need algorithmic depth, fast implementation with templates, and mastery of advanced algorithms. This requires 300+ problems and participation in contests. Everything from interviews plus advanced topics like SCC, HLD, Max Flow, and more.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources"><strong>Best Learning Resources</strong><a href="#best-learning-resources" class="hash-link" aria-label="Direct link to best-learning-resources" title="Direct link to best-learning-resources" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep"><strong>Video Resources for Interview Prep</strong><a href="#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to video-resources-for-interview-prep" title="Direct link to video-resources-for-interview-prep" translate="no">​</a></h3>
+<p><strong>NeetCode - Graph Playlist</strong> The best resource for learning interview patterns. Clear explanations with Python code covering 15 essential problems. It takes about 4-5 hours total.</p>
+<p><strong>take U forward (Striver) - Graph Series</strong> Comprehensive coverage with 50+ problems and all important algorithms. His explanations are detailed with C++/Java code. This is gold for interview prep, around 25-30 hours of content.</p>
+<p><strong>Abdul Bari - Graph Algorithms</strong> Perfect for understanding concepts deeply. His whiteboard teaching style makes complex algorithms crystal clear. About 15-20 hours of theory.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-competitive-programming"><strong>Video Resources for Competitive Programming</strong><a href="#video-resources-for-competitive-programming" class="hash-link" aria-label="Direct link to video-resources-for-competitive-programming" title="Direct link to video-resources-for-competitive-programming" translate="no">​</a></h3>
+<p><strong>William Fiset - Graph Theory</strong> Must-watch for CP. Complete graph theory course covering everything from basics to advanced algorithms like Tarjan&#x27;s, Network Flow, and Bridges. About 10 hours total.</p>
+<p><strong>Errichto - Contest Streams</strong> Watch his live problem solving for advanced CP techniques. Great for seeing how top coders approach graph problems in real contests.</p>
+<p><strong>Colin Galen</strong> Excellent educational content on specific graph topics and optimizations for competitive programming.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="written-resources"><strong>Written Resources</strong><a href="#written-resources" class="hash-link" aria-label="Direct link to written-resources" title="Direct link to written-resources" translate="no">​</a></h3>
+<p><strong>For Interviews:</strong></p>
+<ul>
+<li class="">LeetCode Discuss section for graph problems</li>
+<li class="">GeeksforGeeks Graph Data Structure section</li>
+<li class="">Tech Interview Handbook for quick revision</li>
+</ul>
+<p><strong>For Competitive Programming:</strong></p>
+<ul>
+<li class="">CP-Algorithms (cp-algorithms.com) - In-depth explanations with proofs for every algorithm</li>
+<li class="">USACO Guide - Structured learning path from Bronze to Platinum</li>
+<li class="">Codeforces Catalog - Problems organized by technique</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="books-worth-reading"><strong>Books Worth Reading</strong><a href="#books-worth-reading" class="hash-link" aria-label="Direct link to books-worth-reading" title="Direct link to books-worth-reading" translate="no">​</a></h3>
+<p><strong>Cracking the Coding Interview</strong> - Chapter 4 covers trees and graphs, essential for FAANG prep</p>
+<p><strong>Competitive Programming 4 by Steven Halim</strong> - The bible for CP, extensive graph coverage across multiple chapters</p>
+<p><strong>Competitive Programmer&#x27;s Handbook by Antti Laaksonen</strong> - Excellent practical coverage, free PDF available at cses.fi/book</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-80-total"><strong>Interview Problems (80 Total)</strong><a href="#interview-problems-80-total" class="hash-link" aria-label="Direct link to interview-problems-80-total" title="Direct link to interview-problems-80-total" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-foundations"><strong>Phase 1: Foundations</strong><a href="#phase-1-foundations" class="hash-link" aria-label="Direct link to phase-1-foundations" title="Direct link to phase-1-foundations" translate="no">​</a></h3>
+<p><strong>Graph Traversal:</strong></p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/number-of-islands/" target="_blank" rel="noopener noreferrer" class="">Number of Islands</a></li>
+<li class=""><a href="https://leetcode.com/problems/max-area-of-island/" target="_blank" rel="noopener noreferrer" class="">Max Area of Island</a></li>
+<li class=""><a href="https://leetcode.com/problems/clone-graph/" target="_blank" rel="noopener noreferrer" class="">Clone Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/" target="_blank" rel="noopener noreferrer" class="">Number of Connected Components</a></li>
+<li class=""><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank" rel="noopener noreferrer" class="">Pacific Atlantic Water Flow</a></li>
+<li class=""><a href="https://leetcode.com/problems/surrounded-regions/" target="_blank" rel="noopener noreferrer" class="">Surrounded Regions</a></li>
+<li class=""><a href="https://leetcode.com/problems/walls-and-gates/" target="_blank" rel="noopener noreferrer" class="">Walls and Gates</a></li>
+<li class=""><a href="https://leetcode.com/problems/rotting-oranges/" target="_blank" rel="noopener noreferrer" class="">Rotting Oranges</a></li>
+<li class=""><a href="https://leetcode.com/problems/01-matrix/" target="_blank" rel="noopener noreferrer" class="">01 Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/as-far-from-land-as-possible/" target="_blank" rel="noopener noreferrer" class="">As Far from Land as Possible</a></li>
+</ol>
+<p><strong>Matrix Problems:</strong></p>
+<ol start="11">
+<li class="">
+<p><a href="https://leetcode.com/problems/number-of-closed-islands/" target="_blank" rel="noopener noreferrer" class="">Number of Closed Islands</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/number-of-enclaves/" target="_blank" rel="noopener noreferrer" class="">Number of Enclaves</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/count-sub-islands/" target="_blank" rel="noopener noreferrer" class="">Count Sub Islands</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/island-perimeter/" target="_blank" rel="noopener noreferrer" class="">Island Perimeter</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/" target="_blank" rel="noopener noreferrer" class="">Shortest Path in Binary Matrix</a></p>
+</li>
+</ol>
+<p><strong>Basic Validation:</strong></p>
+<ol start="16">
+<li class="">
+<p><a href="https://leetcode.com/problems/graph-valid-tree/" target="_blank" rel="noopener noreferrer" class="">Graph Valid Tree</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/find-if-path-exists-in-graph/" target="_blank" rel="noopener noreferrer" class="">Find if Path Exists in Graph</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/all-paths-from-source-to-target/" target="_blank" rel="noopener noreferrer" class="">All Paths From Source to Target</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/find-the-town-judge/" target="_blank" rel="noopener noreferrer" class="">Find the Town Judge</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/keys-and-rooms/" target="_blank" rel="noopener noreferrer" class="">Keys and Rooms</a></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-2-cycle-detection--topological-sort"><strong>Phase 2: Cycle Detection &amp; Topological Sort</strong><a href="#phase-2-cycle-detection--topological-sort" class="hash-link" aria-label="Direct link to phase-2-cycle-detection--topological-sort" title="Direct link to phase-2-cycle-detection--topological-sort" translate="no">​</a></h3>
+<ol start="21">
+<li class=""><a href="https://leetcode.com/problems/course-schedule/" target="_blank" rel="noopener noreferrer" class="">Course Schedule</a></li>
+<li class=""><a href="https://leetcode.com/problems/course-schedule-ii/" target="_blank" rel="noopener noreferrer" class="">Course Schedule II</a></li>
+<li class=""><a href="https://leetcode.com/problems/redundant-connection/" target="_blank" rel="noopener noreferrer" class="">Redundant Connection</a></li>
+<li class=""><a href="https://leetcode.com/problems/redundant-connection-ii/" target="_blank" rel="noopener noreferrer" class="">Redundant Connection II</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-eventual-safe-states/" target="_blank" rel="noopener noreferrer" class="">Find Eventual Safe States</a></li>
+<li class=""><a href="https://leetcode.com/problems/alien-dictionary/" target="_blank" rel="noopener noreferrer" class="">Alien Dictionary</a></li>
+<li class=""><a href="https://leetcode.com/problems/sequence-reconstruction/" target="_blank" rel="noopener noreferrer" class="">Sequence Reconstruction</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-height-trees/" target="_blank" rel="noopener noreferrer" class="">Minimum Height Trees</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/" target="_blank" rel="noopener noreferrer" class="">Sort Items by Groups Respecting Dependencies</a></li>
+<li class=""><a href="https://leetcode.com/problems/parallel-courses/" target="_blank" rel="noopener noreferrer" class="">Parallel Courses</a></li>
+<li class=""><a href="https://leetcode.com/problems/parallel-courses-ii/" target="_blank" rel="noopener noreferrer" class="">Parallel Courses II</a></li>
+<li class=""><a href="https://leetcode.com/problems/build-a-matrix-with-conditions/" target="_blank" rel="noopener noreferrer" class="">Build a Matrix With Conditions</a></li>
+<li class=""><a href="https://leetcode.com/problems/largest-color-value-in-a-directed-graph/" target="_blank" rel="noopener noreferrer" class="">Largest Color Value in a Directed Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-cycle-in-a-graph/" target="_blank" rel="noopener noreferrer" class="">Longest Cycle in a Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-path-with-different-adjacent-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Path With Different Adjacent Characters</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-3-shortest-path"><strong>Phase 3: Shortest Path</strong><a href="#phase-3-shortest-path" class="hash-link" aria-label="Direct link to phase-3-shortest-path" title="Direct link to phase-3-shortest-path" translate="no">​</a></h3>
+<p><strong>BFS Shortest Path:</strong></p>
+<ol start="36">
+<li class="">
+<p><a href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer" class="">Word Ladder</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/word-ladder-ii/" target="_blank" rel="noopener noreferrer" class="">Word Ladder II</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/open-the-lock/" target="_blank" rel="noopener noreferrer" class="">Open the Lock</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-knight-moves/" target="_blank" rel="noopener noreferrer" class="">Minimum Knight Moves</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/shortest-bridge/" target="_blank" rel="noopener noreferrer" class="">Shortest Bridge</a></p>
+</li>
+</ol>
+<p><strong>Dijkstra&#x27;s Algorithm:</strong></p>
+<ol start="41">
+<li class="">
+<p><a href="https://leetcode.com/problems/network-delay-time/" target="_blank" rel="noopener noreferrer" class="">Network Delay Time</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/path-with-maximum-probability/" target="_blank" rel="noopener noreferrer" class="">Path with Maximum Probability</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/" target="_blank" rel="noopener noreferrer" class="">Cheapest Flights Within K Stops</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/path-with-minimum-effort/" target="_blank" rel="noopener noreferrer" class="">Path with Minimum Effort</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/swim-in-rising-water/" target="_blank" rel="noopener noreferrer" class="">Swim in Rising Water</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Reach Destination in Time</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/" target="_blank" rel="noopener noreferrer" class="">Minimum Weighted Subgraph With Required Paths</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/" target="_blank" rel="noopener noreferrer" class="">Minimum Obstacle Removal to Reach Corner</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost of a Path With Special Roads</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/" target="_blank" rel="noopener noreferrer" class="">Find the City With Smallest Number of Neighbors</a></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-4-union-find"><strong>Phase 4: Union-Find</strong><a href="#phase-4-union-find" class="hash-link" aria-label="Direct link to phase-4-union-find" title="Direct link to phase-4-union-find" translate="no">​</a></h3>
+<ol start="51">
+<li class=""><a href="https://leetcode.com/problems/number-of-provinces/" target="_blank" rel="noopener noreferrer" class="">Number of Provinces</a></li>
+<li class=""><a href="https://leetcode.com/problems/redundant-connection/" target="_blank" rel="noopener noreferrer" class="">Redundant Connection</a></li>
+<li class=""><a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/" target="_blank" rel="noopener noreferrer" class="">Most Stones Removed with Same Row or Column</a></li>
+<li class=""><a href="https://leetcode.com/problems/accounts-merge/" target="_blank" rel="noopener noreferrer" class="">Accounts Merge</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-string-with-swaps/" target="_blank" rel="noopener noreferrer" class="">Smallest String With Swaps</a></li>
+<li class=""><a href="https://leetcode.com/problems/satisfiability-of-equality-equations/" target="_blank" rel="noopener noreferrer" class="">Satisfiability of Equality Equations</a></li>
+<li class=""><a href="https://leetcode.com/problems/regions-cut-by-slashes/" target="_blank" rel="noopener noreferrer" class="">Regions Cut By Slashes</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-islands-ii/" target="_blank" rel="noopener noreferrer" class="">Number of Islands II</a></li>
+<li class=""><a href="https://leetcode.com/problems/graph-connectivity-with-threshold/" target="_blank" rel="noopener noreferrer" class="">Graph Connectivity With Threshold</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimize-malware-spread/" target="_blank" rel="noopener noreferrer" class="">Minimize Malware Spread</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimize-malware-spread-ii/" target="_blank" rel="noopener noreferrer" class="">Minimize Malware Spread II</a></li>
+<li class=""><a href="https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/" target="_blank" rel="noopener noreferrer" class="">Checking Existence of Edge Length Limited Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/last-day-where-you-can-still-cross/" target="_blank" rel="noopener noreferrer" class="">Last Day Where You Can Still Cross</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/" target="_blank" rel="noopener noreferrer" class="">Maximum Number of Fish in a Grid</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/" target="_blank" rel="noopener noreferrer" class="">Count Unreachable Pairs of Nodes</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-5-advanced-topics"><strong>Phase 5: Advanced Topics</strong><a href="#phase-5-advanced-topics" class="hash-link" aria-label="Direct link to phase-5-advanced-topics" title="Direct link to phase-5-advanced-topics" translate="no">​</a></h3>
+<ol start="66">
+<li class="">
+<p><a href="https://leetcode.com/problems/min-cost-to-connect-all-points/" target="_blank" rel="noopener noreferrer" class="">Min Cost to Connect All Points</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/connecting-cities-with-minimum-cost/" target="_blank" rel="noopener noreferrer" class="">Connecting Cities With Minimum Cost</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/optimize-water-distribution-in-a-village/" target="_blank" rel="noopener noreferrer" class="">Optimize Water Distribution in a Village</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/critical-connections-in-a-network/" target="_blank" rel="noopener noreferrer" class="">Critical Connections in a Network</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" target="_blank" rel="noopener noreferrer" class="">Find Critical and Pseudo-Critical Edges in MST</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/is-graph-bipartite/" target="_blank" rel="noopener noreferrer" class="">Is Graph Bipartite?</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/possible-bipartition/" target="_blank" rel="noopener noreferrer" class="">Possible Bipartition</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/" target="_blank" rel="noopener noreferrer" class="">Divide Nodes Into the Maximum Number of Groups</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank" rel="noopener noreferrer" class="">Reconstruct Itinerary</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/bus-routes/" target="_blank" rel="noopener noreferrer" class="">Bus Routes</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer" class="">Shortest Path Visiting All Nodes</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/" target="_blank" rel="noopener noreferrer" class="">Minimum Number of Days to Disconnect Island</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/" target="_blank" rel="noopener noreferrer" class="">Reachable Nodes In Subdivided Graph</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys/" target="_blank" rel="noopener noreferrer" class="">Shortest Path to Get All Keys</a></p>
+</li>
+<li class="">
+<p><a href="https://leetcode.com/problems/sliding-puzzle/" target="_blank" rel="noopener noreferrer" class="">Sliding Puzzle</a></p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems"><strong>Competitive Programming Problems</strong><a href="#competitive-programming-problems" class="hash-link" aria-label="Direct link to competitive-programming-problems" title="Direct link to competitive-programming-problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="cses-problem-set-must-solve-all-40"><strong>CSES Problem Set (Must Solve All 40)</strong><a href="#cses-problem-set-must-solve-all-40" class="hash-link" aria-label="Direct link to cses-problem-set-must-solve-all-40" title="Direct link to cses-problem-set-must-solve-all-40" translate="no">​</a></h3>
+<p>These problems are exceptionally well-designed and cover every important graph algorithm. Solve them in order.</p>
+<p><strong>Basic Graphs:</strong></p>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1192" target="_blank" rel="noopener noreferrer" class="">Counting Rooms</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1193" target="_blank" rel="noopener noreferrer" class="">Labyrinth</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1666" target="_blank" rel="noopener noreferrer" class="">Building Roads</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1667" target="_blank" rel="noopener noreferrer" class="">Message Route</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1668" target="_blank" rel="noopener noreferrer" class="">Building Teams</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1669" target="_blank" rel="noopener noreferrer" class="">Round Trip</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1194" target="_blank" rel="noopener noreferrer" class="">Monsters</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1671" target="_blank" rel="noopener noreferrer" class="">Shortest Routes I</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1672" target="_blank" rel="noopener noreferrer" class="">Shortest Routes II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1673" target="_blank" rel="noopener noreferrer" class="">High Score</a></li>
+</ol>
+<p><strong>Advanced Paths:</strong></p>
+<ol start="11">
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1195" target="_blank" rel="noopener noreferrer" class="">Flight Discount</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1197" target="_blank" rel="noopener noreferrer" class="">Cycle Finding</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1196" target="_blank" rel="noopener noreferrer" class="">Flight Routes</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1678" target="_blank" rel="noopener noreferrer" class="">Round Trip II</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1679" target="_blank" rel="noopener noreferrer" class="">Course Schedule</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1680" target="_blank" rel="noopener noreferrer" class="">Longest Flight Route</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1681" target="_blank" rel="noopener noreferrer" class="">Game Routes</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1202" target="_blank" rel="noopener noreferrer" class="">Investigation</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1750" target="_blank" rel="noopener noreferrer" class="">Planet Queries I</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1160" target="_blank" rel="noopener noreferrer" class="">Planet Queries II</a></p>
+</li>
+</ol>
+<p><strong>Tree Algorithms:</strong></p>
+<ol start="21">
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1674" target="_blank" rel="noopener noreferrer" class="">Subordinates</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1130" target="_blank" rel="noopener noreferrer" class="">Tree Matching</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1131" target="_blank" rel="noopener noreferrer" class="">Tree Diameter</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1132" target="_blank" rel="noopener noreferrer" class="">Tree Distances I</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1133" target="_blank" rel="noopener noreferrer" class="">Tree Distances II</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1687" target="_blank" rel="noopener noreferrer" class="">Company Queries I</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1688" target="_blank" rel="noopener noreferrer" class="">Company Queries II</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1135" target="_blank" rel="noopener noreferrer" class="">Distance Queries</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1136" target="_blank" rel="noopener noreferrer" class="">Counting Paths</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1137" target="_blank" rel="noopener noreferrer" class="">Subtree Queries</a></p>
+</li>
+</ol>
+<p><strong>Advanced Topics:</strong></p>
+<ol start="31">
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1138" target="_blank" rel="noopener noreferrer" class="">Path Queries</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/2134" target="_blank" rel="noopener noreferrer" class="">Path Queries II</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1711" target="_blank" rel="noopener noreferrer" class="">Distinct Routes</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1695" target="_blank" rel="noopener noreferrer" class="">Police Chase</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1696" target="_blank" rel="noopener noreferrer" class="">School Dance</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1686" target="_blank" rel="noopener noreferrer" class="">Coin Collector</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1691" target="_blank" rel="noopener noreferrer" class="">Mail Delivery</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1692" target="_blank" rel="noopener noreferrer" class="">De Bruijn Sequence</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1693" target="_blank" rel="noopener noreferrer" class="">Teleporters Path</a></p>
+</li>
+<li class="">
+<p><a href="https://cses.fi/problemset/task/1690" target="_blank" rel="noopener noreferrer" class="">Hamiltonian Flights</a></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="codeforces-problems-by-rating"><strong>Codeforces Problems by Rating</strong><a href="#codeforces-problems-by-rating" class="hash-link" aria-label="Direct link to codeforces-problems-by-rating" title="Direct link to codeforces-problems-by-rating" translate="no">​</a></h3>
+<p><strong>Rating 1200-1400 (Beginner CP):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/C" target="_blank" rel="noopener noreferrer" class="">Kefa and Park</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/277/A" target="_blank" rel="noopener noreferrer" class="">Learning Languages</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/445/B" target="_blank" rel="noopener noreferrer" class="">DZY Loves Chemistry</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/295/B" target="_blank" rel="noopener noreferrer" class="">Greg and Graph</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/242/C" target="_blank" rel="noopener noreferrer" class="">King&#x27;s Path</a></li>
+</ol>
+<p><strong>Rating 1400-1600 (Intermediate):</strong></p>
+<ol start="6">
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/1167/C" target="_blank" rel="noopener noreferrer" class="">News Distribution</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/510/C" target="_blank" rel="noopener noreferrer" class="">Fox And Names</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/20/C" target="_blank" rel="noopener noreferrer" class="">Dijkstra?</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/330/B" target="_blank" rel="noopener noreferrer" class="">Road Construction</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/427/C" target="_blank" rel="noopener noreferrer" class="">Checkposts</a></p>
+</li>
+</ol>
+<p><strong>Rating 1600-1800 (Advanced):</strong></p>
+<ol start="11">
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/342/E" target="_blank" rel="noopener noreferrer" class="">Xenia and Tree</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/160/D" target="_blank" rel="noopener noreferrer" class="">Edges in MST</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/1093/D" target="_blank" rel="noopener noreferrer" class="">Beautiful Graph</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/609/E" target="_blank" rel="noopener noreferrer" class="">Minimum spanning tree for each edge</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/22/E" target="_blank" rel="noopener noreferrer" class="">Scheme</a></p>
+</li>
+</ol>
+<p><strong>Rating 1800-2000 (Expert):</strong></p>
+<ol start="16">
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/776/D" target="_blank" rel="noopener noreferrer" class="">The Door Problem</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/715/C" target="_blank" rel="noopener noreferrer" class="">Digit Tree</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/732/F" target="_blank" rel="noopener noreferrer" class="">Tourist Reform</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/1221/D" target="_blank" rel="noopener noreferrer" class="">Ideal Path</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/problemset/problem/1327/E" target="_blank" rel="noopener noreferrer" class="">Bosses</a></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-problems"><strong>AtCoder Problems</strong><a href="#atcoder-problems" class="hash-link" aria-label="Direct link to atcoder-problems" title="Direct link to atcoder-problems" translate="no">​</a></h3>
+<p>These contests have excellent problem quality. Focus on problems D, E, F from ABC contests.</p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/abc139/tasks/abc139_d" target="_blank" rel="noopener noreferrer" class="">ABC139D - ModSum</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc160/tasks/abc160_d" target="_blank" rel="noopener noreferrer" class="">ABC160D - Line++</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc168/tasks/abc168_d" target="_blank" rel="noopener noreferrer" class="">ABC168D - Double Dots</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc170/tasks/abc170_d" target="_blank" rel="noopener noreferrer" class="">ABC170D - Not Divisible</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc213/tasks/abc213_d" target="_blank" rel="noopener noreferrer" class="">ABC213D - Takahashi Tour</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="spoj-classic-problems"><strong>SPOJ Classic Problems</strong><a href="#spoj-classic-problems" class="hash-link" aria-label="Direct link to spoj-classic-problems" title="Direct link to spoj-classic-problems" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/SHPATH/" target="_blank" rel="noopener noreferrer" class="">SHPATH - The Shortest Path</a></li>
+<li class=""><a href="https://www.spoj.com/problems/PRIM/" target="_blank" rel="noopener noreferrer" class="">PRIM - Prim Algorithm</a></li>
+<li class=""><a href="https://www.spoj.com/problems/SUBMERGE/" target="_blank" rel="noopener noreferrer" class="">SUBMERGE - Submerge</a></li>
+<li class=""><a href="https://www.spoj.com/problems/LCA/" target="_blank" rel="noopener noreferrer" class="">LCA - Lowest Common Ancestor</a></li>
+<li class=""><a href="https://www.spoj.com/problems/QTREE/" target="_blank" rel="noopener noreferrer" class="">QTREE - Query on a tree</a></li>
+<li class=""><a href="https://www.spoj.com/problems/QTREE2/" target="_blank" rel="noopener noreferrer" class="">QTREE2 - Query on a tree II</a></li>
+<li class=""><a href="https://www.spoj.com/problems/FASTFLOW/" target="_blank" rel="noopener noreferrer" class="">FASTFLOW - Fast Maximum Flow</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline"><strong>Learning Timeline</strong><a href="#learning-timeline" class="hash-link" aria-label="Direct link to learning-timeline" title="Direct link to learning-timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-8-weeks"><strong>For Interview Preparation (8 weeks)</strong><a href="#for-interview-preparation-8-weeks" class="hash-link" aria-label="Direct link to for-interview-preparation-8-weeks" title="Direct link to for-interview-preparation-8-weeks" translate="no">​</a></h3>
+<p><strong>Week 1: Graph Traversal</strong> Solve Phase 1 problems (20 problems). Master BFS and DFS implementations. Understand when to use each. By the end, you should be able to code both from memory.</p>
+<p><strong>Week 2: Cycle Detection &amp; Topological Sort</strong> Solve Phase 2 problems (15 problems). Learn cycle detection for both directed and undirected graphs. Master Kahn&#x27;s algorithm for topological sort. Understand the applications of topological sort.</p>
+<p><strong>Week 3: Shortest Path</strong> Solve Phase 3 problems (15 problems). Master BFS for unweighted graphs. Implement Dijkstra&#x27;s algorithm from scratch. Understand priority queue operations clearly.</p>
+<p><strong>Week 4: Union-Find</strong> Solve Phase 4 problems (15 problems). Implement DSU with path compression and union by rank. This data structure is elegant and appears frequently in interviews.</p>
+<p><strong>Week 5: Advanced Topics</strong> Solve Phase 5 problems (15 problems). Learn MST using Kruskal&#x27;s algorithm. Understand bridges and articulation points. Study bipartite graph problems.</p>
+<p><strong>Weeks 6-8: Practice &amp; Review</strong> Solve 20-30 mixed problems. Do mock interviews. Time yourself on medium problems (target 25-30 minutes). Review problems you struggled with.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming-6-months"><strong>For Competitive Programming (6 months)</strong><a href="#for-competitive-programming-6-months" class="hash-link" aria-label="Direct link to for-competitive-programming-6-months" title="Direct link to for-competitive-programming-6-months" translate="no">​</a></h3>
+<p><strong>Month 1: Foundations</strong> Complete all basic CSES problems (1-10). Solve Codeforces problems rated 1200-1400. Focus on clean DFS and BFS implementations. Target 50-60 problems this month.</p>
+<p><strong>Month 2: Shortest Paths</strong> Complete CSES shortest path section. Learn Dijkstra, Bellman-Ford, and Floyd-Warshall. Solve Codeforces 1400-1600 rated problems. Target 40-50 problems.</p>
+<p><strong>Month 3: Core Algorithms</strong> Study topological sort, cycle detection, DSU, and bipartite checking. Complete CSES problems 11-20. Solve Codeforces 1400-1600 problems. Target 50-60 problems.</p>
+<p><strong>Month 4: Trees &amp; SCC</strong> Master tree DP and basic LCA. Learn Kosaraju&#x27;s and Tarjan&#x27;s algorithms for SCC. Complete CSES tree section. Solve Codeforces 1600-1800 problems. Target 40-50 problems.</p>
+<p><strong>Month 5: Advanced Trees</strong> Study Heavy-Light Decomposition and Centroid Decomposition. Learn advanced LCA techniques. Complete remaining CSES problems. Target 30-40 problems.</p>
+<p><strong>Month 6: Advanced Topics</strong> Learn Dinic&#x27;s algorithm for max flow, 2-SAT, and advanced applications. Solve Codeforces 1800+ problems. Participate in virtual contests regularly. Target 30-40 problems.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="study-approach"><strong>Study Approach</strong><a href="#study-approach" class="hash-link" aria-label="Direct link to study-approach" title="Direct link to study-approach" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interviews"><strong>For Interviews</strong><a href="#for-interviews" class="hash-link" aria-label="Direct link to for-interviews" title="Direct link to for-interviews" translate="no">​</a></h3>
+<p>Start with one pattern and solve 8-10 problems before moving to the next. When you encounter a problem, spend 20-30 minutes trying to solve it yourself. If stuck, look at hints or the approach (not the full solution), then implement yourself. After solving, review your code and optimize if possible.</p>
+<p>Use spaced repetition: solve a problem today, revisit it after 3 days, then after a week, then after a month. This helps with long-term retention.</p>
+<p>Focus on explaining your thought process clearly. Practice talking through your approach out loud.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming"><strong>For Competitive Programming</strong><a href="#for-competitive-programming" class="hash-link" aria-label="Direct link to for-competitive-programming" title="Direct link to for-competitive-programming" translate="no">​</a></h3>
+<p>Solve problems rated 200 points above your current rating. When you achieve 80% success rate, move up. Participate in 2-3 virtual contests per week. Always upsolve problems you couldn&#x27;t solve during contests.</p>
+<p>Read editorials even for problems you solved - you&#x27;ll often learn better approaches. Build a template library as you learn algorithms. Practice implementing algorithms from scratch without looking at references.</p>
+<p>Join contest discussions on Codeforces to learn from others. Don&#x27;t spend more than 2 hours stuck on a single problem - read the editorial and implement it yourself.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts"><strong>Final Thoughts</strong><a href="#final-thoughts" class="hash-link" aria-label="Direct link to final-thoughts" title="Direct link to final-thoughts" translate="no">​</a></h2>
+<p>For interviews, quality matters more than quantity. Deeply understanding 80-100 problems across all patterns is better than superficially solving 500 problems. Focus on pattern recognition and clean implementation.</p>
+<p>For competitive programming, consistency is key. Solve problems daily, participate in contests regularly, and gradually increase difficulty. Your rating will improve steadily with consistent practice.</p>
+<p>Both paths are rewarding. Interview preparation helps you crack top tech companies. Competitive programming makes you a better programmer overall and opens doors to international competitions.</p>
+<p>Choose your path based on your goals, but remember that the skills are complementary. Good luck with your graph journey!</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/dsa">dsa</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/graphs">graphs</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/bfs">bfs</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/dfs">dfs</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/dijkstra">dijkstra</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/competitive-programming">competitive-programming</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/interview-prep">interview-prep</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/algorithms">algorithms</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/ProjectYuj/dsa/complete-dynamic-programming-guide"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Complete Dynamic Programming Problems &amp; Resources Guide</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ProjectYuj/dsa/complete-greedy-guide"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Complete Greedy Problems &amp; Resources Guide</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#understanding-the-two-approaches" class="table-of-contents__link toc-highlight"><strong>Understanding the Two Approaches</strong></a></li><li><a href="#best-learning-resources" class="table-of-contents__link toc-highlight"><strong>Best Learning Resources</strong></a><ul><li><a href="#video-resources-for-interview-prep" class="table-of-contents__link toc-highlight"><strong>Video Resources for Interview Prep</strong></a></li><li><a href="#video-resources-for-competitive-programming" class="table-of-contents__link toc-highlight"><strong>Video Resources for Competitive Programming</strong></a></li><li><a href="#written-resources" class="table-of-contents__link toc-highlight"><strong>Written Resources</strong></a></li><li><a href="#books-worth-reading" class="table-of-contents__link toc-highlight"><strong>Books Worth Reading</strong></a></li></ul></li><li><a href="#interview-problems-80-total" class="table-of-contents__link toc-highlight"><strong>Interview Problems (80 Total)</strong></a><ul><li><a href="#phase-1-foundations" class="table-of-contents__link toc-highlight"><strong>Phase 1: Foundations</strong></a></li><li><a href="#phase-2-cycle-detection--topological-sort" class="table-of-contents__link toc-highlight"><strong>Phase 2: Cycle Detection &amp; Topological Sort</strong></a></li><li><a href="#phase-3-shortest-path" class="table-of-contents__link toc-highlight"><strong>Phase 3: Shortest Path</strong></a></li><li><a href="#phase-4-union-find" class="table-of-contents__link toc-highlight"><strong>Phase 4: Union-Find</strong></a></li><li><a href="#phase-5-advanced-topics" class="table-of-contents__link toc-highlight"><strong>Phase 5: Advanced Topics</strong></a></li></ul></li><li><a href="#competitive-programming-problems" class="table-of-contents__link toc-highlight"><strong>Competitive Programming Problems</strong></a><ul><li><a href="#cses-problem-set-must-solve-all-40" class="table-of-contents__link toc-highlight"><strong>CSES Problem Set (Must Solve All 40)</strong></a></li><li><a href="#codeforces-problems-by-rating" class="table-of-contents__link toc-highlight"><strong>Codeforces Problems by Rating</strong></a></li><li><a href="#atcoder-problems" class="table-of-contents__link toc-highlight"><strong>AtCoder Problems</strong></a></li><li><a href="#spoj-classic-problems" class="table-of-contents__link toc-highlight"><strong>SPOJ Classic Problems</strong></a></li></ul></li><li><a href="#learning-timeline" class="table-of-contents__link toc-highlight"><strong>Learning Timeline</strong></a><ul><li><a href="#for-interview-preparation-8-weeks" class="table-of-contents__link toc-highlight"><strong>For Interview Preparation (8 weeks)</strong></a></li><li><a href="#for-competitive-programming-6-months" class="table-of-contents__link toc-highlight"><strong>For Competitive Programming (6 months)</strong></a></li></ul></li><li><a href="#study-approach" class="table-of-contents__link toc-highlight"><strong>Study Approach</strong></a><ul><li><a href="#for-interviews" class="table-of-contents__link toc-highlight"><strong>For Interviews</strong></a></li><li><a href="#for-competitive-programming" class="table-of-contents__link toc-highlight"><strong>For Competitive Programming</strong></a></li></ul></li><li><a href="#final-thoughts" class="table-of-contents__link toc-highlight"><strong>Final Thoughts</strong></a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Blog Sections</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/dsa">DSA</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/ml">Machine Learning</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/system-design">System Design</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/research">Research Papers</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Connect</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://leetcode.com/u/saiganesh_reddy/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LeetCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:sabadu.sai.reddy@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 SaiGaneshReddy. All rights reserved.</div></div></div></footer></div>
+</body>
+</html>

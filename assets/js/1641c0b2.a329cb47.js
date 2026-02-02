@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[4294],{6796(e){e.exports=JSON.parse('{"blogBasePath":"/ProjectYuj/research","blogTitle":"Research Papers","authorsListPath":"/ProjectYuj/research/authors"}')}}]);

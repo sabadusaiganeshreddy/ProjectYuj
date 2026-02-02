@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[72],{2449(e){e.exports=JSON.parse('{"tags":[{"label":"research","permalink":"/ProjectYuj/research/tags/research","count":1},{"label":"paper-review","permalink":"/ProjectYuj/research/tags/paper-review","count":1}]}')}}]);

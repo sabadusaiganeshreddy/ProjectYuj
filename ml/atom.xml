@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/ml</id>
+    <title>SaiGaneshReddy Blog</title>
+    <updated>2026-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/ml"/>
+    <subtitle>SaiGaneshReddy Blog</subtitle>
+    <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to ML Blog]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/ml/welcome-ml</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/ml/welcome-ml"/>
+        <updated>2026-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the Machine Learning blog. Here we discuss models and concepts.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the Machine Learning blog. Here we discuss models and concepts.</p>]]></content>
+        <category label="ml" term="ml"/>
+        <category label="ai" term="ai"/>
+    </entry>
+</feed>

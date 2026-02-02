@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[4370],{7413(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"system-design"}')}}]);

@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-dsa" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Complete Array Problems &amp; Resources Guide | SaiGaneshReddy</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Complete Array Problems &amp; Resources Guide | SaiGaneshReddy"><meta data-rh="true" name="description" content="Hey everyone! Arrays are the foundation of data structures and algorithms. Every tech interview and competitive programming contest features array problems. I&#x27;ve spent years mastering array techniques, and I want to share a complete roadmap that will take you from basics to advanced patterns."><meta data-rh="true" property="og:description" content="Hey everyone! Arrays are the foundation of data structures and algorithms. Every tech interview and competitive programming contest features array problems. I&#x27;ve spent years mastering array techniques, and I want to share a complete roadmap that will take you from basics to advanced patterns."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2026-01-30T00:00:00.000Z"><meta data-rh="true" property="article:tag" content="arrays,two-pointers,sliding-window,prefix-sums,interview-prep,competitive-programming"><link data-rh="true" rel="icon" href="/ProjectYuj/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide" hreflang="en"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide","mainEntityOfPage":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide","url":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-array-guide","headline":"Complete Array Problems & Resources Guide","name":"Complete Array Problems & Resources Guide","description":"Hey everyone! Arrays are the foundation of data structures and algorithms. Every tech interview and competitive programming contest features array problems. I've spent years mastering array techniques, and I want to share a complete roadmap that will take you from basics to advanced patterns.","datePublished":"2026-01-30T00:00:00.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa","name":"DSA Guide"}}</script><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N82K9N829E"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-N82K9N829E",{anonymize_ip:!0})</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/dsa/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/dsa/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/ml/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/ml/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/system-design/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/system-design/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/research/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/research/atom.xml" title="SaiGaneshReddy Atom Feed"><link rel="stylesheet" href="/ProjectYuj/assets/css/styles.d4ef6603.css">
+<script src="/ProjectYuj/assets/js/runtime~main.80a8120f.js" defer="defer"></script>
+<script src="/ProjectYuj/assets/js/main.77ece225.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ProjectYuj/"><b class="navbar__title text--truncate">SaiGaneshReddy</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ProjectYuj/dsa">DSA</a><a class="navbar__item navbar__link" href="/ProjectYuj/ml">ML</a><a class="navbar__item navbar__link" href="/ProjectYuj/system-design">System Design</a><a class="navbar__item navbar__link" href="/ProjectYuj/research">Research</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Blogs</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-dynamic-programming-guide">Complete Dynamic Programming Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-graph-guide">Complete Graph Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-greedy-guide">Complete Greedy Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-string-guide">Complete String Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/ProjectYuj/dsa/complete-array-guide">Complete Array Problems &amp; Resources Guide</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">Complete Array Problems &amp; Resources Guide</h1><div class="container_mt6G margin-vert--md"><time datetime="2026-01-30T00:00:00.000Z">January 30, 2026</time> · <!-- -->18 min read</div></header><div id="__blog-post-container" class="markdown"><p>Hey everyone! Arrays are the foundation of data structures and algorithms. Every tech interview and competitive programming contest features array problems. I&#x27;ve spent years mastering array techniques, and I want to share a complete roadmap that will take you from basics to advanced patterns.</p>
+<p>The key insight: Arrays aren&#x27;t just about storing data sequentially. They&#x27;re the building block for understanding space-time tradeoffs, prefix sums, sliding windows, two pointers, and countless optimization techniques. Master arrays, and you&#x27;ve mastered the foundation of algorithmic thinking.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-arrays">Understanding Arrays<a href="#understanding-arrays" class="hash-link" aria-label="Direct link to Understanding Arrays" title="Direct link to Understanding Arrays" translate="no">​</a></h2>
+<p><strong>What makes Arrays fundamental?</strong> Arrays are the most basic data structure, but the techniques built on top of them (two pointers, sliding window, prefix sums, Kadane&#x27;s algorithm) are powerful problem-solving paradigms used everywhere in software engineering and competitive programming.</p>
+<p><strong>For Tech Interviews:</strong> You need to master core patterns: two pointers, sliding window, prefix sums, matrix traversal, and array manipulation. About 80-100 well-understood problems is ideal. Most interview problems are easy to medium difficulty, with a few hard problems testing optimization skills.</p>
+<p><strong>For Competitive Programming:</strong> You need deep understanding of advanced techniques like contribution to sum, range queries, coordinate compression, and combining arrays with other data structures. This requires 150-200+ problems and familiarity with mathematical insights.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources">Best Learning Resources<a href="#best-learning-resources" class="hash-link" aria-label="Direct link to Best Learning Resources" title="Direct link to Best Learning Resources" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep">Video Resources for Interview Prep<a href="#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to Video Resources for Interview Prep" title="Direct link to Video Resources for Interview Prep" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf" target="_blank" rel="noopener noreferrer" class="">NeetCode - Arrays &amp; Hashing</a></strong> - The gold standard for learning array interview patterns. Clear explanations with Python implementations. Covers all essential techniques systematically.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rENwdL0nEH0uGom9no0nyB" target="_blank" rel="noopener noreferrer" class="">take U forward (Striver) - Arrays Series</a></strong> - Extremely comprehensive with detailed explanations. 40+ hours covering basics through advanced patterns. Best for building deep understanding.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLiQ766zSC5jM2OKVr8sooOuGgZkvnOCTI" target="_blank" rel="noopener noreferrer" class="">Back To Back SWE - Array Problems</a></strong> - Excellent breakdown of thought process and optimization techniques. Great for understanding how to approach unfamiliar problems.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLi9RQVmJD2fYV1RN6vQ0n1vMNfOaEz2Ei" target="_blank" rel="noopener noreferrer" class="">Kevin Naughton Jr. - Array &amp; String Playlist</a></strong> - Clear solutions to common interview problems. Good for quick reference and practice.</p>
+<p><strong><a href="https://www.youtube.com/watch?v=AT14lCXuMKI" target="_blank" rel="noopener noreferrer" class="">Abdul Bari - Arrays</a></strong> - Best for understanding the fundamental theory, time complexity analysis, and space tradeoffs.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-competitive-programming">Video Resources for Competitive Programming<a href="#video-resources-for-competitive-programming" class="hash-link" aria-label="Direct link to Video Resources for Competitive Programming" title="Direct link to Video Resources for Competitive Programming" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/c/Errichto" target="_blank" rel="noopener noreferrer" class="">Errichto - Arrays &amp; Prefix Sums</a></strong> - Advanced array techniques for CP. Covers contribution to answer, prefix sums variations, and problem-solving strategies.</p>
+<p><strong><a href="https://www.youtube.com/c/SecondThread" target="_blank" rel="noopener noreferrer" class="">SecondThread - Array Techniques</a></strong> - Shows how to combine arrays with other techniques. Great for advanced optimization patterns.</p>
+<p><strong><a href="https://www.youtube.com/c/WilliamFiset-videos" target="_blank" rel="noopener noreferrer" class="">William Fiset - Data Structures</a></strong> - Clear explanations of advanced array-based structures like Fenwick trees and segment trees.</p>
+<p><strong><a href="https://www.youtube.com/c/ColinGalen" target="_blank" rel="noopener noreferrer" class="">Colin Galen - Problem Solving</a></strong> - Real contest problem walkthroughs showing array technique applications.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="written-resources">Written Resources<a href="#written-resources" class="hash-link" aria-label="Direct link to Written Resources" title="Direct link to Written Resources" translate="no">​</a></h3>
+<p><strong>For Interviews:</strong></p>
+<ul>
+<li class=""><a href="https://leetcode.com/explore/learn/card/fun-with-arrays/" target="_blank" rel="noopener noreferrer" class="">LeetCode Arrays 101 Explore Card</a></li>
+<li class=""><a href="https://www.techinterviewhandbook.org/algorithms/array/" target="_blank" rel="noopener noreferrer" class="">Tech Interview Handbook - Arrays</a></li>
+<li class=""><a href="https://www.geeksforgeeks.org/array-data-structure/" target="_blank" rel="noopener noreferrer" class="">GeeksforGeeks Arrays</a></li>
+<li class=""><a href="https://www.interviewbit.com/courses/programming/topics/arrays/" target="_blank" rel="noopener noreferrer" class="">InterviewBit - Arrays Problems</a></li>
+</ul>
+<p><strong>For Competitive Programming:</strong></p>
+<ul>
+<li class=""><a href="https://codeforces.com/blog/entry/79108" target="_blank" rel="noopener noreferrer" class="">Codeforces Array Techniques</a></li>
+<li class=""><a href="https://cp-algorithms.com/" target="_blank" rel="noopener noreferrer" class="">CP-Algorithms - Various Array Topics</a></li>
+<li class=""><a href="https://usaco.guide/bronze/intro-ds" target="_blank" rel="noopener noreferrer" class="">USACO Guide - General Arrays</a></li>
+<li class=""><a href="https://usaco.guide/silver/prefix-sums" target="_blank" rel="noopener noreferrer" class="">USACO Guide - Prefix Sums</a></li>
+<li class=""><a href="https://codeforces.com/blog/entry/57282" target="_blank" rel="noopener noreferrer" class="">Codeforces Educational Resources</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="books-worth-reading">Books Worth Reading<a href="#books-worth-reading" class="hash-link" aria-label="Direct link to Books Worth Reading" title="Direct link to Books Worth Reading" translate="no">​</a></h3>
+<p><strong>Cracking the Coding Interview</strong> - Excellent array problems with detailed solutions and patterns.</p>
+<p><strong>Elements of Programming Interviews</strong> - Great array problems with focus on optimization techniques.</p>
+<p><strong>Competitive Programming 4</strong> - Comprehensive coverage of array techniques with CP applications.</p>
+<p><strong>Programming Pearls</strong> - Classic book with elegant array problem solutions and insights.</p>
+<p><strong>Algorithm Design Manual</strong> - Strong focus on array manipulation and problem-solving strategies.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-100-total">Interview Problems (100 Total)<a href="#interview-problems-100-total" class="hash-link" aria-label="Direct link to Interview Problems (100 Total)" title="Direct link to Interview Problems (100 Total)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-array-basics--traversal-15-problems">Phase 1: Array Basics &amp; Traversal (15 problems)<a href="#phase-1-array-basics--traversal-15-problems" class="hash-link" aria-label="Direct link to Phase 1: Array Basics &amp; Traversal (15 problems)" title="Direct link to Phase 1: Array Basics &amp; Traversal (15 problems)" translate="no">​</a></h3>
+<p>Master fundamental operations. If you struggle here, everything else will be harder.</p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/running-sum-of-1d-array/" target="_blank" rel="noopener noreferrer" class="">Running Sum of 1d Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/shuffle-the-array/" target="_blank" rel="noopener noreferrer" class="">Shuffle the Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/" target="_blank" rel="noopener noreferrer" class="">Kids With the Greatest Number of Candies</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-good-pairs/" target="_blank" rel="noopener noreferrer" class="">Number of Good Pairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/" target="_blank" rel="noopener noreferrer" class="">How Many Numbers Are Smaller Than the Current Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/create-target-array-in-the-given-order/" target="_blank" rel="noopener noreferrer" class="">Create Target Array in the Given Order</a></li>
+<li class=""><a href="https://leetcode.com/problems/decompress-run-length-encoded-list/" target="_blank" rel="noopener noreferrer" class="">Decompress Run-Length Encoded List</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/" target="_blank" rel="noopener noreferrer" class="">Find Numbers with Even Number of Digits</a></li>
+<li class=""><a href="https://leetcode.com/problems/squares-of-a-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Squares of a Sorted Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-array-by-parity/" target="_blank" rel="noopener noreferrer" class="">Sort Array By Parity</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Remove Duplicates from Sorted Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-element/" target="_blank" rel="noopener noreferrer" class="">Remove Element</a></li>
+<li class=""><a href="https://leetcode.com/problems/move-zeroes/" target="_blank" rel="noopener noreferrer" class="">Move Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/plus-one/" target="_blank" rel="noopener noreferrer" class="">Plus One</a></li>
+<li class=""><a href="https://leetcode.com/problems/third-maximum-number/" target="_blank" rel="noopener noreferrer" class="">Third Maximum Number</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-2-two-pointers-technique-15-problems">Phase 2: Two Pointers Technique (15 problems)<a href="#phase-2-two-pointers-technique-15-problems" class="hash-link" aria-label="Direct link to Phase 2: Two Pointers Technique (15 problems)" title="Direct link to Phase 2: Two Pointers Technique (15 problems)" translate="no">​</a></h3>
+<p>Essential pattern for optimization. Reduces O(n²) to O(n) in many cases.</p>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener noreferrer" class="">Two Sum II - Input Array Is Sorted</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-string/" target="_blank" rel="noopener noreferrer" class="">Reverse String</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer" class="">Container With Most Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer" class="">3Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/4sum/" target="_blank" rel="noopener noreferrer" class="">4Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-colors/" target="_blank" rel="noopener noreferrer" class="">Sort Colors</a></li>
+<li class=""><a href="https://leetcode.com/problems/merge-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Merge Sorted Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" target="_blank" rel="noopener noreferrer" class="">Remove Duplicates from Sorted Array II</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-labels/" target="_blank" rel="noopener noreferrer" class="">Partition Labels</a></li>
+<li class=""><a href="https://leetcode.com/problems/boats-to-save-people/" target="_blank" rel="noopener noreferrer" class="">Boats to Save People</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/" target="_blank" rel="noopener noreferrer" class="">Minimize Maximum Pair Sum in Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer" class="">Trapping Rain Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/next-permutation/" target="_blank" rel="noopener noreferrer" class="">Next Permutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/rotate-array/" target="_blank" rel="noopener noreferrer" class="">Rotate Array</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-3-sliding-window-15-problems">Phase 3: Sliding Window (15 problems)<a href="#phase-3-sliding-window-15-problems" class="hash-link" aria-label="Direct link to Phase 3: Sliding Window (15 problems)" title="Direct link to Phase 3: Sliding Window (15 problems)" translate="no">​</a></h3>
+<p>The most important optimization pattern. Essential for substring/subarray problems.</p>
+<ol start="31">
+<li class=""><a href="https://leetcode.com/problems/maximum-average-subarray-i/" target="_blank" rel="noopener noreferrer" class="">Maximum Average Subarray I</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener noreferrer" class="">Find All Anagrams in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/permutation-in-string/" target="_blank" rel="noopener noreferrer" class="">Permutation in String</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring Without Repeating Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank" rel="noopener noreferrer" class="">Longest Repeating Character Replacement</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank" rel="noopener noreferrer" class="">Sliding Window Maximum</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Size Subarray Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/fruit-into-baskets/" target="_blank" rel="noopener noreferrer" class="">Fruit Into Baskets</a></li>
+<li class=""><a href="https://leetcode.com/problems/max-consecutive-ones-iii/" target="_blank" rel="noopener noreferrer" class="">Max Consecutive Ones III</a></li>
+<li class=""><a href="https://leetcode.com/problems/grumpy-bookstore-owner/" target="_blank" rel="noopener noreferrer" class="">Grumpy Bookstore Owner</a></li>
+<li class=""><a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/" target="_blank" rel="noopener noreferrer" class="">Frequency of the Most Frequent Element</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring with At Most K Distinct Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/subarrays-with-k-different-integers/" target="_blank" rel="noopener noreferrer" class="">Subarrays with K Different Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-number-of-nice-subarrays/" target="_blank" rel="noopener noreferrer" class="">Count Number of Nice Subarrays</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-4-prefix-sums--hash-maps-15-problems">Phase 4: Prefix Sums &amp; Hash Maps (15 problems)<a href="#phase-4-prefix-sums--hash-maps-15-problems" class="hash-link" aria-label="Direct link to Phase 4: Prefix Sums &amp; Hash Maps (15 problems)" title="Direct link to Phase 4: Prefix Sums &amp; Hash Maps (15 problems)" translate="no">​</a></h3>
+<p>Powerful technique for range queries and subarray problems.</p>
+<ol start="46">
+<li class=""><a href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer" class="">Two Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/subarray-sum-equals-k/" target="_blank" rel="noopener noreferrer" class="">Subarray Sum Equals K</a></li>
+<li class=""><a href="https://leetcode.com/problems/continuous-subarray-sum/" target="_blank" rel="noopener noreferrer" class="">Continuous Subarray Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/contiguous-array/" target="_blank" rel="noopener noreferrer" class="">Contiguous Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank" rel="noopener noreferrer" class="">Product of Array Except Self</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-pivot-index/" target="_blank" rel="noopener noreferrer" class="">Find Pivot Index</a></li>
+<li class=""><a href="https://leetcode.com/problems/range-sum-query-immutable/" target="_blank" rel="noopener noreferrer" class="">Range Sum Query - Immutable</a></li>
+<li class=""><a href="https://leetcode.com/problems/range-sum-query-2d-immutable/" target="_blank" rel="noopener noreferrer" class="">Range Sum Query 2D - Immutable</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/" target="_blank" rel="noopener noreferrer" class="">Minimum Operations to Reduce X to Zero</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/" target="_blank" rel="noopener noreferrer" class="">Maximum Sum of Distinct Subarrays With Length K</a></li>
+<li class=""><a href="https://leetcode.com/problems/subarray-sums-divisible-by-k/" target="_blank" rel="noopener noreferrer" class="">Subarray Sums Divisible by K</a></li>
+<li class=""><a href="https://leetcode.com/problems/make-sum-divisible-by-p/" target="_blank" rel="noopener noreferrer" class="">Make Sum Divisible by P</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-nice-pairs-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Count Nice Pairs in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/" target="_blank" rel="noopener noreferrer" class="">Find the Longest Substring Containing Vowels in Even Counts</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/" target="_blank" rel="noopener noreferrer" class="">Maximum Points You Can Obtain from Cards</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-5-matrix--2d-arrays-10-problems">Phase 5: Matrix &amp; 2D Arrays (10 problems)<a href="#phase-5-matrix--2d-arrays-10-problems" class="hash-link" aria-label="Direct link to Phase 5: Matrix &amp; 2D Arrays (10 problems)" title="Direct link to Phase 5: Matrix &amp; 2D Arrays (10 problems)" translate="no">​</a></h3>
+<p>Essential for understanding multi-dimensional array manipulation.</p>
+<ol start="61">
+<li class=""><a href="https://leetcode.com/problems/spiral-matrix/" target="_blank" rel="noopener noreferrer" class="">Spiral Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/spiral-matrix-ii/" target="_blank" rel="noopener noreferrer" class="">Spiral Matrix II</a></li>
+<li class=""><a href="https://leetcode.com/problems/rotate-image/" target="_blank" rel="noopener noreferrer" class="">Rotate Image</a></li>
+<li class=""><a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank" rel="noopener noreferrer" class="">Set Matrix Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/diagonal-traverse/" target="_blank" rel="noopener noreferrer" class="">Diagonal Traverse</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-sudoku/" target="_blank" rel="noopener noreferrer" class="">Valid Sudoku</a></li>
+<li class=""><a href="https://leetcode.com/problems/game-of-life/" target="_blank" rel="noopener noreferrer" class="">Game of Life</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer" class="">Word Search</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-islands/" target="_blank" rel="noopener noreferrer" class="">Number of Islands</a></li>
+<li class=""><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank" rel="noopener noreferrer" class="">Pacific Atlantic Water Flow</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-6-kadanes-algorithm--variants-10-problems">Phase 6: Kadane&#x27;s Algorithm &amp; Variants (10 problems)<a href="#phase-6-kadanes-algorithm--variants-10-problems" class="hash-link" aria-label="Direct link to Phase 6: Kadane&#x27;s Algorithm &amp; Variants (10 problems)" title="Direct link to Phase 6: Kadane&#x27;s Algorithm &amp; Variants (10 problems)" translate="no">​</a></h3>
+<p>Maximum subarray problems - classic DP pattern that&#x27;s crucial to master.</p>
+<ol start="71">
+<li class=""><a href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-product-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Product Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock II</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock III</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-sum-circular-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Sum Circular Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-turbulent-subarray/" target="_blank" rel="noopener noreferrer" class="">Longest Turbulent Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/" target="_blank" rel="noopener noreferrer" class="">Maximum Length of Subarray With Positive Product</a></li>
+<li class=""><a href="https://leetcode.com/problems/flip-string-to-monotone-increasing/" target="_blank" rel="noopener noreferrer" class="">Flip String to Monotone Increasing</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-7-advanced-array-techniques-10-problems">Phase 7: Advanced Array Techniques (10 problems)<a href="#phase-7-advanced-array-techniques-10-problems" class="hash-link" aria-label="Direct link to Phase 7: Advanced Array Techniques (10 problems)" title="Direct link to Phase 7: Advanced Array Techniques (10 problems)" translate="no">​</a></h3>
+<p>Combining multiple patterns and advanced optimization.</p>
+<ol start="81">
+<li class=""><a href="https://leetcode.com/problems/longest-consecutive-sequence/" target="_blank" rel="noopener noreferrer" class="">Longest Consecutive Sequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/first-missing-positive/" target="_blank" rel="noopener noreferrer" class="">First Missing Positive</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Find All Duplicates in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Find All Numbers Disappeared in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer" class="">Jump Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer" class="">Jump Game II</a></li>
+<li class=""><a href="https://leetcode.com/problems/gas-station/" target="_blank" rel="noopener noreferrer" class="">Gas Station</a></li>
+<li class=""><a href="https://leetcode.com/problems/candy/" target="_blank" rel="noopener noreferrer" class="">Candy</a></li>
+<li class=""><a href="https://leetcode.com/problems/task-scheduler/" target="_blank" rel="noopener noreferrer" class="">Task Scheduler</a></li>
+<li class=""><a href="https://leetcode.com/problems/insert-interval/" target="_blank" rel="noopener noreferrer" class="">Insert Interval</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-8-sorting--searching-variations-10-problems">Phase 8: Sorting &amp; Searching Variations (10 problems)<a href="#phase-8-sorting--searching-variations-10-problems" class="hash-link" aria-label="Direct link to Phase 8: Sorting &amp; Searching Variations (10 problems)" title="Direct link to Phase 8: Sorting &amp; Searching Variations (10 problems)" translate="no">​</a></h3>
+<p>Array problems requiring sorting or custom search patterns.</p>
+<ol start="91">
+<li class=""><a href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer" class="">Merge Intervals</a></li>
+<li class=""><a href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank" rel="noopener noreferrer" class="">Non-overlapping Intervals</a></li>
+<li class=""><a href="https://leetcode.com/problems/meeting-rooms-ii/" target="_blank" rel="noopener noreferrer" class="">Meeting Rooms II</a></li>
+<li class=""><a href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank" rel="noopener noreferrer" class="">Top K Frequent Elements</a></li>
+<li class=""><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Kth Largest Element in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-k-pairs-with-smallest-sums/" target="_blank" rel="noopener noreferrer" class="">Find K Pairs with Smallest Sums</a></li>
+<li class=""><a href="https://leetcode.com/problems/largest-number/" target="_blank" rel="noopener noreferrer" class="">Largest Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/h-index/" target="_blank" rel="noopener noreferrer" class="">H-Index</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-of-range-sum/" target="_blank" rel="noopener noreferrer" class="">Count of Range Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-gap/" target="_blank" rel="noopener noreferrer" class="">Maximum Gap</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems">Competitive Programming Problems<a href="#competitive-programming-problems" class="hash-link" aria-label="Direct link to Competitive Programming Problems" title="Direct link to Competitive Programming Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-array-problems-20-problems">AtCoder Array Problems (20 problems)<a href="#atcoder-array-problems-20-problems" class="hash-link" aria-label="Direct link to AtCoder Array Problems (20 problems)" title="Direct link to AtCoder Array Problems (20 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/abc086/tasks/arc089_a" target="_blank" rel="noopener noreferrer" class="">ABC 086 C - Traveling</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc122/tasks/abc122_c" target="_blank" rel="noopener noreferrer" class="">ABC 122 C - GeT AC</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc125/tasks/abc125_c" target="_blank" rel="noopener noreferrer" class="">ABC 125 C - GCD on Blackboard</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc129/tasks/abc129_c" target="_blank" rel="noopener noreferrer" class="">ABC 129 C - Typical Stairs</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc166/tasks/abc166_d" target="_blank" rel="noopener noreferrer" class="">ABC 166 D - I hate Factorization</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc179/tasks/abc179_d" target="_blank" rel="noopener noreferrer" class="">ABC 179 D - Leaping Tak</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc182/tasks/abc182_d" target="_blank" rel="noopener noreferrer" class="">ABC 182 D - Wandering</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc188/tasks/abc188_d" target="_blank" rel="noopener noreferrer" class="">ABC 188 D - Snuke Prime</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc207/tasks/abc207_c" target="_blank" rel="noopener noreferrer" class="">ABC 207 C - Many Segments</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc221/tasks/abc221_d" target="_blank" rel="noopener noreferrer" class="">ABC 221 D - Online games</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc233/tasks/abc233_d" target="_blank" rel="noopener noreferrer" class="">ABC 233 D - Count Interval</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc241/tasks/abc241_d" target="_blank" rel="noopener noreferrer" class="">ABC 241 D - Sequence Query</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc247/tasks/abc247_d" target="_blank" rel="noopener noreferrer" class="">ABC 247 D - Cylinder</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc281/tasks/abc281_d" target="_blank" rel="noopener noreferrer" class="">ABC 281 D - Max Multiple</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc295/tasks/abc295_d" target="_blank" rel="noopener noreferrer" class="">ABC 295 D - Three Days Ago</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc098/tasks/arc098_a" target="_blank" rel="noopener noreferrer" class="">ARC 098 C - Attention</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc304/tasks/abc304_d" target="_blank" rel="noopener noreferrer" class="">ABC 304 D - A Piece of Cake</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc315/tasks/abc315_d" target="_blank" rel="noopener noreferrer" class="">ABC 315 D - Magical Cookies</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc322/tasks/abc322_d" target="_blank" rel="noopener noreferrer" class="">ABC 322 D - Polyomino</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc073/tasks/arc073_b" target="_blank" rel="noopener noreferrer" class="">ARC 073 D - Simple Knapsack</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="cses-array-problems-12-problems">CSES Array Problems (12 problems)<a href="#cses-array-problems-12-problems" class="hash-link" aria-label="Direct link to CSES Array Problems (12 problems)" title="Direct link to CSES Array Problems (12 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1621" target="_blank" rel="noopener noreferrer" class="">Distinct Numbers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1084" target="_blank" rel="noopener noreferrer" class="">Apartments</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1090" target="_blank" rel="noopener noreferrer" class="">Ferris Wheel</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1091" target="_blank" rel="noopener noreferrer" class="">Concert Tickets</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1619" target="_blank" rel="noopener noreferrer" class="">Restaurant Customers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1629" target="_blank" rel="noopener noreferrer" class="">Movie Festival</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1640" target="_blank" rel="noopener noreferrer" class="">Sum of Two Values</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1643" target="_blank" rel="noopener noreferrer" class="">Maximum Subarray Sum</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1074" target="_blank" rel="noopener noreferrer" class="">Stick Lengths</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1141" target="_blank" rel="noopener noreferrer" class="">Playlist</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1073" target="_blank" rel="noopener noreferrer" class="">Towers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1163" target="_blank" rel="noopener noreferrer" class="">Traffic Lights</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="codeforces-array-problems-by-rating">Codeforces Array Problems by Rating<a href="#codeforces-array-problems-by-rating" class="hash-link" aria-label="Direct link to Codeforces Array Problems by Rating" title="Direct link to Codeforces Array Problems by Rating" translate="no">​</a></h3>
+<p><strong>Rating 800-1000 (Beginner):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/A" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - A - Wrong Subtraction</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/A" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - A - Diverse Team</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1015/A" target="_blank" rel="noopener noreferrer" class="">Round 501 Div3 - A - Points in Segments</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1108/A" target="_blank" rel="noopener noreferrer" class="">Round 535 Div3 - A - Two Distinct Points</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1399/A" target="_blank" rel="noopener noreferrer" class="">Round 661 Div3 - A - Remove Smallest</a></li>
+</ol>
+<p><strong>Rating 1000-1200 (Easy):</strong></p>
+<ol start="6">
+<li class=""><a href="https://codeforces.com/problemset/problem/706/B" target="_blank" rel="noopener noreferrer" class="">Round 367 Div2 - B - Interesting drink</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/C" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - C - Less or Equal</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/C" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - C - Equal Sums</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1206/B" target="_blank" rel="noopener noreferrer" class="">Round 580 Div2 - B - Make Product Equal One</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1472/C" target="_blank" rel="noopener noreferrer" class="">Round 693 Div3 - C - Long Jumps</a></li>
+</ol>
+<p><strong>Rating 1200-1400 (Medium):</strong></p>
+<ol start="11">
+<li class=""><a href="https://codeforces.com/problemset/problem/631/C" target="_blank" rel="noopener noreferrer" class="">Round 344 Div2 - C - Report</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/738/C" target="_blank" rel="noopener noreferrer" class="">Round 380 Div2 - C - Road to Cinema</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/D" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - D - Divide by three, multiply by two</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1108/C" target="_blank" rel="noopener noreferrer" class="">Round 535 Div3 - C - Edgy Trees</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1399/D" target="_blank" rel="noopener noreferrer" class="">Round 661 Div3 - D - Maximum Distributed Tree</a></li>
+</ol>
+<p><strong>Rating 1400-1600 (Advanced):</strong></p>
+<ol start="16">
+<li class=""><a href="https://codeforces.com/problemset/problem/510/C" target="_blank" rel="noopener noreferrer" class="">Round 290 Div2 - C - Fox And Names</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/698/C" target="_blank" rel="noopener noreferrer" class="">Round 363 Div2 - C - Vacations</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/761/C" target="_blank" rel="noopener noreferrer" class="">Round 394 Div2 - C - Dasha and Password</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/835/C" target="_blank" rel="noopener noreferrer" class="">Round 427 Div2 - C - Star sky</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/D" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - D - Points and Powers of Two</a></li>
+</ol>
+<p><strong>Rating 1600-1800 (Expert):</strong></p>
+<ol start="21">
+<li class=""><a href="https://codeforces.com/problemset/problem/448/C" target="_blank" rel="noopener noreferrer" class="">Round 256 Div2 - C - Painting Fence</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/496/C" target="_blank" rel="noopener noreferrer" class="">Round 283 Div2 - C - Removing Columns</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/584/C" target="_blank" rel="noopener noreferrer" class="">Round 325 Div2 - C - Gennady the Dentist</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/617/D" target="_blank" rel="noopener noreferrer" class="">Round 340 Div2 - D - Something with XOR Queries</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/761/C" target="_blank" rel="noopener noreferrer" class="">Round 392 Div2 - C - Planar Reflections</a></li>
+</ol>
+<p><strong>Rating 1800-2000 (Candidate Master):</strong></p>
+<ol start="26">
+<li class=""><a href="https://codeforces.com/problemset/problem/425/D" target="_blank" rel="noopener noreferrer" class="">Round 243 Div2 - D - Sereja and Squares</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/468/D" target="_blank" rel="noopener noreferrer" class="">Round 268 Div2 - D - Two Sets</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/501/C" target="_blank" rel="noopener noreferrer" class="">Round 285 Div2 - C - Misha and Forest</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/C" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - C - Kefa and Park</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/641/C" target="_blank" rel="noopener noreferrer" class="">Round 348 Div2 - C - Little Artem and Random Variable</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="advanced-cp-topics">Advanced CP Topics<a href="#advanced-cp-topics" class="hash-link" aria-label="Direct link to Advanced CP Topics" title="Direct link to Advanced CP Topics" translate="no">​</a></h3>
+<p><strong>Difference Arrays &amp; Range Updates:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/295/A" target="_blank" rel="noopener noreferrer" class="">CF - Greg and Array</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/276/D" target="_blank" rel="noopener noreferrer" class="">CF - Little Girl and Maximum XOR</a></li>
+<li class=""><a href="https://www.spoj.com/problems/UPDATEIT/" target="_blank" rel="noopener noreferrer" class="">SPOJ - UPDATEIT</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/459/D" target="_blank" rel="noopener noreferrer" class="">CF - Pashmak and Parmida&#x27;s problem</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc183/tasks/abc183_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Increment of Matrix</a></li>
+</ol>
+<p><strong>2D Prefix Sums:</strong></p>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1652" target="_blank" rel="noopener noreferrer" class="">CSES - Forest Queries</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/295/B" target="_blank" rel="noopener noreferrer" class="">CF - Greg and Graph</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc203/tasks/abc203_d" target="_blank" rel="noopener noreferrer" class="">AtCoder - Flip Cells</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1265/D" target="_blank" rel="noopener noreferrer" class="">CF - Beautiful Sequence</a></li>
+<li class=""><a href="https://www.spoj.com/problems/MATSUM/" target="_blank" rel="noopener noreferrer" class="">SPOJ - MATSUM</a></li>
+</ol>
+<p><strong>Contribution to Sum:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/1288/C" target="_blank" rel="noopener noreferrer" class="">CF - Number of Subsequences</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/459/C" target="_blank" rel="noopener noreferrer" class="">CF - Pashmak and Buses</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc187/tasks/abc187_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Intervals on Tree</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/895/C" target="_blank" rel="noopener noreferrer" class="">CF - Square Subsets</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1213/G" target="_blank" rel="noopener noreferrer" class="">CF - Divisibility</a></li>
+</ol>
+<p><strong>Sliding Window Maximum:</strong></p>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/ARRAYSUB/" target="_blank" rel="noopener noreferrer" class="">SPOJ - ARRAYSUB</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1324/F" target="_blank" rel="noopener noreferrer" class="">CF - Maximum White Subtree</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc217/tasks/abc217_e" target="_blank" rel="noopener noreferrer" class="">AtCoder - Subsequence Sum</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/342/E" target="_blank" rel="noopener noreferrer" class="">CF - Xenia and Tree</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1076" target="_blank" rel="noopener noreferrer" class="">CSES - Sliding Window Median</a></li>
+</ol>
+<p><strong>Coordinate Compression:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/380/C" target="_blank" rel="noopener noreferrer" class="">CF - Sereja and Brackets</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc185/tasks/abc185_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Static Range Sum</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/459/E" target="_blank" rel="noopener noreferrer" class="">CF - Pashmak and Graph</a></li>
+<li class=""><a href="https://www.spoj.com/problems/KQUERY/" target="_blank" rel="noopener noreferrer" class="">SPOJ - KQUERY</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/354/D" target="_blank" rel="noopener noreferrer" class="">CF -Vasya and Beautiful Arrays</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline">Learning Timeline<a href="#learning-timeline" class="hash-link" aria-label="Direct link to Learning Timeline" title="Direct link to Learning Timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-5-6-weeks">For Interview Preparation (5-6 weeks)<a href="#for-interview-preparation-5-6-weeks" class="hash-link" aria-label="Direct link to For Interview Preparation (5-6 weeks)" title="Direct link to For Interview Preparation (5-6 weeks)" translate="no">​</a></h3>
+<p><strong>Week 1: Array Fundamentals</strong>
+Solve all 15 problems from Phase 1. Master basic operations: traversal, insertion, deletion, searching. Understand time/space complexity of array operations. Practice explaining your code clearly.</p>
+<p><strong>Week 2: Two Pointers Mastery</strong>
+Complete all 15 problems from Phase 2. This is a critical pattern that appears constantly. Learn to recognize when two pointers can reduce O(n²) to O(n). Practice both same-direction and opposite-direction pointer techniques.</p>
+<p><strong>Week 3: Sliding Window Pattern</strong>
+Solve all 15 problems from Phase 3. THE most important optimization technique for substring/subarray problems. Master fixed-size and variable-size windows. Understand the expand/shrink pattern.</p>
+<p><strong>Week 4: Prefix Sums &amp; Hash Maps</strong>
+Complete Phase 4 (15 problems). Learn to transform problems using prefix sums. Master the hash map + prefix sum combination for O(n) subarray solutions. This pattern is extremely powerful.</p>
+<p><strong>Week 5: Matrices &amp; Kadane&#x27;s Algorithm</strong>
+Solve Phase 5 (10 problems) and Phase 6 (10 problems). Learn 2D array manipulation and the maximum subarray pattern. These are classic interview topics.</p>
+<p><strong>Week 6: Advanced Patterns &amp; Review</strong>
+Complete Phase 7 and Phase 8. Practice mixed problems. Do mock interviews. Time yourself. Review weak areas. Focus on explaining your thought process clearly.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming-4-5-months">For Competitive Programming (4-5 months)<a href="#for-competitive-programming-4-5-months" class="hash-link" aria-label="Direct link to For Competitive Programming (4-5 months)" title="Direct link to For Competitive Programming (4-5 months)" translate="no">​</a></h3>
+<p><strong>Month 1: Solid Foundation</strong>
+Complete all CSES array problems. Solve AtCoder problems 1-15. Practice Codeforces 800-1200 rated problems. Master prefix sums, difference arrays, and two pointers. Target 50-60 problems.</p>
+<p><strong>Month 2: Intermediate Techniques</strong>
+Complete remaining AtCoder problems. Solve Codeforces 1200-1500 rated problems. Learn 2D prefix sums, coordinate compression, and sliding window maximum. Target 40-50 problems.</p>
+<p><strong>Month 3: Advanced Patterns</strong>
+Master contribution to sum techniques. Learn to combine arrays with segment trees and fenwick trees. Practice 1500-1700 rated problems. Target 35-45 problems.</p>
+<p><strong>Month 4: Expert Level</strong>
+Study advanced range query techniques. Master sparse tables and square root decomposition. Solve 1700-1900 rated problems. Target 30-40 problems.</p>
+<p><strong>Month 5: Mastery &amp; Speed</strong>
+Participate in virtual contests. Practice recognizing patterns quickly. Focus on implementation speed and bug-free code. Solve 1900+ rated problems. Target 25-30 problems.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Arrays are the foundation of algorithmic problem solving. Mastering array techniques is essential for both interviews and competitive programming.</p>
+<p><strong>For interviews</strong>, focus on the five main patterns: two pointers, sliding window, prefix sums, Kadane&#x27;s algorithm, and hash maps. Solve 80-100 problems across all patterns and you&#x27;ll be well-prepared. The key is recognizing which pattern applies and implementing it bug-free.</p>
+<p><strong>For competitive programming</strong>, you need to combine basic patterns with advanced techniques like segment trees, coordinate compression, and contribution to sum. Practice formulating solutions that optimize both time and space.</p>
+<p>Remember: Arrays may seem simple, but the techniques built on them are the foundation of almost every advanced algorithm. Master arrays, and you&#x27;ve mastered the foundation.</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/arrays">arrays</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/two-pointers">two-pointers</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/sliding-window">sliding-window</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/prefix-sums">prefix-sums</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/interview-prep">interview-prep</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/competitive-programming">competitive-programming</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/ProjectYuj/dsa/complete-string-guide"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Complete String Problems &amp; Resources Guide</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ProjectYuj/dsa/complete-binary-search-guide"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Complete Binary Search Problems &amp; Resources Guide</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#understanding-arrays" class="table-of-contents__link toc-highlight">Understanding Arrays</a></li><li><a href="#best-learning-resources" class="table-of-contents__link toc-highlight">Best Learning Resources</a><ul><li><a href="#video-resources-for-interview-prep" class="table-of-contents__link toc-highlight">Video Resources for Interview Prep</a></li><li><a href="#video-resources-for-competitive-programming" class="table-of-contents__link toc-highlight">Video Resources for Competitive Programming</a></li><li><a href="#written-resources" class="table-of-contents__link toc-highlight">Written Resources</a></li><li><a href="#books-worth-reading" class="table-of-contents__link toc-highlight">Books Worth Reading</a></li></ul></li><li><a href="#interview-problems-100-total" class="table-of-contents__link toc-highlight">Interview Problems (100 Total)</a><ul><li><a href="#phase-1-array-basics--traversal-15-problems" class="table-of-contents__link toc-highlight">Phase 1: Array Basics &amp; Traversal (15 problems)</a></li><li><a href="#phase-2-two-pointers-technique-15-problems" class="table-of-contents__link toc-highlight">Phase 2: Two Pointers Technique (15 problems)</a></li><li><a href="#phase-3-sliding-window-15-problems" class="table-of-contents__link toc-highlight">Phase 3: Sliding Window (15 problems)</a></li><li><a href="#phase-4-prefix-sums--hash-maps-15-problems" class="table-of-contents__link toc-highlight">Phase 4: Prefix Sums &amp; Hash Maps (15 problems)</a></li><li><a href="#phase-5-matrix--2d-arrays-10-problems" class="table-of-contents__link toc-highlight">Phase 5: Matrix &amp; 2D Arrays (10 problems)</a></li><li><a href="#phase-6-kadanes-algorithm--variants-10-problems" class="table-of-contents__link toc-highlight">Phase 6: Kadane&#39;s Algorithm &amp; Variants (10 problems)</a></li><li><a href="#phase-7-advanced-array-techniques-10-problems" class="table-of-contents__link toc-highlight">Phase 7: Advanced Array Techniques (10 problems)</a></li><li><a href="#phase-8-sorting--searching-variations-10-problems" class="table-of-contents__link toc-highlight">Phase 8: Sorting &amp; Searching Variations (10 problems)</a></li></ul></li><li><a href="#competitive-programming-problems" class="table-of-contents__link toc-highlight">Competitive Programming Problems</a><ul><li><a href="#atcoder-array-problems-20-problems" class="table-of-contents__link toc-highlight">AtCoder Array Problems (20 problems)</a></li><li><a href="#cses-array-problems-12-problems" class="table-of-contents__link toc-highlight">CSES Array Problems (12 problems)</a></li><li><a href="#codeforces-array-problems-by-rating" class="table-of-contents__link toc-highlight">Codeforces Array Problems by Rating</a></li><li><a href="#advanced-cp-topics" class="table-of-contents__link toc-highlight">Advanced CP Topics</a></li></ul></li><li><a href="#learning-timeline" class="table-of-contents__link toc-highlight">Learning Timeline</a><ul><li><a href="#for-interview-preparation-5-6-weeks" class="table-of-contents__link toc-highlight">For Interview Preparation (5-6 weeks)</a></li><li><a href="#for-competitive-programming-4-5-months" class="table-of-contents__link toc-highlight">For Competitive Programming (4-5 months)</a></li></ul></li><li><a href="#final-thoughts" class="table-of-contents__link toc-highlight">Final Thoughts</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Blog Sections</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/dsa">DSA</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/ml">Machine Learning</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/system-design">System Design</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/research">Research Papers</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Connect</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://leetcode.com/u/saiganesh_reddy/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LeetCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:sabadu.sai.reddy@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 SaiGaneshReddy. All rights reserved.</div></div></div></footer></div>
+</body>
+</html>

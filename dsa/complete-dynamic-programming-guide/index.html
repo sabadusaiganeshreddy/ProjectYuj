@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-dsa" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Complete Dynamic Programming Problems &amp; Resources Guide | SaiGaneshReddy</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Complete Dynamic Programming Problems &amp; Resources Guide | SaiGaneshReddy"><meta data-rh="true" name="description" content="Hey everyone! Dynamic Programming is often considered the hardest topic in DSA, but it doesn&#x27;t have to be. I&#x27;ve spent months working through DP problems for both tech interviews and competitive programming, and I wanted to share a complete guide that demystifies this topic."><meta data-rh="true" property="og:description" content="Hey everyone! Dynamic Programming is often considered the hardest topic in DSA, but it doesn&#x27;t have to be. I&#x27;ve spent months working through DP problems for both tech interviews and competitive programming, and I wanted to share a complete guide that demystifies this topic."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2026-02-02T00:00:00.000Z"><meta data-rh="true" property="article:tag" content="dsa,dynamic-programming,leetcode,competitive-programming,interview-prep,algorithms"><link data-rh="true" rel="icon" href="/ProjectYuj/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide" hreflang="en"><link data-rh="true" rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide","mainEntityOfPage":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide","url":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide","headline":"Complete Dynamic Programming Problems & Resources Guide","name":"Complete Dynamic Programming Problems & Resources Guide","description":"Hey everyone! Dynamic Programming is often considered the hardest topic in DSA, but it doesn't have to be. I've spent months working through DP problems for both tech interviews and competitive programming, and I wanted to share a complete guide that demystifies this topic.","datePublished":"2026-02-02T00:00:00.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa","name":"DSA Guide"}}</script><link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N82K9N829E"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-N82K9N829E",{anonymize_ip:!0})</script>
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/dsa/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/dsa/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/ml/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/ml/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/system-design/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/system-design/atom.xml" title="SaiGaneshReddy Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="/ProjectYuj/research/rss.xml" title="SaiGaneshReddy RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ProjectYuj/research/atom.xml" title="SaiGaneshReddy Atom Feed"><link rel="stylesheet" href="/ProjectYuj/assets/css/styles.d4ef6603.css">
+<script src="/ProjectYuj/assets/js/runtime~main.80a8120f.js" defer="defer"></script>
+<script src="/ProjectYuj/assets/js/main.77ece225.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ProjectYuj/"><b class="navbar__title text--truncate">SaiGaneshReddy</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ProjectYuj/dsa">DSA</a><a class="navbar__item navbar__link" href="/ProjectYuj/ml">ML</a><a class="navbar__item navbar__link" href="/ProjectYuj/system-design">System Design</a><a class="navbar__item navbar__link" href="/ProjectYuj/research">Research</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Blogs</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/ProjectYuj/dsa/complete-dynamic-programming-guide">Complete Dynamic Programming Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-graph-guide">Complete Graph Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-greedy-guide">Complete Greedy Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-string-guide">Complete String Problems &amp; Resources Guide</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/ProjectYuj/dsa/complete-array-guide">Complete Array Problems &amp; Resources Guide</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">Complete Dynamic Programming Problems &amp; Resources Guide</h1><div class="container_mt6G margin-vert--md"><time datetime="2026-02-02T00:00:00.000Z">February 2, 2026</time> · <!-- -->22 min read</div></header><div id="__blog-post-container" class="markdown"><p>Hey everyone! Dynamic Programming is often considered the hardest topic in DSA, but it doesn&#x27;t have to be. I&#x27;ve spent months working through DP problems for both tech interviews and competitive programming, and I wanted to share a complete guide that demystifies this topic.</p>
+<p>The key insight that changed everything for me,  DP isn&#x27;t one giant topic, it&#x27;s actually 15-20 clear patterns. Once you recognize these patterns, most DP problems become straightforward. This guide includes curated problem lists, the best learning resources, and proven roadmaps for both interview prep and competitive programming.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-dynamic-programming"><strong>Understanding Dynamic Programming</strong><a href="#understanding-dynamic-programming" class="hash-link" aria-label="Direct link to understanding-dynamic-programming" title="Direct link to understanding-dynamic-programming" translate="no">​</a></h2>
+<p><strong>What makes DP hard?</strong> Unlike graphs or arrays where you can visualize the data structure, DP problems require you to identify overlapping subproblems and optimal substructure. The same problem can be solved with different state definitions, making it confusing for beginners.</p>
+<p><strong>For Tech Interviews:</strong> You need to recognize 10-12 core DP patterns and implement them cleanly. About 60-80 well-understood problems is enough. Most interview DP problems are medium difficulty. Focus on 1D DP, 2D DP, Knapsack variations, and LCS/LIS patterns.</p>
+<p><strong>For Competitive Programming:</strong> You need deep understanding of state transitions, optimization techniques, and the ability to come up with novel DP formulations. This requires 200+ problems. Everything from interviews plus advanced topics like Digit DP, DP on Trees, Bitmask DP, and optimization techniques.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources"><strong>Best Learning Resources</strong><a href="#best-learning-resources" class="hash-link" aria-label="Direct link to best-learning-resources" title="Direct link to best-learning-resources" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep"><strong>Video Resources for Interview Prep</strong><a href="#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to video-resources-for-interview-prep" title="Direct link to video-resources-for-interview-prep" translate="no">​</a></h3>
+<p><strong>NeetCode - Dynamic Programming Playlist</strong> The absolute best resource for learning interview DP patterns. Clear explanations showing how to identify DP problems and break them down systematically. Covers all important patterns with Python code. About 8-10 hours total, but worth every minute.</p>
+<p><strong>take U forward (Striver) - DP Series</strong> Comprehensive coverage with detailed explanations. His DP series is legendary in the Indian coding community. Covers everything from basics to advanced with C++/Java implementations. Around 40+ hours of content, very thorough.</p>
+<p><strong>Abdul Bari - Dynamic Programming</strong> The best for understanding the theory behind DP. His explanations of optimal substructure and overlapping subproblems are crystal clear. His videos on 0/1 Knapsack and LCS are must-watch. About 10-15 hours.</p>
+<p><strong>Back To Back SWE - DP Problems</strong> Great for understanding the thought process. He explains how to break down problems, identify states, and build recurrence relations. Particularly good for recursion to memoization to tabulation progression.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-competitive-programming"><strong>Video Resources for Competitive Programming</strong><a href="#video-resources-for-competitive-programming" class="hash-link" aria-label="Direct link to video-resources-for-competitive-programming" title="Direct link to video-resources-for-competitive-programming" translate="no">​</a></h3>
+<p><strong>Errichto - DP Lectures</strong> Phenomenal series on DP for competitive programming. Covers everything from basics to advanced topics like SOS DP and Convex Hull Trick. His problem-solving streams show how top coders approach DP in contests.</p>
+<p><strong>SecondThread - DP Optimization Techniques</strong> Excellent coverage of advanced DP optimizations like Convex Hull Trick, Divide and Conquer DP, and Knuth&#x27;s optimization. Essential for CF Div1 and Div2 D/E problems.</p>
+<p><strong>William Fiset - DP Algorithms</strong> Clear explanations of classic DP algorithms with good visualizations. Covers both interview and CP aspects well.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="written-resources"><strong>Written Resources</strong><a href="#written-resources" class="hash-link" aria-label="Direct link to written-resources" title="Direct link to written-resources" translate="no">​</a></h3>
+<p><strong>For Interviews:</strong></p>
+<ul>
+<li class="">LeetCode Discuss DP tag - Read top solutions for different approaches</li>
+<li class="">GeeksforGeeks DP section - Good for understanding concepts with examples</li>
+<li class="">Tech Interview Handbook DP section - Quick revision before interviews</li>
+</ul>
+<p><strong>For Competitive Programming:</strong></p>
+<ul>
+<li class="">Codeforces DP Catalog - Problems organized by technique</li>
+<li class="">CP-Algorithms DP section - In-depth explanations with complexity analysis</li>
+<li class="">USACO Guide DP modules - Structured learning from Bronze to Platinum</li>
+<li class="">AtCoder DP Contest - 26 educational DP problems covering all basics</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="books-worth-reading"><strong>Books Worth Reading</strong><a href="#books-worth-reading" class="hash-link" aria-label="Direct link to books-worth-reading" title="Direct link to books-worth-reading" translate="no">​</a></h3>
+<p><strong>Cracking the Coding Interview</strong> - Chapter on DP covers interview essentials, good starting point</p>
+<p><strong>Dynamic Programming for Coding Interviews by Meenakshi</strong> Excellent book focused specifically on DP for tech interviews. Covers all important patterns with detailed explanations. Highly recommended for interview prep.</p>
+<p><strong>Competitive Programming 4</strong> - Multiple chapters on DP covering everything from basics to advanced techniques. The section on DP optimization is gold.</p>
+<p><strong>Introduction to Algorithms (CLRS)</strong> - Chapter 15 covers DP theory rigorously with proofs. Heavy but comprehensive.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-70-total"><strong>Interview Problems (70 Total)</strong><a href="#interview-problems-70-total" class="hash-link" aria-label="Direct link to interview-problems-70-total" title="Direct link to interview-problems-70-total" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-1d-dp---linear-problems"><strong>Phase 1: 1D DP - Linear Problems</strong><a href="#phase-1-1d-dp---linear-problems" class="hash-link" aria-label="Direct link to phase-1-1d-dp---linear-problems" title="Direct link to phase-1-1d-dp---linear-problems" translate="no">​</a></h3>
+<p>These are the foundations. If you struggle with these, everything else will be hard. Focus on understanding the transition from recursion to memoization to tabulation.</p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/min-cost-climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Min Cost Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer" class="">House Robber</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber-ii/" target="_blank" rel="noopener noreferrer" class="">House Robber II</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-and-earn/" target="_blank" rel="noopener noreferrer" class="">Delete and Earn</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-product-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Product Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer" class="">Jump Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer" class="">Jump Game II</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways/" target="_blank" rel="noopener noreferrer" class="">Decode Ways</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways-ii/" target="_blank" rel="noopener noreferrer" class="">Decode Ways II</a></li>
+<li class=""><a href="https://leetcode.com/problems/fibonacci-number/" target="_blank" rel="noopener noreferrer" class="">Fibonacci Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/n-th-tribonacci-number/" target="_blank" rel="noopener noreferrer" class="">N-th Tribonacci Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-number-of-ways-to-place-houses/" target="_blank" rel="noopener noreferrer" class="">Count Number of Ways to Place Houses</a></li>
+<li class=""><a href="https://leetcode.com/problems/solving-questions-with-brainpower/" target="_blank" rel="noopener noreferrer" class="">Solving Questions With Brainpower</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-alternating-subsequence-sum/" target="_blank" rel="noopener noreferrer" class="">Maximum Alternating Subsequence Sum</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-2-2d-dp---grid--matrix"><strong>Phase 2: 2D DP - Grid &amp; Matrix</strong><a href="#phase-2-2d-dp---grid--matrix" class="hash-link" aria-label="Direct link to phase-2-2d-dp---grid--matrix" title="Direct link to phase-2-2d-dp---grid--matrix" translate="no">​</a></h3>
+<p>Grid DP is very common in interviews. Master the pattern of building solution bottom-up from dp[i][j].</p>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/unique-paths/" target="_blank" rel="noopener noreferrer" class="">Unique Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-paths-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Paths II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/triangle/" target="_blank" rel="noopener noreferrer" class="">Triangle</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximal-square/" target="_blank" rel="noopener noreferrer" class="">Maximal Square</a></li>
+<li class=""><a href="https://leetcode.com/problems/dungeon-game/" target="_blank" rel="noopener noreferrer" class="">Dungeon Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/cherry-pickup/" target="_blank" rel="noopener noreferrer" class="">Cherry Pickup</a></li>
+<li class=""><a href="https://leetcode.com/problems/cherry-pickup-ii/" target="_blank" rel="noopener noreferrer" class="">Cherry Pickup II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-falling-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Falling Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-falling-path-sum-ii/" target="_blank" rel="noopener noreferrer" class="">Minimum Falling Path Sum II</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximal-rectangle/" target="_blank" rel="noopener noreferrer" class="">Maximal Rectangle</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-square-submatrices-with-all-ones/" target="_blank" rel="noopener noreferrer" class="">Count Square Submatrices with All Ones</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-3-knapsack-pattern"><strong>Phase 3: Knapsack Pattern</strong><a href="#phase-3-knapsack-pattern" class="hash-link" aria-label="Direct link to phase-3-knapsack-pattern" title="Direct link to phase-3-knapsack-pattern" translate="no">​</a></h3>
+<p>Knapsack is THE most important DP pattern. It appears in countless variations. Understand both 0/1 and unbounded knapsack.</p>
+<ol start="28">
+<li class=""><a href="https://leetcode.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener noreferrer" class="">Partition Equal Subset Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer" class="">Target Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/ones-and-zeroes/" target="_blank" rel="noopener noreferrer" class="">Ones and Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer" class="">Coin Change</a></li>
+<li class=""><a href="https://leetcode.com/problems/coin-change-ii/" target="_blank" rel="noopener noreferrer" class="">Coin Change II</a></li>
+<li class=""><a href="https://leetcode.com/problems/perfect-squares/" target="_blank" rel="noopener noreferrer" class="">Perfect Squares</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-for-tickets/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost For Tickets</a></li>
+<li class=""><a href="https://leetcode.com/problems/last-stone-weight-ii/" target="_blank" rel="noopener noreferrer" class="">Last Stone Weight II</a></li>
+<li class=""><a href="https://leetcode.com/problems/profitable-schemes/" target="_blank" rel="noopener noreferrer" class="">Profitable Schemes</a></li>
+<li class=""><a href="https://leetcode.com/problems/tallest-billboard/" target="_blank" rel="noopener noreferrer" class="">Tallest Billboard</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-4-string-dp"><strong>Phase 4: String DP</strong><a href="#phase-4-string-dp" class="hash-link" aria-label="Direct link to phase-4-string-dp" title="Direct link to phase-4-string-dp" translate="no">​</a></h3>
+<p>String DP problems often involve LCS, LIS, or palindrome patterns. These are very common in interviews.</p>
+<ol start="38">
+<li class=""><a href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Common Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer" class="">Palindromic Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Minimum ASCII Delete Sum for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Delete Operation for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-common-supersequence/" target="_blank" rel="noopener noreferrer" class="">Shortest Common Supersequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/interleaving-string/" target="_blank" rel="noopener noreferrer" class="">Interleaving String</a></li>
+<li class=""><a href="https://leetcode.com/problems/regular-expression-matching/" target="_blank" rel="noopener noreferrer" class="">Regular Expression Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/wildcard-matching/" target="_blank" rel="noopener noreferrer" class="">Wildcard Matching</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-5-longest-increasing-subsequence"><strong>Phase 5: Longest Increasing Subsequence</strong><a href="#phase-5-longest-increasing-subsequence" class="hash-link" aria-label="Direct link to phase-5-longest-increasing-subsequence" title="Direct link to phase-5-longest-increasing-subsequence" translate="no">​</a></h3>
+<p>LIS is special because it has both O(n²) and O(n log n) solutions. Know both approaches.</p>
+<ol start="50">
+<li class=""><a href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Number of Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/largest-divisible-subset/" target="_blank" rel="noopener noreferrer" class="">Largest Divisible Subset</a></li>
+<li class=""><a href="https://leetcode.com/problems/russian-doll-envelopes/" target="_blank" rel="noopener noreferrer" class="">Russian Doll Envelopes</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-length-of-pair-chain/" target="_blank" rel="noopener noreferrer" class="">Maximum Length of Pair Chain</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-string-chain/" target="_blank" rel="noopener noreferrer" class="">Longest String Chain</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/" target="_blank" rel="noopener noreferrer" class="">Minimum Number of Removals to Make Mountain Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-columns-to-make-sorted-iii/" target="_blank" rel="noopener noreferrer" class="">Delete Columns to Make Sorted III</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-6-stock-problems"><strong>Phase 6: Stock Problems</strong><a href="#phase-6-stock-problems" class="hash-link" aria-label="Direct link to phase-6-stock-problems" title="Direct link to phase-6-stock-problems" translate="no">​</a></h3>
+<p>Stock problems are a special category that tests state machine DP. Learn the pattern once and all variations become easy.</p>
+<ol start="58">
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock II</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock III</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Cooldown</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Transaction Fee</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-7-advanced-interview-dp"><strong>Phase 7: Advanced Interview DP</strong><a href="#phase-7-advanced-interview-dp" class="hash-link" aria-label="Direct link to phase-7-advanced-interview-dp" title="Direct link to phase-7-advanced-interview-dp" translate="no">​</a></h3>
+<p>These are harder problems that combine multiple patterns or require clever state definitions.</p>
+<ol start="64">
+<li class=""><a href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer" class="">Word Break</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-break-ii/" target="_blank" rel="noopener noreferrer" class="">Word Break II</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-partitioning-ii/" target="_blank" rel="noopener noreferrer" class="">Palindrome Partitioning II</a></li>
+<li class=""><a href="https://leetcode.com/problems/burst-balloons/" target="_blank" rel="noopener noreferrer" class="">Burst Balloons</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-iv/" target="_blank" rel="noopener noreferrer" class="">Stone Game IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/" target="_blank" rel="noopener noreferrer" class="">Maximum Score from Performing Multiplication Operations</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/" target="_blank" rel="noopener noreferrer" class="">Minimum Difficulty of a Job Schedule</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems"><strong>Competitive Programming Problems</strong><a href="#competitive-programming-problems" class="hash-link" aria-label="Direct link to competitive-programming-problems" title="Direct link to competitive-programming-problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-educational-dp-contest-26-problems---must-solve"><strong>AtCoder Educational DP Contest (26 problems - Must Solve)</strong><a href="#atcoder-educational-dp-contest-26-problems---must-solve" class="hash-link" aria-label="Direct link to atcoder-educational-dp-contest-26-problems---must-solve" title="Direct link to atcoder-educational-dp-contest-26-problems---must-solve" translate="no">​</a></h3>
+<p>This contest is specifically designed to teach DP. Solve all 26 problems in order. These are perfectly curated for learning.</p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_a" target="_blank" rel="noopener noreferrer" class="">A - Frog 1</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_b" target="_blank" rel="noopener noreferrer" class="">B - Frog 2</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_c" target="_blank" rel="noopener noreferrer" class="">C - Vacation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_d" target="_blank" rel="noopener noreferrer" class="">D - Knapsack 1</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_e" target="_blank" rel="noopener noreferrer" class="">E - Knapsack 2</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_f" target="_blank" rel="noopener noreferrer" class="">F - LCS</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_g" target="_blank" rel="noopener noreferrer" class="">G - Longest Path</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_h" target="_blank" rel="noopener noreferrer" class="">H - Grid 1</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_i" target="_blank" rel="noopener noreferrer" class="">I - Coins</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_j" target="_blank" rel="noopener noreferrer" class="">J - Sushi</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_k" target="_blank" rel="noopener noreferrer" class="">K - Stones</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_l" target="_blank" rel="noopener noreferrer" class="">L - Deque</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_m" target="_blank" rel="noopener noreferrer" class="">M - Candies</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_n" target="_blank" rel="noopener noreferrer" class="">N - Slimes</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_o" target="_blank" rel="noopener noreferrer" class="">O - Matching</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_p" target="_blank" rel="noopener noreferrer" class="">P - Independent Set</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_q" target="_blank" rel="noopener noreferrer" class="">Q - Flowers</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_r" target="_blank" rel="noopener noreferrer" class="">R - Walk</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_s" target="_blank" rel="noopener noreferrer" class="">S - Digit Sum</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_t" target="_blank" rel="noopener noreferrer" class="">T - Permutation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_u" target="_blank" rel="noopener noreferrer" class="">U - Grouping</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_v" target="_blank" rel="noopener noreferrer" class="">V - Subtree</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_w" target="_blank" rel="noopener noreferrer" class="">W - Intervals</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_x" target="_blank" rel="noopener noreferrer" class="">X - Tower</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_y" target="_blank" rel="noopener noreferrer" class="">Y - Grid 2</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_z" target="_blank" rel="noopener noreferrer" class="">Z - Frog 3</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="cses-dynamic-programming-section-19-problems"><strong>CSES Dynamic Programming Section (19 problems)</strong><a href="#cses-dynamic-programming-section-19-problems" class="hash-link" aria-label="Direct link to cses-dynamic-programming-section-19-problems" title="Direct link to cses-dynamic-programming-section-19-problems" translate="no">​</a></h3>
+<p>Excellent problem quality, covers all important DP techniques for competitive programming.</p>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1633" target="_blank" rel="noopener noreferrer" class="">Dice Combinations</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1634" target="_blank" rel="noopener noreferrer" class="">Minimizing Coins</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1635" target="_blank" rel="noopener noreferrer" class="">Coin Combinations I</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1636" target="_blank" rel="noopener noreferrer" class="">Coin Combinations II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1637" target="_blank" rel="noopener noreferrer" class="">Removing Digits</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1638" target="_blank" rel="noopener noreferrer" class="">Grid Paths</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1158" target="_blank" rel="noopener noreferrer" class="">Book Shop</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1746" target="_blank" rel="noopener noreferrer" class="">Array Description</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2413" target="_blank" rel="noopener noreferrer" class="">Counting Towers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1639" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1744" target="_blank" rel="noopener noreferrer" class="">Rectangle Cutting</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1745" target="_blank" rel="noopener noreferrer" class="">Money Sums</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1097" target="_blank" rel="noopener noreferrer" class="">Removal Game</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1093" target="_blank" rel="noopener noreferrer" class="">Two Sets II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1145" target="_blank" rel="noopener noreferrer" class="">Increasing Subsequence</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1140" target="_blank" rel="noopener noreferrer" class="">Projects</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1653" target="_blank" rel="noopener noreferrer" class="">Elevator Rides</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2181" target="_blank" rel="noopener noreferrer" class="">Counting Tilings</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2220" target="_blank" rel="noopener noreferrer" class="">Counting Numbers</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="codeforces-dp-problems-by-rating"><strong>Codeforces DP Problems by Rating</strong><a href="#codeforces-dp-problems-by-rating" class="hash-link" aria-label="Direct link to codeforces-dp-problems-by-rating" title="Direct link to codeforces-dp-problems-by-rating" translate="no">​</a></h3>
+<p><strong>Rating 1200-1400 (Beginner CP):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/contest/1324/problem/D" target="_blank" rel="noopener noreferrer" class="">Frog 1</a></li>
+<li class=""><a href="https://codeforces.com/contest/1384/problem/A" target="_blank" rel="noopener noreferrer" class="">Array Shrinking</a></li>
+<li class=""><a href="https://codeforces.com/contest/1397/problem/B" target="_blank" rel="noopener noreferrer" class="">Yet Another Array Restoration</a></li>
+<li class=""><a href="https://codeforces.com/contest/1810/problem/C" target="_blank" rel="noopener noreferrer" class="">Block Towers</a></li>
+<li class=""><a href="https://codeforces.com/contest/1490/problem/D" target="_blank" rel="noopener noreferrer" class="">Permutation Transformation</a></li>
+</ol>
+<p><strong>Rating 1400-1600 (Intermediate):</strong></p>
+<ol start="6">
+<li class="">
+<p><a href="https://codeforces.com/contest/96/problem/D" target="_blank" rel="noopener noreferrer" class="">Lucky Numbers</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1237/problem/C2" target="_blank" rel="noopener noreferrer" class="">Balanced Tunnel</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/596/problem/B" target="_blank" rel="noopener noreferrer" class="">Wilbur and Array</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/295/problem/B" target="_blank" rel="noopener noreferrer" class="">Greg and Array</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/460/problem/C" target="_blank" rel="noopener noreferrer" class="">Present</a></p>
+</li>
+</ol>
+<p><strong>Rating 1600-1800 (Advanced):</strong></p>
+<ol start="11">
+<li class="">
+<p><a href="https://codeforces.com/contest/553/problem/A" target="_blank" rel="noopener noreferrer" class="">Kyoya and Colored Balls</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/476/problem/B" target="_blank" rel="noopener noreferrer" class="">Dreamoon and WiFi</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1417/problem/D" target="_blank" rel="noopener noreferrer" class="">Make Them Equal</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1102/problem/D" target="_blank" rel="noopener noreferrer" class="">Integer Sequence Dividing</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1016/problem/D" target="_blank" rel="noopener noreferrer" class="">Vasya and Magic Matrix</a></p>
+</li>
+</ol>
+<p><strong>Rating 1800-2000 (Expert):</strong></p>
+<ol start="16">
+<li class="">
+<p><a href="https://codeforces.com/contest/597/problem/C" target="_blank" rel="noopener noreferrer" class="">Subsequences</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/339/problem/D" target="_blank" rel="noopener noreferrer" class="">Xenia and Bit Operations</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/300/problem/C" target="_blank" rel="noopener noreferrer" class="">Beautiful Numbers</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/711/problem/C" target="_blank" rel="noopener noreferrer" class="">Coloring Trees</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/815/problem/C" target="_blank" rel="noopener noreferrer" class="">Karen and Cards</a></p>
+</li>
+</ol>
+<p><strong>Rating 2000-2200 (Candidate Master):</strong></p>
+<ol start="21">
+<li class="">
+<p><a href="https://codeforces.com/contest/1187/problem/E" target="_blank" rel="noopener noreferrer" class="">Tree Painting</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1539/problem/E" target="_blank" rel="noopener noreferrer" class="">Count Good Numbers</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1325/problem/E" target="_blank" rel="noopener noreferrer" class="">Ehab&#x27;s REAL Number Theory Problem</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1343/problem/E" target="_blank" rel="noopener noreferrer" class="">Weights Distribution</a></p>
+</li>
+<li class="">
+<p><a href="https://codeforces.com/contest/1352/problem/G" target="_blank" rel="noopener noreferrer" class="">Special Permutation</a></p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="advanced-cp-topics"><strong>Advanced CP Topics</strong><a href="#advanced-cp-topics" class="hash-link" aria-label="Direct link to advanced-cp-topics" title="Direct link to advanced-cp-topics" translate="no">​</a></h3>
+<p><strong>Digit DP Problems:</strong></p>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/2220" target="_blank" rel="noopener noreferrer" class="">CSES - Counting Numbers</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_s" target="_blank" rel="noopener noreferrer" class="">AtCoder DP S - Digit Sum</a></li>
+<li class=""><a href="https://codeforces.com/contest/628/problem/D" target="_blank" rel="noopener noreferrer" class="">Codeforces - Magic Numbers</a></li>
+<li class=""><a href="https://www.spoj.com/problems/NUMTSN/" target="_blank" rel="noopener noreferrer" class="">SPOJ - NUMTSN</a></li>
+<li class=""><a href="https://www.spoj.com/problems/PR003004/" target="_blank" rel="noopener noreferrer" class="">SPOJ - PR003004</a></li>
+</ol>
+<p><strong>Bitmask DP Problems:</strong></p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_o" target="_blank" rel="noopener noreferrer" class="">AtCoder DP O - Matching</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_u" target="_blank" rel="noopener noreferrer" class="">AtCoder DP U - Grouping</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1653" target="_blank" rel="noopener noreferrer" class="">CSES - Elevator Rides</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1690" target="_blank" rel="noopener noreferrer" class="">CSES - Hamiltonian Flights</a></li>
+<li class=""><a href="https://codeforces.com/contest/21/problem/D" target="_blank" rel="noopener noreferrer" class="">Codeforces - Fish</a></li>
+</ol>
+<p><strong>DP on Trees:</strong></p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_p" target="_blank" rel="noopener noreferrer" class="">AtCoder DP P - Independent Set</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_v" target="_blank" rel="noopener noreferrer" class="">AtCoder DP V - Subtree</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1130" target="_blank" rel="noopener noreferrer" class="">CSES - Tree Matching</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1132" target="_blank" rel="noopener noreferrer" class="">CSES - Tree Distances I</a></li>
+<li class=""><a href="https://codeforces.com/contest/1187/problem/E" target="_blank" rel="noopener noreferrer" class="">Codeforces - Tree Painting</a></li>
+</ol>
+<p><strong>SOS DP (Sum Over Subsets):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/contest/165/problem/E" target="_blank" rel="noopener noreferrer" class="">Codeforces - Compatible Numbers</a></li>
+<li class=""><a href="https://codeforces.com/contest/1352/problem/G" target="_blank" rel="noopener noreferrer" class="">Codeforces - Special Permutation</a></li>
+<li class=""><a href="https://www.codechef.com/problems/COVERING" target="_blank" rel="noopener noreferrer" class="">Codechef - COVERING</a></li>
+</ol>
+<p><strong>DP Optimization Techniques:</strong></p>
+<p>Convex Hull Trick:</p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_z" target="_blank" rel="noopener noreferrer" class="">AtCoder DP Z - Frog 3</a></li>
+<li class=""><a href="https://codeforces.com/contest/673/problem/E" target="_blank" rel="noopener noreferrer" class="">Codeforces - Levels and Regions</a></li>
+</ol>
+<p>Divide and Conquer DP:</p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_n" target="_blank" rel="noopener noreferrer" class="">AtCoder DP N - Slimes</a></li>
+<li class=""><a href="https://codeforces.com/contest/321/problem/E" target="_blank" rel="noopener noreferrer" class="">Codeforces - Ciel and Gondolas</a></li>
+</ol>
+<p>Knuth Optimization:</p>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_n" target="_blank" rel="noopener noreferrer" class="">AtCoder DP N - Slimes</a></li>
+<li class=""><a href="https://www.spoj.com/problems/BRKSTRNG/" target="_blank" rel="noopener noreferrer" class="">SPOJ - BRKSTRNG</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline"><strong>Learning Timeline</strong><a href="#learning-timeline" class="hash-link" aria-label="Direct link to learning-timeline" title="Direct link to learning-timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-7-8-weeks"><strong>For Interview Preparation (7-8 weeks)</strong><a href="#for-interview-preparation-7-8-weeks" class="hash-link" aria-label="Direct link to for-interview-preparation-7-8-weeks" title="Direct link to for-interview-preparation-7-8-weeks" translate="no">​</a></h3>
+<p><strong>Week 1: 1D DP Foundation</strong> Solve all 15 problems from Phase 1. Start with Climbing Stairs and understand the progression from recursion to memoization to tabulation. By the end of this week, you should clearly understand what &quot;overlapping subproblems&quot; means. Don&#x27;t rush this week - it&#x27;s the foundation for everything else.</p>
+<p><strong>Week 2: 2D DP and Grid Problems</strong> Solve 12 problems from Phase 2. Grid DP is very visual and intuitive once you get it. Practice drawing the DP table and understanding how each cell depends on previous cells. Unique Paths is the classic starting problem.</p>
+<p><strong>Week 3: Knapsack Pattern</strong> Solve all 10 problems from Phase 3. This is THE most important DP pattern for interviews. Understand both 0/1 knapsack and unbounded knapsack thoroughly. Many seemingly unrelated problems are actually knapsack in disguise.</p>
+<p><strong>Week 4: String DP</strong> Solve 12 problems from Phase 4. String DP is common in interviews. Master LCS first, then move to palindrome problems, then edit distance. These three patterns cover most string DP questions.</p>
+<p><strong>Week 5: LIS Pattern</strong> Solve 8 problems from Phase 5. Understand both the O(n²) DP solution and the O(n log n) binary search optimization. This pattern appears in many forms.</p>
+<p><strong>Week 6: Stock Problems and State Machines</strong> Solve 6 stock problems from Phase 6. These teach you state machine DP which is useful for many other problems. Learn the pattern once and all variations become straightforward.</p>
+<p><strong>Week 7: Advanced Problems</strong> Solve 7 problems from Phase 7. These combine multiple patterns or require creative state definitions. They&#x27;re closer to real interview difficulty.</p>
+<p><strong>Week 8: Review and Practice</strong> Solve 15-20 mixed problems. Do mock interviews. Time yourself. Review problems where you struggled. Make sure you can identify patterns quickly.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming-6-8-months"><strong>For Competitive Programming (6-8 months)</strong><a href="#for-competitive-programming-6-8-months" class="hash-link" aria-label="Direct link to for-competitive-programming-6-8-months" title="Direct link to for-competitive-programming-6-8-months" translate="no">​</a></h3>
+<p><strong>Month 1: Strong Foundation</strong> Complete AtCoder Educational DP Contest problems A-M (13 problems). Solve CSES problems 1-8. Practice both top-down and bottom-up approaches. Master basic knapsack, grid DP, and LCS. Target 40-50 problems this month including Codeforces 1200-1400.</p>
+<p><strong>Month 2: Intermediate Patterns</strong> Complete AtCoder DP Contest problems N-Z (13 problems). Solve CSES problems 9-15. Learn interval DP, game theory DP, and probability DP basics. Solve Codeforces 1400-1600 rated problems. Target 40-50 problems.</p>
+<p><strong>Month 3: Bitmask DP</strong> Master bitmask DP thoroughly. This is crucial for many CP problems. Solve all bitmask DP problems from the advanced section. Understand traveling salesman, assignment problems, and subset sum using bitmasks. Target 30-40 problems at 1400-1700 rating.</p>
+<p><strong>Month 4: DP on Trees</strong> Learn tree DP techniques. Solve all tree DP problems listed. Understand rerooting technique. This opens up a whole new category of problems. Target 30-40 problems at 1500-1800 rating.</p>
+<p><strong>Month 5: Digit DP</strong> Master digit DP completely. This technique is specific but appears regularly. Solve all digit DP problems in the advanced section. Practice forming digit DP states quickly. Target 25-30 problems at 1600-1900 rating.</p>
+<p><strong>Month 6: Advanced Optimization</strong> Learn Convex Hull Trick, Divide and Conquer DP, and Knuth Optimization. These techniques optimize O(n³) to O(n²) or O(n²) to O(n log n). Solve problems requiring these optimizations. Target 20-25 problems at 1700-2000 rating.</p>
+<p><strong>Months 7-8: SOS DP and Mastery</strong> Master SOS DP (Sum Over Subsets). Practice on mixed DP problems from contests. Participate in virtual contests regularly. Focus on solving DP problems quickly. Target 1800+ rated problems.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="study-approach"><strong>Study Approach</strong><a href="#study-approach" class="hash-link" aria-label="Direct link to study-approach" title="Direct link to study-approach" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interviews"><strong>For Interviews</strong><a href="#for-interviews" class="hash-link" aria-label="Direct link to for-interviews" title="Direct link to for-interviews" translate="no">​</a></h3>
+<p>The key to mastering DP for interviews is recognizing patterns. When you see a problem, ask yourself:</p>
+<ul>
+<li class="">Can this be broken into smaller subproblems?</li>
+<li class="">Do subproblems overlap?</li>
+<li class="">What state do I need to track?</li>
+<li class="">What&#x27;s the recurrence relation?</li>
+</ul>
+<p>Start with recursion. Write a recursive solution first, even if it&#x27;s inefficient. Then identify what you&#x27;re computing repeatedly and add memoization. Finally, convert to bottom-up tabulation if needed.</p>
+<p>Practice the three-step approach:</p>
+<ol>
+<li class="">Identify the pattern (1D DP, knapsack, LCS, etc)</li>
+<li class="">Define state and write recurrence relation</li>
+<li class="">Implement (preferably bottom-up for interviews)</li>
+</ol>
+<p>Don&#x27;t just solve problems - after solving, think about:</p>
+<ul>
+<li class="">Why this state definition works</li>
+<li class="">Could you define state differently?</li>
+<li class="">What&#x27;s the time and space complexity?</li>
+<li class="">How would you explain this to an interviewer?</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming"><strong>For Competitive Programming</strong><a href="#for-competitive-programming" class="hash-link" aria-label="Direct link to for-competitive-programming" title="Direct link to for-competitive-programming" translate="no">​</a></h3>
+<p>For CP, you need speed and the ability to handle novel DP formulations. Build a strong template library. Practice identifying DP in problems that don&#x27;t obviously look like DP.</p>
+<p>Key skills to develop:</p>
+<ul>
+<li class="">Fast pattern recognition from problem statements</li>
+<li class="">Ability to formulate DP states for new problems</li>
+<li class="">Quick implementation of both top-down and bottom-up</li>
+<li class="">Understanding when optimization techniques are needed</li>
+</ul>
+<p>For each new DP technique, solve at least 10-15 problems until it becomes second nature. Participate in virtual contests and upsolve all DP problems you couldn&#x27;t solve during the contest.</p>
+<p>Read editorials even for problems you solved - you&#x27;ll often find better state definitions or optimizations you didn&#x27;t think of.</p>
+<p>Advanced CP tips:</p>
+<ul>
+<li class="">Learn to spot when O(n²) needs optimization</li>
+<li class="">Master space optimization techniques</li>
+<li class="">Understand amortized complexity analysis</li>
+<li class="">Practice formulating DP for game theory problems</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="common-dp-patterns-summary"><strong>Common DP Patterns Summary</strong><a href="#common-dp-patterns-summary" class="hash-link" aria-label="Direct link to common-dp-patterns-summary" title="Direct link to common-dp-patterns-summary" translate="no">​</a></h2>
+<p><strong>1D DP</strong> - Single parameter state, usually index. Climbing stairs, house robber.</p>
+<p><strong>2D DP</strong> - Two parameter state. Grid problems, string matching.</p>
+<p><strong>Knapsack</strong> - Optimization with capacity constraint. Subset sum, partition problems.</p>
+<p><strong>LCS/LIS</strong> - Subsequence problems. Edit distance, longest common subsequence.</p>
+<p><strong>Interval DP</strong> - Breaking interval into smaller intervals. Matrix chain multiplication, burst balloons.</p>
+<p><strong>State Machine DP</strong> - Tracking current state. Stock problems, state transitions.</p>
+<p><strong>Tree DP</strong> - DP on tree structure. Independent set on trees, tree distances.</p>
+<p><strong>Bitmask DP</strong> - Using bits to represent state. Traveling salesman, assignment problems.</p>
+<p><strong>Digit DP</strong> - Counting numbers with certain properties. Count numbers in range satisfying conditions.</p>
+<p><strong>Probability DP</strong> - Computing probabilities. Expected value problems.</p>
+<p><strong>Game Theory DP</strong> - Optimal play in games. Nim game variations.</p>
+<p><strong>DP on DAG</strong> - DP on directed acyclic graphs. Longest path, counting paths.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="identifying-dp-problems"><strong>Identifying DP Problems</strong><a href="#identifying-dp-problems" class="hash-link" aria-label="Direct link to identifying-dp-problems" title="Direct link to identifying-dp-problems" translate="no">​</a></h2>
+<p>A problem is likely DP if:</p>
+<ul>
+<li class="">It asks for optimal value (minimum/maximum)</li>
+<li class="">It asks for number of ways to do something</li>
+<li class="">It involves making choices at each step</li>
+<li class="">Current decision affects future decisions</li>
+<li class="">Problem has overlapping subproblems</li>
+</ul>
+<p>Keywords that often indicate DP:</p>
+<ul>
+<li class="">&quot;Minimum/Maximum cost/sum/length&quot;</li>
+<li class="">&quot;Count number of ways&quot;</li>
+<li class="">&quot;Is it possible to...&quot;</li>
+<li class="">&quot;Longest/Shortest subsequence/substring&quot;</li>
+<li class="">&quot;Optimize&quot; or &quot;best strategy&quot;</li>
+</ul>
+<p>Not every optimization problem is DP though. If the problem has a greedy choice property without needing to consider all subproblems, greedy might be better.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts"><strong>Final Thoughts</strong><a href="#final-thoughts" class="hash-link" aria-label="Direct link to final-thoughts" title="Direct link to final-thoughts" translate="no">​</a></h2>
+<p>Dynamic Programming seems intimidating because problems look different on the surface. But underneath, they follow clear patterns. The key breakthrough for me was realizing that I didn&#x27;t need to memorize solutions - I needed to recognize patterns.</p>
+<p>For interviews, focus on the core patterns: 1D DP, 2D DP, Knapsack, LCS, and LIS. These five patterns cover 80% of interview DP problems. Solve 60-80 problems across these patterns and you&#x27;ll be well-prepared for any tech interview.</p>
+<p>For competitive programming, you need depth. Master the basics first, then move to advanced topics like bitmask DP, digit DP, and DP optimizations. Consistent practice over 6-8 months will get you to a strong level. Participate in contests regularly - you learn the most from upsolving problems you couldn&#x27;t solve during the contest.</p>
+<p>The progression from struggling with DP to mastering it takes time. Don&#x27;t get discouraged if problems feel hard initially. Every expert was once a beginner. The difference is they kept solving problems consistently.</p>
+<p>Some practical advice from my journey:</p>
+<ul>
+<li class="">Solve problems in pattern groups, not randomly</li>
+<li class="">After solving, try to solve the same problem again after 3 days</li>
+<li class="">Read multiple solutions for the same problem</li>
+<li class="">Explain your solution out loud as if teaching someone</li>
+<li class="">Don&#x27;t look at solutions too quickly - struggle for 30-40 minutes first</li>
+<li class="">Keep a notebook of state definitions for different patterns</li>
+</ul>
+<p>Remember: DP is a skill that compounds. Each problem you solve makes the next one easier. The first 20 problems are hardest. After 50 problems, you&#x27;ll start seeing patterns clearly. After 100 problems, DP becomes one of your strong topics.</p>
+<p>One more thing - don&#x27;t compare your progress with others. Some people click with DP quickly, others take longer. What matters is consistent practice and genuine understanding, not how fast you get there.</p>
+<p>Good luck with your DP journey! The struggle is worth it. Once you master DP, you unlock a whole new level of problem-solving ability.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="quick-reference"><strong>Quick Reference</strong><a href="#quick-reference" class="hash-link" aria-label="Direct link to quick-reference" title="Direct link to quick-reference" translate="no">​</a></h2>
+<p><strong>Interview DP Checklist:</strong></p>
+<ul>
+<li class="">Can code basic recursion to DP conversion</li>
+<li class="">Understand memoization vs tabulation tradeoffs</li>
+<li class="">Master 1D and 2D DP patterns</li>
+<li class="">Comfortable with knapsack variations</li>
+<li class="">Know LCS and LIS cold</li>
+<li class="">Can explain time and space complexity</li>
+<li class="">Solved 60-80 problems across all patterns</li>
+<li class="">Can identify DP pattern in 2-3 minutes</li>
+<li class="">Comfortable implementing in interview setting</li>
+</ul>
+<p><strong>CP DP Checklist:</strong></p>
+<ul>
+<li class="">All AtCoder Educational DP problems solved</li>
+<li class="">All CSES DP problems solved</li>
+<li class="">Comfortable with bitmask DP</li>
+<li class="">Understand digit DP formulation</li>
+<li class="">Know tree DP techniques</li>
+<li class="">Learned at least one DP optimization (CHT or D&amp;C)</li>
+<li class="">Solved 150+ DP problems</li>
+<li class="">Can handle 1600-1800 rated DP problems</li>
+<li class="">Fast implementation with templates</li>
+<li class="">Regular contest participation</li>
+</ul>
+<p><strong>When You&#x27;re Stuck:</strong></p>
+<ol>
+<li class="">Can you break the problem into smaller subproblems?</li>
+<li class="">Do subproblems overlap?</li>
+<li class="">What state do you need to track?</li>
+<li class="">Write recursive solution first</li>
+<li class="">Add memoization</li>
+<li class="">Convert to bottom-up if needed</li>
+<li class="">Check for space optimization opportunities</li>
+</ol>
+<p><strong>Common Mistakes to Avoid:</strong></p>
+<ul>
+<li class="">Jumping to hard problems too quickly</li>
+<li class="">Not understanding recursion properly first</li>
+<li class="">Memorizing solutions instead of patterns</li>
+<li class="">Skipping the &quot;thinking&quot; phase</li>
+<li class="">Not considering base cases carefully</li>
+<li class="">Incorrect state transitions</li>
+<li class="">Not optimizing space when possible</li>
+<li class="">Giving up too soon on hard problems</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="additional-resources"><strong>Additional Resources</strong><a href="#additional-resources" class="hash-link" aria-label="Direct link to additional-resources" title="Direct link to additional-resources" translate="no">​</a></h2>
+<p><strong>Practice Platforms:</strong></p>
+<ul>
+<li class="">LeetCode - Best for interview prep, excellent discuss section</li>
+<li class="">Codeforces - Best for CP, active community</li>
+<li class="">AtCoder - Highest quality educational problems</li>
+<li class="">CSES - Clean, well-tested problems</li>
+<li class="">SPOJ - Classic problems, good for practice</li>
+</ul>
+<p><strong>Communities:</strong></p>
+<ul>
+<li class="">LeetCode Discuss - Great for interview discussions</li>
+<li class="">Codeforces Blogs - Advanced DP techniques</li>
+<li class="">r/leetcode - Reddit community for interview prep</li>
+<li class="">r/competitiveprogramming - Reddit for CP</li>
+</ul>
+<p><strong>YouTube Channels to Follow:</strong></p>
+<ul>
+<li class="">NeetCode for interview patterns</li>
+<li class="">Striver for comprehensive coverage</li>
+<li class="">Errichto for advanced CP techniques</li>
+<li class="">William Fiset for algorithm theory</li>
+<li class="">Abdul Bari for conceptual clarity</li>
+</ul>
+<p><strong>When to Use DP vs Other Approaches:</strong></p>
+<ul>
+<li class="">DP: Optimization with overlapping subproblems</li>
+<li class="">Greedy: Optimization with greedy choice property</li>
+<li class="">Divide and Conquer: Independent subproblems</li>
+<li class="">Backtracking: Exploring all possibilities with constraints</li>
+<li class="">Graph Algorithms: Path/connectivity problems</li>
+</ul>
+<hr>
+<p>What&#x27;s your current DP level? Are you just starting or already comfortable with the basics? Share your struggles or wins in the comments. I&#x27;d love to help or learn from your experience!</p>
+<p>Happy coding and keep grinding those DP problems!</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/dsa">dsa</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/dynamic-programming">dynamic-programming</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/leetcode">leetcode</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/competitive-programming">competitive-programming</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/interview-prep">interview-prep</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/ProjectYuj/dsa/tags/algorithms">algorithms</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--next" href="/ProjectYuj/dsa/complete-graph-guide"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Complete Graph Problems &amp; Resources Guide</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#understanding-dynamic-programming" class="table-of-contents__link toc-highlight"><strong>Understanding Dynamic Programming</strong></a></li><li><a href="#best-learning-resources" class="table-of-contents__link toc-highlight"><strong>Best Learning Resources</strong></a><ul><li><a href="#video-resources-for-interview-prep" class="table-of-contents__link toc-highlight"><strong>Video Resources for Interview Prep</strong></a></li><li><a href="#video-resources-for-competitive-programming" class="table-of-contents__link toc-highlight"><strong>Video Resources for Competitive Programming</strong></a></li><li><a href="#written-resources" class="table-of-contents__link toc-highlight"><strong>Written Resources</strong></a></li><li><a href="#books-worth-reading" class="table-of-contents__link toc-highlight"><strong>Books Worth Reading</strong></a></li></ul></li><li><a href="#interview-problems-70-total" class="table-of-contents__link toc-highlight"><strong>Interview Problems (70 Total)</strong></a><ul><li><a href="#phase-1-1d-dp---linear-problems" class="table-of-contents__link toc-highlight"><strong>Phase 1: 1D DP - Linear Problems</strong></a></li><li><a href="#phase-2-2d-dp---grid--matrix" class="table-of-contents__link toc-highlight"><strong>Phase 2: 2D DP - Grid &amp; Matrix</strong></a></li><li><a href="#phase-3-knapsack-pattern" class="table-of-contents__link toc-highlight"><strong>Phase 3: Knapsack Pattern</strong></a></li><li><a href="#phase-4-string-dp" class="table-of-contents__link toc-highlight"><strong>Phase 4: String DP</strong></a></li><li><a href="#phase-5-longest-increasing-subsequence" class="table-of-contents__link toc-highlight"><strong>Phase 5: Longest Increasing Subsequence</strong></a></li><li><a href="#phase-6-stock-problems" class="table-of-contents__link toc-highlight"><strong>Phase 6: Stock Problems</strong></a></li><li><a href="#phase-7-advanced-interview-dp" class="table-of-contents__link toc-highlight"><strong>Phase 7: Advanced Interview DP</strong></a></li></ul></li><li><a href="#competitive-programming-problems" class="table-of-contents__link toc-highlight"><strong>Competitive Programming Problems</strong></a><ul><li><a href="#atcoder-educational-dp-contest-26-problems---must-solve" class="table-of-contents__link toc-highlight"><strong>AtCoder Educational DP Contest (26 problems - Must Solve)</strong></a></li><li><a href="#cses-dynamic-programming-section-19-problems" class="table-of-contents__link toc-highlight"><strong>CSES Dynamic Programming Section (19 problems)</strong></a></li><li><a href="#codeforces-dp-problems-by-rating" class="table-of-contents__link toc-highlight"><strong>Codeforces DP Problems by Rating</strong></a></li><li><a href="#advanced-cp-topics" class="table-of-contents__link toc-highlight"><strong>Advanced CP Topics</strong></a></li></ul></li><li><a href="#learning-timeline" class="table-of-contents__link toc-highlight"><strong>Learning Timeline</strong></a><ul><li><a href="#for-interview-preparation-7-8-weeks" class="table-of-contents__link toc-highlight"><strong>For Interview Preparation (7-8 weeks)</strong></a></li><li><a href="#for-competitive-programming-6-8-months" class="table-of-contents__link toc-highlight"><strong>For Competitive Programming (6-8 months)</strong></a></li></ul></li><li><a href="#study-approach" class="table-of-contents__link toc-highlight"><strong>Study Approach</strong></a><ul><li><a href="#for-interviews" class="table-of-contents__link toc-highlight"><strong>For Interviews</strong></a></li><li><a href="#for-competitive-programming" class="table-of-contents__link toc-highlight"><strong>For Competitive Programming</strong></a></li></ul></li><li><a href="#common-dp-patterns-summary" class="table-of-contents__link toc-highlight"><strong>Common DP Patterns Summary</strong></a></li><li><a href="#identifying-dp-problems" class="table-of-contents__link toc-highlight"><strong>Identifying DP Problems</strong></a></li><li><a href="#final-thoughts" class="table-of-contents__link toc-highlight"><strong>Final Thoughts</strong></a></li><li><a href="#quick-reference" class="table-of-contents__link toc-highlight"><strong>Quick Reference</strong></a></li><li><a href="#additional-resources" class="table-of-contents__link toc-highlight"><strong>Additional Resources</strong></a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Blog Sections</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/dsa">DSA</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/ml">Machine Learning</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/system-design">System Design</a></li><li class="footer__item"><a class="footer__link-item" href="/ProjectYuj/research">Research Papers</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Connect</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://leetcode.com/u/saiganesh_reddy/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LeetCode<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="mailto:sabadu.sai.reddy@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 SaiGaneshReddy. All rights reserved.</div></div></div></footer></div>
+</body>
+</html>
