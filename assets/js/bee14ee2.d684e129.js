@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[1338],{8504(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ProjectYuj/ml","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Machine Learning"}}')}}]);

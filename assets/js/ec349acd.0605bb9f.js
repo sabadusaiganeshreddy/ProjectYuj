@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[5601],{5006(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ProjectYuj/system-design","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"System Design"}}')}}]);

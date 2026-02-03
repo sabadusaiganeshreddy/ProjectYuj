@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[1428],{8567(e){e.exports=JSON.parse('{"title":"All Posts","items":[{"title":"Welcome to ML Blog","permalink":"/ProjectYuj/ml/welcome-ml","unlisted":false,"date":"2026-01-24T00:00:00.000Z"}]}')}}]);
