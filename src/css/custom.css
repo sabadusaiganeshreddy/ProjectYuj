@@ -101,48 +101,25 @@ aside.theme-blog-sidebar-container {
   }
 }
 
-/* Compact blog list view - make it look like a list */
+/* Hide blog sidebars - we're using custom list layout */
+.theme-blog-list-page aside {
+  display: none !important;
+}
+
+.theme-blog-list-page .col {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+.theme-blog-list-page .container {
+  max-width: 1200px !important;
+}
+
+/* Remove old blog list styling since we have custom component */
 article.margin-bottom--xl {
-  margin-bottom: 1.5rem !important;
-  padding: 1rem;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-}
-
-article.margin-bottom--xl:last-child {
-  border-bottom: none;
-}
-
-/* Hide blog post preview content */
-.theme-blog-post-list-item .margin-top--md,
-.theme-blog-post-list-item article > div:not(header) {
-  display: none !important;
-}
-
-/* Hide any paragraph or content after header */
-.theme-blog-post-list-item article header ~ * {
-  display: none !important;
-}
-
-/* Make blog post title more prominent in list */
-.theme-blog-post-list-item header h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Compact metadata */
-.theme-blog-post-list-item .margin-bottom--md {
-  margin-bottom: 0.25rem !important;
-}
-
-/* Remove card-like appearance */
-.theme-blog-post-list-item {
-  box-shadow: none !important;
-  border-radius: 0 !important;
+  margin-bottom: 0 !important;
   padding: 0 !important;
+  border-bottom: none !important;
 }
 
-/* Make the list cleaner */
-.blogPostTitle_src-theme-BlogPostItem-Header-Title-styles-module {
-  font-size: 1.5rem !important;
-}
 
