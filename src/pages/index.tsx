@@ -6,6 +6,17 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+function ProfileHeader() {
+  return (
+    <div className={styles.profileHeader}>
+      <div className="container">
+        <Heading as="h1" className={styles.profileName}>Sai Ganesh Reddy</Heading>
+        <p className={styles.profileTitle}>Engineering at Cisco</p>
+      </div>
+    </div>
+  );
+}
+
 function AboutSection() {
   return (
     <section className={styles.aboutSection}>
@@ -44,6 +55,7 @@ export default function Home(): JSX.Element {
       title={`Home`}
       description="Tech blog covering DSA, ML, System Design, and Research Papers">
       <main>
+        <ProfileHeader />
         <AboutSection />
       </main>
     </Layout>

@@ -100,3 +100,43 @@ aside.theme-blog-sidebar-container {
     z-index: 100;
   }
 }
+
+/* Compact blog list view - make it look like a list */
+article.margin-bottom--xl {
+  margin-bottom: 1.5rem !important;
+  padding: 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+article.margin-bottom--xl:last-child {
+  border-bottom: none;
+}
+
+/* Hide blog post preview content */
+.theme-blog-post-list-item .margin-top--md {
+  display: none;
+}
+
+/* Make blog post title more prominent in list */
+.theme-blog-post-list-item header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Compact metadata */
+.theme-blog-post-list-item .margin-bottom--md {
+  margin-bottom: 0.25rem !important;
+}
+
+/* Remove card-like appearance */
+.theme-blog-post-list-item {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+/* Make the list cleaner */
+.blogPostTitle_src-theme-BlogPostItem-Header-Title-styles-module {
+  font-size: 1.5rem !important;
+}
+
