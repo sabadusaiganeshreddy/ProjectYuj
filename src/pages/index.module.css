@@ -6,7 +6,7 @@
 .profileHeader {
   padding: 4rem 0 2rem 0;
   background-color: var(--ifm-background-color);
-  text-align: center;
+  text-align: left;
 }
 
 .profileName {
@@ -18,9 +18,13 @@
 
 .profileTitle {
   font-size: 1.25rem;
-  color: var(--ifm-color-primary);
+  color: #000000;
   margin-bottom: 0;
   font-weight: 400;
+}
+
+[data-theme='dark'] .profileTitle {
+  color: #ffffff;
 }
 
 .aboutSection {
@@ -29,7 +33,7 @@
 }
 
 .aboutTitle {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
   margin-bottom: 3rem;
   color: #000000;

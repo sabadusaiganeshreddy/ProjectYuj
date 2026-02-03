@@ -113,8 +113,14 @@ article.margin-bottom--xl:last-child {
 }
 
 /* Hide blog post preview content */
-.theme-blog-post-list-item .margin-top--md {
-  display: none;
+.theme-blog-post-list-item .margin-top--md,
+.theme-blog-post-list-item article > div:not(header) {
+  display: none !important;
+}
+
+/* Hide any paragraph or content after header */
+.theme-blog-post-list-item article header ~ * {
+  display: none !important;
 }
 
 /* Make blog post title more prominent in list */

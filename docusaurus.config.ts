@@ -47,7 +47,7 @@ const config: Config = {
         blogSidebarTitle: 'All Posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        postsPerPage: 'ALL',
+        postsPerPage: 10,
       },
     ],
     [
@@ -60,7 +60,7 @@ const config: Config = {
         blogSidebarTitle: 'All Posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        postsPerPage: 'ALL',
+        postsPerPage: 10,
       },
     ],
     [
@@ -73,7 +73,7 @@ const config: Config = {
         blogSidebarTitle: 'All Posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        postsPerPage: 'ALL',
+        postsPerPage: 10,
       },
     ],
     [
@@ -86,7 +86,7 @@ const config: Config = {
         blogSidebarTitle: 'All Posts',
         blogSidebarCount: 'ALL',
         showReadingTime: true,
-        postsPerPage: 'ALL',
+        postsPerPage: 10,
       },
     ],
   ],
