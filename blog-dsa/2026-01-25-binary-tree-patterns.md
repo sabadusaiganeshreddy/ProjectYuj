@@ -220,4 +220,4 @@ These are the problems that show up in actual FAANG interviews most frequently, 
 
 ---
 
-**Happy coding! 🚀**
+**Happy coding!**

@@ -11,7 +11,7 @@ Recursion and backtracking are fundamental techniques that unlock solutions to s
 
 ---
 
-## 🎯 Understanding the Foundation
+## Understanding the Foundation
 
 Before diving into problems, let's clarify the concepts. **Recursion** is about breaking problems into smaller subproblems of the same type, while **backtracking** is a specific recursive technique where you explore all possible solutions by building candidates incrementally and abandoning them ("backtracking") when they fail to satisfy constraints.
 
@@ -178,6 +178,6 @@ These are the most challenging backtracking problems, combining multiple pattern
 
 ---
 
-## 📚 Final Thoughts
+## Final Thoughts
 
 Recursion and backtracking require practice to develop intuition. Start with basic recursion, move to combinations and permutations, then tackle the advanced patterns. Remember: every backtracking problem follows the same framework - make a choice, explore it recursively, and backtrack if it doesn't work.

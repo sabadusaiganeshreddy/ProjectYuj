@@ -11,7 +11,7 @@ I've curated 25 **Stack**, **Queue**, **LinkedList** problems that teach you all
 
 ---
 
-## 🎯 The Essential Problems
+## The Essential Problems
 
 ### Stack Problems
 
@@ -154,7 +154,7 @@ I've curated 25 **Stack**, **Queue**, **LinkedList** problems that teach you all
 
 ---
 
-## 📚 Study Strategy
+## Study Strategy
 
 **Week 1-2:** Master basic operations (problems 1-9, 10-12)
 **Week 3-4:** Two-pointer techniques and cycle detection (problems 13-17)

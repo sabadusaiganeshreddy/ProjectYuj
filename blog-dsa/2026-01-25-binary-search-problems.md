@@ -11,7 +11,7 @@ I've curated **20 binary search problems that teach you all major patterns.** Th
 
 ---
 
-## 🎯 The 20 Essential Problems
+## The 20 Essential Problems
 
 ### Pattern 1: Classic Binary Search
 
@@ -149,7 +149,7 @@ I've curated **20 binary search problems that teach you all major patterns.** Th
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 ### When to Use Binary Search:
 1. **Sorted array** - Classic binary search
@@ -196,7 +196,7 @@ while left < right:
 
 ---
 
-## 📚 Study Plan
+## Study Plan
 
 **Day 1-3:** Master classic binary search (Problems 1-3)
 **Day 4-7:** Binary search on answer space (Problems 4-9)

@@ -144,4 +144,4 @@ After posting graph and tree patterns, today I've curated 25 carefully selected 
 
 These 25 problems are your foundation for Arrays. Master them, and you'll handle the majority of array questions thrown at you in interviews.
 
-**Good luck with your preparation! 🚀**
+**Good luck with your preparation!**

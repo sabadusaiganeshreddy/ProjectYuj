@@ -268,6 +268,6 @@ DP is about **recognizing patterns**, not memorizing solutions. Once you see the
  **Feel free to add some best problems in the comments**
 
 
-**Good luck, and happy coding! 🚀**
+**Good luck, and happy coding!**
 
 *If this guide helped you, please upvote and share with others!*
