@@ -2,11 +2,327 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</id>
     <title>SaiGaneshReddy Blog</title>
-    <updated>2026-02-02T00:00:00.000Z</updated>
+    <updated>2026-02-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa"/>
     <subtitle>SaiGaneshReddy Blog</subtitle>
     <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Complete Bit Manipulation Problems & Resources Guide]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide"/>
+        <updated>2026-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone! Bit manipulation is one of the most powerful and elegant techniques in programming. I've spent years mastering bit tricks for both interviews and competitive programming, and I want to share a complete guide that will transform how you approach problems involving bits, bitwise operations, and binary representations.]]></summary>
+        <content type="html"><![CDATA[<p>Hey everyone! Bit manipulation is one of the most powerful and elegant techniques in programming. I've spent years mastering bit tricks for both interviews and competitive programming, and I want to share a complete guide that will transform how you approach problems involving bits, bitwise operations, and binary representations.</p>
+<p>The key insight: Bit manipulation isn't just about flipping bits—it's a problem-solving paradigm that enables incredibly efficient solutions to seemingly complex problems. Once you understand the fundamental bit tricks, you'll recognize optimization opportunities that others miss entirely.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-bit-manipulation">Understanding Bit Manipulation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#understanding-bit-manipulation" class="hash-link" aria-label="Direct link to Understanding Bit Manipulation" title="Direct link to Understanding Bit Manipulation" translate="no">​</a></h2>
+<p><strong>What makes Bit Manipulation challenging?</strong> The operations themselves are simple (AND, OR, XOR, shifts), but recognizing when to use them and understanding the mathematical properties requires strong intuition. Bit manipulation problems often have elegant one-line solutions hiding behind complex-looking requirements.</p>
+<p><strong>For Tech Interviews:</strong> You need to master core patterns: bit masking, XOR tricks, power of 2 checks, counting bits, and bit manipulation for subsets. About 60-80 well-understood problems is ideal. The key is knowing the standard tricks and being able to explain the bit-level logic clearly.</p>
+<p><strong>For Competitive Programming:</strong> You need deep understanding of advanced techniques: bitmask DP, meet-in-the-middle, Gray codes, bit tricks for optimization, and combining bits with other algorithms. This requires 100-130+ problems and strong mathematical thinking.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="best-learning-resources">Best Learning Resources<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#best-learning-resources" class="hash-link" aria-label="Direct link to Best Learning Resources" title="Direct link to Best Learning Resources" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-interview-prep">Video Resources for Interview Prep<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#video-resources-for-interview-prep" class="hash-link" aria-label="Direct link to Video Resources for Interview Prep" title="Direct link to Video Resources for Interview Prep" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf" target="_blank" rel="noopener noreferrer" class="">NeetCode - Bit Manipulation</a></strong> - Excellent for learning interview bit manipulation patterns. Clear explanations of common tricks. Perfect for building foundational understanding.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7" target="_blank" rel="noopener noreferrer" class="">take U forward (Striver) - Bit Manipulation Series</a></strong> - Comprehensive coverage with detailed explanations. 15+ hours covering basics through advanced techniques. Great for deep understanding.</p>
+<p><strong><a href="https://www.youtube.com/watch?v=NLKQEOgBAnw" target="_blank" rel="noopener noreferrer" class="">Back To Back SWE - Bit Manipulation</a></strong> - Excellent breakdown of bit manipulation fundamentals with clear examples. Great for understanding the "why" behind each operation.</p>
+<p><strong><a href="https://www.youtube.com/watch?v=6-0UaeJBumA" target="_blank" rel="noopener noreferrer" class="">Abdul Bari - Bitwise Operators</a></strong> - Best for understanding the theory and how bitwise operations work at the hardware level. Crystal clear explanations.</p>
+<p><strong><a href="https://www.youtube.com/playlist?list=PLDV1Zeh2NRsAsbafOroUBnNV8fhZa7P4u" target="_blank" rel="noopener noreferrer" class="">William Fiset - Bit Manipulation Techniques</a></strong> - Great visualizations and explanations of various bit tricks and their applications.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="video-resources-for-competitive-programming">Video Resources for Competitive Programming<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#video-resources-for-competitive-programming" class="hash-link" aria-label="Direct link to Video Resources for Competitive Programming" title="Direct link to Video Resources for Competitive Programming" translate="no">​</a></h3>
+<p><strong><a href="https://www.youtube.com/c/Errichto" target="_blank" rel="noopener noreferrer" class="">Errichto - Bit Manipulation &amp; Bitmasks</a></strong> - Advanced bit manipulation for CP. Covers bitmask DP, meet-in-the-middle, and contest problems. Exceptional content.</p>
+<p><strong><a href="https://www.youtube.com/c/SecondThread" target="_blank" rel="noopener noreferrer" class="">SecondThread - Bit Tricks</a></strong> - Shows how to use bit manipulation for optimization in competitive programming. Advanced techniques and combinations.</p>
+<p><strong><a href="https://www.youtube.com/c/CodeNCode" target="_blank" rel="noopener noreferrer" class="">CodeNCode - Bitmask DP</a></strong> - Excellent coverage of using bitmasks for dynamic programming. Essential for CP.</p>
+<p><strong><a href="https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w" target="_blank" rel="noopener noreferrer" class="">Algorithms Live! - Bit Manipulation</a></strong> - Deep mathematical perspective on bit operations and their properties.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="written-resources">Written Resources<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#written-resources" class="hash-link" aria-label="Direct link to Written Resources" title="Direct link to Written Resources" translate="no">​</a></h3>
+<p><strong>For Interviews:</strong></p>
+<ul>
+<li class=""><a href="https://leetcode.com/tag/bit-manipulation/" target="_blank" rel="noopener noreferrer" class="">LeetCode Bit Manipulation Problems</a></li>
+<li class=""><a href="https://www.geeksforgeeks.org/bits-manipulation-important-tactics/" target="_blank" rel="noopener noreferrer" class="">GeeksforGeeks Bit Manipulation</a></li>
+<li class=""><a href="https://graphics.stanford.edu/~seander/bithacks.html" target="_blank" rel="noopener noreferrer" class="">Bit Twiddling Hacks</a></li>
+<li class=""><a href="https://www.interviewbit.com/courses/programming/topics/bit-manipulation/" target="_blank" rel="noopener noreferrer" class="">InterviewBit - Bit Manipulation</a></li>
+</ul>
+<p><strong>For Competitive Programming:</strong></p>
+<ul>
+<li class=""><a href="https://cp-algorithms.com/algebra/bit-manipulation.html" target="_blank" rel="noopener noreferrer" class="">CP-Algorithms - Bit Manipulation</a></li>
+<li class=""><a href="https://codeforces.com/blog/entry/73490" target="_blank" rel="noopener noreferrer" class="">Codeforces Bitmask Tutorial</a></li>
+<li class=""><a href="https://usaco.guide/silver/intro-bitwise" target="_blank" rel="noopener noreferrer" class="">USACO Guide - Intro to Bitwise Operators</a></li>
+<li class=""><a href="https://www.topcoder.com/thrive/articles/A%20bit%20of%20fun:%20fun%20with%20bits" target="_blank" rel="noopener noreferrer" class="">TopCoder Bit Manipulation Tutorial</a></li>
+<li class=""><a href="https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/" target="_blank" rel="noopener noreferrer" class="">HackerEarth Bit Manipulation</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="books-worth-reading">Books Worth Reading<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#books-worth-reading" class="hash-link" aria-label="Direct link to Books Worth Reading" title="Direct link to Books Worth Reading" translate="no">​</a></h3>
+<p><strong>Hacker's Delight</strong> by Henry S. Warren Jr. - The bible of bit manipulation. Every trick you can imagine and more.</p>
+<p><strong>The Art of Computer Programming, Volume 4A</strong> by Donald Knuth - Comprehensive coverage of bitwise tricks and combinatorial algorithms.</p>
+<p><strong>Competitive Programming 4</strong> - Excellent section on bitmasks and bitmask DP for contests.</p>
+<p><strong>Elements of Programming Interviews</strong> - Good bit manipulation problems with detailed solutions.</p>
+<p><strong>Bit Manipulation Handbook</strong> - Concise reference for all common bit tricks.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="interview-problems-80-total">Interview Problems (80 Total)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#interview-problems-80-total" class="hash-link" aria-label="Direct link to Interview Problems (80 Total)" title="Direct link to Interview Problems (80 Total)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-1-bit-manipulation-basics-15-problems">Phase 1: Bit Manipulation Basics (15 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-1-bit-manipulation-basics-15-problems" class="hash-link" aria-label="Direct link to Phase 1: Bit Manipulation Basics (15 problems)" title="Direct link to Phase 1: Bit Manipulation Basics (15 problems)" translate="no">​</a></h3>
+<p>Master fundamental operations. Essential foundation for everything else.</p>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/single-number/" target="_blank" rel="noopener noreferrer" class="">Single Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-1-bits/" target="_blank" rel="noopener noreferrer" class="">Number of 1 Bits</a></li>
+<li class=""><a href="https://leetcode.com/problems/counting-bits/" target="_blank" rel="noopener noreferrer" class="">Counting Bits</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-bits/" target="_blank" rel="noopener noreferrer" class="">Reverse Bits</a></li>
+<li class=""><a href="https://leetcode.com/problems/power-of-two/" target="_blank" rel="noopener noreferrer" class="">Power of Two</a></li>
+<li class=""><a href="https://leetcode.com/problems/power-of-four/" target="_blank" rel="noopener noreferrer" class="">Power of Four</a></li>
+<li class=""><a href="https://leetcode.com/problems/missing-number/" target="_blank" rel="noopener noreferrer" class="">Missing Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-difference/" target="_blank" rel="noopener noreferrer" class="">Find the Difference</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-number-with-alternating-bits/" target="_blank" rel="noopener noreferrer" class="">Binary Number with Alternating Bits</a></li>
+<li class=""><a href="https://leetcode.com/problems/complement-of-base-10-integer/" target="_blank" rel="noopener noreferrer" class="">Complement of Base 10 Integer</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-complement/" target="_blank" rel="noopener noreferrer" class="">Number Complement</a></li>
+<li class=""><a href="https://leetcode.com/problems/hamming-distance/" target="_blank" rel="noopener noreferrer" class="">Hamming Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/total-hamming-distance/" target="_blank" rel="noopener noreferrer" class="">Total Hamming Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-watch/" target="_blank" rel="noopener noreferrer" class="">Binary Watch</a></li>
+<li class=""><a href="https://leetcode.com/problems/convert-a-number-to-hexadecimal/" target="_blank" rel="noopener noreferrer" class="">Convert a Number to Hexadecimal</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-2-xor-properties--tricks-12-problems">Phase 2: XOR Properties &amp; Tricks (12 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-2-xor-properties--tricks-12-problems" class="hash-link" aria-label="Direct link to Phase 2: XOR Properties &amp; Tricks (12 problems)" title="Direct link to Phase 2: XOR Properties &amp; Tricks (12 problems)" translate="no">​</a></h3>
+<p>XOR is the most important bit operation. Master its properties.</p>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/single-number-ii/" target="_blank" rel="noopener noreferrer" class="">Single Number II</a></li>
+<li class=""><a href="https://leetcode.com/problems/single-number-iii/" target="_blank" rel="noopener noreferrer" class="">Single Number III</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-duplicate-number/" target="_blank" rel="noopener noreferrer" class="">Find the Duplicate Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/missing-number/" target="_blank" rel="noopener noreferrer" class="">Missing Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/" target="_blank" rel="noopener noreferrer" class="">Find Two Non-overlapping Sub-arrays Each With Target Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/xor-operation-in-an-array/" target="_blank" rel="noopener noreferrer" class="">XOR Operation in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-xored-array/" target="_blank" rel="noopener noreferrer" class="">Decode XORed Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-xored-permutation/" target="_blank" rel="noopener noreferrer" class="">Decode XORed Permutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/" target="_blank" rel="noopener noreferrer" class="">Find XOR Sum of All Pairs Bitwise AND</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Maximum XOR of Two Numbers in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-xor-with-an-element-from-array/" target="_blank" rel="noopener noreferrer" class="">Maximum XOR With an Element From Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/" target="_blank" rel="noopener noreferrer" class="">Count Triplets That Can Form Two Arrays of Equal XOR</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-3-bit-masking--subsets-10-problems">Phase 3: Bit Masking &amp; Subsets (10 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-3-bit-masking--subsets-10-problems" class="hash-link" aria-label="Direct link to Phase 3: Bit Masking &amp; Subsets (10 problems)" title="Direct link to Phase 3: Bit Masking &amp; Subsets (10 problems)" translate="no">​</a></h3>
+<p>Using bits to represent sets and generate subsets efficiently.</p>
+<ol start="28">
+<li class=""><a href="https://leetcode.com/problems/subsets/" target="_blank" rel="noopener noreferrer" class="">Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/subsets-ii/" target="_blank" rel="noopener noreferrer" class="">Subsets II</a></li>
+<li class=""><a href="https://leetcode.com/problems/letter-case-permutation/" target="_blank" rel="noopener noreferrer" class="">Letter Case Permutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-product-of-word-lengths/" target="_blank" rel="noopener noreferrer" class="">Maximum Product of Word Lengths</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer" class="">Partition to K Equal Sum Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/beautiful-arrangement/" target="_blank" rel="noopener noreferrer" class="">Beautiful Arrangement</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/" target="_blank" rel="noopener noreferrer" class="">Find Minimum Time to Finish All Jobs</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer" class="">Shortest Path Visiting All Nodes</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-sufficient-team/" target="_blank" rel="noopener noreferrer" class="">Smallest Sufficient Team</a></li>
+<li class=""><a href="https://leetcode.com/problems/fair-distribution-of-cookies/" target="_blank" rel="noopener noreferrer" class="">Fair Distribution of Cookies</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-4-bit-manipulation-for-optimization-10-problems">Phase 4: Bit Manipulation for Optimization (10 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-4-bit-manipulation-for-optimization-10-problems" class="hash-link" aria-label="Direct link to Phase 4: Bit Manipulation for Optimization (10 problems)" title="Direct link to Phase 4: Bit Manipulation for Optimization (10 problems)" translate="no">​</a></h3>
+<p>Using bits to optimize solutions for other problems.</p>
+<ol start="38">
+<li class=""><a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/" target="_blank" rel="noopener noreferrer" class="">Sum of All Subset XOR Totals</a></li>
+<li class=""><a href="https://leetcode.com/problems/bitwise-and-of-numbers-range/" target="_blank" rel="noopener noreferrer" class="">Bitwise AND of Numbers Range</a></li>
+<li class=""><a href="https://leetcode.com/problems/bitwise-ors-of-subarrays/" target="_blank" rel="noopener noreferrer" class="">Bitwise ORs of Subarrays</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/" target="_blank" rel="noopener noreferrer" class="">Longest Subarray With Maximum Bitwise AND</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/" target="_blank" rel="noopener noreferrer" class="">Minimum Flips to Make a OR b Equal to c</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/" target="_blank" rel="noopener noreferrer" class="">Count Number of Maximum Bitwise-OR Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-nice-subarray/" target="_blank" rel="noopener noreferrer" class="">Longest Nice Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimize-xor/" target="_blank" rel="noopener noreferrer" class="">Minimize XOR</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-xor-after-operations/" target="_blank" rel="noopener noreferrer" class="">Maximum XOR After Operations</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-strong-pair-xor-i/" target="_blank" rel="noopener noreferrer" class="">Maximum Strong Pair XOR I</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-5-bit-tricks--patterns-10-problems">Phase 5: Bit Tricks &amp; Patterns (10 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-5-bit-tricks--patterns-10-problems" class="hash-link" aria-label="Direct link to Phase 5: Bit Tricks &amp; Patterns (10 problems)" title="Direct link to Phase 5: Bit Tricks &amp; Patterns (10 problems)" translate="no">​</a></h3>
+<p>Advanced bit tricks and non-obvious applications.</p>
+<ol start="48">
+<li class=""><a href="https://leetcode.com/problems/add-binary/" target="_blank" rel="noopener noreferrer" class="">Add Binary</a></li>
+<li class=""><a href="https://leetcode.com/problems/sum-of-two-integers/" target="_blank" rel="noopener noreferrer" class="">Sum of Two Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/divide-two-integers/" target="_blank" rel="noopener noreferrer" class="">Divide Two Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/utf-8-validation/" target="_blank" rel="noopener noreferrer" class="">UTF-8 Validation</a></li>
+<li class=""><a href="https://leetcode.com/problems/integer-replacement/" target="_blank" rel="noopener noreferrer" class="">Integer Replacement</a></li>
+<li class=""><a href="https://leetcode.com/problems/gray-code/" target="_blank" rel="noopener noreferrer" class="">Gray Code</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-integer/" target="_blank" rel="noopener noreferrer" class="">Reverse Integer</a></li>
+<li class=""><a href="https://leetcode.com/problems/repeated-dna-sequences/" target="_blank" rel="noopener noreferrer" class="">Repeated DNA Sequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/vowels-of-all-substrings/" target="_blank" rel="noopener noreferrer" class="">Vowels of All Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-number-of-coins-you-can-get/" target="_blank" rel="noopener noreferrer" class="">Maximum Number of Coins You Can Get</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-6-bitmask-dynamic-programming-10-problems">Phase 6: Bitmask Dynamic Programming (10 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-6-bitmask-dynamic-programming-10-problems" class="hash-link" aria-label="Direct link to Phase 6: Bitmask Dynamic Programming (10 problems)" title="Direct link to Phase 6: Bitmask Dynamic Programming (10 problems)" translate="no">​</a></h3>
+<p>Essential for competitive programming. Using bitmasks for DP state.</p>
+<ol start="58">
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Connect Two Groups of Points</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Wear Different Hats to Each Other</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-students-taking-exam/" target="_blank" rel="noopener noreferrer" class="">Maximum Students Taking Exam</a></li>
+<li class=""><a href="https://leetcode.com/problems/distribute-repeating-integers/" target="_blank" rel="noopener noreferrer" class="">Distribute Repeating Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Change the Final Value of Expression</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/" target="_blank" rel="noopener noreferrer" class="">Maximum Score from Performing Multiplication Operations</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximize-score-after-n-operations/" target="_blank" rel="noopener noreferrer" class="">Maximize Score After N Operations</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-shortest-superstring/" target="_blank" rel="noopener noreferrer" class="">Find the Shortest Superstring</a></li>
+<li class=""><a href="https://leetcode.com/problems/stickers-to-spell-word/" target="_blank" rel="noopener noreferrer" class="">Stickers to Spell Word</a></li>
+<li class=""><a href="https://leetcode.com/problems/parallel-courses-ii/" target="_blank" rel="noopener noreferrer" class="">Parallel Courses II</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-7-advanced-bit-manipulation-8-problems">Phase 7: Advanced Bit Manipulation (8 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-7-advanced-bit-manipulation-8-problems" class="hash-link" aria-label="Direct link to Phase 7: Advanced Bit Manipulation (8 problems)" title="Direct link to Phase 7: Advanced Bit Manipulation (8 problems)" translate="no">​</a></h3>
+<p>Complex applications requiring deep understanding.</p>
+<ol start="68">
+<li class=""><a href="https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/" target="_blank" rel="noopener noreferrer" class="">Concatenation of Consecutive Binary Numbers</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/" target="_blank" rel="noopener noreferrer" class="">Number of Valid Words for Each Puzzle</a></li>
+<li class=""><a href="https://leetcode.com/problems/construct-target-array-with-multiple-sums/" target="_blank" rel="noopener noreferrer" class="">Construct Target Array With Multiple Sums</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-genetic-difference-query/" target="_blank" rel="noopener noreferrer" class="">Maximum Genetic Difference Query</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-array-given-subset-sums/" target="_blank" rel="noopener noreferrer" class="">Find Array Given Subset Sums</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximize-the-beauty-of-the-garden/" target="_blank" rel="noopener noreferrer" class="">Maximize the Beauty of the Garden</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-subarrays-with-score-less-than-k/" target="_blank" rel="noopener noreferrer" class="">Count Subarrays With Score Less Than K</a></li>
+<li class=""><a href="https://leetcode.com/problems/closest-subsequence-sum/" target="_blank" rel="noopener noreferrer" class="">Closest Subsequence Sum</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="phase-8-bit-manipulation-with-other-techniques-5-problems">Phase 8: Bit Manipulation with Other Techniques (5 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#phase-8-bit-manipulation-with-other-techniques-5-problems" class="hash-link" aria-label="Direct link to Phase 8: Bit Manipulation with Other Techniques (5 problems)" title="Direct link to Phase 8: Bit Manipulation with Other Techniques (5 problems)" translate="no">​</a></h3>
+<p>Combining bit manipulation with other algorithms.</p>
+<ol start="76">
+<li class=""><a href="https://leetcode.com/problems/maximum-and-sum-of-array/" target="_blank" rel="noopener noreferrer" class="">Maximum AND Sum of Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-incompatibility/" target="_blank" rel="noopener noreferrer" class="">Minimum Incompatibility</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-compatibility-score-sum/" target="_blank" rel="noopener noreferrer" class="">Maximum Compatibility Score Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/optimize-water-distribution-in-a-village/" target="_blank" rel="noopener noreferrer" class="">Optimize Water Distribution in a Village</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys/" target="_blank" rel="noopener noreferrer" class="">Shortest Path to Get All Keys</a></li>
+</ol>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="competitive-programming-problems">Competitive Programming Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#competitive-programming-problems" class="hash-link" aria-label="Direct link to Competitive Programming Problems" title="Direct link to Competitive Programming Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="atcoder-bit-manipulation-problems-20-problems">AtCoder Bit Manipulation Problems (20 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#atcoder-bit-manipulation-problems-20-problems" class="hash-link" aria-label="Direct link to AtCoder Bit Manipulation Problems (20 problems)" title="Direct link to AtCoder Bit Manipulation Problems (20 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://atcoder.jp/contests/abc117/tasks/abc117_c" target="_blank" rel="noopener noreferrer" class="">ABC 117 C - Streamline</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc128/tasks/abc128_c" target="_blank" rel="noopener noreferrer" class="">ABC 128 C - Switches</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc142/tasks/abc142_e" target="_blank" rel="noopener noreferrer" class="">ABC 142 E - Get Everything</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc147/tasks/abc147_c" target="_blank" rel="noopener noreferrer" class="">ABC 147 C - HonestOrUnkind2</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc150/tasks/abc150_c" target="_blank" rel="noopener noreferrer" class="">ABC 150 C - Count Order</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc173/tasks/abc173_c" target="_blank" rel="noopener noreferrer" class="">ABC 173 C - H and V</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc180/tasks/abc180_e" target="_blank" rel="noopener noreferrer" class="">ABC 180 E - Traveling Salesman among Aerial Cities</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc187/tasks/abc187_e" target="_blank" rel="noopener noreferrer" class="">ABC 187 E - Through Path</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc190/tasks/abc190_e" target="_blank" rel="noopener noreferrer" class="">ABC 190 E - Magical Ornament</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc194/tasks/abc194_e" target="_blank" rel="noopener noreferrer" class="">ABC 194 E - Mex Min</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc200/tasks/abc200_e" target="_blank" rel="noopener noreferrer" class="">ABC 200 E - Patisserie ABC 2</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc215/tasks/abc215_e" target="_blank" rel="noopener noreferrer" class="">ABC 215 E - Chain Contestant</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc223/tasks/abc223_e" target="_blank" rel="noopener noreferrer" class="">ABC 223 E - Placing Rectangles</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc238/tasks/abc238_e" target="_blank" rel="noopener noreferrer" class="">ABC 238 E - Range Sums</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc249/tasks/abc249_e" target="_blank" rel="noopener noreferrer" class="">ABC 249 E - RLE</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc100/tasks/arc100_a" target="_blank" rel="noopener noreferrer" class="">ARC 100 C - Linear Approximation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc264/tasks/abc264_e" target="_blank" rel="noopener noreferrer" class="">ABC 264 E - Chance Meeting</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc275/tasks/abc275_e" target="_blank" rel="noopener noreferrer" class="">ABC 275 E - Sugoroku 4</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc289/tasks/abc289_e" target="_blank" rel="noopener noreferrer" class="">ABC 289 E - Swap Places</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc301/tasks/abc301_e" target="_blank" rel="noopener noreferrer" class="">ABC 301 E - Pac-Takahashi</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="cses-bit-manipulation-problems-8-problems">CSES Bit Manipulation Problems (8 problems)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#cses-bit-manipulation-problems-8-problems" class="hash-link" aria-label="Direct link to CSES Bit Manipulation Problems (8 problems)" title="Direct link to CSES Bit Manipulation Problems (8 problems)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://cses.fi/problemset/task/1617" target="_blank" rel="noopener noreferrer" class="">Bit Strings</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2205" target="_blank" rel="noopener noreferrer" class="">Gray Code</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2165" target="_blank" rel="noopener noreferrer" class="">Tower of Hanoi</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1622" target="_blank" rel="noopener noreferrer" class="">Creating Strings</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1623" target="_blank" rel="noopener noreferrer" class="">Apple Division</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1624" target="_blank" rel="noopener noreferrer" class="">Chessboard and Queens</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1625" target="_blank" rel="noopener noreferrer" class="">Grid Paths</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1093" target="_blank" rel="noopener noreferrer" class="">Hamming Distance</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="codeforces-bit-manipulation-problems-by-rating">Codeforces Bit Manipulation Problems by Rating<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#codeforces-bit-manipulation-problems-by-rating" class="hash-link" aria-label="Direct link to Codeforces Bit Manipulation Problems by Rating" title="Direct link to Codeforces Bit Manipulation Problems by Rating" translate="no">​</a></h3>
+<p><strong>Rating 800-1000 (Beginner):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/A" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - A - Wrong Subtraction</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/988/A" target="_blank" rel="noopener noreferrer" class="">Round 486 Div3 - A - Diverse Team</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1108/A" target="_blank" rel="noopener noreferrer" class="">Round 535 Div3 - A - Two Distinct Points</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1399/A" target="_blank" rel="noopener noreferrer" class="">Round 661 Div3 - A - Remove Smallest</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1472/A" target="_blank" rel="noopener noreferrer" class="">Round 693 Div3 - A - Zodiac Sign</a></li>
+</ol>
+<p><strong>Rating 1000-1200 (Easy):</strong></p>
+<ol start="6">
+<li class=""><a href="https://codeforces.com/problemset/problem/617/A" target="_blank" rel="noopener noreferrer" class="">Round 344 Div2 - A - Puzzle Pieces</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/706/A" target="_blank" rel="noopener noreferrer" class="">Round 367 Div2 - A - Beru-taxi</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/733/A" target="_blank" rel="noopener noreferrer" class="">Round 380 Div2 - A - Grasshopper And the String</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/835/A" target="_blank" rel="noopener noreferrer" class="">Round 427 Div2 - A - Key races</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/977/B" target="_blank" rel="noopener noreferrer" class="">Round 479 Div3 - B - Trace</a></li>
+</ol>
+<p><strong>Rating 1200-1400 (Medium):</strong></p>
+<ol start="11">
+<li class=""><a href="https://codeforces.com/problemset/problem/448/B" target="_blank" rel="noopener noreferrer" class="">Round 256 Div2 - B - Suffix Structures</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/510/A" target="_blank" rel="noopener noreferrer" class="">Round 290 Div2 - A - Fox And Snake</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/A" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - A - Kefa and First Steps</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/617/B" target="_blank" rel="noopener noreferrer" class="">Round 340 Div2 - B - Chocolate</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/699/B" target="_blank" rel="noopener noreferrer" class="">Round 363 Div2 - B - One Bomb</a></li>
+</ol>
+<p><strong>Rating 1400-1600 (Advanced):</strong></p>
+<ol start="16">
+<li class=""><a href="https://codeforces.com/problemset/problem/368/B" target="_blank" rel="noopener noreferrer" class="">Round 243 Div2 - B - Sereja and Suffixes</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/279/B" target="_blank" rel="noopener noreferrer" class="">Round 268 Div2 - B - Books</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/505/A" target="_blank" rel="noopener noreferrer" class="">Round 285 Div2 - A - Mr. Kitayuta's Gift</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/586/B" target="_blank" rel="noopener noreferrer" class="">Round 325 Div2 - B - Laurenty and Shop</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/641/B" target="_blank" rel="noopener noreferrer" class="">Round 348 Div2 - B - Little Robber Girl's Zoo</a></li>
+</ol>
+<p><strong>Rating 1600-1800 (Expert):</strong></p>
+<ol start="21">
+<li class=""><a href="https://codeforces.com/problemset/problem/372/C" target="_blank" rel="noopener noreferrer" class="">Round 211 Div2 - C - Counting Kangaroos is Fun</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/448/C" target="_blank" rel="noopener noreferrer" class="">Round 256 Div2 - C - Painting Fence</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/496/C" target="_blank" rel="noopener noreferrer" class="">Round 283 Div2 - C - Removing Columns</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/510/C" target="_blank" rel="noopener noreferrer" class="">Round 290 Div2 - C - Fox And Names</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/C" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - C - Kefa and Park</a></li>
+</ol>
+<p><strong>Rating 1800-2000 (Candidate Master):</strong></p>
+<ol start="26">
+<li class=""><a href="https://codeforces.com/problemset/problem/336/D" target="_blank" rel="noopener noreferrer" class="">Round 196 Div2 - D - Beard Graph</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/425/D" target="_blank" rel="noopener noreferrer" class="">Round 243 Div2 - D - Sereja and Squares</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/468/D" target="_blank" rel="noopener noreferrer" class="">Round 268 Div2 - D - Two Sets</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/501/D" target="_blank" rel="noopener noreferrer" class="">Round 285 Div2 - D - Misha and Permutations Summation</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/580/D" target="_blank" rel="noopener noreferrer" class="">Round 321 Div2 - D - Kefa and Dishes</a></li>
+</ol>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="advanced-cp-topics">Advanced CP Topics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#advanced-cp-topics" class="hash-link" aria-label="Direct link to Advanced CP Topics" title="Direct link to Advanced CP Topics" translate="no">​</a></h3>
+<p><strong>Bitmask DP:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/61/E" target="_blank" rel="noopener noreferrer" class="">CF - Hamiltonian Spanning Tree</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/383/C" target="_blank" rel="noopener noreferrer" class="">CF - Beautiful People</a></li>
+<li class=""><a href="https://www.spoj.com/problems/ASSIGN/" target="_blank" rel="noopener noreferrer" class="">SPOJ - ASSIGN</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/329/B" target="_blank" rel="noopener noreferrer" class="">CF - Biridian Forest</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks/dp_o" target="_blank" rel="noopener noreferrer" class="">AtCoder - Matching</a></li>
+</ol>
+<p><strong>Meet in the Middle:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/888/E" target="_blank" rel="noopener noreferrer" class="">CF - Subset Sum</a></li>
+<li class=""><a href="https://www.spoj.com/problems/ABCDEF/" target="_blank" rel="noopener noreferrer" class="">SPOJ - ABCDEF</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1333/B" target="_blank" rel="noopener noreferrer" class="">CF - Kind Anton</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc147/tasks/abc147_d" target="_blank" rel="noopener noreferrer" class="">AtCoder - XOR Sum 4</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1628" target="_blank" rel="noopener noreferrer" class="">CSES - Meet in the Middle</a></li>
+</ol>
+<p><strong>Trie with XOR:</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/983/B" target="_blank" rel="noopener noreferrer" class="">CF - XOR-pyramid</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/959/D" target="_blank" rel="noopener noreferrer" class="">CF - Mahmoud and Ehab and the xor</a></li>
+<li class=""><a href="https://www.spoj.com/problems/SUBXOR/" target="_blank" rel="noopener noreferrer" class="">SPOJ - SUBXOR</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/548/D" target="_blank" rel="noopener noreferrer" class="">CF - Mike and Shortcuts</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc121/tasks/abc121_d" target="_blank" rel="noopener noreferrer" class="">AtCoder - XOR World</a></li>
+</ol>
+<p><strong>Gaussian Elimination (XOR):</strong></p>
+<ol>
+<li class=""><a href="https://codeforces.com/problemset/problem/538/F" target="_blank" rel="noopener noreferrer" class="">CF - Tourist's Notes</a></li>
+<li class=""><a href="https://www.spoj.com/problems/XMAX/" target="_blank" rel="noopener noreferrer" class="">SPOJ - XMAX</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/815/C" target="_blank" rel="noopener noreferrer" class="">CF - Karen and Supermarket</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc223/tasks/abc223_f" target="_blank" rel="noopener noreferrer" class="">AtCoder - Independent Set on Project Selection Graph</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/908/D" target="_blank" rel="noopener noreferrer" class="">CF - New Year and Buggy Bot</a></li>
+</ol>
+<p><strong>Gray Code Applications:</strong></p>
+<ol>
+<li class=""><a href="https://www.spoj.com/problems/GRACODE/" target="_blank" rel="noopener noreferrer" class="">SPOJ - GRAYCODE</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/596/B" target="_blank" rel="noopener noreferrer" class="">CF - Wilbur and Array</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2205" target="_blank" rel="noopener noreferrer" class="">CSES - Gray Code</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc256/tasks/abc256_e" target="_blank" rel="noopener noreferrer" class="">AtCoder - Coloring</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/220/B" target="_blank" rel="noopener noreferrer" class="">CF - Little Elephant and Array</a></li>
+</ol>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="learning-timeline">Learning Timeline<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#learning-timeline" class="hash-link" aria-label="Direct link to Learning Timeline" title="Direct link to Learning Timeline" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-interview-preparation-4-5-weeks">For Interview Preparation (4-5 weeks)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#for-interview-preparation-4-5-weeks" class="hash-link" aria-label="Direct link to For Interview Preparation (4-5 weeks)" title="Direct link to For Interview Preparation (4-5 weeks)" translate="no">​</a></h3>
+<p><strong>Week 1: Bit Manipulation Fundamentals</strong>
+Solve all 15 problems from Phase 1. Master basic bitwise operations (AND, OR, XOR, NOT, shifts). Understand binary representation and common bit tricks. Learn to count set bits and check power of 2.</p>
+<p><strong>Week 2: XOR Properties</strong>
+Complete all 12 problems from Phase 2. XOR is THE most important bit operation. Master its properties: a ⊕ a = 0, a ⊕ 0 = a, commutative, associative. Learn XOR tricks for finding unique elements.</p>
+<p><strong>Week 3: Bit Masking &amp; Subsets</strong>
+Solve Phase 3 (10 problems) and Phase 4 (10 problems). Learn to use bits to represent sets. Master generating all subsets using bit manipulation. Understand bit masking for optimization.</p>
+<p><strong>Week 4: Advanced Tricks</strong>
+Complete Phase 5 (10 problems) and start Phase 6 (10 problems). Master advanced bit tricks. Begin learning bitmask DP. These patterns appear in harder interview problems.</p>
+<p><strong>Week 5: Mastery &amp; Review</strong>
+Complete Phase 6, 7, and 8. Practice mixed problems. Do mock interviews. Focus on explaining bit-level logic clearly. Review problems where you struggled to see the bit manipulation approach.</p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="for-competitive-programming-4-5-months">For Competitive Programming (4-5 months)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#for-competitive-programming-4-5-months" class="hash-link" aria-label="Direct link to For Competitive Programming (4-5 months)" title="Direct link to For Competitive Programming (4-5 months)" translate="no">​</a></h3>
+<p><strong>Month 1: Strong Foundation</strong>
+Complete all CSES bit manipulation problems. Solve AtCoder problems 1-12. Practice Codeforces 800-1200 rated problems. Master all basic bit tricks and XOR properties. Target 50-60 problems.</p>
+<p><strong>Month 2: Bitmask DP Introduction</strong>
+Learn bitmask DP technique deeply. Solve 1200-1500 rated problems. Practice using bitmasks to represent state. Understand when to use bitmask DP vs other techniques. Target 40-50 problems.</p>
+<p><strong>Month 3: Advanced Patterns</strong>
+Master meet-in-the-middle technique. Learn Trie with XOR for maximum XOR problems. Study Gray codes. Solve 1500-1700 rated problems. Target 35-45 problems.</p>
+<p><strong>Month 4: Expert Techniques</strong>
+Learn Gaussian elimination for XOR systems. Master advanced bitmask DP. Practice combining bits with other algorithms. Solve 1600-1800 rated problems. Target 30-40 problems.</p>
+<p><strong>Month 5: Mastery &amp; Speed</strong>
+Participate in virtual contests. Focus on recognizing bit manipulation opportunities instantly. Practice implementation speed. Solve 1800+ rated problems. Target 25-30 problems.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Bit manipulation is one of the most powerful tools in your algorithmic arsenal. It enables elegant solutions that are both time and space efficient.</p>
+<p><strong>For interviews</strong>, focus on understanding XOR properties, basic bit tricks, and bitmask techniques. Solve 60-80 problems and you'll be well-prepared. The key is recognizing when bit manipulation can optimize your solution.</p>
+<p><strong>For competitive programming</strong>, you need to master advanced techniques: bitmask DP, meet-in-the-middle, Trie with XOR, and Gaussian elimination. Practice combining bit manipulation with other algorithms.</p>]]></content>
+        <category label="DSA" term="DSA"/>
+        <category label="Bit Manipulation" term="Bit Manipulation"/>
+        <category label="Interview Prep" term="Interview Prep"/>
+        <category label="Competitive Programming" term="Competitive Programming"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Complete Dynamic Programming Problems & Resources Guide]]></title>
         <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/complete-dynamic-programming-guide</id>
@@ -1720,7 +2036,7 @@ Participate in virtual contests. Focus on recognizing patterns quickly. Practice
 <p><strong>For interviews</strong>, focus on the six main patterns: two pointers, sliding window, hash maps, palindromes, string DP, and Tries. Solve 90-110 problems across all patterns and you'll be extremely well-prepared. The key is recognizing which pattern applies and implementing it cleanly.</p>
 <p><strong>For competitive programming</strong>, you need to master advanced algorithms: KMP, Z-algorithm, suffix arrays, Aho-Corasick, and Manacher's. Practice combining these with other techniques and building efficient implementations.</p>
 <p>Remember: Strings test your ability to think about problems from multiple angles. Master the fundamentals first, then progressively tackle more complex problems. With consistent practice, you'll develop the pattern recognition skills needed to excel in any string problem.</p>
-<p>Happy coding! 🚀</p>]]></content>
+<p>Happy coding!</p>]]></content>
         <category label="strings" term="strings"/>
         <category label="two-pointers" term="two-pointers"/>
         <category label="sliding-window" term="sliding-window"/>
@@ -2542,7 +2858,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 </ul>
 <hr>
 <p>These 25 problems are your foundation for Arrays. Master them, and you'll handle the majority of array questions thrown at you in interviews.</p>
-<p><strong>Good luck with your preparation! 🚀</strong></p>]]></content>
+<p><strong>Good luck with your preparation!</strong></p>]]></content>
         <category label="dsa" term="dsa"/>
         <category label="arrays" term="arrays"/>
         <category label="leetcode" term="leetcode"/>
@@ -2557,7 +2873,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
         <summary type="html"><![CDATA[I've curated 20 binary search problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for spotting binary search problems.]]></summary>
         <content type="html"><![CDATA[<p>I've curated <strong>20 binary search problems that teach you all major patterns.</strong> These aren't random problems, they're specifically chosen to build your intuition for spotting binary search problems.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-the-20-essential-problems">🎯 The 20 Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-the-20-essential-problems" class="hash-link" aria-label="Direct link to 🎯 The 20 Essential Problems" title="Direct link to 🎯 The 20 Essential Problems" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="the-20-essential-problems">The 20 Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#the-20-essential-problems" class="hash-link" aria-label="Direct link to The 20 Essential Problems" title="Direct link to The 20 Essential Problems" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-1-classic-binary-search">Pattern 1: Classic Binary Search<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#pattern-1-classic-binary-search" class="hash-link" aria-label="Direct link to Pattern 1: Classic Binary Search" title="Direct link to Pattern 1: Classic Binary Search" translate="no">​</a></h3>
 <p><strong>1. Binary Search</strong> - <a href="https://leetcode.com/problems/binary-search/" target="_blank" rel="noopener noreferrer" class="">LeetCode 704</a></p>
 <ul>
@@ -2696,7 +3012,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 <li class=""><strong>Companies:</strong> Amazon, LinkedIn</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-key-insights">💡 Key Insights<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-key-insights" class="hash-link" aria-label="Direct link to 💡 Key Insights" title="Direct link to 💡 Key Insights" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="key-insights">Key Insights<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#key-insights" class="hash-link" aria-label="Direct link to Key Insights" title="Direct link to Key Insights" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="when-to-use-binary-search">When to Use Binary Search:<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#when-to-use-binary-search" class="hash-link" aria-label="Direct link to When to Use Binary Search:" title="Direct link to When to Use Binary Search:" translate="no">​</a></h3>
 <ol>
 <li class=""><strong>Sorted array</strong> - Classic binary search</li>
@@ -2712,7 +3028,7 @@ Combine binary search with DP and other advanced techniques. Practice on 1900+ r
 <p><strong>Template 3: Binary Search on Answer</strong></p>
 <div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">left</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> min_answer</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> max_answer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">while</span><span class="token plain"> left </span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    mid </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">left </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> right</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">//</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">if</span><span class="token plain"> is_feasible</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">mid</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        right </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">else</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        left </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> mid </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><br></span></code></pre></div></div>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-study-plan">📚 Study Plan<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#-study-plan" class="hash-link" aria-label="Direct link to 📚 Study Plan" title="Direct link to 📚 Study Plan" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="study-plan">Study Plan<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/binary-search-problems#study-plan" class="hash-link" aria-label="Direct link to Study Plan" title="Direct link to Study Plan" translate="no">​</a></h2>
 <p><strong>Day 1-3:</strong> Master classic binary search (Problems 1-3)
 <strong>Day 4-7:</strong> Binary search on answer space (Problems 4-9)
 <strong>Day 8-10:</strong> Advanced patterns (Problems 10-16)
@@ -2897,7 +3213,7 @@ These are the problems that show up in actual FAANG interviews most frequently, 
 <li class=""><a href="https://leetcode.com/problems/recover-binary-search-tree/" target="_blank" rel="noopener noreferrer" class="">Recover Binary Search Tree</a></li>
 </ol>
 <hr>
-<p><strong>Happy coding! 🚀</strong></p>]]></content>
+<p><strong>Happy coding!</strong></p>]]></content>
         <category label="dsa" term="dsa"/>
         <category label="binary-trees" term="binary-trees"/>
         <category label="leetcode" term="leetcode"/>
@@ -2911,7 +3227,7 @@ These are the problems that show up in actual FAANG interviews most frequently, 
         <summary type="html"><![CDATA[Recursion and backtracking are fundamental techniques that unlock solutions to some of the most elegant algorithmic problems. While they can seem daunting at first, mastering these patterns through deliberate practice will transform you into a more versatile problem solver. This guide organizes essential LeetCode problems by pattern, helping you build intuition progressively.]]></summary>
         <content type="html"><![CDATA[<p>Recursion and backtracking are fundamental techniques that unlock solutions to some of the most elegant algorithmic problems. While they can seem daunting at first, mastering these patterns through deliberate practice will transform you into a more versatile problem solver. This guide organizes essential LeetCode problems by pattern, helping you build intuition progressively.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-understanding-the-foundation">🎯 Understanding the Foundation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#-understanding-the-foundation" class="hash-link" aria-label="Direct link to 🎯 Understanding the Foundation" title="Direct link to 🎯 Understanding the Foundation" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="understanding-the-foundation">Understanding the Foundation<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#understanding-the-foundation" class="hash-link" aria-label="Direct link to Understanding the Foundation" title="Direct link to Understanding the Foundation" translate="no">​</a></h2>
 <p>Before diving into problems, let's clarify the concepts. <strong>Recursion</strong> is about breaking problems into smaller subproblems of the same type, while <strong>backtracking</strong> is a specific recursive technique where you explore all possible solutions by building candidates incrementally and abandoning them ("backtracking") when they fail to satisfy constraints.</p>
 <hr>
 <h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="pattern-1-basic-recursion">Pattern 1: Basic Recursion<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#pattern-1-basic-recursion" class="hash-link" aria-label="Direct link to Pattern 1: Basic Recursion" title="Direct link to Pattern 1: Basic Recursion" translate="no">​</a></h2>
@@ -3053,7 +3369,7 @@ These are the most challenging backtracking problems, combining multiple pattern
 <li class=""><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank" rel="noopener noreferrer" class="">Reconstruct Itinerary</a></li>
 </ol>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-final-thoughts">📚 Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#-final-thoughts" class="hash-link" aria-label="Direct link to 📚 Final Thoughts" title="Direct link to 📚 Final Thoughts" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/recursion-backtracking-patterns#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
 <p>Recursion and backtracking require practice to develop intuition. Start with basic recursion, move to combinations and permutations, then tackle the advanced patterns. Remember: every backtracking problem follows the same framework - make a choice, explore it recursively, and backtrack if it doesn't work.</p>]]></content>
         <category label="recursion" term="recursion"/>
         <category label="backtracking" term="backtracking"/>
@@ -3068,7 +3384,7 @@ These are the most challenging backtracking problems, combining multiple pattern
         <summary type="html"><![CDATA[I've curated 25 Stack, Queue, LinkedList problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for technical interviews.]]></summary>
         <content type="html"><![CDATA[<p>I've curated 25 <strong>Stack</strong>, <strong>Queue</strong>, <strong>LinkedList</strong> problems that teach you all major patterns. These aren't random problems, they're specifically chosen to build your intuition for technical interviews.</p>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-the-essential-problems">🎯 The Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#-the-essential-problems" class="hash-link" aria-label="Direct link to 🎯 The Essential Problems" title="Direct link to 🎯 The Essential Problems" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="the-essential-problems">The Essential Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#the-essential-problems" class="hash-link" aria-label="Direct link to The Essential Problems" title="Direct link to The Essential Problems" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="stack-problems">Stack Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#stack-problems" class="hash-link" aria-label="Direct link to Stack Problems" title="Direct link to Stack Problems" translate="no">​</a></h3>
 <p><strong>1. Valid Parentheses</strong> - <a href="https://leetcode.com/problems/valid-parentheses/" target="_blank" rel="noopener noreferrer" class="">LeetCode 20</a></p>
 <ul>
@@ -3227,7 +3543,7 @@ These are the most challenging backtracking problems, combining multiple pattern
 <li class=""><strong>Companies:</strong> Amazon, Google</li>
 </ul>
 <hr>
-<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="-study-strategy">📚 Study Strategy<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#-study-strategy" class="hash-link" aria-label="Direct link to 📚 Study Strategy" title="Direct link to 📚 Study Strategy" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="study-strategy">Study Strategy<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/stack-queue-linkedlist-problems#study-strategy" class="hash-link" aria-label="Direct link to Study Strategy" title="Direct link to Study Strategy" translate="no">​</a></h2>
 <p><strong>Week 1-2:</strong> Master basic operations (problems 1-9, 10-12)
 <strong>Week 3-4:</strong> Two-pointer techniques and cycle detection (problems 13-17)
 <strong>Week 5-6:</strong> Advanced patterns and combinations (problems 18-25)</p>
@@ -3460,7 +3776,7 @@ Models uncertain outcomes. Important for risk analysis, game development, and an
 <h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/dynamic-programming-patterns#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
 <p>DP is about <strong>recognizing patterns</strong>, not memorizing solutions. Once you see the pattern, the solution becomes mechanical. Spend time understanding <strong>why</strong> each pattern works, not just <strong>how</strong> to code it.</p>
 <p><strong>Feel free to add some best problems in the comments</strong></p>
-<p><strong>Good luck, and happy coding! 🚀</strong></p>
+<p><strong>Good luck, and happy coding!</strong></p>
 <p><em>If this guide helped you, please upvote and share with others!</em></p>]]></content>
         <category label="dsa" term="dsa"/>
         <category label="dynamic-programming" term="dynamic-programming"/>
