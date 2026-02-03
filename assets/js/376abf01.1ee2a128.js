@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[1387],{3274(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ProjectYuj/research","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Research Papers"}}')}}]);
