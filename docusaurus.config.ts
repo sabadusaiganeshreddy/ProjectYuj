@@ -165,6 +165,10 @@ const config: Config = {
               href: 'https://www.linkedin.com/in/saiganeshreddysabadu/',
             },
             {
+              label: 'X',
+              href: 'https://x.com/yuj_unite',
+            },
+            {
               label: 'LeetCode',
               href: 'https://leetcode.com/u/saiganesh_reddy/',
             },

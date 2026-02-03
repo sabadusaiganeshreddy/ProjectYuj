@@ -3,50 +3,55 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.heroDescription {
-  font-size: 1.1rem;
-  margin-top: 1rem;
-  color: rgba(255, 255, 255, 0.9);
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.features {
-  padding: 4rem 0;
+.aboutSection {
+  padding: 6rem 0;
   background-color: var(--ifm-background-color);
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
 }
 
-.featureGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.featureCard {
-  padding: 2rem;
-  border-radius: 12px;
-  background: var(--ifm-card-background-color);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  color: inherit;
+.aboutTitle {
   text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.featureCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  text-decoration: none;
+.aboutContent {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--ifm-font-color-base);
+}
+
+.aboutContent p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.aboutContent strong {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    padding: 3rem 0;
+  }
+  
+  .aboutTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .aboutContent {
+    font-size: 1rem;
+  }
 }
 
 .featureEmoji {

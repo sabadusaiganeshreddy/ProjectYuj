@@ -6,62 +6,31 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+function AboutSection() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <section className={styles.aboutSection}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">Software Engineer | Tech Blogger | Problem Solver</p>
-        <p className={styles.heroDescription}>
-          Exploring Data Structures & Algorithms, Machine Learning, System Design, and Research Papers
-        </p>
-      </div>
-    </header>
-  );
-}
-
-function HomepageFeatures() {
-  const features = [
-    {
-      title: 'DSA',
-      description: 'Master Data Structures & Algorithms with pattern-based problem solving approaches',
-      link: '/dsa',
-      emoji: '🧩',
-    },
-    {
-      title: 'Machine Learning',
-      description: 'Deep dives into ML concepts, models, and practical implementations',
-      link: '/ml',
-      emoji: '🤖',
-    },
-    {
-      title: 'System Design',
-      description: 'Learn how to design scalable and reliable distributed systems',
-      link: '/system-design',
-      emoji: '🏗️',
-    },
-    {
-      title: 'Research Papers',
-      description: 'Simplified explanations of cutting-edge research and book recommendations',
-      link: '/research',
-      emoji: '📚',
-    },
-  ];
-
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className={styles.featureGrid}>
-          {features.map((feature, idx) => (
-            <Link to={feature.link} className={styles.featureCard} key={idx}>
-              <div className={styles.featureEmoji}>{feature.emoji}</div>
-              <Heading as="h3">{feature.title}</Heading>
-              <p>{feature.description}</p>
-            </Link>
-          ))}
+        <Heading as="h2" className={styles.aboutTitle}>About Me</Heading>
+        <div className={styles.aboutContent}>
+          <p>
+            Hi, I'm Sai Ganesh Reddy, a passionate software engineer and tech enthusiast. 
+            I created this blog to share my journey through the fascinating world of computer science.
+          </p>
+          <p>
+            Here, you'll find comprehensive guides on <strong>Data Structures & Algorithms</strong>, 
+            insights into <strong>Machine Learning</strong>, discussions on <strong>System Design</strong>, 
+            and explorations of cutting-edge <strong>Research Papers</strong>.
+          </p>
+          <p>
+            My goal is to break down complex topics into digestible content, helping fellow developers 
+            and learners master these essential concepts. Whether you're preparing for technical interviews 
+            or diving deep into competitive programming, you'll find carefully curated resources and 
+            problem-solving strategies here.
+          </p>
+          <p>
+            Feel free to explore the blog sections and connect with me through the links in the footer. 
+            Let's learn and grow together!
+          </p>
         </div>
       </div>
     </section>
@@ -74,9 +43,8 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Home`}
       description="Tech blog covering DSA, ML, System Design, and Research Papers">
-      <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <AboutSection />
       </main>
     </Layout>
   );
