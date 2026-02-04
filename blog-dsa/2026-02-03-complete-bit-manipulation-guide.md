@@ -6,7 +6,7 @@ tags: [DSA, Bit Manipulation, Interview Prep, Competitive Programming]
 
 Hey everyone! Bit manipulation is one of the most powerful and elegant techniques in programming. I've spent years mastering bit tricks for both interviews and competitive programming, and I want to share a complete guide that will transform how you approach problems involving bits, bitwise operations, and binary representations.
 
-The key insight: Bit manipulation isn't just about flipping bits—it's a problem-solving paradigm that enables incredibly efficient solutions to seemingly complex problems. Once you understand the fundamental bit tricks, you'll recognize optimization opportunities that others miss entirely.
+The key insight: Bit manipulation isn't just about flipping bits, it's a problem-solving paradigm that enables incredibly efficient solutions to seemingly complex problems. Once you understand the fundamental bit tricks, you'll recognize optimization opportunities that others miss entirely.
 
 <!--truncate-->
 
