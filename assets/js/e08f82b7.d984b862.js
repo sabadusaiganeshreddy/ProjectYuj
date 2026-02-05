@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktech_blog=globalThis.webpackChunktech_blog||[]).push([[1349],{6558(e){e.exports=JSON.parse('{"metadata":{"permalink":"/ProjectYuj/dsa/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":16,"previousPage":"/ProjectYuj/dsa","blogDescription":"Blog","blogTitle":"DSA Guide"}}')}}]);

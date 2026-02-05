@@ -8,6 +8,170 @@
     <subtitle>SaiGaneshReddy Blog</subtitle>
     <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Essential Graph Problems for SDE Interviews]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews"/>
+        <updated>2026-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're having your placement season in a few months or want to revise graph concepts, I've made a list of hand-picked problems to cover the depth and breadth of graphs.]]></summary>
+        <content type="html"><![CDATA[<p>If you're having your placement season in a few months or want to revise graph concepts, I've made a list of hand-picked problems to cover the depth and breadth of graphs.</p>
+<p>This isn't a magic list that guarantees you'll crack every interview or assessment. But these are standard problems and patterns I've consistently seen across interview experiences, company blogs, and my own preparation journey.</p>
+<p>I've organized these by pattern because that's how interviews work, they don't ask "solve graph problem #47." They ask problems that test whether you understand BFS, topological sort, or Union Find. Once you recognize the pattern, the solution follows.</p>
+<p>Think of this as your focused revision toolkit. Not too overwhelming, not too sparse. just the right problems to build strong pattern recognition.</p>
+<p>Let's gooo!</p>
+<p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="problem-list-by-pattern">Problem List by Pattern<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#problem-list-by-pattern" class="hash-link" aria-label="Direct link to Problem List by Pattern" title="Direct link to Problem List by Pattern" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-graph-traversal-dfsbfs-fundamentals">1. Graph Traversal (DFS/BFS Fundamentals)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#1-graph-traversal-dfsbfs-fundamentals" class="hash-link" aria-label="Direct link to 1. Graph Traversal (DFS/BFS Fundamentals)" title="Direct link to 1. Graph Traversal (DFS/BFS Fundamentals)" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/number-of-islands/" target="_blank" rel="noopener noreferrer" class="">Number of Islands</a></li>
+<li class=""><a href="https://leetcode.com/problems/clone-graph/" target="_blank" rel="noopener noreferrer" class="">Clone Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/max-area-of-island/" target="_blank" rel="noopener noreferrer" class="">Max Area of Island</a></li>
+<li class=""><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/" target="_blank" rel="noopener noreferrer" class="">Pacific Atlantic Water Flow</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/" target="_blank" rel="noopener noreferrer" class="">Number of Connected Components in an Undirected Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/surrounded-regions/" target="_blank" rel="noopener noreferrer" class="">Surrounded Regions</a></li>
+<li class=""><a href="https://leetcode.com/problems/keys-and-rooms/" target="_blank" rel="noopener noreferrer" class="">Keys and Rooms</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-sub-islands/" target="_blank" rel="noopener noreferrer" class="">Count Sub Islands</a></li>
+<li class=""><a href="https://leetcode.com/problems/flood-fill/" target="_blank" rel="noopener noreferrer" class="">Flood Fill</a></li>
+<li class=""><a href="https://leetcode.com/problems/island-perimeter/" target="_blank" rel="noopener noreferrer" class="">Island Perimeter</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-shortest-path-problems">2. Shortest Path Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#2-shortest-path-problems" class="hash-link" aria-label="Direct link to 2. Shortest Path Problems" title="Direct link to 2. Shortest Path Problems" translate="no">​</a></h3>
+<ol start="11">
+<li class=""><a href="https://leetcode.com/problems/shortest-path-in-binary-matrix/" target="_blank" rel="noopener noreferrer" class="">Shortest Path in Binary Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/rotting-oranges/" target="_blank" rel="noopener noreferrer" class="">Rotting Oranges</a></li>
+<li class=""><a href="https://leetcode.com/problems/01-matrix/" target="_blank" rel="noopener noreferrer" class="">01 Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/walls-and-gates/" target="_blank" rel="noopener noreferrer" class="">Walls and Gates</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-bridge/" target="_blank" rel="noopener noreferrer" class="">Shortest Bridge</a></li>
+<li class=""><a href="https://leetcode.com/problems/network-delay-time/" target="_blank" rel="noopener noreferrer" class="">Network Delay Time</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-with-maximum-probability/" target="_blank" rel="noopener noreferrer" class="">Path with Maximum Probability</a></li>
+<li class=""><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/" target="_blank" rel="noopener noreferrer" class="">Cheapest Flights Within K Stops</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Make at Least One Valid Path in a Grid</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1671" target="_blank" rel="noopener noreferrer" class="">Shortest Routes I</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-topological-sort--dependency-resolution">3. Topological Sort &amp; Dependency Resolution<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#3-topological-sort--dependency-resolution" class="hash-link" aria-label="Direct link to 3. Topological Sort &amp; Dependency Resolution" title="Direct link to 3. Topological Sort &amp; Dependency Resolution" translate="no">​</a></h3>
+<ol start="21">
+<li class=""><a href="https://leetcode.com/problems/course-schedule/" target="_blank" rel="noopener noreferrer" class="">Course Schedule</a></li>
+<li class=""><a href="https://leetcode.com/problems/course-schedule-ii/" target="_blank" rel="noopener noreferrer" class="">Course Schedule II</a></li>
+<li class=""><a href="https://leetcode.com/problems/alien-dictionary/" target="_blank" rel="noopener noreferrer" class="">Alien Dictionary</a></li>
+<li class=""><a href="https://leetcode.com/problems/sequence-reconstruction/" target="_blank" rel="noopener noreferrer" class="">Sequence Reconstruction</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-height-trees/" target="_blank" rel="noopener noreferrer" class="">Minimum Height Trees</a></li>
+<li class=""><a href="https://leetcode.com/problems/parallel-courses/" target="_blank" rel="noopener noreferrer" class="">Parallel Courses</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/" target="_blank" rel="noopener noreferrer" class="">Sort Items by Groups Respecting Dependencies</a></li>
+<li class=""><a href="https://leetcode.com/problems/course-schedule-iv/" target="_blank" rel="noopener noreferrer" class="">Course Schedule IV</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1681" target="_blank" rel="noopener noreferrer" class="">Game Route</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-union-find-disjoint-set-union">4. Union Find (Disjoint Set Union)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#4-union-find-disjoint-set-union" class="hash-link" aria-label="Direct link to 4. Union Find (Disjoint Set Union)" title="Direct link to 4. Union Find (Disjoint Set Union)" translate="no">​</a></h3>
+<ol start="30">
+<li class=""><a href="https://leetcode.com/problems/number-of-provinces/" target="_blank" rel="noopener noreferrer" class="">Number of Provinces</a></li>
+<li class=""><a href="https://leetcode.com/problems/redundant-connection/" target="_blank" rel="noopener noreferrer" class="">Redundant Connection</a></li>
+<li class=""><a href="https://leetcode.com/problems/graph-valid-tree/" target="_blank" rel="noopener noreferrer" class="">Graph Valid Tree</a></li>
+<li class=""><a href="https://leetcode.com/problems/accounts-merge/" target="_blank" rel="noopener noreferrer" class="">Accounts Merge</a></li>
+<li class=""><a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/" target="_blank" rel="noopener noreferrer" class="">Most Stones Removed with Same Row or Column</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-string-with-swaps/" target="_blank" rel="noopener noreferrer" class="">Smallest String With Swaps</a></li>
+<li class=""><a href="https://leetcode.com/problems/satisfiability-of-equality-equations/" target="_blank" rel="noopener noreferrer" class="">Satisfiability of Equality Equations</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-operations-to-make-network-connected/" target="_blank" rel="noopener noreferrer" class="">Number of Operations to Make Network Connected</a></li>
+<li class=""><a href="https://leetcode.com/problems/lexicographically-smallest-equivalent-string/" target="_blank" rel="noopener noreferrer" class="">Lexicographically Smallest Equivalent String</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimize-malware-spread/" target="_blank" rel="noopener noreferrer" class="">Minimize Malware Spread</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-cycle-detection">5. Cycle Detection<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#5-cycle-detection" class="hash-link" aria-label="Direct link to 5. Cycle Detection" title="Direct link to 5. Cycle Detection" translate="no">​</a></h3>
+<ol start="40">
+<li class=""><a href="https://leetcode.com/problems/find-eventual-safe-states/" target="_blank" rel="noopener noreferrer" class="">Find Eventual Safe States</a></li>
+<li class=""><a href="https://leetcode.com/problems/detect-cycles-in-2d-grid/" target="_blank" rel="noopener noreferrer" class="">Detect Cycles in 2D Grid</a></li>
+<li class=""><a href="https://leetcode.com/problems/redundant-connection-ii/" target="_blank" rel="noopener noreferrer" class="">Redundant Connection II</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-celebrity/" target="_blank" rel="noopener noreferrer" class="">Find the Celebrity</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-graph-coloring--bipartite-graphs">6. Graph Coloring &amp; Bipartite Graphs<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#6-graph-coloring--bipartite-graphs" class="hash-link" aria-label="Direct link to 6. Graph Coloring &amp; Bipartite Graphs" title="Direct link to 6. Graph Coloring &amp; Bipartite Graphs" translate="no">​</a></h3>
+<ol start="44">
+<li class=""><a href="https://leetcode.com/problems/is-graph-bipartite/" target="_blank" rel="noopener noreferrer" class="">Is Graph Bipartite?</a></li>
+<li class=""><a href="https://leetcode.com/problems/possible-bipartition/" target="_blank" rel="noopener noreferrer" class="">Possible Bipartition</a></li>
+<li class=""><a href="https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/" target="_blank" rel="noopener noreferrer" class="">Divide Nodes Into the Maximum Number of Groups</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="7-minimum-spanning-tree">7. Minimum Spanning Tree<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#7-minimum-spanning-tree" class="hash-link" aria-label="Direct link to 7. Minimum Spanning Tree" title="Direct link to 7. Minimum Spanning Tree" translate="no">​</a></h3>
+<ol start="47">
+<li class=""><a href="https://leetcode.com/problems/min-cost-to-connect-all-points/" target="_blank" rel="noopener noreferrer" class="">Min Cost to Connect All Points</a></li>
+<li class=""><a href="https://leetcode.com/problems/connecting-cities-with-minimum-cost/" target="_blank" rel="noopener noreferrer" class="">Connecting Cities With Minimum Cost</a></li>
+<li class=""><a href="https://leetcode.com/problems/optimize-water-distribution-in-a-village/" target="_blank" rel="noopener noreferrer" class="">Optimize Water Distribution in a Village</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/" target="_blank" rel="noopener noreferrer" class="">Find Critical and Pseudo-Critical Edges in MST</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1676" target="_blank" rel="noopener noreferrer" class="">Road Construction</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="8-advanced-dfsbfs-applications">8. Advanced DFS/BFS Applications<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#8-advanced-dfsbfs-applications" class="hash-link" aria-label="Direct link to 8. Advanced DFS/BFS Applications" title="Direct link to 8. Advanced DFS/BFS Applications" translate="no">​</a></h3>
+<ol start="52">
+<li class=""><a href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer" class="">Word Ladder</a></li>
+<li class=""><a href="https://leetcode.com/problems/word-ladder-ii/" target="_blank" rel="noopener noreferrer" class="">Word Ladder II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-genetic-mutation/" target="_blank" rel="noopener noreferrer" class="">Minimum Genetic Mutation</a></li>
+<li class=""><a href="https://leetcode.com/problems/open-the-lock/" target="_blank" rel="noopener noreferrer" class="">Open the Lock</a></li>
+<li class=""><a href="https://leetcode.com/problems/sliding-puzzle/" target="_blank" rel="noopener noreferrer" class="">Sliding Puzzle</a></li>
+<li class=""><a href="https://leetcode.com/problems/snakes-and-ladders/" target="_blank" rel="noopener noreferrer" class="">Snakes and Ladders</a></li>
+<li class=""><a href="https://leetcode.com/problems/bus-routes/" target="_blank" rel="noopener noreferrer" class="">Bus Routes</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys/" target="_blank" rel="noopener noreferrer" class="">Shortest Path to Get All Keys</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="9-advanced-graph-algorithms">9. Advanced Graph Algorithms<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#9-advanced-graph-algorithms" class="hash-link" aria-label="Direct link to 9. Advanced Graph Algorithms" title="Direct link to 9. Advanced Graph Algorithms" translate="no">​</a></h3>
+<ol start="60">
+<li class=""><a href="https://leetcode.com/problems/critical-connections-in-a-network/" target="_blank" rel="noopener noreferrer" class="">Critical Connections in a Network</a></li>
+<li class=""><a href="https://leetcode.com/problems/reconstruct-itinerary/" target="_blank" rel="noopener noreferrer" class="">Reconstruct Itinerary</a></li>
+<li class=""><a href="https://leetcode.com/problems/evaluate-division/" target="_blank" rel="noopener noreferrer" class="">Evaluate Division</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-increasing-path-in-a-matrix/" target="_blank" rel="noopener noreferrer" class="">Longest Increasing Path in a Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/swim-in-rising-water/" target="_blank" rel="noopener noreferrer" class="">Swim in Rising Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer" class="">Shortest Path Visiting All Nodes</a></li>
+<li class=""><a href="https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/" target="_blank" rel="noopener noreferrer" class="">Reachable Nodes In Subdivided Graph</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/" target="_blank" rel="noopener noreferrer" class="">Minimum Number of Days to Disconnect Island</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Arrive at Destination</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="10-matrix--grid-graph-problems">10. Matrix &amp; Grid Graph Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#10-matrix--grid-graph-problems" class="hash-link" aria-label="Direct link to 10. Matrix &amp; Grid Graph Problems" title="Direct link to 10. Matrix &amp; Grid Graph Problems" translate="no">​</a></h3>
+<ol start="69">
+<li class=""><a href="https://leetcode.com/problems/as-far-from-land-as-possible/" target="_blank" rel="noopener noreferrer" class="">As Far from Land as Possible</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/" target="_blank" rel="noopener noreferrer" class="">Shortest Path in a Grid with Obstacles Elimination</a></li>
+<li class=""><a href="https://leetcode.com/problems/escape-a-large-maze/" target="_blank" rel="noopener noreferrer" class="">Escape a Large Maze</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-with-alternating-colors/" target="_blank" rel="noopener noreferrer" class="">Shortest Path with Alternating Colors</a></li>
+<li class=""><a href="https://leetcode.com/problems/time-needed-to-inform-all-employees/" target="_blank" rel="noopener noreferrer" class="">Time Needed to Inform All Employees</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="11-graph-construction--modeling">11. Graph Construction &amp; Modeling<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#11-graph-construction--modeling" class="hash-link" aria-label="Direct link to 11. Graph Construction &amp; Modeling" title="Direct link to 11. Graph Construction &amp; Modeling" translate="no">​</a></h3>
+<ol start="74">
+<li class=""><a href="https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/" target="_blank" rel="noopener noreferrer" class="">Reconstruct a 2-Row Binary Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/" target="_blank" rel="noopener noreferrer" class="">Check if There is a Valid Path in a Grid</a></li>
+<li class=""><a href="https://leetcode.com/problems/water-and-jug-problem/" target="_blank" rel="noopener noreferrer" class="">Water and Jug Problem</a></li>
+<li class=""><a href="https://leetcode.com/problems/pyramid-transition-matrix/" target="_blank" rel="noopener noreferrer" class="">Pyramid Transition Matrix</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="12-competitive-programming-classics">12. Competitive Programming Classics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews#12-competitive-programming-classics" class="hash-link" aria-label="Direct link to 12. Competitive Programming Classics" title="Direct link to 12. Competitive Programming Classics" translate="no">​</a></h3>
+<ol start="78">
+<li class=""><a href="https://cses.fi/problemset/task/1193" target="_blank" rel="noopener noreferrer" class="">Labyrinth</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1666" target="_blank" rel="noopener noreferrer" class="">Building Roads</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1667" target="_blank" rel="noopener noreferrer" class="">Message Route</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1668" target="_blank" rel="noopener noreferrer" class="">Building Teams</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1669" target="_blank" rel="noopener noreferrer" class="">Round Trip</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1194" target="_blank" rel="noopener noreferrer" class="">Monsters</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1672" target="_blank" rel="noopener noreferrer" class="">Shortest Routes II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1673" target="_blank" rel="noopener noreferrer" class="">High Score</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1195" target="_blank" rel="noopener noreferrer" class="">Flight Discount</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1197" target="_blank" rel="noopener noreferrer" class="">Cycle Finding</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1196" target="_blank" rel="noopener noreferrer" class="">Flight Routes</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1750" target="_blank" rel="noopener noreferrer" class="">Planet Queries I</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1675" target="_blank" rel="noopener noreferrer" class="">Road Reparation</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc139/tasks/abc139_e" target="_blank" rel="noopener noreferrer" class="">ABC 139 E - League</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc168/tasks/abc168_d" target="_blank" rel="noopener noreferrer" class="">ABC 168 D - .. (Double Dots)</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc176/tasks/abc176_d" target="_blank" rel="noopener noreferrer" class="">ABC 176 D - Wizard in Maze</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc209/tasks/abc209_e" target="_blank" rel="noopener noreferrer" class="">ABC 209 E - Shiritori</a></li>
+<li class=""><a href="https://atcoder.jp/contests/arc090/tasks/arc090_b" target="_blank" rel="noopener noreferrer" class="">ARC 090 D - People on a Line</a></li>
+</ol>
+<hr>
+<p><strong>Let's connect on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> - I regularly share interview tips, problem-solving strategies, and coding resources that can help accelerate your preparation!</p>
+<p>Good luck!</p>]]></content>
+        <category label="DSA" term="DSA"/>
+        <category label="Graphs" term="Graphs"/>
+        <category label="Interview Prep" term="Interview Prep"/>
+        <category label="SDE" term="SDE"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Q3 & Q4 Problems from Recent 34 Contests for OA Preparation]]></title>
         <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide</id>
         <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide"/>
