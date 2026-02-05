@@ -4,10 +4,212 @@
         <title>SaiGaneshReddy Blog</title>
         <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</link>
         <description>SaiGaneshReddy Blog</description>
-        <lastBuildDate>Tue, 03 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Q3 & Q4 Problems from Recent 34 Contests for OA Preparation]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the most effective ways to prepare for online assessments is to practice the third and fourth questions from recent LeetCode contests, as these problems closely match the difficulty level and patterns commonly seen in actual OA rounds at top tech companies.]]></description>
+            <content:encoded><![CDATA[<p>One of the most effective ways to prepare for online assessments is to practice the third and fourth questions from recent LeetCode contests, as these problems closely match the difficulty level and patterns commonly seen in actual OA rounds at top tech companies.</p>
+<p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
+<p>Below is a curated list of Q3 and Q4 problems from the most recent <strong>Weekly</strong> and <strong>Biweekly</strong> contests.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="contest-problems">Contest Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#contest-problems" class="hash-link" aria-label="Direct link to Contest Problems" title="Direct link to Contest Problems" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-487">Weekly Contest 487<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-487" class="hash-link" aria-label="Direct link to Weekly Contest 487" title="Direct link to Weekly Contest 487" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/design-ride-sharing-system/description/" target="_blank" rel="noopener noreferrer" class="">Design Ride Sharing System</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/longest-alternating-subarray-after-removing-at-most-one-element/" target="_blank" rel="noopener noreferrer" class="">Longest Alternating Subarray After Removing At Most One Element</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-175">Biweekly Contest 175<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-175" class="hash-link" aria-label="Direct link to Biweekly Contest 175" title="Direct link to Biweekly Contest 175" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/description/" target="_blank" rel="noopener noreferrer" class="">Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-partition-score/" target="_blank" rel="noopener noreferrer" class="">Minimum Partition Score</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-486">Weekly Contest 486<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-486" class="hash-link" aria-label="Direct link to Weekly Contest 486" title="Direct link to Weekly Contest 486" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/pythagorean-distance-nodes-in-a-tree/description/" target="_blank" rel="noopener noreferrer" class="">Pythagorean Distance Nodes in a Tree</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/find-nth-smallest-integer-with-k-one-bits/" target="_blank" rel="noopener noreferrer" class="">Find Nth Smallest Integer With K One Bits</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-485">Weekly Contest 485<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-485" class="hash-link" aria-label="Direct link to Weekly Contest 485" title="Direct link to Weekly Contest 485" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/design-auction-system/description/" target="_blank" rel="noopener noreferrer" class="">Design Auction System</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/" target="_blank" rel="noopener noreferrer" class="">Lexicographically Smallest String After Deleting Duplicate Characters</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-174">Biweekly Contest 174<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-174" class="hash-link" aria-label="Direct link to Biweekly Contest 174" title="Direct link to Biweekly Contest 174" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/number-of-alternating-xor-partitions/description/" target="_blank" rel="noopener noreferrer" class="">Number of Alternating XOR Partitions</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-edge-toggles-on-a-tree/" target="_blank" rel="noopener noreferrer" class="">Minimum Edge Toggles on a Tree</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-484">Weekly Contest 484<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-484" class="hash-link" aria-label="Direct link to Weekly Contest 484" title="Direct link to Weekly Contest 484" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/count-caesar-cipher-pairs/description/" target="_blank" rel="noopener noreferrer" class="">Count Caesar Cipher Pairs</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximum-bitwise-and-after-increment-operations/" target="_blank" rel="noopener noreferrer" class="">Maximum Bitwise AND After Increment Operations</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-483">Weekly Contest 483<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-483" class="hash-link" aria-label="Direct link to Weekly Contest 483" title="Direct link to Weekly Contest 483" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-cost-to-make-two-binary-strings-equal/description/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Make Two Binary Strings Equal</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-cost-to-merge-sorted-lists/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Merge Sorted Lists</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-173">Biweekly Contest 173<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-173" class="hash-link" aria-label="Direct link to Biweekly Contest 173" title="Direct link to Biweekly Contest 173" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/find-maximum-value-in-a-constrained-sequence/description/" target="_blank" rel="noopener noreferrer" class="">Find Maximum Value in a Constrained Sequence</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-routes-to-climb-a-rectangular-grid/" target="_blank" rel="noopener noreferrer" class="">Count Routes to Climb a Rectangular Grid</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-482">Weekly Contest 482<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-482" class="hash-link" aria-label="Direct link to Weekly Contest 482" title="Direct link to Weekly Contest 482" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/smallest-all-ones-multiple/description/" target="_blank" rel="noopener noreferrer" class="">Smallest All-Ones Multiple</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/number-of-balanced-integers-in-a-range/" target="_blank" rel="noopener noreferrer" class="">Number of Balanced Integers in a Range</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-481">Weekly Contest 481<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-481" class="hash-link" aria-label="Direct link to Weekly Contest 481" title="Direct link to Weekly Contest 481" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-swaps-to-avoid-forbidden-values/" target="_blank" rel="noopener noreferrer" class="">Minimum Swaps to Avoid Forbidden Values</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/total-sum-of-interaction-cost-in-tree-groups/" target="_blank" rel="noopener noreferrer" class="">Total Sum of Interaction Cost in Tree Groups</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-172">Biweekly Contest 172<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-172" class="hash-link" aria-label="Direct link to Biweekly Contest 172" title="Direct link to Biweekly Contest 172" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/maximum-score-after-binary-swaps/" target="_blank" rel="noopener noreferrer" class="">Maximum Score After Binary Swaps</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/" target="_blank" rel="noopener noreferrer" class="">Last Remaining Integer After Deletion</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-480">Weekly Contest 480<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-480" class="hash-link" aria-label="Direct link to Weekly Contest 480" title="Direct link to Weekly Contest 480" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-moves-to-balance-circular-array/" target="_blank" rel="noopener noreferrer" class="">Minimum Moves to Balance Circular Array</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-deletions-to-make-alternating-substring/" target="_blank" rel="noopener noreferrer" class="">Minimum Deletions to Make Alternating Substring</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-479">Weekly Contest 479<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-479" class="hash-link" aria-label="Direct link to Weekly Contest 479" title="Direct link to Weekly Contest 479" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/total-score-of-dungeon-runs/" target="_blank" rel="noopener noreferrer" class="">Total Score of Dungeon Runs</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximum-subgraph-score-in-a-tree/" target="_blank" rel="noopener noreferrer" class="">Maximum Subgraph Score in a Tree</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-171">Biweekly Contest 171<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-171" class="hash-link" aria-label="Direct link to Biweekly Contest 171" title="Direct link to Biweekly Contest 171" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/maximize-points-after-choosing-k-tasks/" target="_blank" rel="noopener noreferrer" class="">Maximize Points After Choosing K Tasks</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-inversion-count-in-subarrays-of-fixed-length/" target="_blank" rel="noopener noreferrer" class="">Minimum Inversion Count in Subarrays</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-478">Weekly Contest 478<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-478" class="hash-link" aria-label="Direct link to Weekly Contest 478" title="Direct link to Weekly Contest 478" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/" target="_blank" rel="noopener noreferrer" class="">Minimum Absolute Distance Between Mirror Pairs</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/minimum-operations-to-equalize-subarrays/" target="_blank" rel="noopener noreferrer" class="">Minimum Operations to Equalize Subarrays</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-477">Weekly Contest 477<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-477" class="hash-link" aria-label="Direct link to Weekly Contest 477" title="Direct link to Weekly Contest 477" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/" target="_blank" rel="noopener noreferrer" class="">Concatenate Non-Zero Digits and Multiply II</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/number-of-effective-subsequences/" target="_blank" rel="noopener noreferrer" class="">Number of Effective Subsequences</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-170">Biweekly Contest 170<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-170" class="hash-link" aria-label="Direct link to Biweekly Contest 170" title="Direct link to Biweekly Contest 170" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/lexicographically-smallest-negated-permutation-that-sums-to-target/" target="_blank" rel="noopener noreferrer" class="">Lexicographically Smallest Negated Permutation</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/" target="_blank" rel="noopener noreferrer" class="">Total Waviness of Numbers in Range II</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-476">Weekly Contest 476<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-476" class="hash-link" aria-label="Direct link to Weekly Contest 476" title="Direct link to Weekly Contest 476" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/" target="_blank" rel="noopener noreferrer" class="">Count Distinct Integers After Removing Zeros</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-stable-subarrays/" target="_blank" rel="noopener noreferrer" class="">Count Stable Subarrays</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-475">Weekly Contest 475<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-475" class="hash-link" aria-label="Direct link to Weekly Contest 475" title="Direct link to Weekly Contest 475" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/maximum-path-score-in-a-grid/" target="_blank" rel="noopener noreferrer" class="">Maximum Path Score in a Grid</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximize-cyclic-partition-score/" target="_blank" rel="noopener noreferrer" class="">Maximize Cyclic Partition Score</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-169">Biweekly Contest 169<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-169" class="hash-link" aria-label="Direct link to Biweekly Contest 169" title="Direct link to Biweekly Contest 169" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/longest-non-decreasing-subarray-after-replacing-at-most-one-element/description/" target="_blank" rel="noopener noreferrer" class="">Longest Non-Decreasing Subarray After Replacing at Most One Element</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-subarrays-with-majority-element-ii/" target="_blank" rel="noopener noreferrer" class="">Count Subarrays With Majority Element II</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-474">Weekly Contest 474<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-474" class="hash-link" aria-label="Direct link to Weekly Contest 474" title="Direct link to Weekly Contest 474" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-time-to-complete-all-deliveries/" target="_blank" rel="noopener noreferrer" class="">Minimum Time to Complete All Deliveries</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/" target="_blank" rel="noopener noreferrer" class="">Lexicographically Smallest Palindromic Permutation</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-473">Weekly Contest 473<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-473" class="hash-link" aria-label="Direct link to Weekly Contest 473" title="Direct link to Weekly Contest 473" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/" target="_blank" rel="noopener noreferrer" class="">Stable Subarrays With Equal Boundary Sum</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-distinct-subarrays-divisible-by-k-in-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Count Distinct Subarrays Divisible by K</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-168">Biweekly Contest 168<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-168" class="hash-link" aria-label="Direct link to Biweekly Contest 168" title="Direct link to Biweekly Contest 168" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/minimum-operations-to-transform-array/" target="_blank" rel="noopener noreferrer" class="">Minimum Operations to Transform Array</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-ways-to-choose-coprime-integers-from-rows/" target="_blank" rel="noopener noreferrer" class="">Count Ways to Choose Coprime Integers</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-472">Weekly Contest 472<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-472" class="hash-link" aria-label="Direct link to Weekly Contest 472" title="Direct link to Weekly Contest 472" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/description/" target="_blank" rel="noopener noreferrer" class="">Lexicographically Smallest Permutation Greater Than Target</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/longest-balanced-subarray-ii/" target="_blank" rel="noopener noreferrer" class="">Longest Balanced Subarray II</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-471">Weekly Contest 471<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-471" class="hash-link" aria-label="Direct link to Weekly Contest 471" title="Direct link to Weekly Contest 471" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/longest-balanced-substring-ii/" target="_blank" rel="noopener noreferrer" class="">Longest Balanced Substring II</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/sum-of-perfect-square-ancestors/" target="_blank" rel="noopener noreferrer" class="">Sum of Perfect Square Ancestors</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-167">Biweekly Contest 167<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-167" class="hash-link" aria-label="Direct link to Biweekly Contest 167" title="Direct link to Biweekly Contest 167" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/design-exam-scores-tracker/description/" target="_blank" rel="noopener noreferrer" class="">Design Exam Scores Tracker</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximum-partition-factor/" target="_blank" rel="noopener noreferrer" class="">Maximum Partition Factor</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-470">Weekly Contest 470<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-470" class="hash-link" aria-label="Direct link to Weekly Contest 470" title="Direct link to Weekly Contest 470" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/remove-k-balanced-substrings/" target="_blank" rel="noopener noreferrer" class="">Remove K-Balanced Substrings</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-no-zero-pairs-that-sum-to-n/" target="_blank" rel="noopener noreferrer" class="">Count No-Zero Pairs That Sum to N</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-469">Weekly Contest 469<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-469" class="hash-link" aria-label="Direct link to Weekly Contest 469" title="Direct link to Weekly Contest 469" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/number-of-zigzag-arrays-i/description/" target="_blank" rel="noopener noreferrer" class="">Number of ZigZag Arrays I</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/number-of-zigzag-arrays-ii/" target="_blank" rel="noopener noreferrer" class="">Number of ZigZag Arrays II</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-166">Biweekly Contest 166<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-166" class="hash-link" aria-label="Direct link to Biweekly Contest 166" title="Direct link to Biweekly Contest 166" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/" target="_blank" rel="noopener noreferrer" class="">Distinct Points Reachable After Removal</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximize-alternating-sum-using-swaps/" target="_blank" rel="noopener noreferrer" class="">Maximize Alternating Sum Using Swaps</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-468">Weekly Contest 468<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-468" class="hash-link" aria-label="Direct link to Weekly Contest 468" title="Direct link to Weekly Contest 468" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/split-and-merge-array-transformation/description/" target="_blank" rel="noopener noreferrer" class="">Split and Merge Array Transformation</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximum-total-subarray-value-ii/" target="_blank" rel="noopener noreferrer" class="">Maximum Total Subarray Value II</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-467">Weekly Contest 467<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-467" class="hash-link" aria-label="Direct link to Weekly Contest 467" title="Direct link to Weekly Contest 467" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/subsequence-sum-after-capping-elements/" target="_blank" rel="noopener noreferrer" class="">Subsequence Sum After Capping Elements</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/number-of-stable-subsequences/" target="_blank" rel="noopener noreferrer" class="">Number of Stable Subsequences</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="biweekly-contest-165">Biweekly Contest 165<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#biweekly-contest-165" class="hash-link" aria-label="Direct link to Biweekly Contest 165" title="Direct link to Biweekly Contest 165" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/generate-schedule/" target="_blank" rel="noopener noreferrer" class="">Generate Schedule</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/maximum-xor-of-subsequences/" target="_blank" rel="noopener noreferrer" class="">Maximum XOR of Subsequences</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-466">Weekly Contest 466<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-466" class="hash-link" aria-label="Direct link to Weekly Contest 466" title="Direct link to Weekly Contest 466" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/count-bowl-subarrays/" target="_blank" rel="noopener noreferrer" class="">Count Bowl Subarrays</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/count-binary-palindromic-numbers/" target="_blank" rel="noopener noreferrer" class="">Count Binary Palindromic Numbers</a></li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="weekly-contest-465">Weekly Contest 465<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#weekly-contest-465" class="hash-link" aria-label="Direct link to Weekly Contest 465" title="Direct link to Weekly Contest 465" translate="no">​</a></h3>
+<ul>
+<li class="">Q3: <a href="https://leetcode.com/problems/maximum-product-of-two-integers-with-no-common-bits/" target="_blank" rel="noopener noreferrer" class="">Max Product of Two Integers (No Common Bits)</a></li>
+<li class="">Q4: <a href="https://leetcode.com/problems/sum-of-beautiful-subsequences/" target="_blank" rel="noopener noreferrer" class="">Sum of Beautiful Subsequences</a></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="why-these-problems-matter">Why These Problems Matter<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#why-these-problems-matter" class="hash-link" aria-label="Direct link to Why These Problems Matter" title="Direct link to Why These Problems Matter" translate="no">​</a></h2>
+<p>These Q3 and Q4 problems are particularly valuable for OA preparation because they:</p>
+<ul>
+<li class=""><strong>Match OA Difficulty</strong>: Most online assessments feature problems at this exact difficulty level</li>
+<li class=""><strong>Test Multiple Concepts</strong>: They often combine multiple data structures and algorithms</li>
+<li class=""><strong>Require Optimization</strong>: You need to think beyond brute force solutions</li>
+<li class=""><strong>Build Problem-Solving Speed</strong>: Regular practice helps you recognize patterns faster</li>
+<li class=""><strong>Simulate Real Conditions</strong>: Contest timing mirrors actual OA time constraints</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/oa-preparation-guide#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Consistent practice with these contest problems will significantly improve your performance in online assessments. Remember that the goal isn't just to solve problems, but to develop pattern recognition and problem-solving intuition.</p>
+<p><strong>Let's connect on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> - I regularly share interview tips, problem-solving strategies, and coding resources that can help accelerate your preparation!</p>
+<p>Good luck with your OA preparation!</p>]]></content:encoded>
+            <category>DSA</category>
+            <category>Online Assessment</category>
+            <category>LeetCode</category>
+            <category>Contest Problems</category>
+            <category>Interview Prep</category>
+        </item>
         <item>
             <title><![CDATA[Complete Bit Manipulation Problems & Resources Guide]]></title>
             <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/03/complete-bit-manipulation-guide</link>
