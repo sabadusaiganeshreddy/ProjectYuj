@@ -4,10 +4,245 @@
         <title>SaiGaneshReddy Blog</title>
         <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</link>
         <description>SaiGaneshReddy Blog</description>
-        <lastBuildDate>Thu, 05 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Essential Dynamic Programming Problems for SDE Interviews]]></title>
+            <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews</link>
+            <guid>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews</guid>
+            <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you're gearing up for placement season or trying to finally conquer DP (we've all been there!), I've compiled a list of hand-picked problems that cover the depth and breadth of dynamic programming.]]></description>
+            <content:encoded><![CDATA[<p>If you're gearing up for placement season or trying to finally conquer DP (we've all been there!), I've compiled a list of hand-picked problems that cover the depth and breadth of dynamic programming.</p>
+<p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
+<p>This isn't a guaranteed ticket to ace every DP question. DP is hard—arguably the hardest topic in DSA interviews. But these are the standard problems and patterns that keep showing up in actual interviews, coding assessments, and company hiring tests.</p>
+<p>I've organized these by pattern types because that's how your brain will work during interviews. You won't think "ah, this is LeetCode #123." You'll think "this looks like a path-counting problem" or "this feels like interval DP."</p>
+<p>Not too many problems to overwhelm you. Not too few to leave gaps. Just the focused set you need to build that DP intuition.</p>
+<p>Let's crack DP together!</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="problem-list-by-pattern">Problem List by Pattern<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#problem-list-by-pattern" class="hash-link" aria-label="Direct link to Problem List by Pattern" title="Direct link to Problem List by Pattern" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-1d-dp---fundamentals">1. 1D DP - Fundamentals<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#1-1d-dp---fundamentals" class="hash-link" aria-label="Direct link to 1. 1D DP - Fundamentals" title="Direct link to 1. 1D DP - Fundamentals" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/min-cost-climbing-stairs/" target="_blank" rel="noopener noreferrer" class="">Min Cost Climbing Stairs</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer" class="">House Robber</a></li>
+<li class=""><a href="https://leetcode.com/problems/house-robber-ii/" target="_blank" rel="noopener noreferrer" class="">House Robber II</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-product-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Product Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer" class="">Jump Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer" class="">Jump Game II</a></li>
+<li class=""><a href="https://leetcode.com/problems/decode-ways/" target="_blank" rel="noopener noreferrer" class="">Decode Ways</a></li>
+<li class=""><a href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer" class="">Coin Change</a></li>
+<li class=""><a href="https://leetcode.com/problems/coin-change-2/" target="_blank" rel="noopener noreferrer" class="">Coin Change 2</a></li>
+<li class=""><a href="https://leetcode.com/problems/perfect-squares/" target="_blank" rel="noopener noreferrer" class="">Perfect Squares</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener noreferrer" class="">Partition Equal Subset Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/dice-roll-simulation/" target="_blank" rel="noopener noreferrer" class="">Dice Roll Simulation</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1637" target="_blank" rel="noopener noreferrer" class="">Removing Digits</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-2d-dp---grid--matrix-problems">2. 2D DP - Grid &amp; Matrix Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#2-2d-dp---grid--matrix-problems" class="hash-link" aria-label="Direct link to 2. 2D DP - Grid &amp; Matrix Problems" title="Direct link to 2. 2D DP - Grid &amp; Matrix Problems" translate="no">​</a></h3>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/unique-paths/" target="_blank" rel="noopener noreferrer" class="">Unique Paths</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-paths-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Paths II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximal-square/" target="_blank" rel="noopener noreferrer" class="">Maximum Square</a></li>
+<li class=""><a href="https://leetcode.com/problems/dungeon-game/" target="_blank" rel="noopener noreferrer" class="">Dungeon Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/triangle/" target="_blank" rel="noopener noreferrer" class="">Triangle</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-falling-path-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Falling Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/cherry-pickup/" target="_blank" rel="noopener noreferrer" class="">Cherry Pickup</a></li>
+<li class=""><a href="https://leetcode.com/problems/cherry-pickup-ii/" target="_blank" rel="noopener noreferrer" class="">Cherry Pickup II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1638" target="_blank" rel="noopener noreferrer" class="">Grid Paths</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-knapsack-problems-01-unbounded-variants">3. Knapsack Problems (0/1, Unbounded, Variants)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#3-knapsack-problems-01-unbounded-variants" class="hash-link" aria-label="Direct link to 3. Knapsack Problems (0/1, Unbounded, Variants)" title="Direct link to 3. Knapsack Problems (0/1, Unbounded, Variants)" translate="no">​</a></h3>
+<ol start="26">
+<li class=""><a href="https://leetcode.com/problems/target-sum/" target="_blank" rel="noopener noreferrer" class="">Target Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/last-stone-weight-ii/" target="_blank" rel="noopener noreferrer" class="">Last Stone Weight II</a></li>
+<li class=""><a href="https://leetcode.com/problems/ones-and-zeroes/" target="_blank" rel="noopener noreferrer" class="">Ones and Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/combination-sum-iv/" target="_blank" rel="noopener noreferrer" class="">Combination Sum IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/profitable-schemes/" target="_blank" rel="noopener noreferrer" class="">Profitable Schemes</a></li>
+<li class=""><a href="https://leetcode.com/problems/tallest-billboard/" target="_blank" rel="noopener noreferrer" class="">Tallest Billboard</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1158" target="_blank" rel="noopener noreferrer" class="">Book Shop</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1746" target="_blank" rel="noopener noreferrer" class="">Array Description</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-longest-common-subsequence-lcs-variants">4. Longest Common Subsequence (LCS) Variants<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#4-longest-common-subsequence-lcs-variants" class="hash-link" aria-label="Direct link to 4. Longest Common Subsequence (LCS) Variants" title="Direct link to 4. Longest Common Subsequence (LCS) Variants" translate="no">​</a></h3>
+<ol start="34">
+<li class=""><a href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Common Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/delete-operation-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Delete Operation for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/" target="_blank" rel="noopener noreferrer" class="">Minimum ASCII Delete Sum for Two Strings</a></li>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-common-supersequence/" target="_blank" rel="noopener noreferrer" class="">Shortest Common Supersequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/" target="_blank" rel="noopener noreferrer" class="">Minimum Insertion Steps to Make a String Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/interleaving-string/" target="_blank" rel="noopener noreferrer" class="">Interleaving String</a></li>
+<li class=""><a href="https://leetcode.com/problems/uncrossed-lines/" target="_blank" rel="noopener noreferrer" class="">Uncrossed Lines</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-palindrome-dp">5. Palindrome DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#5-palindrome-dp" class="hash-link" aria-label="Direct link to 5. Palindrome DP" title="Direct link to 5. Palindrome DP" translate="no">​</a></h3>
+<ol start="44">
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer" class="">Palindromic Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-partitioning-ii/" target="_blank" rel="noopener noreferrer" class="">Palindrome Partitioning II</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindrome-removal/" target="_blank" rel="noopener noreferrer" class="">Palindrome Removal</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-different-palindromic-subsequences/" target="_blank" rel="noopener noreferrer" class="">Count Different Palindromic Subsequences</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-subsequence-ii/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Subsequence II</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-string-dp-beyond-lcs">6. String DP (Beyond LCS)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#6-string-dp-beyond-lcs" class="hash-link" aria-label="Direct link to 6. String DP (Beyond LCS)" title="Direct link to 6. String DP (Beyond LCS)" translate="no">​</a></h3>
+<ol start="50">
+<li class=""><a href="https://leetcode.com/problems/regular-expression-matching/" target="_blank" rel="noopener noreferrer" class="">Regular Expression Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/wildcard-matching/" target="_blank" rel="noopener noreferrer" class="">Wildcard Matching</a></li>
+<li class=""><a href="https://leetcode.com/problems/scramble-string/" target="_blank" rel="noopener noreferrer" class="">Scramble String</a></li>
+<li class=""><a href="https://leetcode.com/problems/distinct-subsequences-ii/" target="_blank" rel="noopener noreferrer" class="">Distinct Subsequences II</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Form a Target String Given a Dictionary</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1639" target="_blank" rel="noopener noreferrer" class="">Edit Distance</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="7-stock-problems-state-machine-dp">7. Stock Problems (State Machine DP)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#7-stock-problems-state-machine-dp" class="hash-link" aria-label="Direct link to 7. Stock Problems (State Machine DP)" title="Direct link to 7. Stock Problems (State Machine DP)" translate="no">​</a></h3>
+<ol start="56">
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock II</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock III</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Cooldown</a></li>
+<li class=""><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/" target="_blank" rel="noopener noreferrer" class="">Best Time to Buy and Sell Stock with Transaction Fee</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="8-dp-on-trees">8. DP on Trees<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#8-dp-on-trees" class="hash-link" aria-label="Direct link to 8. DP on Trees" title="Direct link to 8. DP on Trees" translate="no">​</a></h3>
+<ol start="62">
+<li class=""><a href="https://leetcode.com/problems/house-robber-iii/" target="_blank" rel="noopener noreferrer" class="">House Robber III</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Maximum Path Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees</a></li>
+<li class=""><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/" target="_blank" rel="noopener noreferrer" class="">Unique Binary Search Trees II</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-univalue-path/" target="_blank" rel="noopener noreferrer" class="">Longest Univalue Path</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-tree-cameras/" target="_blank" rel="noopener noreferrer" class="">Binary Tree Cameras</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1131" target="_blank" rel="noopener noreferrer" class="">Tree Diameter</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1132" target="_blank" rel="noopener noreferrer" class="">Tree Distances I</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1133" target="_blank" rel="noopener noreferrer" class="">Tree Distances II</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="9-interval-dp">9. Interval DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#9-interval-dp" class="hash-link" aria-label="Direct link to 9. Interval DP" title="Direct link to 9. Interval DP" translate="no">​</a></h3>
+<ol start="71">
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost Tree From Leaf Values</a></li>
+<li class=""><a href="https://leetcode.com/problems/burst-balloons/" target="_blank" rel="noopener noreferrer" class="">Burst Balloons</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-boxes/" target="_blank" rel="noopener noreferrer" class="">Remove Boxes</a></li>
+<li class=""><a href="https://leetcode.com/problems/strange-printer/" target="_blank" rel="noopener noreferrer" class="">Strange Printer</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-merge-stones/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Merge Stones</a></li>
+<li class=""><a href="https://leetcode.com/problems/predict-the-winner/" target="_blank" rel="noopener noreferrer" class="">Predict the Winner</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game/" target="_blank" rel="noopener noreferrer" class="">Stone Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-ii/" target="_blank" rel="noopener noreferrer" class="">Stone Game II</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="10-digit-dp">10. Digit DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#10-digit-dp" class="hash-link" aria-label="Direct link to 10. Digit DP" title="Direct link to 10. Digit DP" translate="no">​</a></h3>
+<ol start="79">
+<li class=""><a href="https://leetcode.com/problems/count-numbers-with-unique-digits/" target="_blank" rel="noopener noreferrer" class="">Count Numbers with Unique Digits</a></li>
+<li class=""><a href="https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/" target="_blank" rel="noopener noreferrer" class="">Non-negative Integers without Consecutive Ones</a></li>
+<li class=""><a href="https://leetcode.com/problems/numbers-at-most-n-given-digit-set/" target="_blank" rel="noopener noreferrer" class="">Numbers At Most N Given Digit Set</a></li>
+<li class=""><a href="https://leetcode.com/problems/numbers-with-repeated-digits/" target="_blank" rel="noopener noreferrer" class="">Numbers With Repeated Digits</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-special-integers/" target="_blank" rel="noopener noreferrer" class="">Count Special Integers</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="11-bitmask-dp">11. Bitmask DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#11-bitmask-dp" class="hash-link" aria-label="Direct link to 11. Bitmask DP" title="Direct link to 11. Bitmask DP" translate="no">​</a></h3>
+<ol start="84">
+<li class=""><a href="https://leetcode.com/problems/partition-to-k-equal-sum-subsets/" target="_blank" rel="noopener noreferrer" class="">Partition to K Equal Sum Subsets</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/" target="_blank" rel="noopener noreferrer" class="">Shortest Path Visiting All Nodes</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-shortest-superstring/" target="_blank" rel="noopener noreferrer" class="">Find the Shortest Superstring</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Wear Different Hats to Each Other</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Connect Two Groups of Points</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-students-taking-exam/" target="_blank" rel="noopener noreferrer" class="">Maximum Students Taking Exam</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1093" target="_blank" rel="noopener noreferrer" class="">Hamming Distance</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1653" target="_blank" rel="noopener noreferrer" class="">Elevator Rides</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="12-dp-with-optimization-tricks">12. DP with Optimization Tricks<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#12-dp-with-optimization-tricks" class="hash-link" aria-label="Direct link to 12. DP with Optimization Tricks" title="Direct link to 12. DP with Optimization Tricks" translate="no">​</a></h3>
+<ol start="92">
+<li class=""><a href="https://leetcode.com/problems/maximal-rectangle/" target="_blank" rel="noopener noreferrer" class="">Maximal Rectangle</a></li>
+<li class=""><a href="https://leetcode.com/problems/largest-rectangle-in-histogram/" target="_blank" rel="noopener noreferrer" class="">Largest Rectangle in Histogram</a></li>
+<li class=""><a href="https://leetcode.com/problems/russian-doll-envelopes/" target="_blank" rel="noopener noreferrer" class="">Russian Doll Envelopes</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-height-by-stacking-cuboids/" target="_blank" rel="noopener noreferrer" class="">Maximum Height by Stacking Cuboids</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer" class="">Number of Longest Increasing Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-arithmetic-subsequence/" target="_blank" rel="noopener noreferrer" class="">Longest Arithmetic Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/" target="_blank" rel="noopener noreferrer" class="">Longest Arithmetic Subsequence of Given Difference</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="13-probability--expected-value-dp">13. Probability &amp; Expected Value DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#13-probability--expected-value-dp" class="hash-link" aria-label="Direct link to 13. Probability &amp; Expected Value DP" title="Direct link to 13. Probability &amp; Expected Value DP" translate="no">​</a></h3>
+<ol start="99">
+<li class=""><a href="https://leetcode.com/problems/knight-probability-in-chessboard/" target="_blank" rel="noopener noreferrer" class="">Knight Probability in Chessboard</a></li>
+<li class=""><a href="https://leetcode.com/problems/soup-servings/" target="_blank" rel="noopener noreferrer" class="">Soup Servings</a></li>
+<li class=""><a href="https://leetcode.com/problems/new-21-game/" target="_blank" rel="noopener noreferrer" class="">New 21 Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/airplane-seat-assignment-probability/" target="_blank" rel="noopener noreferrer" class="">Airplane Seat Assignment Probability</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="14-game-theory-dp">14. Game Theory DP<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#14-game-theory-dp" class="hash-link" aria-label="Direct link to 14. Game Theory DP" title="Direct link to 14. Game Theory DP" translate="no">​</a></h3>
+<ol start="103">
+<li class=""><a href="https://leetcode.com/problems/divisor-game/" target="_blank" rel="noopener noreferrer" class="">Divisor Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-iii/" target="_blank" rel="noopener noreferrer" class="">Stone Game III</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-iv/" target="_blank" rel="noopener noreferrer" class="">Stone Game IV</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-v/" target="_blank" rel="noopener noreferrer" class="">Stone Game V</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-vi/" target="_blank" rel="noopener noreferrer" class="">Stone Game VI</a></li>
+<li class=""><a href="https://leetcode.com/problems/stone-game-vii/" target="_blank" rel="noopener noreferrer" class="">Stone Game VII</a></li>
+<li class=""><a href="https://leetcode.com/problems/nim-game/" target="_blank" rel="noopener noreferrer" class="">Nim Game</a></li>
+<li class=""><a href="https://leetcode.com/problems/can-i-win/" target="_blank" rel="noopener noreferrer" class="">Can I Win</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="15-advanced-dp-patterns">15. Advanced DP Patterns<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#15-advanced-dp-patterns" class="hash-link" aria-label="Direct link to 15. Advanced DP Patterns" title="Direct link to 15. Advanced DP Patterns" translate="no">​</a></h3>
+<ol start="111">
+<li class=""><a href="https://leetcode.com/problems/frog-jump/" target="_blank" rel="noopener noreferrer" class="">Frog Jump</a></li>
+<li class=""><a href="https://leetcode.com/problems/split-array-largest-sum/" target="_blank" rel="noopener noreferrer" class="">Split Array Largest Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-of-range-sum/" target="_blank" rel="noopener noreferrer" class="">Count of Range Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/freedom-trail/" target="_blank" rel="noopener noreferrer" class="">Freedom Trail</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/" target="_blank" rel="noopener noreferrer" class="">Minimum Swaps To Make Sequences Increasing</a></li>
+<li class=""><a href="https://leetcode.com/problems/paint-house-iii/" target="_blank" rel="noopener noreferrer" class="">Paint House III</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-music-playlists/" target="_blank" rel="noopener noreferrer" class="">Number of Music Playlists</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/" target="_blank" rel="noopener noreferrer" class="">Number of Ways to Reorder Array to Get Same BST</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/" target="_blank" rel="noopener noreferrer" class="">Count All Valid Pickup and Delivery Options</a></li>
+<li class=""><a href="https://leetcode.com/problems/constrained-subsequence-sum/" target="_blank" rel="noopener noreferrer" class="">Constrained Subsequence Sum</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="16-competitive-programming-dp-classics">16. Competitive Programming DP Classics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#16-competitive-programming-dp-classics" class="hash-link" aria-label="Direct link to 16. Competitive Programming DP Classics" title="Direct link to 16. Competitive Programming DP Classics" translate="no">​</a></h3>
+<ol start="121">
+<li class=""><a href="https://cses.fi/problemset/task/1633" target="_blank" rel="noopener noreferrer" class="">Dice Combinations</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1634" target="_blank" rel="noopener noreferrer" class="">Minimizing Coins</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1635" target="_blank" rel="noopener noreferrer" class="">Coin Combinations I</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1636" target="_blank" rel="noopener noreferrer" class="">Coin Combinations II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1093" target="_blank" rel="noopener noreferrer" class="">Two Sets II</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1744" target="_blank" rel="noopener noreferrer" class="">Rectangle Cutting</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1745" target="_blank" rel="noopener noreferrer" class="">Money Sums</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2413" target="_blank" rel="noopener noreferrer" class="">Counting Towers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1140" target="_blank" rel="noopener noreferrer" class="">Projects</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1145" target="_blank" rel="noopener noreferrer" class="">Increasing Subsequence</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc129/tasks/abc129_c" target="_blank" rel="noopener noreferrer" class="">ABC 129 C - Typical Stairs</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc153/tasks/abc153_e" target="_blank" rel="noopener noreferrer" class="">ABC 153 E - Crested Ibis vs Monster</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc167/tasks/abc167_e" target="_blank" rel="noopener noreferrer" class="">ABC 167 E - Colorful Blocks</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc179/tasks/abc179_d" target="_blank" rel="noopener noreferrer" class="">ABC 179 D - Leaping Tak</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc184/tasks/abc184_e" target="_blank" rel="noopener noreferrer" class="">ABC 184 E - Third Avenue</a></li>
+<li class=""><a href="https://atcoder.jp/contests/dp/tasks" target="_blank" rel="noopener noreferrer" class="">Educational DP Contest</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/339/C" target="_blank" rel="noopener noreferrer" class="">CF - Xenia and Ringroad</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/414/B" target="_blank" rel="noopener noreferrer" class="">CF - Mashmokh and ACM</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/514/D" target="_blank" rel="noopener noreferrer" class="">CF - R2D2 and Droid Army</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/332/B" target="_blank" rel="noopener noreferrer" class="">CF - Maximum Absurdity</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="why-this-list-works">Why This List Works<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#why-this-list-works" class="hash-link" aria-label="Direct link to Why This List Works" title="Direct link to Why This List Works" translate="no">​</a></h2>
+<p><strong>Pattern-Based Organization</strong>: Each section focuses on a specific DP pattern, making it easier to build mental models and recognize similar problems during interviews.</p>
+<p><strong>Progressive Difficulty</strong>: Within each pattern, problems range from fundamental to advanced, allowing you to build confidence gradually.</p>
+<p><strong>Comprehensive Coverage</strong>: From 1D DP fundamentals to advanced bitmask DP and game theory, this list covers all major DP patterns you'll encounter in interviews.</p>
+<p><strong>Competitive Programming</strong>: The CSES, AtCoder, and Codeforces problems provide additional challenge and help you develop speed and accuracy under time constraints.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Don't just memorize solutions. <strong>Understand the transitions.</strong> That's what separates those who "get" DP from those who struggle with it.</p>
+<p>This list represents the most important DP problems you should solve before interviews. It's not about quantity, it's about building strong pattern recognition and problem-solving intuition.</p>
+<p>DP is hard, but with focused practice on these patterns, you'll develop the intuition needed to tackle any DP problem in interviews.</p>
+<p><strong>Let's connect on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> - I regularly share interview tips, problem-solving strategies, and coding resources that can help accelerate your preparation!</p>
+<p>You've got this!</p>]]></content:encoded>
+            <category>DSA</category>
+            <category>Dynamic Programming</category>
+            <category>Interview Prep</category>
+            <category>SDE</category>
+        </item>
         <item>
             <title><![CDATA[Essential Graph Problems for SDE Interviews]]></title>
             <link>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/05/essential-graph-problems-for-sde-interviews</link>
