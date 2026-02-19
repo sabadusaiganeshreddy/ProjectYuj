@@ -16,7 +16,7 @@
             <description><![CDATA[If you're gearing up for placement season or trying to finally conquer DP (we've all been there!), I've compiled a list of hand-picked problems that cover the depth and breadth of dynamic programming.]]></description>
             <content:encoded><![CDATA[<p>If you're gearing up for placement season or trying to finally conquer DP (we've all been there!), I've compiled a list of hand-picked problems that cover the depth and breadth of dynamic programming.</p>
 <p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
-<p>This isn't a guaranteed ticket to ace every DP question. DP is hard—arguably the hardest topic in DSA interviews. But these are the standard problems and patterns that keep showing up in actual interviews, coding assessments, and company hiring tests.</p>
+<p>This isn't a guaranteed ticket to ace every DP question. DP is hard, arguably the hardest topic in DSA interviews. But these are the standard problems and patterns that keep showing up in actual interviews, coding assessments, and company hiring tests.</p>
 <p>I've organized these by pattern types because that's how your brain will work during interviews. You won't think "ah, this is LeetCode #123." You'll think "this looks like a path-counting problem" or "this feels like interval DP."</p>
 <p>Not too many problems to overwhelm you. Not too few to leave gaps. Just the focused set you need to build that DP intuition.</p>
 <p>Let's crack DP together!</p>
