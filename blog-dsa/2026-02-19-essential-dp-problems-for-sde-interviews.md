@@ -8,7 +8,7 @@ If you're gearing up for placement season or trying to finally conquer DP (we've
 
 **Connect with me on [LinkedIn](https://www.linkedin.com/in/saiganeshreddysabadu/)** to stay updated with more coding resources, interview tips, and problem-solving strategies!
 
-This isn't a guaranteed ticket to ace every DP question. DP is hard—arguably the hardest topic in DSA interviews. But these are the standard problems and patterns that keep showing up in actual interviews, coding assessments, and company hiring tests.
+This isn't a guaranteed ticket to ace every DP question. DP is hard, arguably the hardest topic in DSA interviews. But these are the standard problems and patterns that keep showing up in actual interviews, coding assessments, and company hiring tests.
 
 I've organized these by pattern types because that's how your brain will work during interviews. You won't think "ah, this is LeetCode #123." You'll think "this looks like a path-counting problem" or "this feels like interval DP."
 
