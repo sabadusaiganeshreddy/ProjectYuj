@@ -2,11 +2,250 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa</id>
     <title>SaiGaneshReddy Blog</title>
-    <updated>2026-02-19T00:00:00.000Z</updated>
+    <updated>2026-02-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa"/>
     <subtitle>SaiGaneshReddy Blog</subtitle>
     <icon>https://sabadusaiganeshreddy.github.io/ProjectYuj/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Essential Two Pointers & Sliding Window Problems for SDE Interviews]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems"/>
+        <updated>2026-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're heading into placement season or want to master one of the most versatile problem-solving techniques in DSA, this list is for you. Two Pointers and Sliding Window are patterns you'll encounter in almost every interview, whether it's a FAANG-style round or a product startup's online assessment.]]></summary>
+        <content type="html"><![CDATA[<p>If you're heading into placement season or want to master one of the most versatile problem-solving techniques in DSA, this list is for you. Two Pointers and Sliding Window are patterns you'll encounter in almost every interview, whether it's a FAANG-style round or a product startup's online assessment.</p>
+<p>These aren't random problems. They're hand-picked to cover every sub-pattern, from simple opposite-end pointers to complex variable-length window problems with character frequency maps.</p>
+<p>I've organized them by pattern type because that's how your brain should work during interviews. Once you recognize "this needs a shrinking window" or "this is a classic two-sum variant," the rest follows naturally.</p>
+<p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="problem-list-by-pattern">Problem List by Pattern<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#problem-list-by-pattern" class="hash-link" aria-label="Direct link to Problem List by Pattern" title="Direct link to Problem List by Pattern" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-two-pointers-on-sorted-arrays">1. Two Pointers on Sorted Arrays<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#1-two-pointers-on-sorted-arrays" class="hash-link" aria-label="Direct link to 1. Two Pointers on Sorted Arrays" title="Direct link to 1. Two Pointers on Sorted Arrays" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener noreferrer" class="">Two Sum II - Input Array Is Sorted</a></li>
+<li class=""><a href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer" class="">3Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/3sum-closest/" target="_blank" rel="noopener noreferrer" class="">3Sum Closest</a></li>
+<li class=""><a href="https://leetcode.com/problems/4sum/" target="_blank" rel="noopener noreferrer" class="">4Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer" class="">Container With Most Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer" class="">Trapping Rain Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Remove Duplicates from Sorted Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" target="_blank" rel="noopener noreferrer" class="">Remove Duplicates from Sorted Array II</a></li>
+<li class=""><a href="https://leetcode.com/problems/squares-of-a-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Squares of a Sorted Array</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-two-pointers-on-strings--palindromes">2. Two Pointers on Strings &amp; Palindromes<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#2-two-pointers-on-strings--palindromes" class="hash-link" aria-label="Direct link to 2. Two Pointers on Strings &amp; Palindromes" title="Direct link to 2. Two Pointers on Strings &amp; Palindromes" translate="no">​</a></h3>
+<ol start="10">
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome</a></li>
+<li class=""><a href="https://leetcode.com/problems/valid-palindrome-ii/" target="_blank" rel="noopener noreferrer" class="">Valid Palindrome II</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-vowels-of-a-string/" target="_blank" rel="noopener noreferrer" class="">Reverse Vowels of a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/reverse-words-in-a-string-iii/" target="_blank" rel="noopener noreferrer" class="">Reverse Words in a String III</a></li>
+<li class=""><a href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer" class="">Palindromic Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer" class="">Longest Palindromic Substring</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-fast--slow-pointers-cycle-detection">3. Fast &amp; Slow Pointers (Cycle Detection)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#3-fast--slow-pointers-cycle-detection" class="hash-link" aria-label="Direct link to 3. Fast &amp; Slow Pointers (Cycle Detection)" title="Direct link to 3. Fast &amp; Slow Pointers (Cycle Detection)" translate="no">​</a></h3>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer" class="">Linked List Cycle</a></li>
+<li class=""><a href="https://leetcode.com/problems/linked-list-cycle-ii/" target="_blank" rel="noopener noreferrer" class="">Linked List Cycle II</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-the-duplicate-number/" target="_blank" rel="noopener noreferrer" class="">Find the Duplicate Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank" rel="noopener noreferrer" class="">Middle of the Linked List</a></li>
+<li class=""><a href="https://leetcode.com/problems/happy-number/" target="_blank" rel="noopener noreferrer" class="">Happy Number</a></li>
+<li class=""><a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank" rel="noopener noreferrer" class="">Remove Nth Node From End of List</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-fixed-size-sliding-window">4. Fixed-Size Sliding Window<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#4-fixed-size-sliding-window" class="hash-link" aria-label="Direct link to 4. Fixed-Size Sliding Window" title="Direct link to 4. Fixed-Size Sliding Window" translate="no">​</a></h3>
+<ol start="22">
+<li class=""><a href="https://leetcode.com/problems/maximum-average-subarray-i/" target="_blank" rel="noopener noreferrer" class="">Maximum Average Subarray I</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/" target="_blank" rel="noopener noreferrer" class="">Maximum Sum of Almost Unique Subarray</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank" rel="noopener noreferrer" class="">Find All Anagrams in a String</a></li>
+<li class=""><a href="https://leetcode.com/problems/permutation-in-string/" target="_blank" rel="noopener noreferrer" class="">Permutation in String</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-equal-count-substrings/" target="_blank" rel="noopener noreferrer" class="">Number of Equal Count Substrings</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/" target="_blank" rel="noopener noreferrer" class="">Maximum Points You Can Obtain from Cards</a></li>
+<li class=""><a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Substrings of Size Three with Distinct Characters</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-variable-size-sliding-window-longestsmallest">5. Variable-Size Sliding Window (Longest/Smallest)<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#5-variable-size-sliding-window-longestsmallest" class="hash-link" aria-label="Direct link to 5. Variable-Size Sliding Window (Longest/Smallest)" title="Direct link to 5. Variable-Size Sliding Window (Longest/Smallest)" translate="no">​</a></h3>
+<ol start="29">
+<li class=""><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring Without Repeating Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank" rel="noopener noreferrer" class="">Longest Repeating Character Replacement</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Substring</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener noreferrer" class="">Minimum Size Subarray Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring with At Most Two Distinct Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/" target="_blank" rel="noopener noreferrer" class="">Longest Substring with At Most K Distinct Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/fruit-into-baskets/" target="_blank" rel="noopener noreferrer" class="">Fruits Into Baskets</a></li>
+<li class=""><a href="https://leetcode.com/problems/max-consecutive-ones-iii/" target="_blank" rel="noopener noreferrer" class="">Max Consecutive Ones III</a></li>
+<li class=""><a href="https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/" target="_blank" rel="noopener noreferrer" class="">Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-sliding-window-with-counts--conditions">6. Sliding Window with Counts &amp; Conditions<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#6-sliding-window-with-counts--conditions" class="hash-link" aria-label="Direct link to 6. Sliding Window with Counts &amp; Conditions" title="Direct link to 6. Sliding Window with Counts &amp; Conditions" translate="no">​</a></h3>
+<ol start="38">
+<li class=""><a href="https://leetcode.com/problems/count-number-of-nice-subarrays/" target="_blank" rel="noopener noreferrer" class="">Count Number of Nice Subarrays</a></li>
+<li class=""><a href="https://leetcode.com/problems/binary-subarrays-with-sum/" target="_blank" rel="noopener noreferrer" class="">Binary Subarrays With Sum</a></li>
+<li class=""><a href="https://leetcode.com/problems/subarrays-with-k-different-integers/" target="_blank" rel="noopener noreferrer" class="">Subarrays with K Different Integers</a></li>
+<li class=""><a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/" target="_blank" rel="noopener noreferrer" class="">Number of Substrings Containing All Three Characters</a></li>
+<li class=""><a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/" target="_blank" rel="noopener noreferrer" class="">Frequency of the Most Frequent Element</a></li>
+<li class=""><a href="https://leetcode.com/problems/replace-the-substring-for-balanced-string/" target="_blank" rel="noopener noreferrer" class="">Replace the Substring for Balanced String</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-subarrays-with-score-less-than-k/" target="_blank" rel="noopener noreferrer" class="">Count Subarrays With Score Less Than K</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="7-two-pointers-for-merging--partitioning">7. Two Pointers for Merging &amp; Partitioning<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#7-two-pointers-for-merging--partitioning" class="hash-link" aria-label="Direct link to 7. Two Pointers for Merging &amp; Partitioning" title="Direct link to 7. Two Pointers for Merging &amp; Partitioning" translate="no">​</a></h3>
+<ol start="45">
+<li class=""><a href="https://leetcode.com/problems/merge-sorted-array/" target="_blank" rel="noopener noreferrer" class="">Merge Sorted Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-colors/" target="_blank" rel="noopener noreferrer" class="">Sort Colors</a></li>
+<li class=""><a href="https://leetcode.com/problems/move-zeroes/" target="_blank" rel="noopener noreferrer" class="">Move Zeroes</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-array-according-to-given-pivot/" target="_blank" rel="noopener noreferrer" class="">Partition Array According to Given Pivot</a></li>
+<li class=""><a href="https://leetcode.com/problems/partition-labels/" target="_blank" rel="noopener noreferrer" class="">Partition Labels</a></li>
+<li class=""><a href="https://leetcode.com/problems/interval-list-intersections/" target="_blank" rel="noopener noreferrer" class="">Interval List Intersections</a></li>
+<li class=""><a href="https://leetcode.com/problems/shortest-word-distance/" target="_blank" rel="noopener noreferrer" class="">Shortest Word Distance</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="8-advanced-sliding-window--two-pointers">8. Advanced Sliding Window &amp; Two Pointers<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#8-advanced-sliding-window--two-pointers" class="hash-link" aria-label="Direct link to 8. Advanced Sliding Window &amp; Two Pointers" title="Direct link to 8. Advanced Sliding Window &amp; Two Pointers" translate="no">​</a></h3>
+<ol start="52">
+<li class=""><a href="https://leetcode.com/problems/minimum-window-subsequence/" target="_blank" rel="noopener noreferrer" class="">Minimum Window Subsequence</a></li>
+<li class=""><a href="https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/" target="_blank" rel="noopener noreferrer" class="">Count Subarrays Where Max Element Appears at Least K Times</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/" target="_blank" rel="noopener noreferrer" class="">Maximum Number of Vowels in a Substring of Given Length</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximize-the-confusion-of-an-exam/" target="_blank" rel="noopener noreferrer" class="">Maximize the Confusion of an Exam</a></li>
+<li class=""><a href="https://leetcode.com/problems/get-equal-substrings-within-budget/" target="_blank" rel="noopener noreferrer" class="">Get Equal Substrings Within Budget</a></li>
+<li class=""><a href="https://leetcode.com/problems/k-radius-subarray-averages/" target="_blank" rel="noopener noreferrer" class="">K Radius Subarray Averages</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/" target="_blank" rel="noopener noreferrer" class="">Minimum Operations to Reduce X to Zero</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="9-competitive-programming-classics">9. Competitive Programming Classics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#9-competitive-programming-classics" class="hash-link" aria-label="Direct link to 9. Competitive Programming Classics" title="Direct link to 9. Competitive Programming Classics" translate="no">​</a></h3>
+<ol start="59">
+<li class=""><a href="https://cses.fi/problemset/task/1643" target="_blank" rel="noopener noreferrer" class="">Maximum Subarray Sum</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/2216" target="_blank" rel="noopener noreferrer" class="">Collecting Numbers</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1085" target="_blank" rel="noopener noreferrer" class="">Array Division</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc130/tasks/abc130_d" target="_blank" rel="noopener noreferrer" class="">ABC 130 D - Enough Array</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc155/tasks/abc155_d" target="_blank" rel="noopener noreferrer" class="">ABC 155 D - Pairs</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc188/tasks/abc188_d" target="_blank" rel="noopener noreferrer" class="">ABC 188 D - Snuke Prime</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/567/E" target="_blank" rel="noopener noreferrer" class="">CF - The Two Routes</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/608/C" target="_blank" rel="noopener noreferrer" class="">CF - Vasya and String</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/946/D" target="_blank" rel="noopener noreferrer" class="">CF - String Transformation</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="why-this-list-works">Why This List Works<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#why-this-list-works" class="hash-link" aria-label="Direct link to Why This List Works" title="Direct link to Why This List Works" translate="no">​</a></h2>
+<p><strong>Pattern-Based Organization</strong>: Two Pointers and Sliding Window are deceptively similar — this list separates them clearly so you build the right mental model for each.</p>
+<p><strong>Progressive Difficulty</strong>: Starts from foundational problems (valid palindrome, two sum II) and builds to complex window counting problems and competitive programming challenges.</p>
+<p><strong>Covers Both Strings and Arrays</strong>: Most guides focus only on array problems. This list covers string sliding window extensively, which is crucial since many interview problems involve character frequency maps.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/21/essential-two-pointers-sliding-window-problems#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>Two Pointers and Sliding Window problems are among the most rewarding to master. Once you internalize the shrink-expand window technique and the opposite-ends pointer approach, you'll solve problems that look intimidating in under 10 minutes.</p>
+<p>Focus on understanding <strong>when to shrink the window</strong> and <strong>which condition you're maintaining</strong> — that's the core insight for 90% of these problems.</p>
+<p><strong>Let's connect on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> - I regularly share interview tips, problem-solving strategies, and coding resources that can help accelerate your preparation!</p>
+<p>You've got this!</p>]]></content>
+        <category label="DSA" term="DSA"/>
+        <category label="Two Pointers" term="Two Pointers"/>
+        <category label="Sliding Window" term="Sliding Window"/>
+        <category label="Interview Prep" term="Interview Prep"/>
+        <category label="SDE" term="SDE"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Essential Heap & Priority Queue Problems for SDE Interviews]]></title>
+        <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews</id>
+        <link href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews"/>
+        <updated>2026-02-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're preparing for placement season or looking to sharpen your Heap and Priority Queue skills, I've compiled a hand-picked list of problems that cover the depth and breadth of this topic.]]></summary>
+        <content type="html"><![CDATA[<p>If you're preparing for placement season or looking to sharpen your Heap and Priority Queue skills, I've compiled a hand-picked list of problems that cover the depth and breadth of this topic.</p>
+<p>This isn't a magic list that guarantees you'll ace every interview. But these are the standard problems and patterns I've consistently seen across interview experiences, company hiring tests, and coding assessments.</p>
+<p>I've organized them by pattern, because that's how real interviews work. Once you recognize whether a problem needs a "Top K" approach, a "Two Heaps" setup, or a "K-Way Merge," the solution clicks into place.</p>
+<p><strong>Connect with me on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> to stay updated with more coding resources, interview tips, and problem-solving strategies!</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="problem-list-by-pattern">Problem List by Pattern<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#problem-list-by-pattern" class="hash-link" aria-label="Direct link to Problem List by Pattern" title="Direct link to Problem List by Pattern" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-top-k-elements">1. Top K Elements<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#1-top-k-elements" class="hash-link" aria-label="Direct link to 1. Top K Elements" title="Direct link to 1. Top K Elements" translate="no">​</a></h3>
+<ol>
+<li class=""><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer" class="">Kth Largest Element in an Array</a></li>
+<li class=""><a href="https://leetcode.com/problems/k-closest-points-to-origin/" target="_blank" rel="noopener noreferrer" class="">K Closest Points to Origin</a></li>
+<li class=""><a href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank" rel="noopener noreferrer" class="">Top K Frequent Elements</a></li>
+<li class=""><a href="https://leetcode.com/problems/top-k-frequent-words/" target="_blank" rel="noopener noreferrer" class="">Top K Frequent Words</a></li>
+<li class=""><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream/" target="_blank" rel="noopener noreferrer" class="">Kth Largest Element in a Stream</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-k-pairs-with-smallest-sums/" target="_blank" rel="noopener noreferrer" class="">Find K Pairs with Smallest Sums</a></li>
+<li class=""><a href="https://leetcode.com/problems/sort-characters-by-frequency/" target="_blank" rel="noopener noreferrer" class="">Sort Characters By Frequency</a></li>
+<li class=""><a href="https://leetcode.com/problems/reorganize-string/" target="_blank" rel="noopener noreferrer" class="">Reorganize String</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-merge-k-sorted-structures">2. Merge K Sorted Structures<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#2-merge-k-sorted-structures" class="hash-link" aria-label="Direct link to 2. Merge K Sorted Structures" title="Direct link to 2. Merge K Sorted Structures" translate="no">​</a></h3>
+<ol start="9">
+<li class=""><a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank" rel="noopener noreferrer" class="">Merge K Sorted Lists</a></li>
+<li class=""><a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/" target="_blank" rel="noopener noreferrer" class="">Kth Smallest Element in a Sorted Matrix</a></li>
+<li class=""><a href="https://leetcode.com/problems/find-k-th-smallest-pair-distance/" target="_blank" rel="noopener noreferrer" class="">Find K-th Smallest Pair Distance</a></li>
+<li class=""><a href="https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/" target="_blank" rel="noopener noreferrer" class="">Smallest Range Covering Elements from K Lists</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-two-heaps-pattern">3. Two Heaps Pattern<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#3-two-heaps-pattern" class="hash-link" aria-label="Direct link to 3. Two Heaps Pattern" title="Direct link to 3. Two Heaps Pattern" translate="no">​</a></h3>
+<ol start="13">
+<li class=""><a href="https://leetcode.com/problems/find-median-from-data-stream/" target="_blank" rel="noopener noreferrer" class="">Find Median from Data Stream</a></li>
+<li class=""><a href="https://leetcode.com/problems/sliding-window-median/" target="_blank" rel="noopener noreferrer" class="">Sliding Window Median</a></li>
+<li class=""><a href="https://leetcode.com/problems/ipo/" target="_blank" rel="noopener noreferrer" class="">IPO</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-heap-for-scheduling--tasks">4. Heap for Scheduling &amp; Tasks<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#4-heap-for-scheduling--tasks" class="hash-link" aria-label="Direct link to 4. Heap for Scheduling &amp; Tasks" title="Direct link to 4. Heap for Scheduling &amp; Tasks" translate="no">​</a></h3>
+<ol start="16">
+<li class=""><a href="https://leetcode.com/problems/task-scheduler/" target="_blank" rel="noopener noreferrer" class="">Task Scheduler</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-cpu-load/" target="_blank" rel="noopener noreferrer" class="">Maximum CPU Load</a></li>
+<li class=""><a href="https://leetcode.com/problems/employee-free-time/" target="_blank" rel="noopener noreferrer" class="">Employee Free Time</a></li>
+<li class=""><a href="https://leetcode.com/problems/meeting-rooms-ii/" target="_blank" rel="noopener noreferrer" class="">Meeting Rooms II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/" target="_blank" rel="noopener noreferrer" class="">Minimum Number of Arrows to Burst Balloons</a></li>
+<li class=""><a href="https://leetcode.com/problems/car-pooling/" target="_blank" rel="noopener noreferrer" class="">Car Pooling</a></li>
+<li class=""><a href="https://leetcode.com/problems/rearrange-string-k-distance-apart/" target="_blank" rel="noopener noreferrer" class="">Rearrange String k Distance Apart</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-dijkstra--heap-based-graph-traversal">5. Dijkstra &amp; Heap-Based Graph Traversal<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#5-dijkstra--heap-based-graph-traversal" class="hash-link" aria-label="Direct link to 5. Dijkstra &amp; Heap-Based Graph Traversal" title="Direct link to 5. Dijkstra &amp; Heap-Based Graph Traversal" translate="no">​</a></h3>
+<ol start="23">
+<li class=""><a href="https://leetcode.com/problems/network-delay-time/" target="_blank" rel="noopener noreferrer" class="">Network Delay Time</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-with-maximum-probability/" target="_blank" rel="noopener noreferrer" class="">Path with Maximum Probability</a></li>
+<li class=""><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/" target="_blank" rel="noopener noreferrer" class="">Cheapest Flights Within K Stops</a></li>
+<li class=""><a href="https://leetcode.com/problems/swim-in-rising-water/" target="_blank" rel="noopener noreferrer" class="">Swim in Rising Water</a></li>
+<li class=""><a href="https://leetcode.com/problems/path-with-minimum-effort/" target="_blank" rel="noopener noreferrer" class="">Path With Minimum Effort</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Reach Destination in Time</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-heap-with-lazy-deletion--advanced-techniques">6. Heap with Lazy Deletion &amp; Advanced Techniques<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#6-heap-with-lazy-deletion--advanced-techniques" class="hash-link" aria-label="Direct link to 6. Heap with Lazy Deletion &amp; Advanced Techniques" title="Direct link to 6. Heap with Lazy Deletion &amp; Advanced Techniques" translate="no">​</a></h3>
+<ol start="29">
+<li class=""><a href="https://leetcode.com/problems/find-right-interval/" target="_blank" rel="noopener noreferrer" class="">Find Right Interval</a></li>
+<li class=""><a href="https://leetcode.com/problems/maximum-performance-of-a-team/" target="_blank" rel="noopener noreferrer" class="">Maximum Performance of a Team</a></li>
+<li class=""><a href="https://leetcode.com/problems/the-skyline-problem/" target="_blank" rel="noopener noreferrer" class="">The Skyline Problem</a></li>
+<li class=""><a href="https://leetcode.com/problems/trapping-rain-water-ii/" target="_blank" rel="noopener noreferrer" class="">Trapping Rain Water II</a></li>
+<li class=""><a href="https://leetcode.com/problems/minimum-cost-to-hire-k-workers/" target="_blank" rel="noopener noreferrer" class="">Minimum Cost to Hire K Workers</a></li>
+<li class=""><a href="https://leetcode.com/problems/furthest-building-you-can-reach/" target="_blank" rel="noopener noreferrer" class="">Furthest Building You Can Reach</a></li>
+<li class=""><a href="https://leetcode.com/problems/single-threaded-cpu/" target="_blank" rel="noopener noreferrer" class="">Single-Threaded CPU</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="7-heap-for-design-problems">7. Heap for Design Problems<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#7-heap-for-design-problems" class="hash-link" aria-label="Direct link to 7. Heap for Design Problems" title="Direct link to 7. Heap for Design Problems" translate="no">​</a></h3>
+<ol start="36">
+<li class=""><a href="https://leetcode.com/problems/design-twitter/" target="_blank" rel="noopener noreferrer" class="">Design Twitter</a></li>
+<li class=""><a href="https://leetcode.com/problems/lfu-cache/" target="_blank" rel="noopener noreferrer" class="">LFU Cache</a></li>
+<li class=""><a href="https://leetcode.com/problems/seat-reservation-manager/" target="_blank" rel="noopener noreferrer" class="">Seat Reservation Manager</a></li>
+<li class=""><a href="https://leetcode.com/problems/stock-price-fluctuation/" target="_blank" rel="noopener noreferrer" class="">Stock Price Fluctuation</a></li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="8-competitive-programming-classics">8. Competitive Programming Classics<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#8-competitive-programming-classics" class="hash-link" aria-label="Direct link to 8. Competitive Programming Classics" title="Direct link to 8. Competitive Programming Classics" translate="no">​</a></h3>
+<ol start="40">
+<li class=""><a href="https://cses.fi/problemset/task/2162" target="_blank" rel="noopener noreferrer" class="">Josephus Problem</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1164" target="_blank" rel="noopener noreferrer" class="">Room Allocation</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1630" target="_blank" rel="noopener noreferrer" class="">Tasks and Deadlines</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1631" target="_blank" rel="noopener noreferrer" class="">Reading Books</a></li>
+<li class=""><a href="https://cses.fi/problemset/task/1632" target="_blank" rel="noopener noreferrer" class="">Movie Festival II</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc141/tasks/abc141_d" target="_blank" rel="noopener noreferrer" class="">ABC 141 D - Powerful Discount Tickets</a></li>
+<li class=""><a href="https://atcoder.jp/contests/abc181/tasks/abc181_d" target="_blank" rel="noopener noreferrer" class="">ABC 181 D - Hachi</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/681/C" target="_blank" rel="noopener noreferrer" class="">CF - Codeforces - Heap Operations</a></li>
+<li class=""><a href="https://codeforces.com/problemset/problem/1399/C" target="_blank" rel="noopener noreferrer" class="">CF - Minimize the Difference</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="why-this-list-works">Why This List Works<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#why-this-list-works" class="hash-link" aria-label="Direct link to Why This List Works" title="Direct link to Why This List Works" translate="no">​</a></h2>
+<p><strong>Pattern-Based Organization</strong>: Each section builds on a specific heap technique, so you develop strong pattern recognition rather than memorizing individual solutions.</p>
+<p><strong>Progressive Difficulty</strong>: Within each pattern, problems range from straightforward to advanced, letting you build confidence before tackling harder variants.</p>
+<p><strong>Covers All Scenarios</strong>: From classic Top-K and scheduling problems to Dijkstra-based graph traversal and advanced design challenges, this list hits all heap scenarios you'll see in interviews.</p>
+<hr>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="final-thoughts">Final Thoughts<a href="https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/20/essential-heap-problems-for-sde-interviews#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts" translate="no">​</a></h2>
+<p>The heap is one of those data structures that once you internalize the patterns, you'll spot heap problems instantly. It's not about memorizing — it's about recognizing when you need efficient min/max access and building the intuition for when a min-heap vs max-heap is appropriate.</p>
+<p>These problems represent the essential heap patterns you should solve before interviews. Master the two heaps pattern and the top-K pattern first — they cover a huge portion of interview questions.</p>
+<p><strong>Let's connect on <a href="https://www.linkedin.com/in/saiganeshreddysabadu/" target="_blank" rel="noopener noreferrer" class="">LinkedIn</a></strong> - I regularly share interview tips, problem-solving strategies, and coding resources that can help accelerate your preparation!</p>
+<p>You've got this!</p>]]></content>
+        <category label="DSA" term="DSA"/>
+        <category label="Heap" term="Heap"/>
+        <category label="Priority Queue" term="Priority Queue"/>
+        <category label="Interview Prep" term="Interview Prep"/>
+        <category label="SDE" term="SDE"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Essential Dynamic Programming Problems for SDE Interviews]]></title>
         <id>https://sabadusaiganeshreddy.github.io/ProjectYuj/dsa/2026/02/19/essential-dp-problems-for-sde-interviews</id>
